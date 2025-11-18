@@ -1,0 +1,43 @@
+name: Update XiO Device Summary
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run XiO summary script
+        env:
+          XIO_ACCOUNT_ID: ${{ secrets.XIO_ACCOUNT_ID }}
+          XIO_SUBSCRIPTION_KEY: ${{ secrets.XIO_SUBSCRIPTION_KEY }}
+        run: python xio_summary.py
+
+      - name: Commit and push xio-summary.json if changed
+        run: |
+          if git status --porcelain | grep "xio-summary.json"; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add xio-summary.json
+            git commit -m "Update XiO device summary [skip ci]" || exit 0
+            git push
+          else
+            echo "No changes to xio-summary.json"
+          fi
