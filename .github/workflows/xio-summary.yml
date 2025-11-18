@@ -36,7 +36,7 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add xio-summary.json
-            git commit -m "Update XiO device summary [skip ci]" || exit 0
+            git commit -m "Update XiO device summary" || exit 0
             git push
           else
             echo "No changes to xio-summary.json"
