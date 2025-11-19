@@ -71,7 +71,7 @@ def summarize(devices):
 
 
 def main():
-    print("Fetching devices from XiO Cloud...")
+    print("Fetching devices from XiO Cloud.")
     devices = fetch_devices()
     print(f"Fetched {len(devices)} devices")
 
