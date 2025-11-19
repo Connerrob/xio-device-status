@@ -2,11 +2,15 @@ name: Update XiO Device Summary
 
 on:
   schedule:
-    - cron: "*/15 * * * *" # runs every 15 minutes
+    - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
+
+concurrency:
+  group: xio-summary
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -15,6 +19,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -35,9 +41,10 @@ jobs:
           if git status --porcelain | grep "xio-summary.json"; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
+            git pull --rebase origin main || true
             git add xio-summary.json
             git commit -m "Update XiO device summary" || exit 0
-            git push
+            git push origin HEAD:main
           else
             echo "No changes to xio-summary.json"
           fi
