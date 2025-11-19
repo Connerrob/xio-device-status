@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>XiO Device Status</title>
 
-    <!-- Chart.js -->
+    <!-- Chart.js from CDN -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <style>
@@ -12,7 +12,7 @@
         --online: #2e7d32;
         --offline: #d32f2f;
         --connector: #f9a825;
-        --bg: #f5f5f5;
+        --bg: #ffffff;
         --card-bg: #ffffff;
         --text-main: #222;
         --text-muted: #666;
@@ -26,17 +26,24 @@
       body {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
           sans-serif;
-        margin: 2rem;
+        margin: 0;
         background: var(--bg);
         color: var(--text-main);
       }
 
+      .page {
+        padding: 16px 20px;
+        max-width: 760px;
+        margin: 0 auto;
+      }
+
       h1 {
-        margin-bottom: 0.25rem;
+        margin: 0 0 4px;
+        font-size: 1.6rem;
       }
 
       .subtitle {
-        margin: 0 0 1.25rem;
+        margin: 0 0 8px;
         font-size: 0.95rem;
         color: var(--text-muted);
       }
@@ -44,7 +51,7 @@
       .updated-global {
         font-size: 0.9rem;
         color: var(--text-muted);
-        margin-bottom: 1.5rem;
+        margin-bottom: 14px;
       }
 
       .updated-global span {
@@ -52,17 +59,11 @@
         color: var(--text-main);
       }
 
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 1.5rem;
-      }
-
       .card {
         background: var(--card-bg);
-        border-radius: 12px;
-        padding: 1.25rem 1.5rem;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+        border-radius: 10px;
+        padding: 12px 14px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
         border: 1px solid var(--border-subtle);
         display: flex;
         flex-direction: column;
@@ -73,12 +74,12 @@
         display: flex;
         justify-content: space-between;
         align-items: baseline;
-        margin-bottom: 0.75rem;
+        margin-bottom: 8px;
       }
 
       .card-header h2 {
         margin: 0;
-        font-size: 1.05rem;
+        font-size: 1rem;
       }
 
       .card-sub {
@@ -90,15 +91,9 @@
       .card-body {
         flex: 1;
         display: flex;
-        flex-direction: column;
-        gap: 0.75rem;
-      }
-
-      /* Donut layout */
-      .donut-body {
         flex-direction: row;
         align-items: center;
-        gap: 1.25rem;
+        gap: 16px;
       }
 
       .chart-wrap {
@@ -120,7 +115,7 @@
       }
 
       .chart-center span {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
       }
 
       .chart-center small {
@@ -139,7 +134,7 @@
       .stat-list li {
         display: flex;
         align-items: center;
-        margin-bottom: 0.35rem;
+        margin-bottom: 4px;
       }
 
       .label {
@@ -153,10 +148,10 @@
 
       .swatch {
         display: inline-block;
-        width: 12px;
-        height: 12px;
+        width: 10px;
+        height: 10px;
         border-radius: 999px;
-        margin-right: 0.4rem;
+        margin-right: 4px;
       }
 
       .swatch-online {
@@ -169,137 +164,44 @@
         background: var(--connector);
       }
 
-      /* KPI grid */
-      .kpi-grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 0.75rem;
-      }
-
-      .kpi {
-        background: #fafafa;
-        border-radius: 10px;
-        padding: 0.75rem 0.9rem;
-        border: 1px solid var(--border-subtle);
-      }
-
-      .kpi-label {
-        font-size: 0.8rem;
-        color: var(--text-muted);
-        margin-bottom: 0.35rem;
-      }
-
-      .kpi-value {
-        font-size: 1.3rem;
-        font-weight: 600;
-        font-variant-numeric: tabular-nums;
-      }
-
-      .kpi-tag {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.2rem;
-        margin-top: 0.25rem;
-        font-size: 0.7rem;
-        padding: 0.1rem 0.35rem;
-        border-radius: 999px;
-        background: rgba(46, 125, 50, 0.08);
-        color: var(--online);
-        font-weight: 500;
-      }
-
-      /* Progress strip */
-      .progress-wrapper {
-        margin-top: 0.25rem;
-      }
-
-      .progress-labels {
-        display: flex;
-        justify-content: space-between;
-        font-size: 0.8rem;
-        color: var(--text-muted);
-        margin-bottom: 0.35rem;
-      }
-
-      .progress-bar {
-        height: 18px;
-        border-radius: 999px;
-        overflow: hidden;
-        background: #eeeeee;
-        display: flex;
-      }
-
-      .progress-segment {
-        height: 100%;
-      }
-
-      .progress-online {
-        background: var(--online);
-      }
-
-      .progress-offline {
-        background: var(--offline);
-      }
-
-      .progress-connector {
-        background: var(--connector);
-      }
-
-      /* Bar chart card */
-      .bar-legend {
-        display: flex;
-        gap: 1rem;
-        font-size: 0.8rem;
-        color: var(--text-muted);
-      }
-
-      .bar-legend-item {
-        display: flex;
-        align-items: center;
-        gap: 0.3rem;
-      }
-
-      /* Error */
       #error {
-        margin-top: 1rem;
+        margin-top: 10px;
         color: #b00020;
         white-space: pre-line;
         font-size: 0.9rem;
       }
 
-      @media (max-width: 900px) {
-        body {
-          margin: 1.25rem;
+      @media (max-width: 800px) {
+        .page {
+          padding: 12px;
         }
-        .grid {
-          grid-template-columns: 1fr;
+        .card-body {
+          flex-direction: column;
+          align-items: center;
         }
         .chart-wrap {
           width: 200px;
           height: 200px;
         }
-        .donut-body {
-          flex-direction: column;
-          align-items: center;
-        }
       }
     </style>
   </head>
   <body>
-    <h1>XiO Device Status</h1>
-    <p class="subtitle">XiO Cloud device summary data.</p>
-    <div class="updated-global">
-      Last updated: <span id="last-updated-global">–</span>
-    </div>
+    <div class="page">
+      <h1>XiO Device Status</h1>
+      <p class="subtitle">XiO Cloud device summary data.</p>
 
-    <div class="grid">
-      <!-- View 1 -->
+      <div class="updated-global">
+        Last updated: <span id="last-updated-global">–</span>
+      </div>
+
       <div class="card">
         <div class="card-header">
-          <h2>View 1</h2>
-          <p class="card-sub">XiO-style 1</p>
+          <h2>Device Status</h2>
+          <p class="card-sub">Online vs offline device counts</p>
         </div>
-        <div class="card-body donut-body">
+
+        <div class="card-body">
           <div class="chart-wrap">
             <canvas id="deviceDonut"></canvas>
             <div class="chart-center">
@@ -307,6 +209,7 @@
               <small>Online</small>
             </div>
           </div>
+
           <ul class="stat-list">
             <li>
               <span class="swatch swatch-online"></span>
@@ -331,95 +234,16 @@
         </div>
       </div>
 
-      <!-- View 2 -->
-      <div class="card">
-        <div class="card-header">
-          <h2>View 2</h2>
-          <p class="card-sub">XIO Style 2</p>
-        </div>
-        <div class="card-body">
-          <div style="height: 180px; margin-bottom: 0.5rem">
-            <canvas id="deviceBar"></canvas>
-          </div>
-          <div class="bar-legend">
-            <div class="bar-legend-item">
-              <span class="swatch swatch-online"></span>Online
-            </div>
-            <div class="bar-legend-item">
-              <span class="swatch swatch-offline"></span>Offline
-            </div>
-            <div class="bar-legend-item">
-              <span class="swatch swatch-connector"></span>Connector Offline
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- View 3 -->
-      <div class="card">
-        <div class="card-header">
-          <h2>View 3</h2>
-          <p class="card-sub">XIO style 3</p>
-        </div>
-        <div class="card-body">
-          <div class="kpi-grid">
-            <div class="kpi">
-              <div class="kpi-label">Total Devices</div>
-              <div class="kpi-value" id="kpi-total">–</div>
-            </div>
-            <div class="kpi">
-              <div class="kpi-label">Online</div>
-              <div class="kpi-value" id="kpi-online">–</div>
-            </div>
-            <div class="kpi">
-              <div class="kpi-label">Offline</div>
-              <div class="kpi-value" id="kpi-offline">–</div>
-            </div>
-            <div class="kpi">
-              <div class="kpi-label">Online %</div>
-              <div class="kpi-value" id="kpi-pct">–%</div>
-              <div class="kpi-tag">
-                <span id="kpi-pct-tag-text">Healthy</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- View 4 -->
-      <div class="card">
-        <div class="card-header">
-          <h2>View 4</h2>
-          <p class="card-sub">XIO Style 4</p>
-        </div>
-        <div class="card-body">
-          <div class="progress-wrapper">
-            <div class="progress-labels">
-              <span><strong id="strip-pct">–%</strong> online</span>
-              <span id="strip-breakdown">–</span>
-            </div>
-            <div class="progress-bar">
-              <div
-                class="progress-segment progress-online"
-                id="strip-online"
-              ></div>
-              <div
-                class="progress-segment progress-offline"
-                id="strip-offline"
-              ></div>
-              <div
-                class="progress-segment progress-connector"
-                id="strip-connector"
-              ></div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div id="error"></div>
     </div>
 
-    <div id="error"></div>
-
     <script>
+      function cssVar(name) {
+        return getComputedStyle(document.documentElement)
+          .getPropertyValue(name)
+          .trim();
+      }
+
       function createDonut(ctx, online, offline, connectorOffline) {
         new Chart(ctx, {
           type: "doughnut",
@@ -429,15 +253,9 @@
               {
                 data: [online, offline, connectorOffline],
                 backgroundColor: [
-                  getComputedStyle(document.documentElement)
-                    .getPropertyValue("--online")
-                    .trim(),
-                  getComputedStyle(document.documentElement)
-                    .getPropertyValue("--offline")
-                    .trim(),
-                  getComputedStyle(document.documentElement)
-                    .getPropertyValue("--connector")
-                    .trim(),
+                  cssVar("--online"),
+                  cssVar("--offline"),
+                  cssVar("--connector"),
                 ],
                 borderWidth: 0,
               },
@@ -452,43 +270,7 @@
         });
       }
 
-      function createBar(ctx, online, offline, connectorOffline) {
-        new Chart(ctx, {
-          type: "bar",
-          data: {
-            labels: ["Online", "Offline", "Connector Offline"],
-            datasets: [
-              {
-                data: [online, offline, connectorOffline],
-                backgroundColor: [
-                  getComputedStyle(document.documentElement)
-                    .getPropertyValue("--online")
-                    .trim(),
-                  getComputedStyle(document.documentElement)
-                    .getPropertyValue("--offline")
-                    .trim(),
-                  getComputedStyle(document.documentElement)
-                    .getPropertyValue("--connector")
-                    .trim(),
-                ],
-              },
-            ],
-          },
-          options: {
-            plugins: { legend: { display: false } },
-            responsive: true,
-            maintainAspectRatio: false,
-            scales: {
-              y: {
-                beginAtZero: true,
-                ticks: { precision: 0 },
-              },
-            },
-          },
-        });
-      }
-
-      // Fetch JSON
+      // Fetch summary JSON
       fetch("xio-summary.json?_=" + Date.now())
         .then(function (res) {
           if (!res.ok) {
@@ -512,7 +294,7 @@
               ? Math.round((online / total) * 100)
               : 0;
 
-          // Global "last updated"
+          // Update last-updated text
           const meta = data.meta || {};
           const updatedEl = document.getElementById("last-updated-global");
 
@@ -530,64 +312,17 @@
             updatedEl.textContent = "Unknown";
           }
 
-          // View 1
+          // Update stats
           document.getElementById("donut-online").textContent = online;
           document.getElementById("donut-offline").textContent = offline;
           document.getElementById("donut-connector").textContent =
             connectorOffline;
           document.getElementById("donut-total").textContent = total;
           document.getElementById("donut-pct").textContent = pct + "%";
-          createDonut(
-            document.getElementById("deviceDonut").getContext("2d"),
-            online,
-            offline,
-            connectorOffline
-          );
 
-          // View 2
-          createBar(
-            document.getElementById("deviceBar").getContext("2d"),
-            online,
-            offline,
-            connectorOffline
-          );
-
-          // View 3
-          document.getElementById("kpi-total").textContent = total;
-          document.getElementById("kpi-online").textContent = online;
-          document.getElementById("kpi-offline").textContent = offline;
-          document.getElementById("kpi-pct").textContent = pct + "%";
-
-          const tagText = document.getElementById("kpi-pct-tag-text");
-          if (pct >= 95) {
-            tagText.textContent = "Excellent uptime";
-          } else if (pct >= 85) {
-            tagText.textContent = "Healthy";
-          } else if (pct >= 70) {
-            tagText.textContent = "Needs attention";
-          } else {
-            tagText.textContent = "Critical";
-          }
-
-          // View 4
-          const onlinePct = total ? (online / total) * 100 : 0;
-          const offlinePct = total ? (offline / total) * 100 : 0;
-          const connectorPct = total ? (connectorOffline / total) * 100 : 0;
-
-          document.getElementById("strip-pct").textContent = pct + "%";
-          document.getElementById("strip-breakdown").textContent =
-            online +
-            " online · " +
-            offline +
-            " offline · " +
-            connectorOffline +
-            " connector";
-
-          document.getElementById("strip-online").style.width = onlinePct + "%";
-          document.getElementById("strip-offline").style.width =
-            offlinePct + "%";
-          document.getElementById("strip-connector").style.width =
-            connectorPct + "%";
+          // Render donut
+          const ctx = document.getElementById("deviceDonut").getContext("2d");
+          createDonut(ctx, online, offline, connectorOffline);
         })
         .catch(function (err) {
           console.error("Error loading xio-summary.json", err);
