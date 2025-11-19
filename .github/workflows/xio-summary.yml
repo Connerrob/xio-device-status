@@ -2,7 +2,7 @@ name: Update XiO Device Summary
 
 on:
   schedule:
-    - cron: "*/5 * * * *" # runs every 5 minutes
+    - cron: "*/15 * * * *" # runs every 15 minutes
   workflow_dispatch: {}
 
 permissions:
