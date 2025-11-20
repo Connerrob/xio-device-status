@@ -16,17 +16,17 @@ HEADERS = {
     "Accept": "application/json",
 }
 
-# Optional: friendly names for known group IDs
-GROUP_NAME_OVERRIDES = {
-    "5128cb10-3b9f-4ad9-9e68-284b5e7f1460": "UFIT Learning Space",
-}
+
+UFIT_GROUP_ID = os.environ.get(
+    "XIO_UFIT_GROUP_ID",
+    "5128cb10-3b9f-4ad9-9e68-284b5e7f1460",
+)
+
+UFIT_LABEL = os.environ.get("XIO_UFIT_LABEL", "UFIT Learning Space")
 
 
 def _extract_list(data):
-    """
-    XiO sometimes wraps lists in an object with keys like:
-    Devices, devices, items, DeviceList, etc.
-    """
+
     if isinstance(data, list):
         return data
 
@@ -39,10 +39,7 @@ def _extract_list(data):
 
 
 def fetch_account_devices():
-    """
-    /api/v1/device/accountid/{accountid}/devices
-    Returns all devices for the account.
-    """
+
     url = f"{BASE_URL}/api/v1/device/accountid/{ACCOUNT_ID}/devices"
     resp = requests.get(url, headers=HEADERS, timeout=30)
 
@@ -58,19 +55,7 @@ def fetch_account_devices():
 
 
 def summarize(devices):
-    """
-    Build the global/account summary JSON.
 
-    Output shape (matches your existing xio-summary.json usage):
-    {
-      "device": {
-        "counts": { "Online": n, ... },
-        "total": n,
-        "onlinePct": 42.0
-      },
-      "meta": { "generatedAtUtc": "..." }
-    }
-    """
     status_counts = {}
     for d in devices:
         dev_obj = d.get("device") if isinstance(d.get("device"), dict) else d
@@ -93,26 +78,10 @@ def summarize(devices):
     }
 
 
-def summarize_groups(devices):
-    """
-    Per-group status from the full account device list.
+def summarize_groups(devices, highlight_group_id=None, highlight_label=None):
 
-    Output:
-    {
-      "meta": { "generatedAtUtc": "..." },
-      "groups": [
-        {
-          "groupId": "...",
-          "name": "UFIT Learning Space",
-          "deviceCounts": { "Online": n, "Offline": n, ... },
-          "totalDevices": n,
-          "onlinePct": 42.5
-        },
-        ...
-      ]
-    }
-    """
-    groups = {}
+
+    groups_raw = {}
 
     for d in devices:
         dev_obj = d.get("device") if isinstance(d.get("device"), dict) else d
@@ -123,37 +92,71 @@ def summarize_groups(devices):
             or dev_obj.get("group-id")
         )
         if not gid:
-            continue  # skip devices not in a group
+
+            continue
 
         status = dev_obj.get("device-status", "Unknown")
 
-        if gid not in groups:
-            groups[gid] = {
-                "groupId": gid,
-                "name": GROUP_NAME_OVERRIDES.get(gid, None),
+        if gid not in groups_raw:
+            groups_raw[gid] = {
                 "deviceCounts": {},
                 "totalDevices": 0,
             }
 
-        g = groups[gid]
+        g = groups_raw[gid]
         g["deviceCounts"][status] = g["deviceCounts"].get(status, 0) + 1
         g["totalDevices"] += 1
 
-    # compute onlinePct + fallback names
-    for g in groups.values():
-        counts = g["deviceCounts"]
-        online = counts.get("Online", 0)
-        total = g["totalDevices"]
-        g["onlinePct"] = round((online / total) * 100, 1) if total else 0.0
+    groups_list = []
+    highlight_data = None
 
-        if not g["name"]:
-            g["name"] = g["groupId"]
+
+    for gid, g in groups_raw.items():
+        counts = g["deviceCounts"]
+        total = g["totalDevices"]
+        online = counts.get("Online", 0)
+        online_pct = round((online / total) * 100, 1) if total else 0.0
+
+        group_obj = {
+            "deviceCounts": counts,
+            "totalDevices": total,
+            "onlinePct": online_pct,
+        }
+        groups_list.append(group_obj)
+
+
+        if highlight_group_id and gid == highlight_group_id:
+            highlight_data = {
+                "label": highlight_label or "Highlighted Group",
+                "deviceCounts": counts,
+                "totalDevices": total,
+                "onlinePct": online_pct,
+            }
+
+
+    if not highlight_data and groups_raw:
+        gid_top, g_top = max(
+            groups_raw.items(),
+            key=lambda kv: kv[1]["totalDevices"]
+        )
+        counts = g_top["deviceCounts"]
+        total = g_top["totalDevices"]
+        online = counts.get("Online", 0)
+        online_pct = round((online / total) * 100, 1) if total else 0.0
+
+        highlight_data = {
+            "label": highlight_label or "Highlighted Group",
+            "deviceCounts": counts,
+            "totalDevices": total,
+            "onlinePct": online_pct,
+        }
 
     return {
         "meta": {
             "generatedAtUtc": datetime.now(timezone.utc).isoformat(),
         },
-        "groups": list(groups.values()),
+        "groups": groups_list,
+        "highlight": highlight_data,
     }
 
 
@@ -162,17 +165,21 @@ def main():
     account_devices = fetch_account_devices()
     print(f"Fetched {len(account_devices)} devices for account {ACCOUNT_ID}")
 
-    # Global summary
+
     summary = summarize(account_devices)
     with open("xio-summary.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)
     print("Wrote xio-summary.json")
 
-    # Per-group summary
-    groups_summary = summarize_groups(account_devices)
+
+    groups_summary = summarize_groups(
+        account_devices,
+        highlight_group_id=UFIT_GROUP_ID,
+        highlight_label=UFIT_LABEL,
+    )
     with open("xio-groups-status.json", "w", encoding="utf-8") as f:
         json.dump(groups_summary, f, indent=2)
-    print(f"Wrote xio-groups-status.json with {len(groups_summary['groups'])} groups")
+    print("Wrote xio-groups-status.json")
 
 
 if __name__ == "__main__":
