@@ -16,17 +16,22 @@ HEADERS = {
     "Accept": "application/json",
 }
 
-
+# Internal-only: UFIT group to highlight in the UI.
+# This ID never gets written to JSON.
 UFIT_GROUP_ID = os.environ.get(
     "XIO_UFIT_GROUP_ID",
-    "5128cb10-3b9f-4ad9-9e68-284b5e7f1460",
+    "5128cb10-3b9f-4ad9-9e68-284b5e7f1460",  # your known group id
 )
 
-UFIT_LABEL = os.environ.get("XIO_UFIT_LABEL", "UFIT Learning Space")
+# Fallback label if we can't find a group name in XiO
+UFIT_DEFAULT_LABEL = os.environ.get("XIO_UFIT_LABEL", "UFIT Learning Space")
 
 
 def _extract_list(data):
-
+    """
+    XiO sometimes wraps lists in an object with keys like:
+    Devices, devices, items, DeviceList, etc.
+    """
     if isinstance(data, list):
         return data
 
@@ -39,7 +44,10 @@ def _extract_list(data):
 
 
 def fetch_account_devices():
-
+    """
+    /api/v1/device/accountid/{accountid}/devices
+    Returns all devices for the account.
+    """
     url = f"{BASE_URL}/api/v1/device/accountid/{ACCOUNT_ID}/devices"
     resp = requests.get(url, headers=HEADERS, timeout=30)
 
@@ -55,7 +63,18 @@ def fetch_account_devices():
 
 
 def summarize(devices):
+    """
+    Global/account summary JSON (xio-summary.json).
 
+    {
+      "device": {
+        "counts": { "Online": n, ... },
+        "total": n,
+        "onlinePct": 42.0
+      },
+      "meta": { "generatedAtUtc": "..." }
+    }
+    """
     status_counts = {}
     for d in devices:
         dev_obj = d.get("device") if isinstance(d.get("device"), dict) else d
@@ -78,9 +97,48 @@ def summarize(devices):
     }
 
 
-def summarize_groups(devices, highlight_group_id=None, highlight_label=None):
+def _get_group_name(dev_obj):
+    """
+    Try to pull a human-readable group name from the device object.
+
+    Adjust these keys if XiO uses different field names for group names.
+    """
+    return (
+        dev_obj.get("device-groupname")
+        or dev_obj.get("group-name")
+        or dev_obj.get("groupName")
+        or dev_obj.get("device-group")
+        or dev_obj.get("Group Name")
+        or None
+    )
 
 
+def summarize_groups(devices, highlight_group_id=None, default_highlight_label=None):
+    """
+    Per-group status from the full account device list.
+
+    We group internally by groupId, but we DO NOT expose groupId
+    in the JSON output. Instead we expose:
+
+    {
+      "meta": { "generatedAtUtc": "..." },
+      "groups": [
+        {
+          "name": "Some XiO Group",
+          "deviceCounts": { "Online": n, "Offline": n, ... },
+          "totalDevices": n,
+          "onlinePct": 42.5
+        },
+        ...
+      ],
+      "highlight": {
+        "label": "UFIT Learning Space",
+        "deviceCounts": { ... },
+        "totalDevices": n,
+        "onlinePct": 50.0
+      }
+    }
+    """
     groups_raw = {}
 
     for d in devices:
@@ -96,14 +154,20 @@ def summarize_groups(devices, highlight_group_id=None, highlight_label=None):
             continue
 
         status = dev_obj.get("device-status", "Unknown")
+        name = _get_group_name(dev_obj)
 
         if gid not in groups_raw:
             groups_raw[gid] = {
+                "name": name,
                 "deviceCounts": {},
                 "totalDevices": 0,
             }
 
         g = groups_raw[gid]
+
+        if not g["name"] and name:
+            g["name"] = name
+
         g["deviceCounts"][status] = g["deviceCounts"].get(status, 0) + 1
         g["totalDevices"] += 1
 
@@ -111,13 +175,21 @@ def summarize_groups(devices, highlight_group_id=None, highlight_label=None):
     highlight_data = None
 
 
-    for gid, g in groups_raw.items():
+    sorted_items = sorted(
+        groups_raw.items(),
+        key=lambda kv: ((kv[1]["name"] or "").lower(), kv[0])
+    )
+
+    for idx, (gid, g) in enumerate(sorted_items, start=1):
         counts = g["deviceCounts"]
         total = g["totalDevices"]
         online = counts.get("Online", 0)
         online_pct = round((online / total) * 100, 1) if total else 0.0
 
+        display_name = g["name"] or f"Group {idx}"
+
         group_obj = {
+            "name": display_name,
             "deviceCounts": counts,
             "totalDevices": total,
             "onlinePct": online_pct,
@@ -126,26 +198,29 @@ def summarize_groups(devices, highlight_group_id=None, highlight_label=None):
 
 
         if highlight_group_id and gid == highlight_group_id:
+            label = display_name
+            if not g["name"] and default_highlight_label:
+
+                label = default_highlight_label
+
             highlight_data = {
-                "label": highlight_label or "Highlighted Group",
+                "label": label,
                 "deviceCounts": counts,
                 "totalDevices": total,
                 "onlinePct": online_pct,
             }
 
-
-    if not highlight_data and groups_raw:
-        gid_top, g_top = max(
-            groups_raw.items(),
-            key=lambda kv: kv[1]["totalDevices"]
-        )
+    if not highlight_data and sorted_items:
+        gid_top, g_top = sorted_items[0]
         counts = g_top["deviceCounts"]
         total = g_top["totalDevices"]
         online = counts.get("Online", 0)
         online_pct = round((online / total) * 100, 1) if total else 0.0
 
+        label = g_top["name"] or default_highlight_label or "Highlighted Group"
+
         highlight_data = {
-            "label": highlight_label or "Highlighted Group",
+            "label": label,
             "deviceCounts": counts,
             "totalDevices": total,
             "onlinePct": online_pct,
@@ -175,7 +250,7 @@ def main():
     groups_summary = summarize_groups(
         account_devices,
         highlight_group_id=UFIT_GROUP_ID,
-        highlight_label=UFIT_LABEL,
+        default_highlight_label=UFIT_DEFAULT_LABEL,
     )
     with open("xio-groups-status.json", "w", encoding="utf-8") as f:
         json.dump(groups_summary, f, indent=2)
