@@ -35,15 +35,12 @@ jobs:
         env:
           XIO_ACCOUNT_ID: ${{ secrets.XIO_ACCOUNT_ID }}
           XIO_SUBSCRIPTION_KEY: ${{ secrets.XIO_SUBSCRIPTION_KEY }}
-          # Optional:
-          # XIO_UFIT_GROUP_ID: ${{ secrets.XIO_UFIT_GROUP_ID }}
-          # XIO_UFIT_LABEL: "UFIT Learning Space"
         run: python xio_summary.py
 
       - name: Commit and push JSON if changed
         run: |
           # Check if any of the XiO JSON files changed
-          if git status --porcelain | grep -E "xio-summary.json|xio-groups-status.json"; then
+          if git status --porcelain | grep -E "xio-summary.json|xio-devices-ui.json|xio-groups-summary.json"; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
 
@@ -52,7 +49,7 @@ jobs:
             git reset --soft origin/main
 
             # Add only the JSON files that actually exist
-            for f in xio-summary.json xio-groups-status.json; do
+            for f in xio-summary.json xio-devices-ui.json xio-groups-summary.json; do
               if [ -f "$f" ]; then
                 git add "$f"
               fi
