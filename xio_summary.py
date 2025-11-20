@@ -16,10 +16,7 @@ HEADERS = {
     "Accept": "application/json",
 }
 
-# --------------------------------------------------------------------
-# Only summarize the groups you actually care about.
-# Keys = XiO group IDs, Values = friendly names used in JSON/UI.
-# --------------------------------------------------------------------
+# Groups you care about: groupId -> friendly name
 GROUPS_OF_INTEREST = {
     "4b8e5e57-861e-4a73-84d8-f1687ded87ca": "Malachowsky Hall",
     "ce2a359d-bc31-487b-98da-34c586a721e0": "Scheduling Panels",
@@ -31,10 +28,7 @@ GROUPS_OF_INTEREST = {
 
 
 def _extract_list(data):
-    """
-    XiO sometimes wraps lists in an object with keys like:
-    Devices, devices, items, DeviceList, etc.
-    """
+
     if isinstance(data, list):
         return data
 
@@ -46,60 +40,78 @@ def _extract_list(data):
     return []
 
 
-def fetch_group_devices(group_id):
+def fetch_account_devices():
     """
-    GET /api/v1/group/accountid/{accountid}/groupid/{groupid}/devices
-    Returns all devices for a specific group.
+    ONE XiO v1 call:
+      GET /api/v1/device/accountid/{accountid}/devices
+
+    Sample devices look like:
+      {
+        "device-cid": "...",
+        "device-accountid": "...",
+        "device-groupid": "some-guid-or-null",
+        "device-name": "...",
+        "device-status": "Online"
+      }
     """
-    url = f"{BASE_URL}/api/v1/group/accountid/{ACCOUNT_ID}/groupid/{group_id}/devices"
+    url = f"{BASE_URL}/api/v1/device/accountid/{ACCOUNT_ID}/devices"
     resp = requests.get(url, headers=HEADERS, timeout=30)
 
     if resp.status_code == 429:
         raise SystemExit(
-            f"XiO API returned 429 Too Many Requests for group {group_id}.\n"
-            "Try reducing the workflow frequency or number of groups."
+            "XiO API returned 429 Too Many Requests for Account Devices.\n"
         )
 
     resp.raise_for_status()
     data = resp.json()
-    return _extract_list(data)
+    devices = _extract_list(data)
+
+    # Fallback: weird dict form → list of dict values
+    if not devices and isinstance(data, dict):
+        values = [v for v in data.values() if isinstance(v, dict)]
+        if values:
+            return values
+
+    return devices
 
 
-def summarize_devices(devices):
-    """
-    Given a list of devices, return (status_counts, total, onlinePct).
-    """
+def summarize_overall(devices):
+
     status_counts = {}
-
     for d in devices:
-        dev_obj = d.get("device") if isinstance(d.get("device"), dict) else d
-        status = dev_obj.get("device-status", "Unknown")
+        status = d.get("device-status", "Unknown")
         status_counts[status] = status_counts.get(status, 0) + 1
 
     total_devices = len(devices)
     online = status_counts.get("Online", 0)
     online_pct = round((online / total_devices) * 100, 1) if total_devices else 0.0
 
-    return status_counts, total_devices, online_pct
+    return {
+        "device": {
+            "counts": status_counts,
+            "total": total_devices,
+            "onlinePct": online_pct,
+        },
+        "meta": {
+            "generatedAtUtc": datetime.now(timezone.utc).isoformat(),
+        },
+    }
 
 
 def build_ui_devices(devices):
-    """
-    Minimal devices payload: name + onlineStatus for UI tables if needed.
-    """
+
     ui_devices = []
 
     for d in devices:
-        dev_obj = d.get("device") if isinstance(d.get("device"), dict) else d
         name = (
-            dev_obj.get("device-name")
-            or dev_obj.get("Name")
-            or dev_obj.get("name")
+            d.get("device-name")
+            or d.get("Name")
+            or d.get("name")
         )
         status = (
-            dev_obj.get("device-status")
-            or dev_obj.get("Online Status")
-            or dev_obj.get("status")
+            d.get("device-status")
+            or d.get("Online Status")
+            or d.get("status")
         )
         ui_devices.append(
             {
@@ -116,65 +128,93 @@ def build_ui_devices(devices):
     }
 
 
-def main():
-    print("Fetching XiO devices for configured groups...")
-    all_devices = []
+def summarize_groups_of_interest(devices, groups_of_interest):
+    """
+    Split the single account-wide device list into 6 groups,
+    based on device-groupid.
+
+    Output (xio-groups-summary.json):
+
+      {
+        "groups": [
+          {
+            "name": "UFIT Learning Spaces",
+            "counts": { "Online": n, "Offline": m, ... },
+            "total": N,
+            "onlinePct": X.X
+          },
+          ...
+        ],
+        "meta": { ... }
+      }
+    """
+
+    counts_by_name = {label: {} for label in groups_of_interest.values()}
+
+    for d in devices:
+        group_id = d.get("device-groupid")
+        if not group_id or group_id not in groups_of_interest:
+            continue
+
+        label = groups_of_interest[group_id]
+        status = d.get("device-status", "Unknown")
+
+        group_counts = counts_by_name.setdefault(label, {})
+        group_counts[status] = group_counts.get(status, 0) + 1
+
     group_summaries = []
+    for label, status_counts in counts_by_name.items():
+        total = sum(status_counts.values())
+        online = status_counts.get("Online", 0)
+        online_pct = round((online / total) * 100, 1) if total else 0.0
 
-    # Pull devices for each group ID
-    for group_id, label in GROUPS_OF_INTEREST.items():
-        print(f"- Group: {label} ({group_id})")
-        devices = fetch_group_devices(group_id)
-        print(f"  Fetched {len(devices)} devices")
-
-        all_devices.extend(devices)
-
-        counts, total, online_pct = summarize_devices(devices)
         group_summaries.append(
             {
                 "name": label,
-                "counts": counts,
+                "counts": status_counts,
                 "total": total,
                 "onlinePct": online_pct,
             }
         )
 
-    now_iso = datetime.now(timezone.utc).isoformat()
-
-
-    global_counts, global_total, global_online_pct = summarize_devices(all_devices)
-
-    summary_json = {
-        "device": {
-            "counts": global_counts,
-            "total": global_total,
-            "onlinePct": global_online_pct,
-        },
-        "meta": {
-            "generatedAtUtc": now_iso,
-        },
-    }
-
-    with open("xio-summary.json", "w", encoding="utf-8") as f:
-        json.dump(summary_json, f, indent=2)
-    print("Wrote xio-summary.json")
-
-    ui_devices_json = build_ui_devices(all_devices)
-    with open("xio-devices-ui.json", "w", encoding="utf-8") as f:
-        json.dump(ui_devices_json, f, indent=2)
-    print("Wrote xio-devices-ui.json")
-
-    groups_summary_json = {
+    return {
         "groups": group_summaries,
         "meta": {
-            "generatedAtUtc": now_iso,
+            "generatedAtUtc": datetime.now(timezone.utc).isoformat(),
             "groupCount": len(group_summaries),
         },
     }
 
+
+def main():
+    print("Fetching *account* devices from XiO Cloud...")
+    devices = fetch_account_devices()
+    print(f"Fetched {len(devices)} devices from account {ACCOUNT_ID}")
+
+
+    summary = summarize_overall(devices)
+    with open("xio-summary.json", "w", encoding="utf-8") as f:
+        json.dump(summary, f, indent=2)
+    print("Wrote xio-summary.json")
+
+
+    ui_devices = build_ui_devices(devices)
+    with open("xio-devices-ui.json", "w", encoding="utf-8") as f:
+        json.dump(ui_devices, f, indent=2)
+    print("Wrote xio-devices-ui.json")
+
+
+    group_summary = summarize_groups_of_interest(devices, GROUPS_OF_INTEREST)
     with open("xio-groups-summary.json", "w", encoding="utf-8") as f:
-        json.dump(groups_summary_json, f, indent=2)
-    print("Wrote xio-groups-summary.json")
+        json.dump(group_summary, f, indent=2)
+
+    print("Per-group device counts:")
+    for g in group_summary["groups"]:
+        print(f"  {g['name']}: {g['total']} devices")
+
+    print(
+        f"Wrote xio-groups-summary.json with {group_summary['meta']['groupCount']} groups"
+    )
 
 
 if __name__ == "__main__":
