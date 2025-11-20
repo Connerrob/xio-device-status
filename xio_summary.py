@@ -16,8 +16,17 @@ HEADERS = {
     "Accept": "application/json",
 }
 
-def _extract_list(data):
+# Optional: friendly names for known group IDs
+GROUP_NAME_OVERRIDES = {
+    "5128cb10-3b9f-4ad9-9e68-284b5e7f1460": "UFIT Learning Space",
+}
 
+
+def _extract_list(data):
+    """
+    XiO sometimes wraps lists in an object with keys like:
+    Devices, devices, items, DeviceList, etc.
+    """
     if isinstance(data, list):
         return data
 
@@ -30,7 +39,10 @@ def _extract_list(data):
 
 
 def fetch_account_devices():
-
+    """
+    /api/v1/device/accountid/{accountid}/devices
+    Returns all devices for the account.
+    """
     url = f"{BASE_URL}/api/v1/device/accountid/{ACCOUNT_ID}/devices"
     resp = requests.get(url, headers=HEADERS, timeout=30)
 
@@ -46,7 +58,19 @@ def fetch_account_devices():
 
 
 def summarize(devices):
+    """
+    Build the global/account summary JSON.
 
+    Output shape (matches your existing xio-summary.json usage):
+    {
+      "device": {
+        "counts": { "Online": n, ... },
+        "total": n,
+        "onlinePct": 42.0
+      },
+      "meta": { "generatedAtUtc": "..." }
+    }
+    """
     status_counts = {}
     for d in devices:
         dev_obj = d.get("device") if isinstance(d.get("device"), dict) else d
@@ -70,7 +94,24 @@ def summarize(devices):
 
 
 def summarize_groups(devices):
+    """
+    Per-group status from the full account device list.
 
+    Output:
+    {
+      "meta": { "generatedAtUtc": "..." },
+      "groups": [
+        {
+          "groupId": "...",
+          "name": "UFIT Learning Space",
+          "deviceCounts": { "Online": n, "Offline": n, ... },
+          "totalDevices": n,
+          "onlinePct": 42.5
+        },
+        ...
+      ]
+    }
+    """
     groups = {}
 
     for d in devices:
@@ -82,7 +123,7 @@ def summarize_groups(devices):
             or dev_obj.get("group-id")
         )
         if not gid:
-            continue  
+            continue  # skip devices not in a group
 
         status = dev_obj.get("device-status", "Unknown")
 
@@ -98,7 +139,7 @@ def summarize_groups(devices):
         g["deviceCounts"][status] = g["deviceCounts"].get(status, 0) + 1
         g["totalDevices"] += 1
 
-
+    # compute onlinePct + fallback names
     for g in groups.values():
         counts = g["deviceCounts"]
         online = counts.get("Online", 0)
