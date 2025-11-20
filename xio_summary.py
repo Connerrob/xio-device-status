@@ -370,38 +370,10 @@ def summarize_groups_of_interest(devices, parent_map):
 
 def main():
 
-    if len(sys.argv) > 1 and sys.argv[1] in ("--refresh-groups", "refresh-groups"):
-        refresh_group_tree_file()
-        return
-
-    print("Fetching *account* devices from XiO Cloud (single v1 call)...")
-    devices = fetch_account_devices()
-    print(f"Fetched {len(devices)} devices from account {ACCOUNT_ID}")
+    print("TEMP: refreshing XiO group tree ONLY (no device summary)...")
+    refresh_group_tree_file()
 
 
-    summary = summarize_overall(devices)
-    with open("xio-summary.json", "w", encoding="utf-8") as f:
-        json.dump(summary, f, indent=2)
-    print("Wrote xio-summary.json")
-
-    ui_devices = build_ui_devices(devices)
-    with open("xio-devices-ui.json", "w", encoding="utf-8") as f:
-        json.dump(ui_devices, f, indent=2)
-    print("Wrote xio-devices-ui.json")
-
-
-    parent_map = load_group_tree_parent_map()
-    if parent_map:
-        group_summary = summarize_groups_of_interest(devices, parent_map)
-        with open("xio-groups-summary.json", "w", encoding="utf-8") as f:
-            json.dump(group_summary, f, indent=2)
-        print(
-            f"Wrote xio-groups-summary.json with {group_summary['meta']['groupCount']} groups"
-        )
-        for g in group_summary["groups"]:
-            print(f"  {g['name']}: {g['total']} devices")
-    else:
-        print("Skipped writing xio-groups-summary.json (no group tree loaded).")
 
 
 if __name__ == "__main__":
