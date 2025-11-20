@@ -8,12 +8,6 @@ BASE_URL = "https://api.crestron.io"
 ACCOUNT_ID = os.environ.get("XIO_ACCOUNT_ID")
 SUB_KEY = os.environ.get("XIO_SUBSCRIPTION_KEY")
 
-
-GROUP_ID = os.environ.get(
-    "XIO_GROUP_ID",
-    "5128cb10-3b9f-4ad9-9e68-284b5e7f1460",
-)
-
 if not ACCOUNT_ID or not SUB_KEY:
     raise SystemExit("Missing XIO_ACCOUNT_ID or XIO_SUBSCRIPTION_KEY env vars")
 
@@ -21,7 +15,6 @@ HEADERS = {
     "XiO-subscription-key": SUB_KEY,
     "Accept": "application/json",
 }
-
 
 def _extract_list(data):
 
@@ -37,10 +30,7 @@ def _extract_list(data):
 
 
 def fetch_account_devices():
-    """
-    /api/v1/device/accountid/{accountid}/devices
-    Returns all devices for the account.
-    """
+
     url = f"{BASE_URL}/api/v1/device/accountid/{ACCOUNT_ID}/devices"
     resp = requests.get(url, headers=HEADERS, timeout=30)
 
@@ -55,34 +45,10 @@ def fetch_account_devices():
     return _extract_list(data)
 
 
-def fetch_group_devices(account_id, group_id):
-
-    if not group_id:
-        return []
-
-    url = f"{BASE_URL}/api/v1/group/accountid/{account_id}/groupid/{group_id}/devices"
-    resp = requests.get(url, headers=HEADERS, timeout=30)
-
-    if resp.status_code == 429:
-        raise SystemExit(
-            "XiO group API returned 429 Too Many Requests.\n"
-            "You’ve hit the rate limit; wait a few minutes before running again."
-        )
-
-    if resp.status_code == 404:
-        print(f"Group {group_id} not found (404). Returning empty list.")
-        return []
-
-    resp.raise_for_status()
-    data = resp.json()
-    return _extract_list(data)
-
-
 def summarize(devices):
 
     status_counts = {}
     for d in devices:
-        # Handle flat or nested device objects
         dev_obj = d.get("device") if isinstance(d.get("device"), dict) else d
         status = dev_obj.get("device-status", "Unknown")
         status_counts[status] = status_counts.get(status, 0) + 1
@@ -103,74 +69,69 @@ def summarize(devices):
     }
 
 
-def build_group_devices_payload(devices, group_id):
+def summarize_groups(devices):
 
-    group_devices = []
+    groups = {}
 
     for d in devices:
         dev_obj = d.get("device") if isinstance(d.get("device"), dict) else d
 
-        group_id_value = (
+        gid = (
             dev_obj.get("device-groupid")
             or dev_obj.get("groupId")
             or dev_obj.get("group-id")
-            or group_id 
         )
+        if not gid:
+            continue  
 
-        group_devices.append({
-            "id": dev_obj.get("device-id") or dev_obj.get("id"),
-            "name": (
-                dev_obj.get("device-name")
-                or dev_obj.get("Name")
-                or dev_obj.get("name")
-            ),
-            "status": (
-                dev_obj.get("device-status")
-                or dev_obj.get("status")
-                or dev_obj.get("Online Status")
-            ),
-            "groupId": group_id_value,
-            "roomName": (
-                dev_obj.get("room-name")
-                or dev_obj.get("Room Name")
-                or dev_obj.get("roomName")
-            ),
-        })
+        status = dev_obj.get("device-status", "Unknown")
+
+        if gid not in groups:
+            groups[gid] = {
+                "groupId": gid,
+                "name": GROUP_NAME_OVERRIDES.get(gid, None),
+                "deviceCounts": {},
+                "totalDevices": 0,
+            }
+
+        g = groups[gid]
+        g["deviceCounts"][status] = g["deviceCounts"].get(status, 0) + 1
+        g["totalDevices"] += 1
+
+
+    for g in groups.values():
+        counts = g["deviceCounts"]
+        online = counts.get("Online", 0)
+        total = g["totalDevices"]
+        g["onlinePct"] = round((online / total) * 100, 1) if total else 0.0
+
+        if not g["name"]:
+            g["name"] = g["groupId"]
 
     return {
-        "groupId": group_id,
-        "deviceCount": len(group_devices),
-        "devices": group_devices,
         "meta": {
             "generatedAtUtc": datetime.now(timezone.utc).isoformat(),
         },
+        "groups": list(groups.values()),
     }
 
 
 def main():
-
     print("Fetching *account* devices from XiO Cloud...")
     account_devices = fetch_account_devices()
     print(f"Fetched {len(account_devices)} devices for account {ACCOUNT_ID}")
 
+    # Global summary
     summary = summarize(account_devices)
     with open("xio-summary.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)
     print("Wrote xio-summary.json")
 
-
-    print(f"Fetching *group* devices for group {GROUP_ID}...")
-    group_devices = fetch_group_devices(ACCOUNT_ID, GROUP_ID)
-    print(f"Fetched {len(group_devices)} devices for group {GROUP_ID}")
-
-    group_payload = build_group_devices_payload(group_devices, GROUP_ID)
-    with open("xio-group-devices.json", "w", encoding="utf-8") as f:
-        json.dump(group_payload, f, indent=2)
-
-    print(
-        f"Wrote xio-group-devices.json for group {GROUP_ID} "
-        f"with {group_payload['deviceCount']} devices"
-    )
+    # Per-group summary
+    groups_summary = summarize_groups(account_devices)
+    with open("xio-groups-status.json", "w", encoding="utf-8") as f:
+        json.dump(groups_summary, f, indent=2)
+    print(f"Wrote xio-groups-status.json with {len(groups_summary['groups'])} groups")
 
 
 if __name__ == "__main__":
