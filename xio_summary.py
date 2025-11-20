@@ -1,12 +1,10 @@
-import os
-import json
 from datetime import datetime, timezone
-
+import json
+import os
 import requests
 
 BASE_URL = "https://api.crestron.io"
 
-# Read from environment variables (names, not values!)
 ACCOUNT_ID = os.environ.get("XIO_ACCOUNT_ID")
 SUB_KEY = os.environ.get("XIO_SUBSCRIPTION_KEY")
 
@@ -20,7 +18,6 @@ HEADERS = {
 
 
 def fetch_devices():
-
     url = f"{BASE_URL}/api/v1/device/accountid/{ACCOUNT_ID}/devices"
     resp = requests.get(url, headers=HEADERS, timeout=30)
 
@@ -33,7 +30,6 @@ def fetch_devices():
     resp.raise_for_status()
     data = resp.json()
 
-
     if isinstance(data, dict):
         for key in ("Devices", "devices", "items"):
             if key in data and isinstance(data[key], list):
@@ -45,8 +41,26 @@ def fetch_devices():
         return []
 
 
-def summarize(devices):
+# OPTIONAL: only if/when you have a rooms endpoint in XiO
+def fetch_rooms():
 
+    url = f"{BASE_URL}/api/v1/room/accountid/{ACCOUNT_ID}/rooms"
+    resp = requests.get(url, headers=HEADERS, timeout=30)
+    resp.raise_for_status()
+    data = resp.json()
+
+    if isinstance(data, dict):
+        for key in ("Rooms", "rooms", "items"):
+            if key in data and isinstance(data[key], list):
+                return data[key]
+        return []
+    elif isinstance(data, list):
+        return data
+    else:
+        return []
+
+
+def summarize(devices):
     status_counts = {}
     for d in devices:
         status = d.get("device-status", "Unknown")
@@ -56,7 +70,7 @@ def summarize(devices):
     online = status_counts.get("Online", 0)
     online_pct = round((online / total_devices) * 100, 1) if total_devices else 0.0
 
-    summary = {
+    return {
         "device": {
             "counts": status_counts,
             "total": total_devices,
@@ -67,23 +81,56 @@ def summarize(devices):
         },
     }
 
-    return summary
+
+def build_ui_devices(devices):
+
+    ui_devices = []
+
+    for d in devices:
+        ui_devices.append({
+            "name": (
+                d.get("device-name")
+                or d.get("Name")
+                or d.get("name")
+            ),
+            "onlineStatus": (
+                d.get("device-status")
+                or d.get("Online Status")
+                or d.get("status")
+            ),
+        })
+
+    return {
+        "devices": ui_devices,
+        "meta": {
+            "generatedAtUtc": datetime.now(timezone.utc).isoformat(),
+        },
+    }
 
 
-def main():
-    print("Fetching devices from XiO Cloud.")
-    devices = fetch_devices()
-    print(f"Fetched {len(devices)} devices")
+def build_ui_rooms(rooms):
+    """
+    Minimal rooms payload: roomName + occupied
+    """
+    ui_rooms = []
 
-    print("Summarizing...")
-    summary = summarize(devices)
+    for r in rooms:
+        ui_rooms.append({
+            "roomName": (
+                r.get("room-name")
+                or r.get("Room Name")
+                or r.get("roomName")
+            ),
+            "occupied": (
+                r.get("occupied")
+                or r.get("Occupied")
+                or r.get("occupancy-status")
+            ),
+        })
 
-    out_path = "xio-summary.json"
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(summary, f, indent=2)
-
-    print(f"Wrote {out_path}")
-
-
-if __name__ == "__main__":
-    main()
+    return {
+        "rooms": ui_rooms,
+        "meta": {
+            "generatedAtUtc": datetime.now(timezone.utc).isoformat(),
+        },
+    }
