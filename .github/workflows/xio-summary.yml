@@ -39,24 +39,24 @@ jobs:
 
       - name: Commit and push JSON if changed
         run: |
-          # Check if any of the XiO JSON files changed
-          if git status --porcelain | grep -E "xio-summary.json|xio-devices-ui.json|xio-groups-summary.json"; then
+          # Check if any XiO JSON files changed
+          if git status --porcelain | grep "xio-.*\.json"; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
 
-            # Make sure we are based on the latest origin/main
             git fetch origin main
             git reset --soft origin/main
 
-            # Add only the JSON files that actually exist
-            for f in xio-summary.json xio-devices-ui.json xio-groups-summary.json; do
+            # Add all XiO JSON files that exist
+            for f in xio-*.json; do
               if [ -f "$f" ]; then
                 git add "$f"
               fi
             done
 
-            git commit -m "Update XiO device JSON" || exit 0
+            git commit -m "Update XiO JSON" || exit 0
             git push origin HEAD:main
           else
             echo "No changes to XiO JSON files"
           fi
+
