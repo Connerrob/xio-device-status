@@ -35,6 +35,8 @@ jobs:
         env:
           XIO_ACCOUNT_ID: ${{ secrets.XIO_ACCOUNT_ID }}
           XIO_SUBSCRIPTION_KEY: ${{ secrets.XIO_SUBSCRIPTION_KEY }}
+
+          # XIO_UFIT_GROUP_ID: ${{ secrets.XIO_UFIT_GROUP_ID }}
         run: python xio_summary.py
 
       - name: Commit and push JSON if changed
