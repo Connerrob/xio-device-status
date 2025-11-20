@@ -64,7 +64,7 @@ def _extract_group_list(data):
 
 def fetch_account_devices():
     """
-    ONE v1 call per run:
+    ONE v1 call per normal run:
 
       GET /api/v1/device/accountid/{accountid}/devices
     """
@@ -81,6 +81,7 @@ def fetch_account_devices():
     raw = resp.json()
     devices = _extract_device_list(raw)
 
+
     if not devices and isinstance(raw, dict):
         values = [v for v in raw.values() if isinstance(v, dict)]
         if values:
@@ -89,14 +90,74 @@ def fetch_account_devices():
     return devices
 
 
+def summarize_overall(devices):
+    """
+    Overall status summary (all devices) for xio-summary.json
+    """
+    status_counts = {}
+    for d in devices:
+        dev = d.get("device") if isinstance(d.get("device"), dict) else d
+        status = dev.get("device-status", "Unknown")
+        status_counts[status] = status_counts.get(status, 0) + 1
+
+    total_devices = len(devices)
+    online = status_counts.get("Online", 0)
+    online_pct = round((online / total_devices) * 100, 1) if total_devices else 0.0
+
+    return {
+        "device": {
+            "counts": status_counts,
+            "total": total_devices,
+            "onlinePct": online_pct,
+        },
+        "meta": {
+            "generatedAtUtc": datetime.now(timezone.utc).isoformat(),
+        },
+    }
+
+
+def build_ui_devices(devices):
+    """
+    Minimal devices payload: name + onlineStatus
+    for your existing device UI bits.
+    """
+    ui_devices = []
+    for d in devices:
+        dev = d.get("device") if isinstance(d.get("device"), dict) else d
+        name = (
+            dev.get("device-name")
+            or dev.get("Name")
+            or dev.get("name")
+        )
+        status = (
+            dev.get("device-status")
+            or dev.get("Online Status")
+            or dev.get("status")
+        )
+        ui_devices.append(
+            {
+                "name": name,
+                "onlineStatus": status,
+            }
+        )
+
+    return {
+        "devices": ui_devices,
+        "meta": {
+            "generatedAtUtc": datetime.now(timezone.utc).isoformat(),
+        },
+    }
+
+
+
 def fetch_account_groups():
     """
     Get the full group tree for this account:
 
       GET /api/v1/group/accountid/{accountid}/groups
 
-    NOTE: This is also a V1 call and is subject to the same 1-per-5-min limit.
-    Only call this manually (see --refresh-groups mode), not from the scheduled run.
+    NOTE: This is a V1 call and subject to the same 1-per-5-min limit.
+    Only call this from --refresh-groups mode, not in your scheduled run.
     """
     url = f"{BASE_URL}/api/v1/group/accountid/{ACCOUNT_ID}/groups"
     resp = requests.get(url, headers=HEADERS, timeout=30)
@@ -113,7 +174,6 @@ def fetch_account_groups():
 
 
     if not groups and isinstance(raw, dict):
-
         return {
             "groups": raw,
             "meta": {
@@ -135,13 +195,12 @@ def refresh_group_tree_file():
     """
     Manual mode: fetch the group tree from XiO and write xio-groups-tree.json.
 
-    Run this from your laptop when you want to (re)sync the tree:
+    Run this when you want to (re)sync the tree:
         python xio_summary.py --refresh-groups
     """
     print("Fetching account group tree from XiO Cloud...")
     data = fetch_account_groups()
     groups = data.get("groups")
-
 
     if isinstance(groups, list):
         group_count = len(groups)
@@ -158,12 +217,11 @@ def refresh_group_tree_file():
 
 def load_group_tree_parent_map():
     """
-    Load xio-groups-tree.json and build a mapping of:
+    Load xio-groups-tree.json and build a mapping:
 
         { groupId: parentGroupId_or_None }
 
-    We don't care about friendly names here because you already have
-    the top-level group IDs and friendly labels in GROUPS_OF_INTEREST.
+    We only care about ID and parent; friendly names come from GROUPS_OF_INTEREST.
     """
     try:
         with open("xio-groups-tree.json", "r", encoding="utf-8") as f:
@@ -175,7 +233,7 @@ def load_group_tree_parent_map():
     raw_groups = data.get("groups", data)
     groups_list = _extract_group_list(raw_groups)
 
-    # If groups_list is not a list yet, but raw_groups is a dict, try dict values
+
     if not isinstance(groups_list, list) and isinstance(raw_groups, dict):
         groups_list = [v for v in raw_groups.values() if isinstance(v, dict)]
 
@@ -208,7 +266,6 @@ def load_group_tree_parent_map():
     if not parent_key:
         print("WARNING: Could not detect a parent group field in group tree; will treat groups as flat.")
 
-
     parent_map = {}
     for g in groups_list:
         if not isinstance(g, dict):
@@ -226,63 +283,6 @@ def load_group_tree_parent_map():
     return parent_map
 
 
-def summarize_overall(devices):
-    """
-    Overall status summary (all devices) for xio-summary.json
-    """
-    status_counts = {}
-    for d in devices:
-        dev = d.get("device") if isinstance(d.get("device"), dict) else d
-        status = dev.get("device-status", "Unknown")
-        status_counts[status] = status_counts.get(status, 0) + 1
-
-    total_devices = len(devices)
-    online = status_counts.get("Online", 0)
-    online_pct = round((online / total_devices) * 100, 1) if total_devices else 0.0
-
-    return {
-        "device": {
-            "counts": status_counts,
-            "total": total_devices,
-            "onlinePct": online_pct,
-        },
-        "meta": {
-            "generatedAtUtc": datetime.now(timezone.utc).isoformat(),
-        },
-    }
-
-
-def build_ui_devices(devices):
-    """
-    Minimal devices payload: name + onlineStatus
-    """
-    ui_devices = []
-    for d in devices:
-        dev = d.get("device") if isinstance(d.get("device"), dict) else d
-        name = (
-            dev.get("device-name")
-            or dev.get("Name")
-            or dev.get("name")
-        )
-        status = (
-            dev.get("device-status")
-            or dev.get("Online Status")
-            or dev.get("status")
-        )
-        ui_devices.append(
-            {
-                "name": name,
-                "onlineStatus": status,
-            }
-        )
-
-    return {
-        "devices": ui_devices,
-        "meta": {
-            "generatedAtUtc": datetime.now(timezone.utc).isoformat(),
-        },
-    }
-
 
 def find_interest_root_group(device_group_id, parent_map):
     """
@@ -291,7 +291,7 @@ def find_interest_root_group(device_group_id, parent_map):
       - hit one of GROUP_IDS_OF_INTEREST → return that ID
       - run out of parents → return None
 
-    This lets us roll up subgroups / rooms under your top-level UFIT groups.
+    This lets us roll subgroups / rooms under your top-level UFIT groups.
     """
     visited = set()
     gid = device_group_id
@@ -308,7 +308,7 @@ def find_interest_root_group(device_group_id, parent_map):
 
 def summarize_groups_of_interest(devices, parent_map):
     """
-    Summarize only your groups of interest (by groupId), but output JSON with
+    Summarize only your 6 UFIT groups (by groupId), but output JSON with
     NO group IDs, only friendly names, e.g.:
 
     {
@@ -324,7 +324,7 @@ def summarize_groups_of_interest(devices, parent_map):
       "meta": { ... }
     }
     """
-
+    # Pre-init so groups show even if they have 0 devices
     counts_by_label = {label: {} for label in GROUPS_OF_INTEREST.values()}
 
     for d in devices:
@@ -368,12 +368,42 @@ def summarize_groups_of_interest(devices, parent_map):
     }
 
 
+
 def main():
 
-    print("TEMP: refreshing XiO group tree ONLY (no device summary)...")
-    refresh_group_tree_file()
+    if len(sys.argv) > 1 and sys.argv[1] in ("--refresh-groups", "refresh-groups"):
+        refresh_group_tree_file()
+        return
+
+    print("Fetching *account* devices from XiO Cloud (single v1 call)...")
+    devices = fetch_account_devices()
+    print(f"Fetched {len(devices)} devices from account {ACCOUNT_ID}")
+
+    # Global summary
+    summary = summarize_overall(devices)
+    with open("xio-summary.json", "w", encoding="utf-8") as f:
+        json.dump(summary, f, indent=2)
+    print("Wrote xio-summary.json")
 
 
+    ui_devices = build_ui_devices(devices)
+    with open("xio-devices-ui.json", "w", encoding="utf-8") as f:
+        json.dump(ui_devices, f, indent=2)
+    print("Wrote xio-devices-ui.json")
+
+
+    parent_map = load_group_tree_parent_map()
+    if parent_map:
+        group_summary = summarize_groups_of_interest(devices, parent_map)
+        with open("xio-groups-summary.json", "w", encoding="utf-8") as f:
+            json.dump(group_summary, f, indent=2)
+        print(
+            f"Wrote xio-groups-summary.json with {group_summary['meta']['groupCount']} groups"
+        )
+        for g in group_summary["groups"]:
+            print(f"  {g['name']}: {g['total']} devices")
+    else:
+        print("Skipped writing xio-groups-summary.json (no group tree loaded).")
 
 
 if __name__ == "__main__":
