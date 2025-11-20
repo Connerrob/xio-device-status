@@ -8,6 +8,12 @@ BASE_URL = "https://api.crestron.io"
 ACCOUNT_ID = os.environ.get("XIO_ACCOUNT_ID")
 SUB_KEY = os.environ.get("XIO_SUBSCRIPTION_KEY")
 
+
+GROUP_ID = os.environ.get(
+    "XIO_GROUP_ID",
+    "5128cb10-3b9f-4ad9-9e68-284b5e7f1460"
+)
+
 if not ACCOUNT_ID or not SUB_KEY:
     raise SystemExit("Missing XIO_ACCOUNT_ID or XIO_SUBSCRIPTION_KEY env vars")
 
@@ -31,7 +37,8 @@ def fetch_devices():
     data = resp.json()
 
     if isinstance(data, dict):
-        for key in ("Devices", "devices", "items"):
+
+        for key in ("Devices", "devices", "items", "DeviceList"):
             if key in data and isinstance(data[key], list):
                 return data[key]
         return []
@@ -48,7 +55,6 @@ def fetch_rooms():
     """
     url = f"{BASE_URL}/api/v1/room/accountid/{ACCOUNT_ID}/rooms"
     resp = requests.get(url, headers=HEADERS, timeout=30)
-
 
     if resp.status_code in (404, 501):
         print("Rooms endpoint not available (status", resp.status_code, ") – skipping rooms.")
@@ -90,6 +96,7 @@ def summarize(devices):
         },
         "meta": {
             "generatedAtUtc": datetime.now(timezone.utc).isoformat(),
+
         },
     }
 
@@ -101,16 +108,19 @@ def build_ui_devices(devices):
     ui_devices = []
 
     for d in devices:
+
+        dev_obj = d.get("device") if isinstance(d.get("device"), dict) else d
+
         ui_devices.append({
             "name": (
-                d.get("device-name")
-                or d.get("Name")
-                or d.get("name")
+                dev_obj.get("device-name")
+                or dev_obj.get("Name")
+                or dev_obj.get("name")
             ),
             "onlineStatus": (
-                d.get("device-status")
-                or d.get("Online Status")
-                or d.get("status")
+                dev_obj.get("device-status")
+                or dev_obj.get("Online Status")
+                or dev_obj.get("status")
             ),
         })
 
@@ -150,20 +160,76 @@ def build_ui_rooms(rooms):
     }
 
 
+def filter_devices_by_group(devices, group_id):
+    """
+    Filter the devices list down to a specific XiO group.
+
+    We look for 'device-groupid' on either the root object or inside 'device'.
+    """
+    if not group_id:
+        return []
+
+    group_devices = []
+
+    for d in devices:
+
+        dev_obj = d.get("device") if isinstance(d.get("device"), dict) else d
+
+        dev_group = (
+            dev_obj.get("device-groupid")  
+            or dev_obj.get("groupId")
+        )
+
+        if dev_group == group_id:
+            group_devices.append(d)
+
+    return group_devices
+
+
 def main():
     print("Fetching devices from XiO Cloud...")
     devices = fetch_devices()
-    print(f"Fetched {len(devices)} devices")
+    print(f"Fetched {len(devices)} devices total for account {ACCOUNT_ID}")
+
 
     summary = summarize(devices)
+    summary["meta"]["scope"] = "account"
+    summary["meta"]["groupId"] = None
+
     with open("xio-summary.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)
     print("Wrote xio-summary.json")
 
     ui_devices = build_ui_devices(devices)
+    ui_devices["meta"]["scope"] = "account"
+    ui_devices["meta"]["groupId"] = None
+
     with open("xio-devices-ui.json", "w", encoding="utf-8") as f:
         json.dump(ui_devices, f, indent=2)
     print("Wrote xio-devices-ui.json")
+
+    if GROUP_ID:
+        group_devices = filter_devices_by_group(devices, GROUP_ID)
+        if group_devices:
+            print(f"Found {len(group_devices)} devices in group {GROUP_ID}")
+
+            group_summary = summarize(group_devices)
+            group_summary["meta"]["scope"] = "group"
+            group_summary["meta"]["groupId"] = GROUP_ID
+
+            with open("xio-summary-group.json", "w", encoding="utf-8") as f:
+                json.dump(group_summary, f, indent=2)
+            print("Wrote xio-summary-group.json")
+
+            ui_group_devices = build_ui_devices(group_devices)
+            ui_group_devices["meta"]["scope"] = "group"
+            ui_group_devices["meta"]["groupId"] = GROUP_ID
+
+            with open("xio-devices-ui-group.json", "w", encoding="utf-8") as f:
+                json.dump(ui_group_devices, f, indent=2)
+            print("Wrote xio-devices-ui-group.json")
+        else:
+            print(f"No devices matched group {GROUP_ID}; skipping group JSON.")
 
     try:
         rooms = fetch_rooms()
