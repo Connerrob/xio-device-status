@@ -2,14 +2,13 @@ name: Update XiO Device Summary
 
 on:
   schedule:
-    # runs every 15 minutes
+    # runs every 6 minutes
     - cron: "*/6 * * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
-# Make sure only one run at a time
 concurrency:
   group: xio-summary
   cancel-in-progress: true
@@ -38,9 +37,10 @@ jobs:
           XIO_SUBSCRIPTION_KEY: ${{ secrets.XIO_SUBSCRIPTION_KEY }}
         run: python xio_summary.py
 
-      - name: Commit and push xio-summary.json if changed
+      - name: Commit and push JSON if changed
         run: |
-          if git status --porcelain | grep "xio-summary.json"; then
+          # Check if any of the JSON files changed
+          if git status --porcelain | grep -E "xio-summary.json|xio-devices-ui.json|xio-rooms-ui.json"; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
 
@@ -48,9 +48,15 @@ jobs:
             git fetch origin main
             git reset --soft origin/main
 
-            git add xio-summary.json
-            git commit -m "Update XiO device summary" || exit 0
+            # Add only the JSON files that actually exist
+            for f in xio-summary.json xio-devices-ui.json xio-rooms-ui.json; do
+              if [ -f "$f" ]; then
+                git add "$f"
+              fi
+            done
+
+            git commit -m "Update XiO device JSON" || exit 0
             git push origin HEAD:main
           else
-            echo "No changes to xio-summary.json"
+            echo "No changes to XiO JSON files"
           fi
