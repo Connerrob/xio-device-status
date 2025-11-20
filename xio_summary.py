@@ -41,11 +41,23 @@ def fetch_devices():
         return []
 
 
-# OPTIONAL: only if/when you have a rooms endpoint in XiO
 def fetch_rooms():
-
+    """
+    OPTIONAL: only if/when you have a rooms endpoint in XiO.
+    This will not crash the whole script if the endpoint is missing.
+    """
     url = f"{BASE_URL}/api/v1/room/accountid/{ACCOUNT_ID}/rooms"
     resp = requests.get(url, headers=HEADERS, timeout=30)
+
+
+    if resp.status_code in (404, 501):
+        print("Rooms endpoint not available (status", resp.status_code, ") – skipping rooms.")
+        return []
+
+    if resp.status_code == 429:
+        print("XiO rooms API returned 429 Too Many Requests – skipping rooms this run.")
+        return []
+
     resp.raise_for_status()
     data = resp.json()
 
@@ -83,7 +95,9 @@ def summarize(devices):
 
 
 def build_ui_devices(devices):
-
+    """
+    Minimal devices payload: name + onlineStatus
+    """
     ui_devices = []
 
     for d in devices:
@@ -134,3 +148,37 @@ def build_ui_rooms(rooms):
             "generatedAtUtc": datetime.now(timezone.utc).isoformat(),
         },
     }
+
+
+def main():
+    print("Fetching devices from XiO Cloud...")
+    devices = fetch_devices()
+    print(f"Fetched {len(devices)} devices")
+
+    summary = summarize(devices)
+    with open("xio-summary.json", "w", encoding="utf-8") as f:
+        json.dump(summary, f, indent=2)
+    print("Wrote xio-summary.json")
+
+    ui_devices = build_ui_devices(devices)
+    with open("xio-devices-ui.json", "w", encoding="utf-8") as f:
+        json.dump(ui_devices, f, indent=2)
+    print("Wrote xio-devices-ui.json")
+
+    try:
+        rooms = fetch_rooms()
+    except Exception as e:
+        print("Error fetching rooms; skipping rooms for this run:", e)
+    else:
+        if rooms:
+            print(f"Fetched {len(rooms)} rooms")
+            ui_rooms = build_ui_rooms(rooms)
+            with open("xio-rooms-ui.json", "w", encoding="utf-8") as f:
+                json.dump(ui_rooms, f, indent=2)
+            print("Wrote xio-rooms-ui.json")
+        else:
+            print("No rooms returned; skipping xio-rooms-ui.json write.")
+
+
+if __name__ == "__main__":
+    main()
