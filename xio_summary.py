@@ -47,10 +47,7 @@ def _extract_device_list(data):
 
 
 def _extract_group_list(data):
-    """
-    Group tree endpoint may wrap the list as Groups/groups/items
-    or return a list directly.
-    """
+
     if isinstance(data, list):
         return data
 
@@ -63,11 +60,7 @@ def _extract_group_list(data):
 
 
 def fetch_account_devices():
-    """
-    ONE v1 call per normal run:
 
-      GET /api/v1/device/accountid/{accountid}/devices
-    """
     url = f"{BASE_URL}/api/v1/device/accountid/{ACCOUNT_ID}/devices"
     resp = requests.get(url, headers=HEADERS, timeout=30)
 
@@ -117,10 +110,7 @@ def summarize_overall(devices):
 
 
 def build_ui_devices(devices):
-    """
-    Minimal devices payload: name + onlineStatus
-    for your existing device UI bits.
-    """
+
     ui_devices = []
     for d in devices:
         dev = d.get("device") if isinstance(d.get("device"), dict) else d
@@ -151,14 +141,7 @@ def build_ui_devices(devices):
 
 
 def fetch_account_groups():
-    """
-    Get the full group tree for this account:
 
-      GET /api/v1/group/accountid/{accountid}/groups
-
-    NOTE: This is a V1 call and subject to the same 1-per-5-min limit.
-    Only call this from --refresh-groups mode, not in your scheduled run.
-    """
     url = f"{BASE_URL}/api/v1/group/accountid/{ACCOUNT_ID}/groups"
     resp = requests.get(url, headers=HEADERS, timeout=30)
 
@@ -192,12 +175,7 @@ def fetch_account_groups():
 
 
 def refresh_group_tree_file():
-    """
-    Manual mode: fetch the group tree from XiO and write xio-groups-tree.json.
 
-    Run this when you want to (re)sync the tree:
-        python xio_summary.py --refresh-groups
-    """
     print("Fetching account group tree from XiO Cloud...")
     data = fetch_account_groups()
     groups = data.get("groups")
@@ -216,13 +194,7 @@ def refresh_group_tree_file():
 
 
 def load_group_tree_parent_map():
-    """
-    Load xio-groups-tree.json and build a mapping:
 
-        { groupId: parentGroupId_or_None }
-
-    We only care about ID and parent; friendly names come from GROUPS_OF_INTEREST.
-    """
     try:
         with open("xio-groups-tree.json", "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -285,14 +257,7 @@ def load_group_tree_parent_map():
 
 
 def find_interest_root_group(device_group_id, parent_map):
-    """
-    Walk up the ParentGroupId chain until we either:
 
-      - hit one of GROUP_IDS_OF_INTEREST → return that ID
-      - run out of parents → return None
-
-    This lets us roll subgroups / rooms under your top-level UFIT groups.
-    """
     visited = set()
     gid = device_group_id
 
@@ -307,23 +272,7 @@ def find_interest_root_group(device_group_id, parent_map):
 
 
 def summarize_groups_of_interest(devices, parent_map):
-    """
-    Summarize only your 6 UFIT groups (by groupId), but output JSON with
-    NO group IDs, only friendly names, e.g.:
 
-    {
-      "groups": [
-        {
-          "name": "UFIT Learning Spaces",
-          "counts": { "Online": n, "Offline": n, ... },
-          "total": N,
-          "onlinePct": X.X
-        },
-        ...
-      ],
-      "meta": { ... }
-    }
-    """
     # Pre-init so groups show even if they have 0 devices
     counts_by_label = {label: {} for label in GROUPS_OF_INTEREST.values()}
 
