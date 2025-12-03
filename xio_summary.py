@@ -28,39 +28,6 @@ GROUPS_OF_INTEREST = {
 GROUP_IDS_OF_INTEREST = set(GROUPS_OF_INTEREST.keys())
 
 
-def _first(dev, *keys):
-    """
-    Return the first non-empty value from dev for any of the given keys.
-    Helps normalize XiO's inconsistent field naming.
-    """
-    if not isinstance(dev, dict):
-        return None
-    for k in keys:
-        v = dev.get(k)
-        if v not in (None, "", []):
-            return v
-    return None
-
-
-def load_firmware_metadata():
-    """
-    Load firmware/serial/MAC metadata from xio-firmware-metadata.json
-    (written by xio_firmware_scan.py). Returns a dict keyed by device-id.
-    """
-    try:
-        with open("xio-firmware-metadata.json", "r", encoding="utf-8") as f:
-            data = json.load(f)
-    except FileNotFoundError:
-        print("No xio-firmware-metadata.json found; proceeding without overrides.")
-        return {}
-
-    devices = data.get("devices", {})
-    if not isinstance(devices, dict):
-        devices = {}
-    print(f"Loaded firmware metadata for {len(devices)} devices.")
-    return devices
-
-
 def _extract_device_list(data):
     """
     Account Devices sometimes returns a list directly, sometimes wrapped.
@@ -296,7 +263,7 @@ def find_interest_root_group(device_group_id, parent_map):
 
 
 def summarize_groups_of_interest(devices, parent_map):
-
+    # Pre-init so groups show even if they have 0 devices
     counts_by_label = {label: {} for label in GROUPS_OF_INTEREST.values()}
 
     for d in devices:
@@ -315,6 +282,7 @@ def summarize_groups_of_interest(devices, parent_map):
         group_counts = counts_by_label.setdefault(label, {})
         group_counts[status] = group_counts.get(status, 0) + 1
 
+    # Convert to JSON structure
     group_summaries = []
     for label, status_counts in counts_by_label.items():
         total = sum(status_counts.values())
@@ -339,173 +307,6 @@ def summarize_groups_of_interest(devices, parent_map):
     }
 
 
-def build_power_bi_flat_files(devices, group_summary=None, firmware_meta=None):
-    """
-    Build flat, Power BI–friendly JSON files:
-
-      - xio-devices-flat.json : one row per device (limited fields)
-      - xio-rooms-flat.json   : one row per room (counts)
-      - xio-groups-flat.json  : one row per group of interest (optional)
-
-    Devices file only includes:
-      - name
-      - device_model
-      - firmware
-      - serial
-      - mac_address
-      - status
-
-    firmware_meta is a dict keyed by device-id with overrides
-    from xio-firmware-metadata.json.
-    """
-    if firmware_meta is None:
-        firmware_meta = {}
-
-    devices_flat = []
-    rooms_map = {}
-
-    for d in devices:
-        dev = d.get("device") if isinstance(d.get("device"), dict) else d
-
-        device_id = _first(dev, "device-id", "DeviceId", "DeviceID", "id")
-        meta = firmware_meta.get(device_id, {}) if device_id else {}
-
-        name = meta.get("name") or _first(dev, "device-name", "Name", "name")
-        status = _first(dev, "device-status", "Online Status", "status")
-        group_id = _first(dev, "device-groupid", "GroupId", "groupId")
-
-
-        room_name = _first(dev, "room-name", "roomName", "RoomName")
-        building_name = _first(
-            dev,
-            "building-name",
-            "buildingName",
-            "BuildingName",
-            "building",
-            "location-buildingname",
-        )
-
-
-        device_model = meta.get("device_model") or _first(
-            dev, "Device-Model", "device-model", "Model", "model"
-        )
-
-        firmware = meta.get("firmware") or _first(
-            dev,
-            "Firmware-Version",
-            "firmware-version",
-            "firmwareVersion",
-            "FirmwareVersion",
-        )
-
-        serial = meta.get("serial") or _first(
-            dev,
-            "Serial-Number",
-            "serial-number",
-            "serialNumber",
-            "SerialNumber",
-        )
-
-        mac_address = meta.get("mac_address") or _first(
-            dev,
-            "Mac-Address",
-            "macAddress",
-            "MacAddress",
-            "MAC-Address",
-        )
-
-
-        last_seen = _first(dev, "last-contact", "lastContact", "LastContact")
-
-
-        devices_flat.append(
-            {
-                "name": name,
-                "device_model": device_model,
-                "firmware": firmware,
-                "serial": serial,
-                "mac_address": mac_address,
-                "status": status,
-            }
-        )
-
-
-        room_key = (building_name, room_name)
-        if room_key not in rooms_map:
-            rooms_map[room_key] = {
-                "building_name": building_name,
-                "room_name": room_name,
-                "device_count": 0,
-                "online_count": 0,
-                "offline_count": 0,
-            }
-
-        rooms_map[room_key]["device_count"] += 1
-        status_l = str(status).lower()
-        if status_l == "online":
-            rooms_map[room_key]["online_count"] += 1
-        elif status_l == "offline":
-            rooms_map[room_key]["offline_count"] += 1
-
-    now_iso = datetime.now(timezone.utc).isoformat()
-
-
-    rooms_list = []
-    for (building_name, room_name), counts in rooms_map.items():
-        room_id = f"{building_name or 'Unknown'}|{room_name or 'Unknown'}"
-        rooms_list.append(
-            {
-                "room_id": room_id,
-                "building_name": counts["building_name"],
-                "room_name": counts["room_name"],
-                "device_count": counts["device_count"],
-                "online_count": counts["online_count"],
-                "offline_count": counts["offline_count"],
-                "last_updated": now_iso,
-            }
-        )
-
-
-    groups_flat = []
-    if group_summary and isinstance(group_summary, dict):
-        meta = group_summary.get("meta", {})
-        groups = group_summary.get("groups", [])
-        for g in groups:
-            if not isinstance(g, dict):
-                continue
-            counts = g.get("counts", {}) or {}
-            total = g.get("total", 0)
-            online = counts.get("Online", 0)
-            offline = counts.get("Offline", 0)
-
-            groups_flat.append(
-                {
-                    "group_name": g.get("name"),
-                    "total_devices": total,
-                    "online_count": online,
-                    "offline_count": offline,
-                    "online_pct": g.get("onlinePct", 0.0),
-                    "last_updated": meta.get("generatedAtUtc", now_iso),
-                }
-            )
-
-
-    with open("xio-devices-flat.json", "w", encoding="utf-8") as f:
-        json.dump(devices_flat, f, indent=2)
-
-    with open("xio-rooms-flat.json", "w", encoding="utf-8") as f:
-        json.dump(rooms_list, f, indent=2)
-
-    with open("xio-groups-flat.json", "w", encoding="utf-8") as f:
-        json.dump(groups_flat, f, indent=2)
-
-    print(
-        f"Wrote xio-devices-flat.json ({len(devices_flat)} devices), "
-        f"xio-rooms-flat.json ({len(rooms_list)} rooms), "
-        f"xio-groups-flat.json ({len(groups_flat)} groups)"
-    )
-
-
 def main():
     if len(sys.argv) > 1 and sys.argv[1] in ("--refresh-groups", "refresh-groups"):
         refresh_group_tree_file()
@@ -527,8 +328,6 @@ def main():
     print("Wrote xio-devices-ui.json")
 
     parent_map = load_group_tree_parent_map()
-    group_summary = None
-
     if parent_map:
         group_summary = summarize_groups_of_interest(devices, parent_map)
         with open("xio-groups-summary.json", "w", encoding="utf-8") as f:
@@ -540,9 +339,6 @@ def main():
             print(f"  {g['name']}: {g['total']} devices")
     else:
         print("Skipped writing xio-groups-summary.json (no group tree loaded).")
-
-    firmware_meta = load_firmware_metadata()
-    build_power_bi_flat_files(devices, group_summary, firmware_meta)
 
 
 if __name__ == "__main__":
