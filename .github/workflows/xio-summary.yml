@@ -37,7 +37,7 @@ jobs:
           XIO_SUBSCRIPTION_KEY: ${{ secrets.XIO_SUBSCRIPTION_KEY }}
         run: python xio_summary.py
 
-        - name: Commit and push JSON if changed
+      - name: Commit and push JSON if changed
         run: |
           # Check if any XiO JSON files changed (including new flat files)
           if git status --porcelain | grep -E "xio-.*\.json"; then
@@ -49,8 +49,14 @@ jobs:
             git reset --soft origin/main
 
             # Add all XiO JSON files that exist in the repo root
-            for f in xio-summary.json xio-devices-ui.json xio-groups-summary.json xio-groups-tree.json \
-                     xio-devices-flat.json xio-rooms-flat.json xio-groups-flat.json; do
+            for f in \
+              xio-summary.json \
+              xio-devices-ui.json \
+              xio-groups-summary.json \
+              xio-groups-tree.json \
+              xio-devices-flat.json \
+              xio-rooms-flat.json \
+              xio-groups-flat.json; do
               if [ -f "$f" ]; then
                 git add "$f"
               fi
