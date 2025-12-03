@@ -42,6 +42,25 @@ def _first(dev, *keys):
     return None
 
 
+def load_firmware_metadata():
+    """
+    Load firmware/serial/MAC metadata from xio-firmware-metadata.json
+    (written by xio_firmware_scan.py). Returns a dict keyed by device-id.
+    """
+    try:
+        with open("xio-firmware-metadata.json", "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        print("No xio-firmware-metadata.json found; proceeding without overrides.")
+        return {}
+
+    devices = data.get("devices", {})
+    if not isinstance(devices, dict):
+        devices = {}
+    print(f"Loaded firmware metadata for {len(devices)} devices.")
+    return devices
+
+
 def _extract_device_list(data):
     """
     Account Devices sometimes returns a list directly, sometimes wrapped.
@@ -320,7 +339,7 @@ def summarize_groups_of_interest(devices, parent_map):
     }
 
 
-def build_power_bi_flat_files(devices, group_summary=None):
+def build_power_bi_flat_files(devices, group_summary=None, firmware_meta=None):
     """
     Build flat, Power BI–friendly JSON files:
 
@@ -335,17 +354,26 @@ def build_power_bi_flat_files(devices, group_summary=None):
       - serial
       - mac_address
       - status
+
+    firmware_meta is a dict keyed by device-id with overrides
+    from xio-firmware-metadata.json.
     """
+    if firmware_meta is None:
+        firmware_meta = {}
+
     devices_flat = []
     rooms_map = {}
-
 
     for d in devices:
         dev = d.get("device") if isinstance(d.get("device"), dict) else d
 
-        name = _first(dev, "device-name", "Name", "name")
+        device_id = _first(dev, "device-id", "DeviceId", "DeviceID", "id")
+        meta = firmware_meta.get(device_id, {}) if device_id else {}
+
+        name = meta.get("name") or _first(dev, "device-name", "Name", "name")
         status = _first(dev, "device-status", "Online Status", "status")
         group_id = _first(dev, "device-groupid", "GroupId", "groupId")
+
 
         room_name = _first(dev, "room-name", "roomName", "RoomName")
         building_name = _first(
@@ -358,10 +386,11 @@ def build_power_bi_flat_files(devices, group_summary=None):
         )
 
 
-        device_model = _first(dev, "Device-Model", "device-model", "Model", "model")
+        device_model = meta.get("device_model") or _first(
+            dev, "Device-Model", "device-model", "Model", "model"
+        )
 
-
-        firmware = _first(
+        firmware = meta.get("firmware") or _first(
             dev,
             "Firmware-Version",
             "firmware-version",
@@ -369,8 +398,7 @@ def build_power_bi_flat_files(devices, group_summary=None):
             "FirmwareVersion",
         )
 
-
-        serial = _first(
+        serial = meta.get("serial") or _first(
             dev,
             "Serial-Number",
             "serial-number",
@@ -378,8 +406,7 @@ def build_power_bi_flat_files(devices, group_summary=None):
             "SerialNumber",
         )
 
-
-        mac_address = _first(
+        mac_address = meta.get("mac_address") or _first(
             dev,
             "Mac-Address",
             "macAddress",
@@ -437,6 +464,7 @@ def build_power_bi_flat_files(devices, group_summary=None):
                 "last_updated": now_iso,
             }
         )
+
 
     groups_flat = []
     if group_summary and isinstance(group_summary, dict):
@@ -513,7 +541,8 @@ def main():
     else:
         print("Skipped writing xio-groups-summary.json (no group tree loaded).")
 
-    build_power_bi_flat_files(devices, group_summary)
+    firmware_meta = load_firmware_metadata()
+    build_power_bi_flat_files(devices, group_summary, firmware_meta)
 
 
 if __name__ == "__main__":
