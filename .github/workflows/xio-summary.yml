@@ -39,8 +39,9 @@ jobs:
 
       - name: Commit and push JSON if changed
         run: |
-          # Check if any XiO JSON files changed (including new flat files)
+          # See if any XiO JSON files changed (including flat files)
           if git status --porcelain | grep -E "xio-.*\.json"; then
+            echo "XiO JSON files changed, preparing to commit..."
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
 
@@ -62,8 +63,13 @@ jobs:
               fi
             done
 
-            git commit -m "Update XiO JSON" || exit 0
-            git push origin HEAD:main
+            # Commit only if there is something staged
+            if git diff --cached --quiet; then
+              echo "No staged changes after add; skipping commit."
+            else
+              git commit -m "Update XiO JSON"
+              git push origin HEAD:main
+            fi
           else
             echo "No changes to XiO JSON files"
           fi
