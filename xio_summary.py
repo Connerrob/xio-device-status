@@ -85,7 +85,6 @@ def fetch_account_devices():
     raw = resp.json()
     devices = _extract_device_list(raw)
 
-
     if not devices and isinstance(raw, dict):
         values = [v for v in raw.values() if isinstance(v, dict)]
         if values:
@@ -325,19 +324,25 @@ def build_power_bi_flat_files(devices, group_summary=None):
     """
     Build flat, Power BI–friendly JSON files:
 
-      - xio-devices-flat.json : one row per device
+      - xio-devices-flat.json : one row per device (limited fields)
       - xio-rooms-flat.json   : one row per room (counts)
       - xio-groups-flat.json  : one row per group of interest (optional)
 
-    These are meant to be consumed directly by Power BI via 'Get data -> Web'.
+    Devices file only includes:
+      - name
+      - device_model
+      - firmware
+      - serial
+      - mac_address
+      - status
     """
     devices_flat = []
     rooms_map = {}
 
+
     for d in devices:
         dev = d.get("device") if isinstance(d.get("device"), dict) else d
 
-        device_id = _first(dev, "device-id", "DeviceId", "DeviceID", "id")
         name = _first(dev, "device-name", "Name", "name")
         status = _first(dev, "device-status", "Online Status", "status")
         group_id = _first(dev, "device-groupid", "GroupId", "groupId")
@@ -352,23 +357,48 @@ def build_power_bi_flat_files(devices, group_summary=None):
             "location-buildingname",
         )
 
-        model = _first(dev, "device-model", "Model", "model")
-        serial = _first(dev, "serial-number", "serialNumber", "SerialNumber")
-        firmware = _first(dev, "firmware-version", "firmwareVersion", "FirmwareVersion")
+
+        device_model = _first(dev, "Device-Model", "device-model", "Model", "model")
+
+
+        firmware = _first(
+            dev,
+            "Firmware-Version",
+            "firmware-version",
+            "firmwareVersion",
+            "FirmwareVersion",
+        )
+
+
+        serial = _first(
+            dev,
+            "Serial-Number",
+            "serial-number",
+            "serialNumber",
+            "SerialNumber",
+        )
+
+
+        mac_address = _first(
+            dev,
+            "Mac-Address",
+            "macAddress",
+            "MacAddress",
+            "MAC-Address",
+        )
+
+
         last_seen = _first(dev, "last-contact", "lastContact", "LastContact")
+
 
         devices_flat.append(
             {
-                "device_id": device_id,
                 "name": name,
-                "status": status,
-                "group_id": group_id,
-                "room_name": room_name,
-                "building_name": building_name,
-                "model": model,
-                "serial_number": serial,
+                "device_model": device_model,
                 "firmware": firmware,
-                "last_seen": last_seen,
+                "serial": serial,
+                "mac_address": mac_address,
+                "status": status,
             }
         )
 
@@ -430,6 +460,7 @@ def build_power_bi_flat_files(devices, group_summary=None):
                     "last_updated": meta.get("generatedAtUtc", now_iso),
                 }
             )
+
 
     with open("xio-devices-flat.json", "w", encoding="utf-8") as f:
         json.dump(devices_flat, f, indent=2)
