@@ -1,1 +1,55 @@
+name: Update KeyServer Computer Summary
 
+on:
+  schedule:
+    # e.g. every 2 minutes
+    - cron: "*/2 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: keyserver-summary
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run KeyServer summary script
+        env:
+          SASSAFRAS_TOKEN: ${{ secrets.SASSAFRAS_TOKEN }}
+        run: |
+          python key_summary.py
+          ls -l sassafras-computer-summary.json
+
+      - name: Commit and push summary
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add sassafras-computer-summary.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update KeyServer summary [skip ci]"
+          git push
