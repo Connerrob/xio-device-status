@@ -1,75 +1,75 @@
-name: Update XiO Device Summary
+#name: Update XiO Device Summary
 
-on:
-  schedule:
+#on:
+ # schedule:
     # runs every 6 minutes
-    - cron: "*/590 * * * *"
-  workflow_dispatch: {}
+  #  - cron: "*/590 * * * *"
+  # workflow_dispatch: {}
 
-permissions:
-  contents: write
+# permissions:
+  # contents: write
 
-concurrency:
-  group: xio-summary
-  cancel-in-progress: true
+#concurrency:
+ # group: xio-summary
+  #cancel-in-progress: true
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+#jobs:
+ # build:
+  #  runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+   # steps:
+    #  - name: Checkout repo
+     #   uses: actions/checkout@v4
+      #  with:
+       #   fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+      #- name: Set up Python
+       # uses: actions/setup-python@v5
+        #with:
+         # python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install requests
+     # - name: Install dependencies
+      #  run: pip install requests
 
-      - name: Run XiO summary script
-        env:
-          XIO_ACCOUNT_ID: ${{ secrets.XIO_ACCOUNT_ID }}
-          XIO_SUBSCRIPTION_KEY: ${{ secrets.XIO_SUBSCRIPTION_KEY }}
-        run: python xio_summary.py
+     # - name: Run XiO summary script
+      #  env:
+       #   XIO_ACCOUNT_ID: ${{ secrets.XIO_ACCOUNT_ID }}
+        #  XIO_SUBSCRIPTION_KEY: ${{ secrets.XIO_SUBSCRIPTION_KEY }}
+       # run: python xio_summary.py
 
-      - name: Commit and push JSON if changed
-        run: |
-          # See if any XiO JSON files changed (including flat files)
-          if git status --porcelain | grep -E "xio-.*\.json"; then
-            echo "XiO JSON files changed, preparing to commit..."
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
+      #- name: Commit and push JSON if changed
+       # run: |
+         # # See if any XiO JSON files changed (including flat files)
+        #  if git status --porcelain | grep -E "xio-.*\.json"; then
+          #  echo "XiO JSON files changed, preparing to commit..."
+           # git config user.name "github-actions[bot]"
+            #git config user.email "github-actions[bot]@users.noreply.github.com"
 
-            # Make sure we are based on the latest origin/main
-            git fetch origin main
-            git reset --soft origin/main
+            ## Make sure we are based on the latest origin/main
+            #git fetch origin main
+            #git reset --soft origin/main
 
-            # Add all XiO JSON files that exist in the repo root
-            for f in \
-              xio-summary.json \
-              xio-devices-ui.json \
-              xio-groups-summary.json \
-              xio-groups-tree.json \
-              xio-devices-flat.json \
-              xio-rooms-flat.json \
-              xio-groups-flat.json; do
-              if [ -f "$f" ]; then
-                git add "$f"
-              fi
-            done
+           # # Add all XiO JSON files that exist in the repo root
+            #for f in \
+             # xio-summary.json \
+              #xio-devices-ui.json \
+              #xio-groups-summary.json \
+              #xio-groups-tree.json \
+              #xio-devices-flat.json \
+              #xio-rooms-flat.json \
+              #xio-groups-flat.json; do
+              #if [ -f "$f" ]; then
+               # git add "$f"
+              #fi
+           # done
 
             # Commit only if there is something staged
-            if git diff --cached --quiet; then
-              echo "No staged changes after add; skipping commit."
-            else
-              git commit -m "Update XiO JSON"
-              git push origin HEAD:main
-            fi
-          else
-            echo "No changes to XiO JSON files"
-          fi
+            #if git diff --cached --quiet; then
+            #  echo "No staged changes after add; skipping commit."
+           # else
+          #    git commit -m "Update XiO JSON"
+         #     git push origin HEAD:main
+        #    fi
+         # else
+           # echo "No changes to XiO JSON files"
+          # fi
