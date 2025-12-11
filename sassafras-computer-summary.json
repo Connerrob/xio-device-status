@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-11T11:44:29.799031+00:00",
+  "generated_at": "2025-12-11T11:54:30.104518+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,12 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 406
+      "count": 404
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1585
+      "count": 1586
+    },
+    {
+      "status_code": 4,
+      "status_label": "In Use",
+      "count": 1
     }
   ],
   "divisions": [
@@ -202,7 +207,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 65
+          "count": 64
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -277,12 +287,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 21
+          "count": 20
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 119
+          "count": 120
         }
       ]
     },
@@ -530,12 +540,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 38
+          "count": 37
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 197
+          "count": 198
         }
       ]
     },
@@ -727,12 +737,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 38
+          "count": 37
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 197
+          "count": 198
         }
       ],
       "divisions": [
@@ -751,7 +761,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 168
+          "count": 167
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -807,12 +822,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 31
+          "count": 30
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 208
+          "count": 209
         }
       ],
       "divisions": [
