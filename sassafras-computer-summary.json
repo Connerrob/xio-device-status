@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-11T12:04:59.194809+00:00",
+  "generated_at": "2025-12-11T12:14:29.830355+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 385
+      "count": 386
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1605
+      "count": 1603
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 1
+      "count": 2
     }
   ],
   "divisions": [
@@ -110,7 +110,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 244
+          "count": 243
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -479,9 +484,14 @@
       "total": 36,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 36
+          "count": 35
         }
       ]
     },
@@ -649,7 +659,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 245
+          "count": 244
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -920,9 +935,14 @@
       "total": 36,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 36
+          "count": 35
         }
       ],
       "divisions": [
