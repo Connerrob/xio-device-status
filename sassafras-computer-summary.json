@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-16T21:34:39.785956+00:00",
+  "generated_at": "2025-12-16T21:44:39.608151+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -14,12 +14,12 @@
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1676
+      "count": 1675
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 16
+      "count": 17
     }
   ],
   "divisions": [
@@ -290,6 +290,11 @@
       "total": 140,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
           "count": 137
@@ -297,7 +302,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 2
         }
       ]
     },
@@ -341,7 +346,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 11
+          "count": 10
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -498,7 +508,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 5
+          "count": 4
         },
         {
           "status_code": 2,
@@ -508,7 +518,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -715,7 +725,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 5
+          "count": 4
         },
         {
           "status_code": 2,
@@ -725,7 +735,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ],
       "divisions": [
@@ -795,7 +805,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 11
+          "count": 10
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -823,7 +838,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
@@ -833,7 +848,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 5
+          "count": 4
         }
       ],
       "divisions": [
@@ -1065,12 +1080,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1561
+          "count": 1560
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 16
+          "count": 17
         }
       ]
     },
@@ -1238,7 +1253,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 3
         },
         {
           "status_code": 2,
@@ -1248,7 +1263,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ],
       "divisions": [
@@ -1372,7 +1387,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 11
+          "count": 10
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1417,7 +1437,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
@@ -1427,7 +1447,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 5
+          "count": 4
         }
       ],
       "divisions": [
@@ -10426,8 +10446,8 @@
       "division": "Norman Library",
       "building": "Education Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -10579,8 +10599,8 @@
       "division": "Law Library",
       "building": "Holland Law",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -10831,8 +10851,8 @@
       "division": "Norman Library",
       "building": "Education Library",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -18049,8 +18069,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
