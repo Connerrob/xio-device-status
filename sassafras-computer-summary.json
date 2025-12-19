@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-19T04:14:23.410239+00:00",
+  "generated_at": "2025-12-19T04:24:20.205454+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 353
+      "count": 354
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1638
+      "count": 1636
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 1
+      "count": 2
     }
   ],
   "divisions": [
@@ -105,12 +105,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 247
+          "count": 248
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 249
+          "count": 248
         }
       ]
     },
@@ -547,7 +547,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 13
+          "count": 12
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -625,12 +630,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 248
+          "count": 249
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 251
+          "count": 250
         }
       ],
       "divisions": [
@@ -951,7 +956,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 13
+          "count": 12
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1015,17 +1025,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 349
+          "count": 350
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1523
+          "count": 1521
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -1125,12 +1135,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 248
+          "count": 249
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 251
+          "count": 250
         }
       ],
       "divisions": [
@@ -1593,7 +1603,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 12
+          "count": 11
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -4934,8 +4949,8 @@
       "division": "Unassigned",
       "building": "Unassigned",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -8489,8 +8504,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
