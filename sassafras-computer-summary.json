@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-20T05:44:26.555352+00:00",
+  "generated_at": "2025-12-20T06:05:44.894054+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,12 +9,12 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 305
+      "count": 311
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1709
+      "count": 1704
     }
   ],
   "divisions": [
@@ -90,17 +90,17 @@
     },
     {
       "division": "Classroom Support",
-      "total": 518,
+      "total": 519,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 247
+          "count": 253
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 271
+          "count": 266
         }
       ]
     },
@@ -600,17 +600,17 @@
     },
     {
       "building": "Classrooms",
-      "total": 521,
+      "total": 522,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 247
+          "count": 253
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 274
+          "count": 269
         }
       ],
       "divisions": [
@@ -980,7 +980,7 @@
   "platforms": [
     {
       "platform": "Windows",
-      "count": 1895
+      "count": 1896
     },
     {
       "platform": "macOS",
@@ -990,17 +990,17 @@
   "platform_status": [
     {
       "platform": "Windows",
-      "total": 1895,
+      "total": 1896,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 301
+          "count": 307
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1594
+          "count": 1589
         }
       ]
     },
@@ -1090,17 +1090,17 @@
     {
       "building": "Classrooms",
       "platform": "Windows",
-      "total": 521,
+      "total": 522,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 247
+          "count": 253
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 274
+          "count": 269
         }
       ],
       "divisions": [
@@ -1656,7 +1656,7 @@
       ]
     }
   ],
-  "total_computers": 2014,
+  "total_computers": 2015,
   "computers": [
     {
       "ident": null,
@@ -9881,8 +9881,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -13499,8 +13499,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -13526,8 +13526,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -13535,8 +13535,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -13607,8 +13607,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -13877,8 +13877,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -14219,8 +14219,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -14282,8 +14282,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -14570,8 +14570,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -14615,8 +14615,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -14660,12 +14660,21 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
+      "status_code": 0,
+      "status_label": "Offline"
+    },
+    {
+      "ident": null,
+      "name": "AT-MAT-0012",
+      "division": "Classroom Support",
+      "building": "Classrooms",
+      "platform": "Windows",
       "status_code": 2,
       "status_label": "Available"
     },
     {
       "ident": null,
-      "name": "AT-MAT-0012",
+      "name": "AT-MAT-0006",
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
@@ -14912,8 +14921,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
