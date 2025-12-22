@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-22T13:54:31.152266+00:00",
+  "generated_at": "2025-12-22T14:04:31.423019+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 350
+      "count": 353
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1664
+      "count": 1657
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 2
+      "count": 6
     }
   ],
   "divisions": [
@@ -95,12 +95,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 243
+          "count": 245
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 277
+          "count": 274
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -234,7 +239,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 5
+          "count": 4
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -481,12 +491,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 35
+          "count": 33
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -513,12 +528,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 41
+          "count": 40
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -665,12 +680,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 244
+          "count": 246
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 279
+          "count": 276
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -730,12 +750,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 41
+          "count": 40
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ],
       "divisions": [
@@ -829,7 +849,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 5
+          "count": 4
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -943,12 +968,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 36
+          "count": 34
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1075,17 +1105,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 346
+          "count": 349
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1549
+          "count": 1542
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 6
         }
       ]
     },
@@ -1180,12 +1210,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 244
+          "count": 246
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 279
+          "count": 276
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1248,12 +1283,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 37
+          "count": 36
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ],
       "divisions": [
@@ -1402,7 +1437,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 4
+          "count": 3
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1580,9 +1620,19 @@
       "total": 12,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 12
+          "count": 10
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -2849,8 +2899,8 @@
       "division": "Hub 120",
       "building": "Hub",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -10562,8 +10612,8 @@
       "division": "Norman Library",
       "building": "Education Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -13370,8 +13420,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -13946,8 +13996,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -14090,8 +14140,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -16592,8 +16642,8 @@
       "division": "NRN 1st Floor",
       "building": "Norman Hall",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -17960,8 +18010,8 @@
       "division": "NRN 1st Floor",
       "building": "Norman Hall",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
