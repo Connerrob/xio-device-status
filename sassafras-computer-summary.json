@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-29T09:14:12.111137+00:00",
+  "generated_at": "2025-12-29T09:24:11.371918+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -185,9 +185,14 @@
       "total": 69,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 69
+          "count": 68
         }
       ]
     },
@@ -501,12 +506,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 233
+          "count": 234
         }
       ]
     },
@@ -698,12 +703,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 233
+          "count": 234
         }
       ],
       "divisions": [
@@ -717,12 +722,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 176
+          "count": 175
         }
       ],
       "divisions": [
@@ -1223,12 +1228,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 203
+          "count": 204
         }
       ],
       "divisions": [
@@ -1258,12 +1263,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 175
+          "count": 174
         }
       ],
       "divisions": [
@@ -7952,8 +7957,8 @@
       "division": "HSCL Floor 2",
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -17717,8 +17722,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
