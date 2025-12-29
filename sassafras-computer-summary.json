@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-29T00:44:11.853418+00:00",
+  "generated_at": "2025-12-29T00:54:11.942206+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -14,12 +14,12 @@
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1724
+      "count": 1723
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 2
+      "count": 3
     }
   ],
   "divisions": [
@@ -100,7 +100,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 272
+          "count": 271
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -610,7 +615,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 274
+          "count": 273
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1005,12 +1015,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1609
+          "count": 1608
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -1110,7 +1120,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 274
+          "count": 273
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -13145,8 +13160,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -14144,8 +14159,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -14378,8 +14393,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
