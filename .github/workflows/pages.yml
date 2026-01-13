@@ -1,35 +1,35 @@
-name: Deploy GitHub Pages
+#name: Deploy GitHub Pages
 
-on:
-  push:
-    branches: [main]
-  workflow_dispatch:
+#on:
+ # push:
+  #  branches: [main]
+#  workflow_dispatch:
 
-concurrency:
-  group: pages-main
-  cancel-in-progress: false
+# concurrency:
+  # group: pages-main
+  # cancel-in-progress: false
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+# permissions:
+ # contents: read
+ # pages: write
+ # id-token: write
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+# jobs:
+ # build:
+  #  runs-on: ubuntu-latest
+   # steps:
+    #  - uses: actions/checkout@v4
 
-      - name: Upload Pages artifact (publish repo root)
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
+     # - name: Upload Pages artifact (publish repo root)
+      #  uses: actions/upload-pages-artifact@v3
+       # with:
+        #  path: .
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-    steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+#  deploy:
+ #   needs: build
+  #  runs-on: ubuntu-latest
+   # environment:
+     # name: github-pages
+   # steps:
+    #  - name: Deploy to GitHub Pages
+     #   uses: actions/deploy-pages@v4
