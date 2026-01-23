@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-23T12:14:12.967520+00:00",
+  "generated_at": "2026-01-23T12:24:12.510993+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 70
+      "count": 55
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1698
+      "count": 1700
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 18
+      "count": 16
     }
   ],
   "divisions": [
@@ -36,12 +36,12 @@
     },
     {
       "division": "Arch",
-      "total": 84,
+      "total": 83,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 2
         },
         {
           "status_code": 2,
@@ -63,13 +63,8 @@
     },
     {
       "division": "CSE.CSE 231",
-      "total": 129,
+      "total": 124,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 5
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -100,12 +95,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 280
+          "count": 279
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 4
         }
       ]
     },
@@ -208,12 +203,12 @@
     },
     {
       "division": "HSCL Floor 3",
-      "total": 19,
+      "total": 18,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
@@ -229,7 +224,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 6
+          "count": 5
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -267,12 +267,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 8
+          "count": 6
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 133
+          "count": 135
         }
       ]
     },
@@ -374,12 +374,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 25
+          "count": 30
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 7
+          "count": 2
         }
       ]
     },
@@ -471,13 +471,8 @@
     },
     {
       "division": "NRN 1st Floor",
-      "total": 37,
+      "total": 36,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -487,13 +482,8 @@
     },
     {
       "division": "Norman Library",
-      "total": 46,
+      "total": 44,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 2
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -503,13 +493,8 @@
     },
     {
       "division": "Smathers Library",
-      "total": 17,
+      "total": 15,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 2
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -519,12 +504,12 @@
     },
     {
       "division": "Turlington",
-      "total": 64,
+      "total": 63,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
@@ -545,13 +530,18 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 224
+          "count": 223
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
     {
       "division": "Unassigned",
-      "total": 18,
+      "total": 16,
       "statuses": [
         {
           "status_code": 0,
@@ -561,7 +551,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 8
+          "count": 6
         },
         {
           "status_code": 4,
@@ -606,12 +596,12 @@
   "buildings": [
     {
       "building": "Antevy Hall",
-      "total": 84,
+      "total": 83,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 2
         },
         {
           "status_code": 2,
@@ -649,12 +639,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 282
+          "count": 281
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 4
         }
       ],
       "divisions": [
@@ -664,13 +654,8 @@
     },
     {
       "building": "Computer Science & Engineering",
-      "total": 158,
+      "total": 153,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 5
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -704,13 +689,8 @@
     },
     {
       "building": "Education Library",
-      "total": 46,
+      "total": 44,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 2
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -747,7 +727,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 224
+          "count": 223
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -756,12 +741,12 @@
     },
     {
       "building": "Health Science Center Library",
-      "total": 178,
+      "total": 177,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 3
         },
         {
           "status_code": 2,
@@ -803,7 +788,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 6
+          "count": 5
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -817,12 +807,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 11
+          "count": 9
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 229
+          "count": 231
         }
       ],
       "divisions": [
@@ -865,12 +855,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 149
+          "count": 154
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 14
+          "count": 9
         }
       ],
       "divisions": [
@@ -917,13 +907,8 @@
     },
     {
       "building": "Norman Hall",
-      "total": 37,
+      "total": 36,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -936,13 +921,8 @@
     },
     {
       "building": "Smathers Library",
-      "total": 17,
+      "total": 15,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 2
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -955,12 +935,12 @@
     },
     {
       "building": "Turlington Hall",
-      "total": 64,
+      "total": 63,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
@@ -974,7 +954,7 @@
     },
     {
       "building": "Unassigned",
-      "total": 18,
+      "total": 16,
       "statuses": [
         {
           "status_code": 0,
@@ -984,7 +964,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 8
+          "count": 6
         },
         {
           "status_code": 4,
@@ -1038,48 +1018,53 @@
   "platforms": [
     {
       "platform": "Windows",
-      "count": 1667
+      "count": 1655
     },
     {
       "platform": "macOS",
-      "count": 119
+      "count": 116
     }
   ],
   "platform_status": [
     {
       "platform": "Windows",
-      "total": 1667,
+      "total": 1655,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 63
+          "count": 51
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1586
+          "count": 1589
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 18
+          "count": 15
         }
       ]
     },
     {
       "platform": "macOS",
-      "total": 119,
+      "total": 116,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 7
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 112
+          "count": 111
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     }
@@ -1108,13 +1093,8 @@
     {
       "building": "Antevy Hall",
       "platform": "macOS",
-      "total": 5,
+      "total": 4,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -1168,12 +1148,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 282
+          "count": 281
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 4
         }
       ],
       "divisions": [
@@ -1184,13 +1164,8 @@
     {
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "total": 158,
+      "total": 153,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 5
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -1226,13 +1201,8 @@
     {
       "building": "Education Library",
       "platform": "Windows",
-      "total": 41,
+      "total": 40,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -1246,13 +1216,8 @@
     {
       "building": "Education Library",
       "platform": "macOS",
-      "total": 5,
+      "total": 4,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -1291,7 +1256,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 196
+          "count": 195
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1321,12 +1291,12 @@
     {
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "total": 177,
+      "total": 176,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 3
         },
         {
           "status_code": 2,
@@ -1400,7 +1370,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 2
+          "count": 1
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1415,12 +1390,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 11
+          "count": 9
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 223
+          "count": 225
         }
       ],
       "divisions": [
@@ -1480,12 +1455,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 144
+          "count": 149
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 14
+          "count": 9
         }
       ],
       "divisions": [
@@ -1585,13 +1560,8 @@
     {
       "building": "Norman Hall",
       "platform": "macOS",
-      "total": 25,
+      "total": 24,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -1605,13 +1575,8 @@
     {
       "building": "Smathers Library",
       "platform": "Windows",
-      "total": 17,
+      "total": 15,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 2
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -1625,12 +1590,12 @@
     {
       "building": "Turlington Hall",
       "platform": "Windows",
-      "total": 64,
+      "total": 63,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
@@ -1645,7 +1610,7 @@
     {
       "building": "Unassigned",
       "platform": "Windows",
-      "total": 18,
+      "total": 16,
       "statuses": [
         {
           "status_code": 0,
@@ -1655,7 +1620,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 8
+          "count": 6
         },
         {
           "status_code": 4,
@@ -1738,7 +1703,7 @@
       ]
     }
   ],
-  "total_computers": 1786,
+  "total_computers": 1771,
   "computers": [
     {
       "ident": null,
@@ -2862,8 +2827,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -2925,8 +2890,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -3087,8 +3052,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -3987,8 +3952,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -5004,23 +4969,14 @@
       "division": "Hub 120",
       "building": "Hub",
       "platform": "macOS",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
       "name": "AT-L-H-243-01M",
       "division": "WDS",
       "building": "WDS",
-      "platform": "macOS",
-      "status_code": 0,
-      "status_label": "Offline"
-    },
-    {
-      "ident": null,
-      "name": "AT-L-A-118-TC02M",
-      "division": "Arch",
-      "building": "Antevy Hall",
       "platform": "macOS",
       "status_code": 0,
       "status_label": "Offline"
@@ -5195,15 +5151,6 @@
       "platform": "macOS",
       "status_code": 2,
       "status_label": "Available"
-    },
-    {
-      "ident": null,
-      "name": "AT-L-N-504-22M",
-      "division": "NRN 1st Floor",
-      "building": "Norman Hall",
-      "platform": "macOS",
-      "status_code": 0,
-      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -5393,15 +5340,6 @@
       "platform": "macOS",
       "status_code": 2,
       "status_label": "Available"
-    },
-    {
-      "ident": null,
-      "name": "AT-L-N-1514-04M",
-      "division": "Norman Library",
-      "building": "Education Library",
-      "platform": "macOS",
-      "status_code": 0,
-      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -6116,15 +6054,6 @@
     },
     {
       "ident": null,
-      "name": "AT-L-LW-316-05",
-      "division": "LBW 3rd floor",
-      "building": "Library West",
-      "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
-    },
-    {
-      "ident": null,
       "name": "AT-L-LW-211-04",
       "division": "LW 211",
       "building": "Library West",
@@ -6617,15 +6546,6 @@
       "platform": "Windows",
       "status_code": 2,
       "status_label": "Available"
-    },
-    {
-      "ident": null,
-      "name": "AT-L-LW-316-03",
-      "division": "LBW 3rd floor",
-      "building": "Library West",
-      "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -7209,8 +7129,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -7650,8 +7570,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -8777,15 +8697,6 @@
       "platform": "Windows",
       "status_code": 2,
       "status_label": "Available"
-    },
-    {
-      "ident": null,
-      "name": "old-at-l-c-231-t01",
-      "division": "HSCL Floor 3",
-      "building": "Health Science Center Library",
-      "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -9918,8 +9829,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -10112,15 +10023,6 @@
     },
     {
       "ident": null,
-      "name": "AT-X-2X8VN23",
-      "division": "CSE.CSE 231",
-      "building": "Computer Science & Engineering",
-      "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
-    },
-    {
-      "ident": null,
       "name": "AT-L-W-409-TC01",
       "division": "Weil",
       "building": "Weil Hall",
@@ -10283,15 +10185,6 @@
     },
     {
       "ident": null,
-      "name": "AT-L-LE-205-02",
-      "division": "Smathers Library",
-      "building": "Smathers Library",
-      "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
-    },
-    {
-      "ident": null,
       "name": "AT-L-N-1500-23",
       "division": "Norman Library",
       "building": "Education Library",
@@ -10451,15 +10344,6 @@
       "platform": "Windows",
       "status_code": 2,
       "status_label": "Available"
-    },
-    {
-      "ident": null,
-      "name": "AT-L-LE-205-01",
-      "division": "Smathers Library",
-      "building": "Smathers Library",
-      "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -13388,15 +13272,6 @@
     },
     {
       "ident": null,
-      "name": "AT-L-C-231-N3",
-      "division": "CSE.CSE 231",
-      "building": "Computer Science & Engineering",
-      "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
-    },
-    {
-      "ident": null,
       "name": "AT-L-C-231-G3",
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
@@ -13946,15 +13821,6 @@
     },
     {
       "ident": null,
-      "name": "AT-X-6VVC724",
-      "division": "CSE.CSE 231",
-      "building": "Computer Science & Engineering",
-      "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
-    },
-    {
-      "ident": null,
       "name": "AT-L-C-231-I5",
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
@@ -13979,15 +13845,6 @@
       "platform": "Windows",
       "status_code": 2,
       "status_label": "Available"
-    },
-    {
-      "ident": null,
-      "name": "AT-L-C-231-I6",
-      "division": "CSE.CSE 231",
-      "building": "Computer Science & Engineering",
-      "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -14513,15 +14370,6 @@
     },
     {
       "ident": null,
-      "name": "AT-X-2ZRYN23",
-      "division": "CSE.CSE 231",
-      "building": "Computer Science & Engineering",
-      "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
-    },
-    {
-      "ident": null,
       "name": "AT-L-C-235-TC01",
       "division": "CSE",
       "building": "Computer Science & Engineering",
@@ -14663,15 +14511,6 @@
       "platform": "Windows",
       "status_code": 2,
       "status_label": "Available"
-    },
-    {
-      "ident": null,
-      "name": "AT-L-T-3K6-T01",
-      "division": "Turlington",
-      "building": "Turlington Hall",
-      "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -15783,8 +15622,8 @@
     {
       "ident": null,
       "name": "AT-L-LW-316-05",
-      "division": "Unassigned",
-      "building": "Unassigned",
+      "division": "LBW 3rd floor",
+      "building": "Library West",
       "platform": "Windows",
       "status_code": 2,
       "status_label": "Available"
@@ -15792,8 +15631,8 @@
     {
       "ident": null,
       "name": "AT-L-LW-316-03",
-      "division": "Unassigned",
-      "building": "Unassigned",
+      "division": "LBW 3rd floor",
+      "building": "Library West",
       "platform": "Windows",
       "status_code": 2,
       "status_label": "Available"
@@ -17768,15 +17607,6 @@
       "platform": "Windows",
       "status_code": 2,
       "status_label": "Available"
-    },
-    {
-      "ident": null,
-      "name": "at-l-n-1500-03z",
-      "division": "Norman Library",
-      "building": "Education Library",
-      "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
     },
     {
       "ident": null,
