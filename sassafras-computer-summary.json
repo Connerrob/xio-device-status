@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-25T14:54:18.090529+00:00",
+  "generated_at": "2026-01-25T15:04:19.573369+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -51,7 +51,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 82
+          "count": 81
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -105,12 +110,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 266
+          "count": 267
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 9
+          "count": 8
         }
       ]
     },
@@ -606,7 +611,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 82
+          "count": 81
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -644,12 +654,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 268
+          "count": 269
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 9
+          "count": 8
         }
       ],
       "divisions": [
@@ -1088,7 +1098,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 78
+          "count": 77
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1163,12 +1178,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 268
+          "count": 269
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 9
+          "count": 8
         }
       ],
       "divisions": [
@@ -8503,8 +8518,8 @@
       "division": "Arch",
       "building": "Antevy Hall",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -11113,8 +11128,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
