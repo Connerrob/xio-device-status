@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-26T16:14:25.460268+00:00",
+  "generated_at": "2026-01-26T16:24:25.095936+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 64
+      "count": 63
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1325
+      "count": 1349
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 381
+      "count": 358
     }
   ],
   "divisions": [
@@ -30,17 +30,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 5
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 10
+          "count": 11
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 1
         }
       ]
     },
@@ -51,12 +51,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 78
+          "count": 79
         },
         {
           "status_code": 4,
@@ -72,12 +72,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 4
+          "count": 3
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 6
+          "count": 7
         }
       ]
     },
@@ -93,12 +93,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 15
+          "count": 25
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 108
+          "count": 98
         }
       ]
     },
@@ -125,12 +125,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 143
+          "count": 150
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 139
+          "count": 132
         }
       ]
     },
@@ -184,12 +184,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 49
+          "count": 48
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -242,12 +242,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 64
+          "count": 63
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 4
         }
       ]
     },
@@ -274,7 +274,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 6
+          "count": 5
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -285,12 +290,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 15
+          "count": 14
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -301,17 +306,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 5
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 45
+          "count": 44
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 7
+          "count": 9
         }
       ]
     },
@@ -322,7 +327,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 6
+          "count": 8
         },
         {
           "status_code": 2,
@@ -332,7 +337,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 18
+          "count": 16
         }
       ]
     },
@@ -370,12 +375,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 10
+          "count": 9
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 9
+          "count": 10
         }
       ]
     },
@@ -439,12 +444,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 22
+          "count": 23
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 9
+          "count": 8
         }
       ]
     },
@@ -471,17 +476,28 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 5
+          "count": 6
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 2
         }
       ]
     },
     {
       "division": "Marston 4th floor",
+      "total": 8,
+      "statuses": [
+        {
+          "status_code": 2,
+          "status_label": "Available",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "division": "Marston 5th floor",
       "total": 8,
       "statuses": [
         {
@@ -497,39 +513,23 @@
       ]
     },
     {
-      "division": "Marston 5th floor",
-      "total": 8,
-      "statuses": [
-        {
-          "status_code": 2,
-          "status_label": "Available",
-          "count": 6
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 2
-        }
-      ]
-    },
-    {
       "division": "Marston CC",
       "total": 84,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 71
+          "count": 73
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 11
+          "count": 10
         }
       ]
     },
@@ -540,12 +540,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 4,
@@ -630,12 +630,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 216
+          "count": 217
         },
         {
           "status_code": 4,
@@ -688,17 +688,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 5
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 96
+          "count": 100
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 12
+          "count": 7
         }
       ]
     }
@@ -711,12 +711,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 78
+          "count": 79
         },
         {
           "status_code": 4,
@@ -735,17 +735,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 5
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 10
+          "count": 11
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 1
         }
       ],
       "divisions": [
@@ -764,12 +764,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 145
+          "count": 152
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 139
+          "count": 132
         }
       ],
       "divisions": [
@@ -789,12 +789,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 38
+          "count": 47
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 114
+          "count": 105
         }
       ],
       "divisions": [
@@ -862,12 +862,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 216
+          "count": 217
         },
         {
           "status_code": 4,
@@ -891,12 +891,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 161
+          "count": 159
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 10
+          "count": 12
         }
       ],
       "divisions": [
@@ -928,7 +928,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 6
+          "count": 5
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -942,17 +947,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 13
+          "count": 14
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 192
+          "count": 189
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 35
+          "count": 37
         }
       ],
       "divisions": [
@@ -990,17 +995,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 3
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 134
+          "count": 140
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 27
+          "count": 22
         }
       ],
       "divisions": [
@@ -1043,12 +1048,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 4,
@@ -1172,17 +1177,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 5
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 96
+          "count": 100
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 12
+          "count": 7
         }
       ],
       "divisions": [
@@ -1213,12 +1218,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1220
+          "count": 1243
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 375
+          "count": 352
         }
       ]
     },
@@ -1229,12 +1234,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 5
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 105
+          "count": 106
         },
         {
           "status_code": 4,
@@ -1276,14 +1281,9 @@
       "total": 4,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 3
+          "count": 4
         }
       ],
       "divisions": [
@@ -1298,17 +1298,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 9
+          "count": 10
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 1
         }
       ],
       "divisions": [
@@ -1348,12 +1348,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 145
+          "count": 152
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 139
+          "count": 132
         }
       ],
       "divisions": [
@@ -1374,12 +1374,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 38
+          "count": 47
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 114
+          "count": 105
         }
       ],
       "divisions": [
@@ -1471,12 +1471,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 186
+          "count": 187
         },
         {
           "status_code": 4,
@@ -1516,12 +1516,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 160
+          "count": 158
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 10
+          "count": 12
         }
       ],
       "divisions": [
@@ -1585,7 +1585,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 2
+          "count": 1
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1600,17 +1605,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 13
+          "count": 14
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 187
+          "count": 184
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 34
+          "count": 36
         }
       ],
       "divisions": [
@@ -1670,17 +1675,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 3
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 129
+          "count": 134
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 26
+          "count": 22
         }
       ],
       "divisions": [
@@ -1700,12 +1705,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 5
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 6
         }
       ],
       "divisions": [
@@ -1745,12 +1745,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 3
+          "count": 4
         }
       ],
       "divisions": [
@@ -1925,17 +1925,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 5
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 66
+          "count": 70
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 12
+          "count": 7
         }
       ],
       "divisions": [
@@ -2245,8 +2245,8 @@
       "division": "CSE",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -2965,8 +2965,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -3118,8 +3118,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -3289,8 +3289,8 @@
       "division": "Marston 3rd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -3748,8 +3748,8 @@
       "division": "Marston 4th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -4036,8 +4036,8 @@
       "division": "Marston 5th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -4441,8 +4441,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -5224,8 +5224,8 @@
       "division": "Hub 120",
       "building": "Hub",
       "platform": "macOS",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -5593,8 +5593,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "macOS",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -6007,8 +6007,8 @@
       "division": "Arch",
       "building": "Antevy Hall",
       "platform": "macOS",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -6745,8 +6745,8 @@
       "division": "LW 211",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -7150,8 +7150,8 @@
       "division": "HSCL Floor 2",
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -7339,8 +7339,8 @@
       "division": "HSCL C-121 Classroom",
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -8689,8 +8689,8 @@
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -8869,8 +8869,8 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -9175,8 +9175,8 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -9184,8 +9184,8 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -9211,8 +9211,8 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -9310,8 +9310,8 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -9391,8 +9391,8 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -9643,8 +9643,8 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -10552,8 +10552,8 @@
       "division": "NEWELL",
       "building": "Newell Hall",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -10921,8 +10921,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -11092,8 +11092,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -11317,8 +11317,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -11452,8 +11452,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -11506,8 +11506,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -11587,8 +11587,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -11812,8 +11812,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -11839,8 +11839,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -11875,8 +11875,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -12055,8 +12055,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -12064,8 +12064,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -12325,8 +12325,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -12613,8 +12613,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -12865,8 +12865,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -12874,8 +12874,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -12883,8 +12883,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -12892,8 +12892,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -13135,8 +13135,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -13594,8 +13594,8 @@
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -13666,8 +13666,8 @@
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -13729,8 +13729,8 @@
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -13819,8 +13819,8 @@
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -13891,8 +13891,8 @@
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -13972,8 +13972,8 @@
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -14125,8 +14125,8 @@
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -14170,8 +14170,8 @@
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -14197,8 +14197,8 @@
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -15241,8 +15241,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -15277,8 +15277,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -16186,8 +16186,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -16402,8 +16402,8 @@
       "division": "AFA Library",
       "building": "Architecture & Fine Arts Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -16501,8 +16501,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -16690,8 +16690,8 @@
       "division": "LBW 2nd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -16816,8 +16816,8 @@
       "division": "LBW 2nd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -16969,8 +16969,8 @@
       "division": "LBW 2nd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -17068,8 +17068,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -17077,8 +17077,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -17248,8 +17248,8 @@
       "division": "AFA Library",
       "building": "Architecture & Fine Arts Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -17365,8 +17365,8 @@
       "division": "LBW 1st floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
