@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-03T09:44:13.678009+00:00",
+  "generated_at": "2026-02-03T09:54:14.295522+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 339
+      "count": 340
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1427
+      "count": 1425
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 4
+      "count": 5
     }
   ],
   "divisions": [
@@ -383,14 +383,9 @@
       "total": 24,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 23
+          "count": 24
         }
       ]
     },
@@ -439,12 +434,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 83
+          "count": 81
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -520,12 +520,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 234
+          "count": 233
         }
       ]
     },
@@ -712,12 +712,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 234
+          "count": 233
         }
       ],
       "divisions": [
@@ -835,12 +835,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 156
+          "count": 155
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 3
         }
       ],
       "divisions": [
@@ -1018,17 +1018,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 334
+          "count": 335
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1316
+          "count": 1314
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 4
+          "count": 5
         }
       ]
     },
@@ -1231,12 +1231,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 204
+          "count": 203
         }
       ],
       "divisions": [
@@ -1425,12 +1425,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 153
+          "count": 152
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 3
         }
       ],
       "divisions": [
@@ -3005,8 +3005,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -3023,8 +3023,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -3788,8 +3788,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -15272,8 +15272,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
