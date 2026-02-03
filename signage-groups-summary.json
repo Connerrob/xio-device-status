@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAtUtc": "2026-02-03T16:44:46.688662+00:00",
+    "generatedAtUtc": "2026-02-03T16:54:47.245281+00:00",
     "source": "signage.csv"
   },
   "groups": [
@@ -192,8 +192,8 @@
       "total": 5,
       "counts": {
         "online": 3,
-        "offline": 1,
-        "needsAttention": 1
+        "offline": 2,
+        "needsAttention": 0
       },
       "devices": [
         {
@@ -223,8 +223,8 @@
         {
           "name": "LAS-PUG-Ocora-3",
           "location": "UF-CLAS-BGC",
-          "status": "Needs Attention",
-          "statusColor": "yellow",
+          "status": "Offline",
+          "statusColor": "red",
           "external_address": "128.227.238.73",
           "os_name": "Android",
           "os_version": "10",
@@ -1234,7 +1234,7 @@
           "location": "UF-ENG-ADMIN",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.251.4",
+          "external_address": "128.227.251.5",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
           "playlist_names": "MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26",
@@ -1294,7 +1294,7 @@
           "location": "UF-ENG-ADMIN",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.251.5",
+          "external_address": "128.227.251.4",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
           "playlist_names": "MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26",
@@ -1318,7 +1318,7 @@
           "location": "UF-ENG-ADMIN",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.251.4",
+          "external_address": "128.227.251.5",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
           "playlist_names": "MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26",
@@ -1420,7 +1420,7 @@
           "location": "UF-ENG-ECE",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.240.46",
+          "external_address": "128.227.195.181",
           "os_name": "Android",
           "os_version": "11",
           "playlist_names": "Larsen Playlist (UPDATED 1/30/26)",
@@ -1432,7 +1432,7 @@
           "location": "UF-ENG-ECE",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.251.5",
+          "external_address": "128.227.251.4",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
           "playlist_names": "MALA 5000 Playlist (UPDATED 1/30/26)",
@@ -1558,7 +1558,7 @@
           "location": "UF-ENG-ESSIE",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.244.184",
+          "external_address": "128.227.122.3",
           "os_name": "Windows 10",
           "os_version": "10.0 amd64",
           "playlist_names": "IT-WEIL-DS-PIT 1/30/26  IT-WEIL-DS-PIT 1/30/26  IT-WEIL-DS-PIT 1/30/26  IT-WEIL-DS-PIT 1/30/26  IT-WEIL-DS-PIT 1/30/26  IT-WEIL-DS-PIT 1/30/26",
@@ -1889,7 +1889,7 @@
           "location": "UF-HOBI",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.244.126",
+          "external_address": "128.227.108.11",
           "playlist_names": "Airplay Screens  Airplay Screens",
           "player_key": "fcb99b6e-ac75-4140-af59-cbdbc22b2c2d",
           "user": "afahnlander@ufl.edu"
@@ -2085,9 +2085,9 @@
           "location": "UF-IFAS-AEC",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.125.149",
+          "external_address": "128.227.140.95",
           "os_name": "Android",
-          "os_version": "11",
+          "os_version": "12",
           "playlist_names": "Spring 2026 Playlist  Spring 2026 Playlist  Spring 2026 Playlist  Spring 2026 Playlist  Spring 2026 Playlist",
           "player_key": "affd9785-deed-483c-99b1-cf2ca89bc238",
           "user": "cassm22@ufl.edu"
@@ -2219,9 +2219,9 @@
           "external_address": "128.227.107.20",
           "os_name": "Android",
           "os_version": "10",
-          "playlist_names": "ICS Lobby  ICS Lobby",
+          "playlist_names": "ICS Lobby  ICS Lobby  ICS Lobby",
           "player_key": "26f868fd-abb4-4db7-90ec-4dc9205f6257",
-          "user": "barnasht@ufl.edu"
+          "user": "rnegrongonzalez@ufl.edu"
         }
       ]
     },
@@ -2319,7 +2319,7 @@
           "location": "UF-IFAS-FOOD SCIENCE",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.137.175",
+          "external_address": "128.227.171.220",
           "os_name": "Android",
           "os_version": "11",
           "playlist_names": "FSHN Rotating Content Playlist",
@@ -2577,39 +2577,6 @@
       ]
     },
     {
-      "name": "UF-IFAS-VP",
-      "total": 2,
-      "counts": {
-        "online": 2,
-        "offline": 0,
-        "needsAttention": 0
-      },
-      "devices": [
-        {
-          "name": "SVP Inside (Lobby)",
-          "location": "UF-IFAS-VP",
-          "status": "Online",
-          "statusColor": "green",
-          "external_address": "128.227.146.96",
-          "os_name": "Android",
-          "os_version": "14",
-          "playlist_names": "SVP Inside (Lobby)",
-          "player_key": "b288af97-7e1c-4255-9c78-24cd2b634ba9",
-          "user": "rnegrongonzalez@ufl.edu"
-        },
-        {
-          "name": "SVP Outside (Hallway)",
-          "location": "UF-IFAS-VP",
-          "status": "Online",
-          "statusColor": "green",
-          "external_address": "128.227.180.223",
-          "playlist_names": "SVP Outside (Hallway)",
-          "player_key": "c4f54d08-58cb-45c7-8057-5f0e5382ddd2",
-          "user": "rnegrongonzalez@ufl.edu"
-        }
-      ]
-    },
-    {
       "name": "UF-INNOVATION ACADEMY",
       "total": 1,
       "counts": {
@@ -2774,7 +2741,7 @@
           "location": "UF-LIBRARIES",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.169.53",
+          "external_address": "128.227.125.229",
           "os_name": "Windows 10",
           "os_version": "10.0 amd64",
           "playlist_names": "HSCL - no gifs  HSCL - no gifs  HSCL - no gifs  HSCL - no gifs  HSCL - no gifs  HSCL - no gifs",
@@ -2796,7 +2763,7 @@
           "location": "UF-LIBRARIES",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.230.25",
+          "external_address": "128.227.194.247",
           "playlist_names": "Airmedia Background  Airmedia Background  Airmedia Background  Airmedia Background  Airmedia Background  Airmedia Background",
           "player_key": "f2f3d7be-72ba-4a3c-b03d-81bd8c6e2b31",
           "user": "m.tyler82@ufl.edu"
@@ -3364,7 +3331,7 @@
           "location": "UF-STUDENTSUCCESS",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.251.3",
+          "external_address": "128.227.251.4",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "October 2025  October 2025  October 2025",
@@ -3778,7 +3745,7 @@
           "location": "UFIT-COMMUNICATIONS",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.219.245",
+          "external_address": "128.227.188.78",
           "os_name": "Windows 10",
           "os_version": "10.0 amd64",
           "playlist_names": "UFIT Staff Photos  FY26 Q2 Kudos  UFIT Staff Photos  FY26 Q2 Kudos  UFIT Staff Photos  FY26 Q2 Kudos  UFIT Staff Photos  FY26 Q2 Kudos  UFIT Staff Photos  FY26 Q2 Kudos  UFIT Staff Photos  FY26 Q2 Kudos  UFIT Staff Photos  FY26 Q2 Kudos  UFIT Staff Photos  FY26 Q2 Kudos  UFIT Staff Photos  FY26 Q2 Kudos",
