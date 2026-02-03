@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAtUtc": "2026-02-03T14:54:21.376148+00:00",
+    "generatedAtUtc": "2026-02-03T15:54:46.593747+00:00",
     "source": "signage.csv"
   },
   "groups": [
@@ -8,16 +8,16 @@
       "name": "UF-ACS",
       "total": 2,
       "counts": {
-        "online": 0,
-        "offline": 2,
+        "online": 2,
+        "offline": 0,
         "needsAttention": 0
       },
       "devices": [
         {
           "name": "BMS TV Screen",
           "location": "UF-ACS",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.229.184",
           "os_name": "Android",
           "os_version": "10",
@@ -28,9 +28,9 @@
         {
           "name": "Comm TV Screen",
           "location": "UF-ACS",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.173.9",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.106.97",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
           "playlist_names": "Comm - Video",
@@ -156,8 +156,8 @@
       "name": "UF-CLAS-AAC",
       "total": 2,
       "counts": {
-        "online": 1,
-        "offline": 1,
+        "online": 2,
+        "offline": 0,
         "needsAttention": 0
       },
       "devices": [
@@ -176,9 +176,9 @@
         {
           "name": "AAC Lobby 1",
           "location": "UF-CLAS-AAC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.251.5",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.3",
           "os_name": "Android",
           "os_version": "11",
           "playlist_names": "Info Slides  Info Slides  Info Slides  Info Slides  Info Slides  Info Slides  Info Slides",
@@ -361,9 +361,9 @@
       "name": "UF-COLLEGE OF THE ARTS",
       "total": 4,
       "counts": {
-        "online": 3,
+        "online": 4,
         "offline": 0,
-        "needsAttention": 1
+        "needsAttention": 0
       },
       "devices": [
         {
@@ -381,8 +381,8 @@
         {
           "name": "Deans Side",
           "location": "UF-COLLEGE OF THE ARTS",
-          "status": "Needs Attention",
-          "statusColor": "yellow",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.237.173",
           "os_name": "Android",
           "os_version": "10",
@@ -478,16 +478,16 @@
       "name": "UF-DEAN OF STUDENTS",
       "total": 12,
       "counts": {
-        "online": 0,
-        "offline": 12,
+        "online": 8,
+        "offline": 4,
         "needsAttention": 0
       },
       "devices": [
         {
           "name": "(1) 2nd Floor Lobby Screen 1",
           "location": "UF-DEAN OF STUDENTS",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.206.243",
           "os_name": "Android",
           "os_version": "10",
@@ -510,8 +510,8 @@
         {
           "name": "(2) 2nd Floor Lobby Screen 2",
           "location": "UF-DEAN OF STUDENTS",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.230.156",
           "os_name": "Android",
           "os_version": "10",
@@ -522,9 +522,9 @@
         {
           "name": "(2) 3rd Floor Lobby Screen 2",
           "location": "UF-DEAN OF STUDENTS",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.185.8",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.4",
           "os_name": "Android",
           "os_version": "10",
           "playlist_names": "DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  D",
@@ -534,8 +534,8 @@
         {
           "name": "(3) 2nd Floor Lobby Screen 3",
           "location": "UF-DEAN OF STUDENTS",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.209.57",
           "os_name": "Android",
           "os_version": "10",
@@ -558,7 +558,7 @@
           "location": "UF-DEAN OF STUDENTS",
           "status": "Offline",
           "statusColor": "red",
-          "external_address": "128.227.113.27",
+          "external_address": "128.227.251.4",
           "os_name": "Android",
           "os_version": "10",
           "playlist_names": "DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  DSO Main Slideshow  D",
@@ -580,8 +580,8 @@
         {
           "name": "(5) 2nd Floor Lobby Screen 5",
           "location": "UF-DEAN OF STUDENTS",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.113.226",
           "os_name": "Android",
           "os_version": "10",
@@ -592,8 +592,8 @@
         {
           "name": "CVSC  Yon Hall",
           "location": "UF-DEAN OF STUDENTS",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.169.146",
           "os_name": "Android",
           "os_version": "10",
@@ -604,8 +604,8 @@
         {
           "name": "Field & Fork Pantry Screen 1",
           "location": "UF-DEAN OF STUDENTS",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.108.55",
           "os_name": "Android",
           "os_version": "10",
@@ -616,8 +616,8 @@
         {
           "name": "Field & Fork Pantry Screen 2",
           "location": "UF-DEAN OF STUDENTS",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.211.23",
           "os_name": "Android",
           "os_version": "10",
@@ -631,8 +631,8 @@
       "name": "UF-DSIT-RC",
       "total": 30,
       "counts": {
-        "online": 4,
-        "offline": 26,
+        "online": 30,
+        "offline": 0,
         "needsAttention": 0
       },
       "devices": [
@@ -651,9 +651,9 @@
         {
           "name": "Grinter-299H-DS-55LG",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.219.137",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.4",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
           "playlist_names": "Grinter-2ndfloor   Grinter-2ndfloor   Grinter-2ndfloor   Grinter-2ndfloor   Grinter-2ndfloor   Grinter-2ndfloor   Grinter-2ndfloor   Grinter-2ndfloor   Grinter-2ndfloor",
@@ -675,9 +675,9 @@
         {
           "name": "MALA-3002-DS-LEFT (3 West Elevators - Left TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.140.154",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.5",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "3-WEST-elevator-LEFT-MAP  3-WEST-elevator-LEFT-MAP  3-WEST-elevator-LEFT-MAP  3-WEST-elevator-LEFT-MAP  3-WEST-elevator-LEFT-MAP  3-WEST-elevator-LEFT-MAP  3-WEST-elevator-LEFT-MAP  3-WEST-elevator-LEFT-MAP  3-WEST-elevator-LEFT-MAP",
@@ -687,9 +687,9 @@
         {
           "name": "MALA-3002-DS-RIGHT (3 West Elevators - Right TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.118.240",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.4",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-",
@@ -699,9 +699,9 @@
         {
           "name": "MALA-4006-DS-LEFT (4 West Elevators - Left TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.117.43",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.249.229",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "4-WEST-elevator-LEFT-MAP  4-WEST-elevator-LEFT-MAP  4-WEST-elevator-LEFT-MAP  4-WEST-elevator-LEFT-MAP  4-WEST-elevator-LEFT-MAP  4-WEST-elevator-LEFT-MAP  4-WEST-elevator-LEFT-MAP  4-WEST-elevator-LEFT-MAP  4-WEST-elevator-LEFT-MAP",
@@ -711,9 +711,9 @@
         {
           "name": "MALA-4006-DS-RIGHT (4 West Elevators - Right TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.134.245",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.4",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-",
@@ -723,9 +723,9 @@
         {
           "name": "MALA-5056-DS-LEFT (5 West Elevators - Left TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.173.151",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.4",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "5-WEST-elevator-LEFT-MAP  5-WEST-elevator-LEFT-MAP  5-WEST-elevator-LEFT-MAP  5-WEST-elevator-LEFT-MAP  5-WEST-elevator-LEFT-MAP  5-WEST-elevator-LEFT-MAP  5-WEST-elevator-LEFT-MAP  5-WEST-elevator-LEFT-MAP  5-WEST-elevator-LEFT-MAP",
@@ -735,9 +735,9 @@
         {
           "name": "MALA-5056-DS-RIGHT (5 West Elevators - Right TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.105.32",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.125.27",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-",
@@ -747,9 +747,9 @@
         {
           "name": "MALA-6117-DS-LEFT (6 West Elevators - Left TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.127.61",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.4",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "6-WEST-elevator-LEFT-MAP  6-WEST-elevator-LEFT-MAP  6-WEST-elevator-LEFT-MAP  6-WEST-elevator-LEFT-MAP  6-WEST-elevator-LEFT-MAP  6-WEST-elevator-LEFT-MAP  6-WEST-elevator-LEFT-MAP  6-WEST-elevator-LEFT-MAP  6-WEST-elevator-LEFT-MAP",
@@ -759,9 +759,9 @@
         {
           "name": "MALA-6117-DS-RIGHT (6 West Elevators - Right TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.164.198",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.237.110",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-",
@@ -771,9 +771,9 @@
         {
           "name": "MALA-7026-DS-LEFT (7 West Elevators - Left TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.164.145",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.237.64",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "7-WEST-elevator-LEFT-MAP  7-WEST-elevator-LEFT-MAP  7-WEST-elevator-LEFT-MAP  7-WEST-elevator-LEFT-MAP  7-WEST-elevator-LEFT-MAP  7-WEST-elevator-LEFT-MAP  7-WEST-elevator-LEFT-MAP  7-WEST-elevator-LEFT-MAP  7-WEST-elevator-LEFT-MAP",
@@ -783,9 +783,9 @@
         {
           "name": "MALA-7026-DS-RIGHT (7 West Elevators - Right TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.191.28",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.209.171",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-RIGHT - 1-12-2026  Floors 3-7-WEST-Elevators-",
@@ -795,9 +795,9 @@
         {
           "name": "MALA-C199E-DS-98LG (1 Main Lobby - 98\" TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.125.110",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.105.120",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
           "playlist_names": "1-WEST-Lobby 24-04-18 REVISED  1-WEST-Lobby 24-04-18 REVISED  1-WEST-Lobby 24-04-18 REVISED  1-WEST-Lobby 24-04-18 REVISED  1-WEST-Lobby 24-04-18 REVISED  1-WEST-Lobby 24-04-18 REVISED  1-WEST-Lobby 24-04-18 REVISED  1-WEST-Lobby 24-04-18 REVISED  1-WEST-Lobby 24-04-18 REVISED",
@@ -807,9 +807,9 @@
         {
           "name": "MALA-C199J-DS-LEFT (1 East Elevators - LEFT TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.207.155",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.133.37",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-eleva",
@@ -819,9 +819,9 @@
         {
           "name": "MALA-C199J-DS-RIGHT (1 East Elevators - RIGHT TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.110.18",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.207.162",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "1-EAST-elevator-RIGHT-MAP  1-EAST-elevator-RIGHT-MAP  1-EAST-elevator-RIGHT-MAP  1-EAST-elevator-RIGHT-MAP  1-EAST-elevator-RIGHT-MAP  1-EAST-elevator-RIGHT-MAP  1-EAST-elevator-RIGHT-MAP  1-EAST-elevator-RIGHT-MAP  1-EAST-elevator-RIGHT-MAP",
@@ -831,9 +831,9 @@
         {
           "name": "MALA-C299C-DS-98LG (2 Main Lobby - 98\" TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.106.146",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.4",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
           "playlist_names": "2-WEST-Lobby - 06-03-2025 - REVISED  2-WEST-Lobby - 06-03-2025 - REVISED  2-WEST-Lobby - 06-03-2025 - REVISED  2-WEST-Lobby - 06-03-2025 - REVISED  2-WEST-Lobby - 06-03-2025 - REVISED  2-WEST-Lobby - 06-03-2025 - REVISED  2-WEST-Lobby - 06-03-2025 - REVISED  2-WEST-Lobby - 06-03-2025 - REVISED  2-WEST-Lobby - 06-03-2025 - REVISED",
@@ -843,9 +843,9 @@
         {
           "name": "MALA-C299G-DS-LEFT (2 East Elevators - LEFT TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.206.19",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.250.140",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-eleva",
@@ -867,9 +867,9 @@
         {
           "name": "MALA-C399C-DS-LEFT (3 East Elevators - Left TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.126.163",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.197.51",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-eleva",
@@ -879,9 +879,9 @@
         {
           "name": "MALA-C399C-DS-RIGHT (3 East Elevators - Right TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.206.209",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.186.216",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "3-EAST-elevator-RIGHT-MAP   3-EAST-elevator-RIGHT-MAP   3-EAST-elevator-RIGHT-MAP   3-EAST-elevator-RIGHT-MAP   3-EAST-elevator-RIGHT-MAP   3-EAST-elevator-RIGHT-MAP   3-EAST-elevator-RIGHT-MAP   3-EAST-elevator-RIGHT-MAP   3-EAST-elevator-RIGHT-MAP",
@@ -891,9 +891,9 @@
         {
           "name": "MALA-C447B-DS-LEFT (4 East Elevators - Left TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.125.86",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.230.35",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-eleva",
@@ -903,9 +903,9 @@
         {
           "name": "MALA-C447B-DS-RIGHT (4 East Elevators - Right TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.125.194",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.238.145",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "4-EAST-elevator-RIGHT-MAP   4-EAST-elevator-RIGHT-MAP   4-EAST-elevator-RIGHT-MAP   4-EAST-elevator-RIGHT-MAP   4-EAST-elevator-RIGHT-MAP   4-EAST-elevator-RIGHT-MAP   4-EAST-elevator-RIGHT-MAP   4-EAST-elevator-RIGHT-MAP   4-EAST-elevator-RIGHT-MAP",
@@ -915,9 +915,9 @@
         {
           "name": "MALA-C599E-DS-LEFT (5 East Elevators - LEFT TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.142.2",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.3",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-eleva",
@@ -927,9 +927,9 @@
         {
           "name": "MALA-C599E-DS-RIGHT (5 East Elevators - RIGHT TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.136.79",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.185.34",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "5-EAST-elevator-RIGHT-MAP  5-EAST-elevator-RIGHT-MAP  5-EAST-elevator-RIGHT-MAP  5-EAST-elevator-RIGHT-MAP  5-EAST-elevator-RIGHT-MAP  5-EAST-elevator-RIGHT-MAP  5-EAST-elevator-RIGHT-MAP  5-EAST-elevator-RIGHT-MAP  5-EAST-elevator-RIGHT-MAP",
@@ -939,9 +939,9 @@
         {
           "name": "MALA-C647B-DS-LEFT (6 East Elevators - Left TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.126.109",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.5",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-eleva",
@@ -951,9 +951,9 @@
         {
           "name": "MALA-C647B-DS-RIGHT (6 East Elevators - Right TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.138.86",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.4",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "6-EAST-elevator-RIGHT-MAP  6-EAST-elevator-RIGHT-MAP  6-EAST-elevator-RIGHT-MAP  6-EAST-elevator-RIGHT-MAP  6-EAST-elevator-RIGHT-MAP  6-EAST-elevator-RIGHT-MAP  6-EAST-elevator-RIGHT-MAP  6-EAST-elevator-RIGHT-MAP  6-EAST-elevator-RIGHT-MAP",
@@ -963,9 +963,9 @@
         {
           "name": "MALA-C799D-DS-LEFT (7 East Elevators - Left TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.139.97",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.4",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-elevators-LEFT 1-12-26  Floors 1-7-EAST-eleva",
@@ -975,9 +975,9 @@
         {
           "name": "MALA-C799D-DS-RIGHT (7 East Elevators - Right TV)",
           "location": "UF-DSIT-RC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.204.147",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.113.176",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "7-EAST-elevator-RIGHT-MAP  7-EAST-elevator-RIGHT-MAP  7-EAST-elevator-RIGHT-MAP  7-EAST-elevator-RIGHT-MAP  7-EAST-elevator-RIGHT-MAP  7-EAST-elevator-RIGHT-MAP  7-EAST-elevator-RIGHT-MAP  7-EAST-elevator-RIGHT-MAP  7-EAST-elevator-RIGHT-MAP",
@@ -1002,16 +1002,16 @@
       "name": "UF-EMED",
       "total": 1,
       "counts": {
-        "online": 0,
-        "offline": 1,
+        "online": 1,
+        "offline": 0,
         "needsAttention": 0
       },
       "devices": [
         {
           "name": "TCL 55\"",
           "location": "UF-EMED",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "184.185.222.15",
           "os_name": "Android",
           "os_version": "11",
@@ -1048,8 +1048,8 @@
       "name": "UF-EMERSON",
       "total": 7,
       "counts": {
-        "online": 1,
-        "offline": 6,
+        "online": 7,
+        "offline": 0,
         "needsAttention": 0
       },
       "devices": [
@@ -1068,8 +1068,8 @@
         {
           "name": "Lobby 1",
           "location": "UF-EMERSON",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.207.177",
           "os_name": "Android",
           "os_version": "10",
@@ -1080,8 +1080,8 @@
         {
           "name": "Lobby 2",
           "location": "UF-EMERSON",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.118.244",
           "os_name": "Android",
           "os_version": "10",
@@ -1092,8 +1092,8 @@
         {
           "name": "Lobby 3",
           "location": "UF-EMERSON",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.192.51",
           "os_name": "Android",
           "os_version": "10",
@@ -1104,8 +1104,8 @@
         {
           "name": "Lobby 4",
           "location": "UF-EMERSON",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.202.141",
           "os_name": "Android",
           "os_version": "12",
@@ -1116,8 +1116,8 @@
         {
           "name": "Mezzanine 1",
           "location": "UF-EMERSON",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.105.161",
           "os_name": "Android",
           "os_version": "10",
@@ -1128,9 +1128,9 @@
         {
           "name": "Mezzanine 2",
           "location": "UF-EMERSON",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.146.89",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.155.122",
           "os_name": "Android",
           "os_version": "10",
           "playlist_names": "Distinguished Alumni  Distinguished Alumni  Distinguished Alumni  Distinguished Alumni  Distinguished Alumni  Distinguished Alumni",
@@ -1188,8 +1188,8 @@
       "name": "UF-ENG-ADMIN",
       "total": 12,
       "counts": {
-        "online": 6,
-        "offline": 6,
+        "online": 12,
+        "offline": 0,
         "needsAttention": 0
       },
       "devices": [
@@ -1232,9 +1232,9 @@
         {
           "name": "MALA-2300-DS-RIGHT (2300 - Right TV) Advising Office",
           "location": "UF-ENG-ADMIN",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.186.227",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.4",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
           "playlist_names": "MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26",
@@ -1268,9 +1268,9 @@
         {
           "name": "MALA-4000-DS-LOBBY (4000 - Lobby) Grad Student Area",
           "location": "UF-ENG-ADMIN",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.104.81",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.4",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26",
@@ -1280,9 +1280,9 @@
         {
           "name": "MALA-5300-DS-LEFT (5300 - Left TV) Grad Student Area",
           "location": "UF-ENG-ADMIN",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.188.232",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.189.186",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
           "playlist_names": "MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26",
@@ -1292,9 +1292,9 @@
         {
           "name": "MALA-5300-DS-RIGHT (5300 - Right TV) Grad Student Area",
           "location": "UF-ENG-ADMIN",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.147.21",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.5",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
           "playlist_names": "MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26",
@@ -1304,9 +1304,9 @@
         {
           "name": "MALA-6200-DS-LEFT (6200 - Left TV) Grad Student Area",
           "location": "UF-ENG-ADMIN",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.143.245",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.230.172",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
           "playlist_names": "MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26",
@@ -1316,9 +1316,9 @@
         {
           "name": "MALA-6200-DS-RIGHT (6200 - Right TV) Grad Student Area",
           "location": "UF-ENG-ADMIN",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.114.241",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.4",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
           "playlist_names": "MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26  MALA ECE Advising Right UPDATED 2/02/26",
@@ -1387,17 +1387,17 @@
       "name": "UF-ENG-CISE",
       "total": 1,
       "counts": {
-        "online": 0,
-        "offline": 1,
+        "online": 1,
+        "offline": 0,
         "needsAttention": 0
       },
       "devices": [
         {
           "name": "CISE HQ MALA-5400-DS-LOBBY (5400 - Lobby)",
           "location": "UF-ENG-CISE",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.183.38",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.207.204",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
           "playlist_names": "CISE Playlist 2/01/26  CISE Playlist 2/01/26",
@@ -1410,8 +1410,8 @@
       "name": "UF-ENG-ECE",
       "total": 2,
       "counts": {
-        "online": 1,
-        "offline": 1,
+        "online": 2,
+        "offline": 0,
         "needsAttention": 0
       },
       "devices": [
@@ -1430,9 +1430,9 @@
         {
           "name": "MALA-5000-DS-LOBBY (5000 - Lobby) ECE HQ",
           "location": "UF-ENG-ECE",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.131.250",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.5",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
           "playlist_names": "MALA 5000 Playlist (UPDATED 1/30/26)",
@@ -1593,7 +1593,7 @@
           "location": "UF-ENG-FSI",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.251.4",
+          "external_address": "128.227.192.37",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "2026 Playlist FSI Suite Screen  2026 Playlist FSI Suite Screen  2026 Playlist FSI Suite Screen",
@@ -1606,8 +1606,8 @@
       "name": "UF-ENG-ISE",
       "total": 6,
       "counts": {
-        "online": 3,
-        "offline": 3,
+        "online": 5,
+        "offline": 1,
         "needsAttention": 0
       },
       "devices": [
@@ -1660,8 +1660,8 @@
         {
           "name": "WEIL-0303-Left (Lobby)",
           "location": "UF-ENG-ISE",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.143.79",
           "os_name": "Android",
           "os_version": "11",
@@ -1672,8 +1672,8 @@
         {
           "name": "WEIL-0303-Right (Lobby)",
           "location": "UF-ENG-ISE",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.188.129",
           "os_name": "Android",
           "os_version": "11",
@@ -1687,8 +1687,8 @@
       "name": "UF-ENG-MSE",
       "total": 4,
       "counts": {
-        "online": 2,
-        "offline": 2,
+        "online": 4,
+        "offline": 0,
         "needsAttention": 0
       },
       "devices": [
@@ -1719,8 +1719,8 @@
         {
           "name": "Rhines Hall Entrance",
           "location": "UF-ENG-MSE",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.222.175",
           "os_name": "Android",
           "os_version": "11",
@@ -1731,8 +1731,8 @@
         {
           "name": "Undergrad Lab Hallway",
           "location": "UF-ENG-MSE",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.126.119",
           "os_name": "Android",
           "os_version": "11",
@@ -1802,17 +1802,17 @@
       "name": "UF-GS",
       "total": 1,
       "counts": {
-        "online": 0,
-        "offline": 1,
+        "online": 1,
+        "offline": 0,
         "needsAttention": 0
       },
       "devices": [
         {
           "name": "Welcome Screen",
           "location": "UF-GS",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.251.5",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.4",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
           "playlist_names": "12/10/25",
@@ -1846,8 +1846,8 @@
       "name": "UF-HOBI",
       "total": 5,
       "counts": {
-        "online": 1,
-        "offline": 4,
+        "online": 3,
+        "offline": 2,
         "needsAttention": 0
       },
       "devices": [
@@ -1863,9 +1863,9 @@
         {
           "name": "MALA-7000-DS-LEFT (7000 - Left TV)",
           "location": "UF-HOBI",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.211.170",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.113.149",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "Admin Lobby  Admin Lobby",
@@ -1875,9 +1875,9 @@
         {
           "name": "MALA-7000-DS-RIGHT (7000 - Right TV)",
           "location": "UF-HOBI",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.133.245",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.211.211",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "BOG Aug 29 V3  BOG Aug 29 V3",
@@ -1889,7 +1889,7 @@
           "location": "UF-HOBI",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.192.1",
+          "external_address": "128.227.244.126",
           "playlist_names": "Airplay Screens  Airplay Screens",
           "player_key": "fcb99b6e-ac75-4140-af59-cbdbc22b2c2d",
           "user": "afahnlander@ufl.edu"
@@ -1933,8 +1933,8 @@
       "name": "UF-HOUSING",
       "total": 7,
       "counts": {
-        "online": 2,
-        "offline": 5,
+        "online": 5,
+        "offline": 2,
         "needsAttention": 0
       },
       "devices": [
@@ -1989,8 +1989,8 @@
         {
           "name": "TIG-SL-1",
           "location": "UF-HOUSING",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.185.24",
           "os_name": "Android",
           "os_version": "11",
@@ -2001,8 +2001,8 @@
         {
           "name": "TIG-SL-2",
           "location": "UF-HOUSING",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.209.212",
           "os_name": "Android",
           "os_version": "11",
@@ -2013,8 +2013,8 @@
         {
           "name": "TIG-SL-3",
           "location": "UF-HOUSING",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.216.22",
           "os_name": "Android",
           "os_version": "11",
@@ -2063,16 +2063,16 @@
       "name": "UF-IFAS-AEC",
       "total": 2,
       "counts": {
-        "online": 1,
-        "offline": 1,
+        "online": 2,
+        "offline": 0,
         "needsAttention": 0
       },
       "devices": [
         {
           "name": "MacLab",
           "location": "UF-IFAS-AEC",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.122.173",
           "os_name": "Android",
           "os_version": "12",
@@ -2098,16 +2098,16 @@
       "name": "UF-IFAS-AECSTUDENT",
       "total": 1,
       "counts": {
-        "online": 0,
-        "offline": 1,
+        "online": 1,
+        "offline": 0,
         "needsAttention": 0
       },
       "devices": [
         {
           "name": "Do not delete  edit this to be your screen you want to show",
           "location": "UF-IFAS-AECSTUDENT",
-          "status": "Offline",
-          "statusColor": "red",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.157.229",
           "os_name": "Android",
           "os_version": "12",
@@ -2165,9 +2165,9 @@
           "status": "Online",
           "statusColor": "green",
           "external_address": "128.227.227.130",
-          "playlist_names": "Building 89 Playlist  Building 89 Playlist",
+          "playlist_names": "Building 89 Playlist  Building 89 Playlist  Building 89 Playlist  Building 89 Playlist",
           "player_key": "bcd14fb3-7043-4706-bf03-95f36e5ebdeb",
-          "user": "kwestfall"
+          "user": "genesisepstein@ufl.edu"
         }
       ]
     },
@@ -2219,9 +2219,9 @@
           "external_address": "128.227.107.20",
           "os_name": "Android",
           "os_version": "10",
-          "playlist_names": "ICS Lobby  ICS Lobby  ICS Lobby",
+          "playlist_names": "ICS Lobby  ICS Lobby",
           "player_key": "26f868fd-abb4-4db7-90ec-4dc9205f6257",
-          "user": "rnegrongonzalez@ufl.edu"
+          "user": "barnasht@ufl.edu"
         }
       ]
     },
@@ -2319,7 +2319,7 @@
           "location": "UF-IFAS-FOOD SCIENCE",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.118.144",
+          "external_address": "128.227.137.175",
           "os_name": "Android",
           "os_version": "11",
           "playlist_names": "FSHN Rotating Content Playlist",
@@ -2362,41 +2362,6 @@
       ]
     },
     {
-      "name": "UF-IFAS-HD",
-      "total": 2,
-      "counts": {
-        "online": 2,
-        "offline": 0,
-        "needsAttention": 0
-      },
-      "devices": [
-        {
-          "name": "B120 Second Floor Elevator Lobby TV",
-          "location": "UF-IFAS-HD",
-          "status": "Online",
-          "statusColor": "green",
-          "external_address": "128.227.126.14",
-          "os_name": "Windows 10",
-          "os_version": "10.0 amd64",
-          "playlist_names": "B120 Second Floor Elevator Lobby",
-          "player_key": "19c4972c-5f14-43c3-bdff-dfbf876a1475",
-          "user": "jchirino@ufl.edu"
-        },
-        {
-          "name": "MCCD TV's",
-          "location": "UF-IFAS-HD",
-          "status": "Online",
-          "statusColor": "green",
-          "external_address": "128.227.159.52",
-          "os_name": "Windows 10",
-          "os_version": "10.0 amd64",
-          "playlist_names": "IFAS Screens Playlist",
-          "player_key": "E4190d62-7cf5-496f-b29d-6ecb0f13fc56",
-          "user": "jchirino@ufl.edu"
-        }
-      ]
-    },
-    {
       "name": "UF-IFAS-HORT",
       "total": 2,
       "counts": {
@@ -2435,17 +2400,17 @@
       "name": "UF-IFAS-HS",
       "total": 5,
       "counts": {
-        "online": 1,
-        "offline": 4,
+        "online": 5,
+        "offline": 0,
         "needsAttention": 0
       },
       "devices": [
         {
           "name": "NoviSign Digital Signage 1 (Center column tv)",
           "location": "UF-IFAS-HS",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.219.41",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.136.229",
           "os_name": "Windows 10",
           "os_version": "10.0 amd64",
           "playlist_names": "NoviSign Digital Signage 1 Playlist (Center column tv)  NoviSign Digital Signage 1 Playlist (Center column tv)  NoviSign Digital Signage 1 Playlist (Center column tv)  NoviSign Digital Signage 1 Playlist (Center column tv)",
@@ -2455,9 +2420,9 @@
         {
           "name": "NoviSign Digital Signage 2 (Stairs TV)",
           "location": "UF-IFAS-HS",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.191.210",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.4",
           "playlist_names": "NoviSign Digital Signage 2 Playlist (Stairs tv)  NoviSign Digital Signage 2 Playlist (Stairs tv)  NoviSign Digital Signage 2 Playlist (Stairs tv)  NoviSign Digital Signage 2 Playlist (Stairs tv)",
           "player_key": "e3d40e2a-b2f5-4f89-9f60-733d90124f93",
           "user": "apimienta@ufl.edu"
@@ -2465,9 +2430,9 @@
         {
           "name": "NoviSign Digital Signage 3 (CTC TV Upstairs)",
           "location": "UF-IFAS-HS",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.216.211",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.3",
           "playlist_names": "NoviSign Digital Signage 3 Playlist (CTC TV Upstairs)  NoviSign Digital Signage 3 Playlist (CTC TV Upstairs)  NoviSign Digital Signage 3 Playlist (CTC TV Upstairs)  NoviSign Digital Signage 3 Playlist (CTC TV Upstairs)",
           "player_key": "4e90a1a7-ec63-4f15-a789-046d817f0122",
           "user": "apimienta@ufl.edu"
@@ -2475,9 +2440,9 @@
         {
           "name": "NoviSign Digital Signage 4 (Next to directory TV)",
           "location": "UF-IFAS-HS",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.244.212",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.191.128",
           "os_name": "Windows 10",
           "os_version": "10.0 amd64",
           "playlist_names": "test1  test1  test1  test1",
@@ -2608,6 +2573,39 @@
           "playlist_names": "SWS  SWS",
           "player_key": "96d905fa-9f8b-4b23-8c3e-f318ee47c57b",
           "user": "robert.daffron@ufl.edu"
+        }
+      ]
+    },
+    {
+      "name": "UF-IFAS-VP",
+      "total": 2,
+      "counts": {
+        "online": 2,
+        "offline": 0,
+        "needsAttention": 0
+      },
+      "devices": [
+        {
+          "name": "SVP Inside (Lobby)",
+          "location": "UF-IFAS-VP",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.146.96",
+          "os_name": "Android",
+          "os_version": "14",
+          "playlist_names": "SVP Inside (Lobby)",
+          "player_key": "b288af97-7e1c-4255-9c78-24cd2b634ba9",
+          "user": "rnegrongonzalez@ufl.edu"
+        },
+        {
+          "name": "SVP Outside (Hallway)",
+          "location": "UF-IFAS-VP",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.180.223",
+          "playlist_names": "SVP Outside (Hallway)",
+          "player_key": "c4f54d08-58cb-45c7-8057-5f0e5382ddd2",
+          "user": "rnegrongonzalez@ufl.edu"
         }
       ]
     },
@@ -2798,7 +2796,7 @@
           "location": "UF-LIBRARIES",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.146.240",
+          "external_address": "128.227.230.25",
           "playlist_names": "Airmedia Background  Airmedia Background  Airmedia Background  Airmedia Background  Airmedia Background  Airmedia Background",
           "player_key": "f2f3d7be-72ba-4a3c-b03d-81bd8c6e2b31",
           "user": "m.tyler82@ufl.edu"
@@ -2915,17 +2913,17 @@
       "name": "UF-MED-BAIC",
       "total": 3,
       "counts": {
-        "online": 2,
-        "offline": 1,
+        "online": 3,
+        "offline": 0,
         "needsAttention": 0
       },
       "devices": [
         {
           "name": "MALA-2410-DS-LOBBY (2410 - Lobby)",
           "location": "UF-MED-BAIC",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.199.107",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.4",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "dtv  dtv",
@@ -3036,8 +3034,8 @@
       "name": "UF-MUSEUM",
       "total": 2,
       "counts": {
-        "online": 0,
-        "offline": 2,
+        "online": 1,
+        "offline": 1,
         "needsAttention": 0
       },
       "devices": [
@@ -3054,9 +3052,9 @@
         {
           "name": "HN-VisitorServiceDesk",
           "location": "UF-MUSEUM",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.127.64",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.130.45",
           "os_name": "Windows 10",
           "os_version": "10.0 amd64",
           "playlist_names": "VisitorServices  VisitorServices  VisitorServices  VisitorServices  VisitorServices  VisitorServices  VisitorServices",
@@ -3069,8 +3067,8 @@
       "name": "UF-PHARMACY",
       "total": 4,
       "counts": {
-        "online": 2,
-        "offline": 2,
+        "online": 4,
+        "offline": 0,
         "needsAttention": 0
       },
       "devices": [
@@ -3097,9 +3095,9 @@
         {
           "name": "MALA-6300-DS-LEFT (Left TV)",
           "location": "UF-PHARMACY",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.133.71",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.4",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "Untitled Playlist  Untitled Playlist  Untitled Playlist  Untitled Playlist  Untitled Playlist",
@@ -3109,9 +3107,9 @@
         {
           "name": "MALA-6300-DS-RIGHT (Right TV)",
           "location": "UF-PHARMACY",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.124.39",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.147.99",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "Untitled Playlist  Untitled Playlist  Untitled Playlist  Untitled Playlist  Untitled Playlist",
@@ -3201,16 +3199,16 @@
       "name": "UF-SHCC",
       "total": 12,
       "counts": {
-        "online": 6,
-        "offline": 2,
-        "needsAttention": 4
+        "online": 11,
+        "offline": 1,
+        "needsAttention": 0
       },
       "devices": [
         {
           "name": "1000 (Waiting Room)",
           "location": "UF-SHCC",
-          "status": "Needs Attention",
-          "statusColor": "yellow",
+          "status": "Online",
+          "statusColor": "green",
           "external_address": "128.227.185.232",
           "os_name": "Android",
           "os_version": "10",
@@ -3233,9 +3231,9 @@
         {
           "name": "1319 (Waiting Room)",
           "location": "UF-SHCC",
-          "status": "Offline",
-          "statusColor": "black",
-          "external_address": "128.227.109.37",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.114.104",
           "os_name": "Android",
           "os_version": "10",
           "playlist_names": "Patient Waiting Areas (Except Front Lobby)  Patient Waiting Areas (Except Front Lobby)  Patient Waiting Areas (Except Front Lobby)",
@@ -3245,9 +3243,9 @@
         {
           "name": "2100 (Waiting Room)",
           "location": "UF-SHCC",
-          "status": "Needs Attention",
-          "statusColor": "yellow",
-          "external_address": "128.227.127.193",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.226.251",
           "os_name": "Android",
           "os_version": "10",
           "playlist_names": "Patient Waiting Areas (Except Front Lobby)  Patient Waiting Areas (Except Front Lobby)  Patient Waiting Areas (Except Front Lobby)",
@@ -3257,9 +3255,9 @@
         {
           "name": "2220 (Waiting Room)",
           "location": "UF-SHCC",
-          "status": "Needs Attention",
-          "statusColor": "yellow",
-          "external_address": "128.227.201.224",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.142.107",
           "os_name": "Android",
           "os_version": "10",
           "playlist_names": "Patient Waiting Areas (Except Front Lobby)  Patient Waiting Areas (Except Front Lobby)  Patient Waiting Areas (Except Front Lobby)",
@@ -3269,9 +3267,9 @@
         {
           "name": "3210 (Waiting Room)",
           "location": "UF-SHCC",
-          "status": "Needs Attention",
-          "statusColor": "yellow",
-          "external_address": "128.227.114.148",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.189.112",
           "os_name": "Android",
           "os_version": "10",
           "playlist_names": "Patient Waiting Areas (Except Front Lobby)  Patient Waiting Areas (Except Front Lobby)  Patient Waiting Areas (Except Front Lobby)",
@@ -3356,17 +3354,17 @@
       "name": "UF-STUDENTSUCCESS",
       "total": 1,
       "counts": {
-        "online": 0,
-        "offline": 1,
+        "online": 1,
+        "offline": 0,
         "needsAttention": 0
       },
       "devices": [
         {
           "name": "E312",
           "location": "UF-STUDENTSUCCESS",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.190.183",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.251.3",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "October 2025  October 2025  October 2025",
@@ -3517,8 +3515,8 @@
       "name": "UFIT-AT",
       "total": 14,
       "counts": {
-        "online": 8,
-        "offline": 6,
+        "online": 9,
+        "offline": 5,
         "needsAttention": 0
       },
       "devices": [
@@ -3619,9 +3617,9 @@
         {
           "name": "IT-HUB-DS-120C-98LG",
           "location": "UFIT-AT",
-          "status": "Offline",
-          "statusColor": "red",
-          "external_address": "128.227.249.242",
+          "status": "Online",
+          "statusColor": "green",
+          "external_address": "128.227.209.169",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
           "playlist_names": "Campus Closed Vertical  UFIT Content (vertical  video)  Campus Closed Vertical  UFIT Content (vertical  video)  Campus Closed Vertical  UFIT Content (vertical  video)  Campus Closed Vertical  UFIT Content (vertical  video)  Campus Closed Vertical  UFIT Content (vertical  video)  Campus Closed Vertical  UFIT Content (vertical  video)  Campu",
@@ -3780,7 +3778,7 @@
           "location": "UFIT-COMMUNICATIONS",
           "status": "Online",
           "statusColor": "green",
-          "external_address": "128.227.188.78",
+          "external_address": "128.227.219.245",
           "os_name": "Windows 10",
           "os_version": "10.0 amd64",
           "playlist_names": "UFIT Staff Photos  FY26 Q2 Kudos  UFIT Staff Photos  FY26 Q2 Kudos  UFIT Staff Photos  FY26 Q2 Kudos  UFIT Staff Photos  FY26 Q2 Kudos  UFIT Staff Photos  FY26 Q2 Kudos  UFIT Staff Photos  FY26 Q2 Kudos  UFIT Staff Photos  FY26 Q2 Kudos  UFIT Staff Photos  FY26 Q2 Kudos  UFIT Staff Photos  FY26 Q2 Kudos",
