@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-04T00:44:52.336157+00:00",
+  "updated_at": "2026-02-04T00:54:22.320455+00:00",
   "groups": [
     {
       "group": "UF-DSIT-RC",
@@ -60,7 +60,7 @@
           "player_name": "MALA-3002-DS-RIGHT (3 West Elevators - Right TV)",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.251.4",
+          "external_address": "128.227.110.130",
           "player_device_name": "",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
@@ -96,7 +96,7 @@
           "player_name": "MALA-5056-DS-LEFT (5 West Elevators - Left TV)",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.251.4",
+          "external_address": "128.227.181.175",
           "player_device_name": "",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
@@ -288,7 +288,7 @@
           "player_name": "MALA-C599E-DS-LEFT (5 East Elevators - LEFT TV)",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.251.3",
+          "external_address": "128.227.244.89",
           "player_device_name": "",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
@@ -312,7 +312,7 @@
           "player_name": "MALA-C647B-DS-LEFT (6 East Elevators - Left TV)",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.251.4",
+          "external_address": "128.227.181.210",
           "player_device_name": "",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
@@ -453,7 +453,7 @@
           "player_name": "Library Airmeida Background Images",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.244.135",
+          "external_address": "128.227.124.29",
           "player_device_name": "",
           "os_name": "",
           "os_version": "",
@@ -788,7 +788,7 @@
           "os_name": "Android",
           "os_version": "11",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1760978707366 \"downloadedFiles\":1 \"loadingEnd\":1770161823726 \"totalFiles\":1 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1760978707366 \"downloadedFiles\":1 \"loadingEnd\":1770166168766 \"totalFiles\":1 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -1125,7 +1125,7 @@
           "player_name": "MALA-2300-DS-RIGHT (2300 - Right TV) Advising Office",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.251.4",
+          "external_address": "128.227.130.162",
           "player_device_name": "",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
@@ -1185,7 +1185,7 @@
           "player_name": "MALA-5300-DS-RIGHT (5300 - Right TV) Grad Student Area",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.251.5",
+          "external_address": "128.227.139.45",
           "player_device_name": "",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
@@ -1234,8 +1234,8 @@
     {
       "group": "UF-DEAN OF STUDENTS",
       "online": 0,
-      "offline": 4,
-      "needs_attention": 8,
+      "offline": 5,
+      "needs_attention": 7,
       "total": 12,
       "devices": [
         {
@@ -1260,18 +1260,6 @@
           "os_version": "10",
           "display_status": "N/A",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1768568392598 \"downloadedFiles\":1 \"loadingEnd\":1768568392613 \"totalFiles\":1 \"retryStart\":-1}}",
-          "last_activity": ""
-        },
-        {
-          "player_name": "(2) 3rd Floor Lobby Screen 2",
-          "status": "needs_attention",
-          "status_color": "yellow",
-          "external_address": "128.227.251.4",
-          "player_device_name": "",
-          "os_name": "Android",
-          "os_version": "10",
-          "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770121976816 \"downloadedFiles\":9 \"loadingEnd\":1770121981896 \"totalFiles\":9 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -1344,6 +1332,18 @@
           "os_version": "10",
           "display_status": "N/A",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770068669796 \"downloadedFiles\":9 \"loadingEnd\":1770068674827 \"totalFiles\":9 \"retryStart\":-1}}",
+          "last_activity": ""
+        },
+        {
+          "player_name": "(2) 3rd Floor Lobby Screen 2",
+          "status": "offline",
+          "status_color": "red",
+          "external_address": "128.227.251.4",
+          "player_device_name": "",
+          "os_name": "Android",
+          "os_version": "10",
+          "display_status": "N/A",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770121976816 \"downloadedFiles\":9 \"loadingEnd\":1770121981896 \"totalFiles\":9 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -2027,7 +2027,7 @@
           "os_name": "Android",
           "os_version": "10",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1763480853505 \"downloadedFiles\":14 \"loadingEnd\":1770079122100 \"totalFiles\":14 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1763480853505 \"downloadedFiles\":14 \"loadingEnd\":1770165329754 \"totalFiles\":14 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -2079,7 +2079,7 @@
           "player_name": "MALA-FLOOR-7-AIRMEDIA",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.169.231",
+          "external_address": "128.227.110.212",
           "player_device_name": "",
           "os_name": "",
           "os_version": "",
@@ -2217,12 +2217,12 @@
           "player_name": "Rotating Playlist",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.137.175",
+          "external_address": "128.227.130.61",
           "player_device_name": "",
           "os_name": "Android",
           "os_version": "11",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769194339144 \"downloadedFiles\":33 \"loadingEnd\":1770106605955 \"totalFiles\":33 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769194326392 \"downloadedFiles\":33 \"loadingEnd\":1770128575134 \"totalFiles\":33 \"retryStart\":-1}}",
           "last_activity": ""
         }
       ]
@@ -2381,7 +2381,7 @@
           "os_name": "Android",
           "os_version": "11",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769947233145 \"downloadedFiles\":22 \"loadingEnd\":1770120018232 \"totalFiles\":22 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769947233145 \"downloadedFiles\":22 \"loadingEnd\":1770120018232 \"totalFiles\":22 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -2433,7 +2433,7 @@
           "player_name": "MALA-6300-DS-LEFT (Left TV)",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.251.4",
+          "external_address": "128.227.251.5",
           "player_device_name": "",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
@@ -2637,12 +2637,12 @@
           "player_name": "IT-WEIL-DS-PIT",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.244.184",
+          "external_address": "128.227.122.3",
           "player_device_name": "",
           "os_name": "Windows 10",
           "os_version": "10.0 amd64",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"undefined\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769785962883 \"downloadedFiles\":30 \"loadingEnd\":1770098545236 \"totalFiles\":30 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"undefined\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769786025412 \"downloadedFiles\":30 \"loadingEnd\":1770098518032 \"totalFiles\":30 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -3057,12 +3057,12 @@
           "player_name": "EPI Building",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.139.20",
+          "external_address": "128.227.249.66",
           "player_device_name": "",
           "os_name": "Android",
           "os_version": "11",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770154896246 \"downloadedFiles\":10 \"loadingEnd\":1770154901268 \"totalFiles\":10 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770154916026 \"downloadedFiles\":10 \"loadingEnd\":1770154921043 \"totalFiles\":10 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -3234,7 +3234,7 @@
           "player_name": "MALA-5000-DS-LOBBY (5000 - Lobby) ECE HQ",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.251.4",
+          "external_address": "128.227.251.5",
           "player_device_name": "",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
@@ -3272,7 +3272,7 @@
           "os_name": "Windows 10",
           "os_version": "10.0 amd64",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"undefined\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770132184043 \"downloadedFiles\":24 \"loadingEnd\":1770132189135 \"totalFiles\":24 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"undefined\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770165463419 \"downloadedFiles\":25 \"loadingEnd\":1770165468519 \"totalFiles\":25 \"retryStart\":-1}}",
           "last_activity": ""
         }
       ]
@@ -3447,7 +3447,7 @@
           "player_name": "E312",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.251.4",
+          "external_address": "128.227.251.5",
           "player_device_name": "",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
@@ -3656,7 +3656,7 @@
         {
           "player_name": "Welcome Screen",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.251.4",
           "player_device_name": "",
           "os_name": "WebOS",
