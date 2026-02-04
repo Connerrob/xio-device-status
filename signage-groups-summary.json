@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-04T01:44:22.414780+00:00",
+  "updated_at": "2026-02-04T01:54:47.290951+00:00",
   "groups": [
     {
       "group": "UF-DSIT-RC",
@@ -23,7 +23,7 @@
         {
           "player_name": "Grinter-299H-DS-55LG",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.251.4",
           "player_device_name": "",
           "os_name": "WebOS",
@@ -48,7 +48,7 @@
           "player_name": "MALA-3002-DS-LEFT (3 West Elevators - Left TV)",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.251.3",
+          "external_address": "128.227.173.120",
           "player_device_name": "",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
@@ -120,7 +120,7 @@
           "player_name": "MALA-6117-DS-LEFT (6 West Elevators - Left TV)",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.251.4",
+          "external_address": "128.227.169.120",
           "player_device_name": "",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
@@ -453,7 +453,7 @@
           "player_name": "Library Airmeida Background Images",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.124.29",
+          "external_address": "128.227.179.170",
           "player_device_name": "",
           "os_name": "",
           "os_version": "",
@@ -788,7 +788,7 @@
           "os_name": "Android",
           "os_version": "11",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1760978707366 \"downloadedFiles\":1 \"loadingEnd\":1770166168766 \"totalFiles\":1 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1760978707366 \"downloadedFiles\":1 \"loadingEnd\":1770169062622 \"totalFiles\":1 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -1112,7 +1112,7 @@
         {
           "player_name": "MALA-2300-DS-LEFT (2300 - Left TV) Advising Office",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.199.155",
           "player_device_name": "",
           "os_name": "WebOS",
@@ -1234,14 +1234,14 @@
     {
       "group": "UF-DEAN OF STUDENTS",
       "online": 0,
-      "offline": 5,
-      "needs_attention": 7,
+      "offline": 6,
+      "needs_attention": 6,
       "total": 12,
       "devices": [
         {
           "player_name": "(1) 2nd Floor Lobby Screen 1",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.206.243",
           "player_device_name": "",
           "os_name": "Android",
@@ -1253,7 +1253,7 @@
         {
           "player_name": "(2) 2nd Floor Lobby Screen 2",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.230.156",
           "player_device_name": "",
           "os_name": "Android",
@@ -1265,7 +1265,7 @@
         {
           "player_name": "(3) 2nd Floor Lobby Screen 3",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.209.57",
           "player_device_name": "",
           "os_name": "Android",
@@ -1277,7 +1277,7 @@
         {
           "player_name": "(5) 2nd Floor Lobby Screen 5",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.113.226",
           "player_device_name": "",
           "os_name": "Android",
@@ -1296,18 +1296,6 @@
           "os_version": "10",
           "display_status": "N/A",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770068702442 \"downloadedFiles\":20 \"loadingEnd\":1770068707453 \"totalFiles\":20 \"retryStart\":-1}}",
-          "last_activity": ""
-        },
-        {
-          "player_name": "Field & Fork Pantry Screen 1",
-          "status": "needs_attention",
-          "status_color": "yellow",
-          "external_address": "128.227.108.55",
-          "player_device_name": "",
-          "os_name": "Android",
-          "os_version": "10",
-          "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770123794145 \"downloadedFiles\":9 \"loadingEnd\":1770123799223 \"totalFiles\":9 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -1380,6 +1368,18 @@
           "os_version": "10",
           "display_status": "N/A",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770068661238 \"downloadedFiles\":9 \"loadingEnd\":1770068666262 \"totalFiles\":9 \"retryStart\":-1}}",
+          "last_activity": ""
+        },
+        {
+          "player_name": "Field & Fork Pantry Screen 1",
+          "status": "offline",
+          "status_color": "red",
+          "external_address": "128.227.108.55",
+          "player_device_name": "",
+          "os_name": "Android",
+          "os_version": "10",
+          "display_status": "N/A",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770123794145 \"downloadedFiles\":9 \"loadingEnd\":1770123799223 \"totalFiles\":9 \"retryStart\":-1}}",
           "last_activity": ""
         }
       ]
@@ -1511,7 +1511,7 @@
         {
           "player_name": "Lobby 1",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.207.177",
           "player_device_name": "",
           "os_name": "Android",
@@ -1523,7 +1523,7 @@
         {
           "player_name": "Lobby 2",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.118.244",
           "player_device_name": "",
           "os_name": "Android",
@@ -1535,7 +1535,7 @@
         {
           "player_name": "Lobby 3",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.192.51",
           "player_device_name": "",
           "os_name": "Android",
@@ -1547,7 +1547,7 @@
         {
           "player_name": "Lobby 4",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.202.141",
           "player_device_name": "",
           "os_name": "Android",
@@ -1559,7 +1559,7 @@
         {
           "player_name": "Mezzanine 1",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.105.161",
           "player_device_name": "",
           "os_name": "Android",
@@ -1571,7 +1571,7 @@
         {
           "player_name": "Mezzanine 2",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.155.122",
           "player_device_name": "",
           "os_name": "Android",
@@ -1616,7 +1616,7 @@
         {
           "player_name": "TIG-SL-1",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.185.24",
           "player_device_name": "",
           "os_name": "Android",
@@ -1628,7 +1628,7 @@
         {
           "player_name": "TIG-SL-2",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.209.212",
           "player_device_name": "",
           "os_name": "Android",
@@ -1640,7 +1640,7 @@
         {
           "player_name": "TIG-SL-3",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.216.22",
           "player_device_name": "",
           "os_name": "Android",
@@ -1721,7 +1721,7 @@
         {
           "player_name": "WEIL-0303-Left (Lobby)",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.143.79",
           "player_device_name": "",
           "os_name": "Android",
@@ -1733,7 +1733,7 @@
         {
           "player_name": "WEIL-0303-Right (Lobby)",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.188.129",
           "player_device_name": "",
           "os_name": "Android",
@@ -1916,7 +1916,7 @@
         {
           "player_name": "NoviSign Digital Signage 1 (Center column tv)",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.136.229",
           "player_device_name": "",
           "os_name": "Windows 10",
@@ -1928,7 +1928,7 @@
         {
           "player_name": "NoviSign Digital Signage 2 (Stairs TV)",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.251.4",
           "player_device_name": "",
           "os_name": "",
@@ -1940,7 +1940,7 @@
         {
           "player_name": "NoviSign Digital Signage 3 (CTC TV Upstairs)",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.251.3",
           "player_device_name": "",
           "os_name": "",
@@ -1952,7 +1952,7 @@
         {
           "player_name": "NoviSign Digital Signage 4 (Next to directory TV)",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.191.128",
           "player_device_name": "",
           "os_name": "Windows 10",
@@ -2217,12 +2217,12 @@
           "player_name": "Rotating Playlist",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.130.61",
+          "external_address": "128.227.137.175",
           "player_device_name": "",
           "os_name": "Android",
           "os_version": "11",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769194326392 \"downloadedFiles\":33 \"loadingEnd\":1770128575134 \"totalFiles\":33 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769194339144 \"downloadedFiles\":33 \"loadingEnd\":1770106605955 \"totalFiles\":33 \"retryStart\":-1}}",
           "last_activity": ""
         }
       ]
@@ -2637,12 +2637,12 @@
           "player_name": "IT-WEIL-DS-PIT",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.122.3",
+          "external_address": "128.227.244.184",
           "player_device_name": "",
           "os_name": "Windows 10",
           "os_version": "10.0 amd64",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"undefined\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769786025412 \"downloadedFiles\":30 \"loadingEnd\":1770098518032 \"totalFiles\":30 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"undefined\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769785962883 \"downloadedFiles\":30 \"loadingEnd\":1770098545236 \"totalFiles\":30 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -2681,7 +2681,7 @@
         {
           "player_name": "MALA-2420-DS-LEFT (2420 Lounge - Left TV)",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.174.231",
           "player_device_name": "",
           "os_name": "WebOS",
@@ -2693,7 +2693,7 @@
         {
           "player_name": "MALA-2420-DS-RIGHT (2420 Lounge - Right TV)",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.118.151",
           "player_device_name": "",
           "os_name": "WebOS",
@@ -2804,7 +2804,7 @@
         {
           "player_name": "AAC Lobby 1",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.251.3",
           "player_device_name": "",
           "os_name": "Android",
@@ -3155,8 +3155,8 @@
         {
           "player_name": "New Slideshow",
           "status": "needs_attention",
-          "status_color": "green",
-          "external_address": "128.227.251.5",
+          "status_color": "yellow",
+          "external_address": "128.227.173.122",
           "player_device_name": "",
           "os_name": "Android",
           "os_version": "10",
@@ -3234,7 +3234,7 @@
           "player_name": "MALA-5000-DS-LOBBY (5000 - Lobby) ECE HQ",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.251.5",
+          "external_address": "128.227.251.4",
           "player_device_name": "",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
@@ -3677,7 +3677,7 @@
         {
           "player_name": "Untitled Screen",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.106.109",
           "player_device_name": "",
           "os_name": "Windows 10",
