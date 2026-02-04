@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-04T07:44:22.871557+00:00",
+  "updated_at": "2026-02-04T07:54:22.870894+00:00",
   "groups": [
     {
       "group": "UF-DSIT-RC",
@@ -453,7 +453,7 @@
           "player_name": "Library Airmeida Background Images",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.106.150",
+          "external_address": "128.227.226.184",
           "player_device_name": "",
           "os_name": "",
           "os_version": "",
@@ -788,7 +788,7 @@
           "os_name": "Android",
           "os_version": "11",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1760978707366 \"downloadedFiles\":1 \"loadingEnd\":1770186437241 \"totalFiles\":1 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1760978707366 \"downloadedFiles\":1 \"loadingEnd\":1770190777509 \"totalFiles\":1 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -807,12 +807,12 @@
           "player_name": "IT-720-DS-0200L",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.219.245",
+          "external_address": "128.227.188.78",
           "player_device_name": "",
           "os_name": "Windows 10",
           "os_version": "10.0 amd64",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"undefined\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770043499152 \"downloadedFiles\":308 \"loadingEnd\":1770184686036 \"totalFiles\":308 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"undefined\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770043555416 \"downloadedFiles\":308 \"loadingEnd\":1770183023370 \"totalFiles\":308 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -935,7 +935,7 @@
         {
           "player_name": "1000 (Waiting Room)",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.185.232",
           "player_device_name": "",
           "os_name": "Android",
@@ -947,7 +947,7 @@
         {
           "player_name": "2100 (Waiting Room)",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.226.251",
           "player_device_name": "",
           "os_name": "Android",
@@ -959,7 +959,7 @@
         {
           "player_name": "2220 (Waiting Room)",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.142.107",
           "player_device_name": "",
           "os_name": "Android",
@@ -971,7 +971,7 @@
         {
           "player_name": "3210 (Waiting Room)",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.189.112",
           "player_device_name": "",
           "os_name": "Android",
@@ -1081,8 +1081,8 @@
     {
       "group": "UF-ENG-ADMIN",
       "online": 0,
-      "offline": 1,
-      "needs_attention": 11,
+      "offline": 0,
+      "needs_attention": 12,
       "total": 12,
       "devices": [
         {
@@ -1107,6 +1107,18 @@
           "os_version": "10.0 amd64",
           "display_status": "N/A",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"undefined\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1768319373209 \"downloadedFiles\":11 \"loadingEnd\":1768319378260 \"totalFiles\":11 \"retryStart\":-1}}",
+          "last_activity": ""
+        },
+        {
+          "player_name": "MALA-2300-DS-LEFT (2300 - Left TV) Advising Office",
+          "status": "needs_attention",
+          "status_color": "green",
+          "external_address": "128.227.169.179",
+          "player_device_name": "",
+          "os_name": "WebOS",
+          "os_version": "6.0.0 WebOS Browser/N/A",
+          "display_status": "N/A",
+          "download_status": "{\"downloadStatus\":{\"downloadState\":\"complete\" \"downloadedFiles\":28 \"totalFiles\":28 \"loadingStart\":1769798834598 \"loadingEnd\":1769798838383 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -1216,40 +1228,16 @@
           "display_status": "N/A",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770151609481 \"downloadedFiles\":52 \"loadingEnd\":1770183051769 \"totalFiles\":52 \"retryStart\":-1}}",
           "last_activity": ""
-        },
-        {
-          "player_name": "MALA-2300-DS-LEFT (2300 - Left TV) Advising Office",
-          "status": "offline",
-          "status_color": "red",
-          "external_address": "128.227.199.155",
-          "player_device_name": "",
-          "os_name": "WebOS",
-          "os_version": "6.0.0 WebOS Browser/N/A",
-          "display_status": "N/A",
-          "download_status": "{\"downloadStatus\":{\"downloadState\":\"complete\" \"downloadedFiles\":28 \"totalFiles\":28 \"loadingStart\":1769798834598 \"loadingEnd\":1769798838383 \"retryStart\":-1}}",
-          "last_activity": ""
         }
       ]
     },
     {
       "group": "UF-DEAN OF STUDENTS",
       "online": 0,
-      "offline": 10,
-      "needs_attention": 2,
+      "offline": 11,
+      "needs_attention": 1,
       "total": 12,
       "devices": [
-        {
-          "player_name": "CVSC  Yon Hall",
-          "status": "needs_attention",
-          "status_color": "yellow",
-          "external_address": "128.227.169.146",
-          "player_device_name": "",
-          "os_name": "Android",
-          "os_version": "10",
-          "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770068702442 \"downloadedFiles\":20 \"loadingEnd\":1770068707453 \"totalFiles\":20 \"retryStart\":-1}}",
-          "last_activity": ""
-        },
         {
           "player_name": "Field & Fork Pantry Screen 2",
           "status": "needs_attention",
@@ -1368,6 +1356,18 @@
           "os_version": "10",
           "display_status": "N/A",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770068705591 \"downloadedFiles\":20 \"loadingEnd\":1770068710623 \"totalFiles\":20 \"retryStart\":-1}}",
+          "last_activity": ""
+        },
+        {
+          "player_name": "CVSC  Yon Hall",
+          "status": "offline",
+          "status_color": "red",
+          "external_address": "128.227.169.146",
+          "player_device_name": "",
+          "os_name": "Android",
+          "os_version": "10",
+          "display_status": "N/A",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770068702442 \"downloadedFiles\":20 \"loadingEnd\":1770068707453 \"totalFiles\":20 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -2186,7 +2186,7 @@
           "os_name": "Android",
           "os_version": "11",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1761237914458 \"downloadedFiles\":1 \"loadingEnd\":1770186603533 \"totalFiles\":1 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1761237914458 \"downloadedFiles\":1 \"loadingEnd\":1770188663056 \"totalFiles\":1 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -2217,12 +2217,12 @@
           "player_name": "Rotating Playlist",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.118.144",
+          "external_address": "128.227.130.61",
           "player_device_name": "",
           "os_name": "Android",
           "os_version": "11",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769194425842 \"downloadedFiles\":33 \"loadingEnd\":1770183296548 \"totalFiles\":33 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769194326392 \"downloadedFiles\":33 \"loadingEnd\":1770183109120 \"totalFiles\":33 \"retryStart\":-1}}",
           "last_activity": ""
         }
       ]
@@ -2637,12 +2637,12 @@
           "player_name": "IT-WEIL-DS-PIT",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.244.184",
+          "external_address": "128.227.122.3",
           "player_device_name": "",
           "os_name": "Windows 10",
           "os_version": "10.0 amd64",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"undefined\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769785962883 \"downloadedFiles\":30 \"loadingEnd\":1770184887674 \"totalFiles\":30 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"undefined\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769786025412 \"downloadedFiles\":30 \"loadingEnd\":1770184965497 \"totalFiles\":30 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -2662,8 +2662,8 @@
     {
       "group": "UF-MED-BAIC",
       "online": 0,
-      "offline": 2,
-      "needs_attention": 1,
+      "offline": 0,
+      "needs_attention": 3,
       "total": 3,
       "devices": [
         {
@@ -2680,9 +2680,9 @@
         },
         {
           "player_name": "MALA-2420-DS-LEFT (2420 Lounge - Left TV)",
-          "status": "offline",
-          "status_color": "red",
-          "external_address": "128.227.174.231",
+          "status": "needs_attention",
+          "status_color": "green",
+          "external_address": "128.227.137.8",
           "player_device_name": "",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
@@ -2692,9 +2692,9 @@
         },
         {
           "player_name": "MALA-2420-DS-RIGHT (2420 Lounge - Right TV)",
-          "status": "offline",
-          "status_color": "red",
-          "external_address": "128.227.118.151",
+          "status": "needs_attention",
+          "status_color": "green",
+          "external_address": "128.227.157.6",
           "player_device_name": "",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
@@ -2752,22 +2752,10 @@
     {
       "group": "UF-IFAS-AEC",
       "online": 0,
-      "offline": 0,
-      "needs_attention": 2,
+      "offline": 1,
+      "needs_attention": 1,
       "total": 2,
       "devices": [
-        {
-          "player_name": "MacLab",
-          "status": "needs_attention",
-          "status_color": "yellow",
-          "external_address": "128.227.122.173",
-          "player_device_name": "",
-          "os_name": "Android",
-          "os_version": "12",
-          "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"}}",
-          "last_activity": ""
-        },
         {
           "player_name": "Rolfs and Outside",
           "status": "needs_attention",
@@ -2778,6 +2766,18 @@
           "os_version": "11",
           "display_status": "N/A",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769444736555 \"downloadedFiles\":16 \"loadingEnd\":1770183044486 \"totalFiles\":16 \"retryStart\":-1}}",
+          "last_activity": ""
+        },
+        {
+          "player_name": "MacLab",
+          "status": "offline",
+          "status_color": "red",
+          "external_address": "128.227.122.173",
+          "player_device_name": "",
+          "os_name": "Android",
+          "os_version": "12",
+          "display_status": "N/A",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"}}",
           "last_activity": ""
         }
       ]
@@ -3057,12 +3057,12 @@
           "player_name": "EPI Building",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.130.211",
+          "external_address": "128.227.211.21",
           "player_device_name": "",
           "os_name": "Android",
           "os_version": "11",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770154987448 \"downloadedFiles\":10 \"loadingEnd\":1770183224787 \"totalFiles\":10 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770154989538 \"downloadedFiles\":10 \"loadingEnd\":1770183212195 \"totalFiles\":10 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -3376,14 +3376,14 @@
     {
       "group": "UF-IFAS-AECSTUDENT",
       "online": 0,
-      "offline": 0,
-      "needs_attention": 1,
+      "offline": 1,
+      "needs_attention": 0,
       "total": 1,
       "devices": [
         {
           "player_name": "Do not delete  edit this to be your screen you want to show",
-          "status": "needs_attention",
-          "status_color": "yellow",
+          "status": "offline",
+          "status_color": "red",
           "external_address": "128.227.157.229",
           "player_device_name": "",
           "os_name": "Android",
@@ -3523,14 +3523,14 @@
     {
       "group": "UF-ENG-FSI",
       "online": 0,
-      "offline": 0,
-      "needs_attention": 1,
+      "offline": 1,
+      "needs_attention": 0,
       "total": 1,
       "devices": [
         {
           "player_name": "3205-OFFICE",
-          "status": "needs_attention",
-          "status_color": "yellow",
+          "status": "offline",
+          "status_color": "red",
           "external_address": "128.227.192.37",
           "player_device_name": "",
           "os_name": "WebOS",
