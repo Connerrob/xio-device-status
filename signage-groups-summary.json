@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-04T04:44:22.662841+00:00",
+  "updated_at": "2026-02-04T04:54:47.501273+00:00",
   "groups": [
     {
       "group": "UF-DSIT-RC",
@@ -453,7 +453,7 @@
           "player_name": "Library Airmeida Background Images",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.143.108",
+          "external_address": "128.227.209.231",
           "player_device_name": "",
           "os_name": "",
           "os_version": "",
@@ -788,7 +788,7 @@
           "os_name": "Android",
           "os_version": "11",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1760978707366 \"downloadedFiles\":1 \"loadingEnd\":1770176308124 \"totalFiles\":1 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1760978707366 \"downloadedFiles\":1 \"loadingEnd\":1770180653180 \"totalFiles\":1 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -1148,7 +1148,7 @@
         {
           "player_name": "MALA-3300-DS-RIGHT (3300 - Right TV) Grad Student Area",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.118.223",
           "player_device_name": "",
           "os_name": "WebOS",
@@ -1301,7 +1301,7 @@
         {
           "player_name": "Field & Fork Pantry Screen 2",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "128.227.211.23",
           "player_device_name": "",
           "os_name": "Android",
@@ -1759,8 +1759,8 @@
     {
       "group": "UF-WHITNEYLABS",
       "online": 0,
-      "offline": 1,
-      "needs_attention": 5,
+      "offline": 2,
+      "needs_attention": 4,
       "total": 6,
       "devices": [
         {
@@ -1812,18 +1812,6 @@
           "last_activity": ""
         },
         {
-          "player_name": "Whitney Lab Maintenance",
-          "status": "needs_attention",
-          "status_color": "yellow",
-          "external_address": "128.227.106.190",
-          "player_device_name": "",
-          "os_name": "Android",
-          "os_version": "11",
-          "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770128211749 \"downloadedFiles\":5 \"loadingEnd\":1770149286531 \"totalFiles\":5 \"retryStart\":-1}}",
-          "last_activity": ""
-        },
-        {
           "player_name": "Whitney Lab extra",
           "status": "offline",
           "status_color": "black",
@@ -1833,6 +1821,18 @@
           "os_version": "",
           "display_status": "N/A",
           "download_status": "",
+          "last_activity": ""
+        },
+        {
+          "player_name": "Whitney Lab Maintenance",
+          "status": "offline",
+          "status_color": "red",
+          "external_address": "128.227.106.190",
+          "player_device_name": "",
+          "os_name": "Android",
+          "os_version": "11",
+          "display_status": "N/A",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770128211749 \"downloadedFiles\":5 \"loadingEnd\":1770149286531 \"totalFiles\":5 \"retryStart\":-1}}",
           "last_activity": ""
         }
       ]
@@ -2217,12 +2217,12 @@
           "player_name": "Rotating Playlist",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.171.220",
+          "external_address": "128.227.249.109",
           "player_device_name": "",
           "os_name": "Android",
           "os_version": "11",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769194414570 \"downloadedFiles\":33 \"loadingEnd\":1770103634499 \"totalFiles\":33 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769194341374 \"downloadedFiles\":33 \"loadingEnd\":1770158867576 \"totalFiles\":33 \"retryStart\":-1}}",
           "last_activity": ""
         }
       ]
@@ -2344,22 +2344,10 @@
     {
       "group": "UF-ENG-MSE",
       "online": 0,
-      "offline": 0,
-      "needs_attention": 4,
+      "offline": 1,
+      "needs_attention": 3,
       "total": 4,
       "devices": [
-        {
-          "player_name": "Advising Hallway",
-          "status": "needs_attention",
-          "status_color": "yellow",
-          "external_address": "128.227.131.46",
-          "player_device_name": "",
-          "os_name": "Android",
-          "os_version": "11",
-          "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769529369345 \"downloadedFiles\":10 \"loadingEnd\":1770108380737 \"totalFiles\":10 \"retryStart\":-1}}",
-          "last_activity": ""
-        },
         {
           "player_name": "Advising Office",
           "status": "needs_attention",
@@ -2394,6 +2382,18 @@
           "os_version": "11",
           "display_status": "N/A",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769786173297 \"downloadedFiles\":22 \"loadingEnd\":1770120009820 \"totalFiles\":22 \"retryStart\":-1}}",
+          "last_activity": ""
+        },
+        {
+          "player_name": "Advising Hallway",
+          "status": "offline",
+          "status_color": "red",
+          "external_address": "128.227.131.46",
+          "player_device_name": "",
+          "os_name": "Android",
+          "os_version": "11",
+          "display_status": "N/A",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769529369345 \"downloadedFiles\":10 \"loadingEnd\":1770108380737 \"totalFiles\":10 \"retryStart\":-1}}",
           "last_activity": ""
         }
       ]
@@ -2637,12 +2637,12 @@
           "player_name": "IT-WEIL-DS-PIT",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.244.184",
+          "external_address": "128.227.122.3",
           "player_device_name": "",
           "os_name": "Windows 10",
           "os_version": "10.0 amd64",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"undefined\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769785962883 \"downloadedFiles\":30 \"loadingEnd\":1770098545236 \"totalFiles\":30 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"undefined\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1769786025412 \"downloadedFiles\":30 \"loadingEnd\":1770098518032 \"totalFiles\":30 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -3057,12 +3057,12 @@
           "player_name": "EPI Building",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.249.66",
+          "external_address": "128.227.207.160",
           "player_device_name": "",
           "os_name": "Android",
           "os_version": "11",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770154916026 \"downloadedFiles\":10 \"loadingEnd\":1770154921043 \"totalFiles\":10 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770154976224 \"downloadedFiles\":10 \"loadingEnd\":1770154986248 \"totalFiles\":10 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -3222,12 +3222,12 @@
           "player_name": "Larsen East",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.195.181",
+          "external_address": "128.227.240.46",
           "player_device_name": "",
           "os_name": "Android",
           "os_version": "11",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770059592986 \"downloadedFiles\":29 \"loadingEnd\":1770096686663 \"totalFiles\":29 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1770059534980 \"downloadedFiles\":29 \"loadingEnd\":1770096629619 \"totalFiles\":29 \"retryStart\":-1}}",
           "last_activity": ""
         },
         {
@@ -3488,7 +3488,7 @@
         {
           "player_name": "TCL 55\"",
           "status": "needs_attention",
-          "status_color": "green",
+          "status_color": "yellow",
           "external_address": "184.185.222.15",
           "player_device_name": "",
           "os_name": "Android",
@@ -3741,12 +3741,12 @@
           "player_name": "3rd Floor Lobby",
           "status": "needs_attention",
           "status_color": "green",
-          "external_address": "128.227.32.179",
+          "external_address": "128.227.106.15",
           "player_device_name": "",
           "os_name": "Android",
           "os_version": "11",
           "display_status": "N/A",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1764690218415 \"downloadedFiles\":23 \"loadingEnd\":1764690223431 \"totalFiles\":23 \"retryStart\":-1}}",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1764690223841 \"downloadedFiles\":23 \"loadingEnd\":1770096623288 \"totalFiles\":23 \"retryStart\":-1}}",
           "last_activity": ""
         }
       ]
