@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-18T12:23:54.163903+00:00",
+  "generated_at": "2026-02-18T12:34:09.273403+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -68,7 +68,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 10
+          "count": 9
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -240,12 +245,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 5
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 6
         }
       ]
     },
@@ -395,12 +395,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 27
+          "count": 28
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 4
+          "count": 3
         }
       ]
     },
@@ -507,7 +507,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 13
+          "count": 12
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -704,7 +709,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 151
+          "count": 150
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -833,12 +843,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 5
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 6
         }
       ],
       "divisions": [
@@ -900,12 +905,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 151
+          "count": 152
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 9
+          "count": 8
         }
       ],
       "divisions": [
@@ -962,7 +967,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 13
+          "count": 12
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1234,7 +1244,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 151
+          "count": 150
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1430,12 +1445,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ],
       "divisions": [
@@ -1520,12 +1530,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 146
+          "count": 147
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 8
+          "count": 7
         }
       ],
       "divisions": [
@@ -1633,8 +1643,8 @@
       "total": 1,
       "statuses": [
         {
-          "status_code": 2,
-          "status_label": "Available",
+          "status_code": 4,
+          "status_label": "In Use",
           "count": 1
         }
       ],
@@ -3306,8 +3316,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -5034,8 +5044,8 @@
       "division": "Hub 120",
       "building": "Hub",
       "platform": "macOS",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -5070,8 +5080,8 @@
       "division": "NRN 1st Floor",
       "building": "Norman Hall",
       "platform": "macOS",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -14394,8 +14404,8 @@
       "division": "CSE",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
