@@ -1166,11 +1166,11 @@
     {
       "name": "UFIT AV Install Group",
       "counts": {
-        "Online": 127,
-        "Offline": 65
+        "Online": 128,
+        "Offline": 64
       },
       "total": 192,
-      "onlinePct": 66.1,
+      "onlinePct": 66.7,
       "devices": [
         {
           "name": "AM-3200-1329-1234",
@@ -1618,7 +1618,7 @@
         },
         {
           "name": "B1090-4150-DMPS",
-          "onlineStatus": "Offline"
+          "onlineStatus": "Online"
         },
         {
           "name": "B1320-4150-TS1",
@@ -2332,10 +2332,10 @@
     {
       "name": "UFIT Learning Spaces",
       "counts": {
-        "Online": 431,
+        "Online": 433,
         "Offline": 12
       },
-      "total": 443,
+      "total": 445,
       "onlinePct": 97.3,
       "devices": [
         {
@@ -2460,6 +2460,10 @@
         },
         {
           "name": "AT-DAU-0342-TS770",
+          "onlineStatus": "Online"
+        },
+        {
+          "name": "AT-FAB-0105-TS1060",
           "onlineStatus": "Online"
         },
         {
@@ -3224,6 +3228,10 @@
         },
         {
           "name": "FAB-0103-DMPS3",
+          "onlineStatus": "Online"
+        },
+        {
+          "name": "FAB-0105-DMPS3",
           "onlineStatus": "Online"
         },
         {
@@ -4114,7 +4122,7 @@
     }
   ],
   "meta": {
-    "generatedAtUtc": "2026-03-09T17:13:19.811307+00:00",
+    "generatedAtUtc": "2026-03-09T17:23:30.266847+00:00",
     "groupCount": 6
   }
 }
