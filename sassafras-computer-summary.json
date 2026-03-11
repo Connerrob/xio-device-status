@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-11T08:43:55.929900+00:00",
+  "generated_at": "2026-03-11T08:54:09.743362+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -313,14 +313,9 @@
       "total": 4,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 3
+          "count": 4
         }
       ]
     },
@@ -506,9 +501,14 @@
       "total": 44,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 44
+          "count": 43
         }
       ]
     },
@@ -732,9 +732,14 @@
       "total": 44,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 44
+          "count": 43
         }
       ],
       "divisions": [
@@ -837,12 +842,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 22
+          "count": 21
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 219
+          "count": 220
         }
       ],
       "divisions": [
@@ -1259,9 +1264,14 @@
       "total": 40,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 40
+          "count": 39
         }
       ],
       "divisions": [
@@ -1430,12 +1440,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 20
+          "count": 19
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 215
+          "count": 216
         }
       ],
       "divisions": [
@@ -10135,8 +10145,8 @@
       "division": "Norman Library",
       "building": "Education Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -10144,8 +10154,8 @@
       "division": "LBW Time Limited",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
