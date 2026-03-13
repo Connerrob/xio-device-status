@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-13T06:44:17.171690+00:00",
+  "generated_at": "2026-03-13T06:54:18.546456+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,7 +9,7 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 85
+      "count": 84
     },
     {
       "status_code": 2,
@@ -19,7 +19,7 @@
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 19
+      "count": 20
     }
   ],
   "divisions": [
@@ -110,12 +110,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 18
+          "count": 17
         }
       ]
     },
@@ -126,12 +126,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 11
+          "count": 9
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 284
+          "count": 286
         },
         {
           "status_code": 4,
@@ -313,7 +313,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 128
+          "count": 127
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -410,12 +415,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 25
+          "count": 26
         },
         {
           "status_code": 4,
@@ -440,9 +445,14 @@
       "total": 8,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 7
+          "count": 6
         },
         {
           "status_code": 4,
@@ -699,12 +709,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 12
+          "count": 10
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 286
+          "count": 288
         },
         {
           "status_code": 4,
@@ -724,12 +734,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 150
+          "count": 149
         }
       ],
       "divisions": [
@@ -877,7 +887,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 221
+          "count": 220
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1098,7 +1113,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 84
+          "count": 83
         },
         {
           "status_code": 2,
@@ -1108,7 +1123,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 18
+          "count": 19
         }
       ]
     },
@@ -1233,12 +1248,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 12
+          "count": 10
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 286
+          "count": 288
         },
         {
           "status_code": 4,
@@ -1259,12 +1274,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 150
+          "count": 149
         }
       ],
       "divisions": [
@@ -1480,7 +1495,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 216
+          "count": 215
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -3641,8 +3661,8 @@
       "division": "Marston 3rd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -6188,8 +6208,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -6719,8 +6739,8 @@
       "division": "CSE.E112 (Training Room)",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -8330,8 +8350,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -11939,8 +11959,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -12488,8 +12508,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
