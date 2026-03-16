@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T18:34:25.551364+00:00",
+  "generated_at": "2026-03-16T18:44:25.770557+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -14,7 +14,7 @@
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1678
+      "count": 1681
     },
     {
       "status_code": 4,
@@ -318,7 +318,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 13
+          "count": 14
         },
         {
           "status_code": 2,
@@ -328,7 +328,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 5
+          "count": 4
         }
       ]
     },
@@ -582,22 +582,22 @@
     },
     {
       "division": "Unassigned",
-      "total": 29,
+      "total": 32,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 10
+          "count": 9
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 14
+          "count": 17
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 5
+          "count": 6
         }
       ]
     },
@@ -872,7 +872,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 36
+          "count": 37
         },
         {
           "status_code": 2,
@@ -882,7 +882,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 6
+          "count": 5
         }
       ],
       "divisions": [
@@ -1019,22 +1019,22 @@
     },
     {
       "building": "Unassigned",
-      "total": 29,
+      "total": 32,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 10
+          "count": 9
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 14
+          "count": 17
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 5
+          "count": 6
         }
       ],
       "divisions": [
@@ -1078,7 +1078,7 @@
   "platforms": [
     {
       "platform": "Windows",
-      "count": 1678
+      "count": 1681
     },
     {
       "platform": "macOS",
@@ -1088,7 +1088,7 @@
   "platform_status": [
     {
       "platform": "Windows",
-      "total": 1678,
+      "total": 1681,
       "statuses": [
         {
           "status_code": 0,
@@ -1098,7 +1098,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1565
+          "count": 1568
         },
         {
           "status_code": 4,
@@ -1475,7 +1475,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 35
+          "count": 36
         },
         {
           "status_code": 2,
@@ -1485,7 +1485,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 6
+          "count": 5
         }
       ],
       "divisions": [
@@ -1695,22 +1695,22 @@
     {
       "building": "Unassigned",
       "platform": "Windows",
-      "total": 29,
+      "total": 32,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 10
+          "count": 9
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 14
+          "count": 17
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 5
+          "count": 6
         }
       ],
       "divisions": [
@@ -1783,7 +1783,7 @@
       ]
     }
   ],
-  "total_computers": 1793,
+  "total_computers": 1796,
   "computers": [
     {
       "ident": null,
@@ -6246,8 +6246,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -6336,8 +6336,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -7965,8 +7965,8 @@
       "division": "HSCL Floor 1",
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -8001,8 +8001,8 @@
       "division": "HSCL Floor 1",
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -15471,8 +15471,8 @@
       "division": "Unassigned",
       "building": "Unassigned",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -15527,6 +15527,15 @@
       "platform": "Windows",
       "status_code": 2,
       "status_label": "Available"
+    },
+    {
+      "ident": null,
+      "name": "AT-L-LW-211-19",
+      "division": "Unassigned",
+      "building": "Unassigned",
+      "platform": "Windows",
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -15696,6 +15705,15 @@
       "division": "Unassigned",
       "building": "Unassigned",
       "platform": "Windows",
+      "status_code": 2,
+      "status_label": "Available"
+    },
+    {
+      "ident": null,
+      "name": "AT-L-LW-211-10",
+      "division": "Unassigned",
+      "building": "Unassigned",
+      "platform": "Windows",
       "status_code": 4,
       "status_label": "In Use"
     },
@@ -15705,8 +15723,8 @@
       "division": "Unassigned",
       "building": "Unassigned",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -15824,6 +15842,15 @@
       "platform": "Windows",
       "status_code": 2,
       "status_label": "Available"
+    },
+    {
+      "ident": null,
+      "name": "AT-L-LW-211-20",
+      "division": "Unassigned",
+      "building": "Unassigned",
+      "platform": "Windows",
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
