@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T12:44:27.988754+00:00",
+  "generated_at": "2026-03-17T12:54:28.063230+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -14,7 +14,7 @@
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1696
+      "count": 1697
     },
     {
       "status_code": 4,
@@ -126,12 +126,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 276
+          "count": 277
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 2
         }
       ]
     },
@@ -313,7 +313,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 130
+          "count": 129
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -547,7 +552,7 @@
     },
     {
       "division": "Unassigned",
-      "total": 13,
+      "total": 14,
       "statuses": [
         {
           "status_code": 0,
@@ -557,7 +562,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 4,
@@ -659,12 +664,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 278
+          "count": 279
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 2
         }
       ],
       "divisions": [
@@ -827,12 +832,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 223
+          "count": 222
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 3
         }
       ],
       "divisions": [
@@ -969,7 +974,7 @@
     },
     {
       "building": "Unassigned",
-      "total": 13,
+      "total": 14,
       "statuses": [
         {
           "status_code": 0,
@@ -979,7 +984,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 4,
@@ -1028,7 +1033,7 @@
   "platforms": [
     {
       "platform": "Windows",
-      "count": 1665
+      "count": 1666
     },
     {
       "platform": "macOS",
@@ -1038,7 +1043,7 @@
   "platform_status": [
     {
       "platform": "Windows",
-      "total": 1665,
+      "total": 1666,
       "statuses": [
         {
           "status_code": 0,
@@ -1048,7 +1053,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1583
+          "count": 1584
         },
         {
           "status_code": 4,
@@ -1178,12 +1183,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 278
+          "count": 279
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 2
         }
       ],
       "divisions": [
@@ -1415,12 +1420,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 219
+          "count": 218
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ],
       "divisions": [
@@ -1635,7 +1640,7 @@
     {
       "building": "Unassigned",
       "platform": "Windows",
-      "total": 13,
+      "total": 14,
       "statuses": [
         {
           "status_code": 0,
@@ -1645,7 +1650,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 4,
@@ -1723,7 +1728,7 @@
       ]
     }
   ],
-  "total_computers": 1780,
+  "total_computers": 1781,
   "computers": [
     {
       "ident": null,
@@ -9480,8 +9485,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -15452,6 +15457,15 @@
     },
     {
       "ident": null,
+      "name": "AT-L-LW-342-18",
+      "division": "Unassigned",
+      "building": "Unassigned",
+      "platform": "Windows",
+      "status_code": 2,
+      "status_label": "Available"
+    },
+    {
+      "ident": null,
       "name": "AT-L-LW-211-02",
       "division": "LW 211",
       "building": "Library West",
@@ -15681,8 +15695,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
