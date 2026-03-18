@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T16:14:29.087028+00:00",
+  "generated_at": "2026-03-18T16:24:30.495324+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 96
+      "count": 99
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1660
+      "count": 1658
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 27
+      "count": 28
     }
   ],
   "divisions": [
@@ -99,12 +99,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 121
+          "count": 120
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -312,7 +312,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 53
+          "count": 52
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -328,12 +333,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 133
+          "count": 134
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 2
         }
       ]
     },
@@ -528,12 +533,12 @@
     },
     {
       "division": "Norman Hall",
-      "total": 6,
+      "total": 8,
       "statuses": [
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 2
+          "count": 4
         },
         {
           "status_code": 4,
@@ -549,12 +554,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 15
+          "count": 18
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 27
+          "count": 24
         },
         {
           "status_code": 4,
@@ -745,12 +750,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 148
+          "count": 147
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 3
         }
       ],
       "divisions": [
@@ -785,12 +790,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 15
+          "count": 18
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 27
+          "count": 24
         },
         {
           "status_code": 4,
@@ -1008,12 +1013,12 @@
     },
     {
       "building": "Norman Hall",
-      "total": 19,
+      "total": 21,
       "statuses": [
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 15
+          "count": 17
         },
         {
           "status_code": 4,
@@ -1115,7 +1120,7 @@
   "platforms": [
     {
       "platform": "Windows",
-      "count": 1668
+      "count": 1670
     },
     {
       "platform": "macOS",
@@ -1125,22 +1130,22 @@
   "platform_status": [
     {
       "platform": "Windows",
-      "total": 1668,
+      "total": 1670,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 93
+          "count": 96
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1549
+          "count": 1547
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 26
+          "count": 27
         }
       ]
     },
@@ -1296,12 +1301,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 148
+          "count": 147
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 3
         }
       ],
       "divisions": [
@@ -1338,12 +1343,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 15
+          "count": 18
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 24
+          "count": 21
         },
         {
           "status_code": 4,
@@ -1692,12 +1697,12 @@
     {
       "building": "Norman Hall",
       "platform": "Windows",
-      "total": 18,
+      "total": 20,
       "statuses": [
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 14
+          "count": 16
         },
         {
           "status_code": 4,
@@ -1846,7 +1851,7 @@
       ]
     }
   ],
-  "total_computers": 1783,
+  "total_computers": 1785,
   "computers": [
     {
       "ident": null,
@@ -9486,8 +9491,8 @@
       "division": "Norman Library",
       "building": "Education Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -9513,8 +9518,8 @@
       "division": "Norman Library",
       "building": "Education Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -9594,8 +9599,8 @@
       "division": "Norman Library",
       "building": "Education Library",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -9765,8 +9770,8 @@
       "division": "Norman Library",
       "building": "Education Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -10035,8 +10040,8 @@
       "division": "Norman Library",
       "building": "Education Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -13599,8 +13604,8 @@
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -15399,8 +15404,8 @@
       "division": "Norman Hall",
       "building": "Norman Hall",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -15545,6 +15550,15 @@
       "platform": "Windows",
       "status_code": 4,
       "status_label": "In Use"
+    },
+    {
+      "ident": null,
+      "name": "AT-L-N-1500-32",
+      "division": "Norman Hall",
+      "building": "Norman Hall",
+      "platform": "Windows",
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -15743,6 +15757,15 @@
       "platform": "Windows",
       "status_code": 2,
       "status_label": "Available"
+    },
+    {
+      "ident": null,
+      "name": "AT-L-N-1500-37",
+      "division": "Norman Hall",
+      "building": "Norman Hall",
+      "platform": "Windows",
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -16929,8 +16952,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -17019,8 +17042,8 @@
       "division": "LBW 2nd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
