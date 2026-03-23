@@ -3,11 +3,11 @@
     {
       "name": "Malachowsky Hall",
       "counts": {
-        "Online": 208,
-        "Offline": 50
+        "Offline": 51,
+        "Online": 207
       },
       "total": 258,
-      "onlinePct": 80.6,
+      "onlinePct": 80.2,
       "devices": [
         {
           "name": "B1024-1010-HDPS001",
@@ -95,7 +95,7 @@
         },
         {
           "name": "B1024-7200-SRC001",
-          "onlineStatus": "Online"
+          "onlineStatus": "Offline"
         },
         {
           "name": "B1024-7200-SRC002",
@@ -1946,8 +1946,8 @@
     {
       "name": "UFIT Conference Rooms",
       "counts": {
-        "Online": 84,
-        "Offline": 8
+        "Offline": 8,
+        "Online": 84
       },
       "total": 92,
       "onlinePct": 91.3,
@@ -2434,6 +2434,10 @@
         {
           "name": "AT-ANT-0213-TS770",
           "onlineStatus": "Offline"
+        },
+        {
+          "name": "AT-ANT-4113-TSW770",
+          "onlineStatus": "Online"
         },
         {
           "name": "AT-BLK-0315-TS770",
@@ -3824,10 +3828,6 @@
           "onlineStatus": "Online"
         },
         {
-          "name": "TSW-770-00107FF5B48D",
-          "onlineStatus": "Online"
-        },
-        {
           "name": "TSW-770-00107FF5B4A9",
           "onlineStatus": "Online"
         },
@@ -4119,7 +4119,7 @@
     }
   ],
   "meta": {
-    "generatedAtUtc": "2026-03-23T15:23:24.510282+00:00",
+    "generatedAtUtc": "2026-03-23T15:33:24.606465+00:00",
     "groupCount": 6
   }
 }
