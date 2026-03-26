@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T07:14:04.267186+00:00",
+  "generated_at": "2026-03-26T07:24:25.309852+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 71
+      "count": 72
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1689
+      "count": 1687
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 14
+      "count": 15
     }
   ],
   "divisions": [
@@ -288,12 +288,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 7
+          "count": 6
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 136
+          "count": 137
         }
       ]
     },
@@ -406,7 +406,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 8
+          "count": 7
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -480,12 +485,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 6
+          "count": 5
         }
       ]
     },
@@ -593,12 +598,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 111
+          "count": 110
         }
       ]
     }
@@ -831,12 +836,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 12
+          "count": 11
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 226
+          "count": 227
         }
       ],
       "divisions": [
@@ -878,12 +883,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 145
+          "count": 144
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 11
+          "count": 12
         }
       ],
       "divisions": [
@@ -921,12 +926,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 6
+          "count": 5
         }
       ],
       "divisions": [
@@ -1020,12 +1025,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 111
+          "count": 110
         }
       ],
       "divisions": [
@@ -1051,7 +1056,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 68
+          "count": 67
         },
         {
           "status_code": 2,
@@ -1061,7 +1066,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 14
+          "count": 15
         }
       ]
     },
@@ -1072,12 +1077,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 5
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 112
+          "count": 110
         }
       ]
     }
@@ -1418,12 +1423,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 11
+          "count": 10
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 221
+          "count": 222
         }
       ],
       "divisions": [
@@ -1487,12 +1492,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 140
+          "count": 139
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 11
+          "count": 12
         }
       ],
       "divisions": [
@@ -1570,8 +1575,8 @@
       "total": 1,
       "statuses": [
         {
-          "status_code": 2,
-          "status_label": "Available",
+          "status_code": 0,
+          "status_label": "Offline",
           "count": 1
         }
       ],
@@ -1720,9 +1725,14 @@
       "total": 30,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 30
+          "count": 29
         }
       ],
       "divisions": [
@@ -3583,8 +3593,8 @@
       "division": "Marston 3rd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -5266,8 +5276,8 @@
       "division": "NEWELL",
       "building": "Newell Hall",
       "platform": "macOS",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -5707,8 +5717,8 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "macOS",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -15022,8 +15032,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
