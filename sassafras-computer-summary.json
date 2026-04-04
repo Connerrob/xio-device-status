@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T13:33:54.713425+00:00",
+  "generated_at": "2026-04-04T13:44:26.995162+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 81
+      "count": 79
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1682
+      "count": 1683
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 14
+      "count": 15
     }
   ],
   "divisions": [
@@ -57,12 +57,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 80
+          "count": 78
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -116,12 +121,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 19
+          "count": 16
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 274
+          "count": 277
         },
         {
           "status_code": 4,
@@ -630,12 +635,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 80
+          "count": 78
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -668,12 +678,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 20
+          "count": 17
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 276
+          "count": 279
         },
         {
           "status_code": 4,
@@ -1076,17 +1086,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 79
+          "count": 76
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1569
+          "count": 1571
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 14
+          "count": 15
         }
       ]
     },
@@ -1097,12 +1107,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 3
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 113
+          "count": 112
         }
       ]
     }
@@ -1136,7 +1146,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 76
+          "count": 75
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1149,9 +1164,14 @@
       "total": 4,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 4
+          "count": 3
         }
       ],
       "divisions": [
@@ -1201,12 +1221,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 20
+          "count": 17
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 276
+          "count": 279
         },
         {
           "status_code": 4,
@@ -5765,8 +5785,8 @@
       "division": "Arch",
       "building": "Antevy Hall",
       "platform": "macOS",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -6701,8 +6721,8 @@
       "division": "HSCL Floor 2",
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -6890,8 +6910,8 @@
       "division": "HSCL Floor 2",
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -10292,8 +10312,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -11048,8 +11068,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -11282,8 +11302,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -13532,8 +13552,8 @@
       "division": "Arch",
       "building": "Antevy Hall",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
