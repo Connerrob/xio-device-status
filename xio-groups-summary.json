@@ -3,11 +3,11 @@
     {
       "name": "Malachowsky Hall",
       "counts": {
-        "Online": 204,
-        "Offline": 54
+        "Online": 205,
+        "Offline": 53
       },
       "total": 258,
-      "onlinePct": 79.1,
+      "onlinePct": 79.5,
       "devices": [
         {
           "name": "B1024-1010-HDPS001",
@@ -55,7 +55,7 @@
         },
         {
           "name": "B1024-3210-SRC002",
-          "onlineStatus": "Offline"
+          "onlineStatus": "Online"
         },
         {
           "name": "B1024-3210-SRC003",
@@ -1946,8 +1946,8 @@
     {
       "name": "UFIT Conference Rooms",
       "counts": {
-        "Online": 84,
-        "Offline": 8
+        "Offline": 8,
+        "Online": 84
       },
       "total": 92,
       "onlinePct": 91.3,
@@ -2325,11 +2325,11 @@
     {
       "name": "UFIT Learning Spaces",
       "counts": {
-        "Online": 431,
-        "Offline": 20
+        "Online": 432,
+        "Offline": 19
       },
       "total": 451,
-      "onlinePct": 95.6,
+      "onlinePct": 95.8,
       "devices": [
         {
           "name": "55UH5J-HP-7C646C395A13",
@@ -2401,6 +2401,10 @@
         },
         {
           "name": "ANT-0213-TS770",
+          "onlineStatus": "Online"
+        },
+        {
+          "name": "ANT-1102-DMPS",
           "onlineStatus": "Online"
         },
         {
@@ -3324,10 +3328,6 @@
           "onlineStatus": "Online"
         },
         {
-          "name": "H271-DMPS",
-          "onlineStatus": "Offline"
-        },
-        {
           "name": "HSCL-C121-AM3100-A",
           "onlineStatus": "Online"
         },
@@ -4139,7 +4139,7 @@
     }
   ],
   "meta": {
-    "generatedAtUtc": "2026-04-14T15:33:26.811212+00:00",
+    "generatedAtUtc": "2026-04-14T15:43:27.784542+00:00",
     "groupCount": 6
   }
 }
