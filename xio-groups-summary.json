@@ -35,7 +35,7 @@
         },
         {
           "name": "B1024-3210-DISP003",
-          "onlineStatus": "Offline"
+          "onlineStatus": "Online"
         },
         {
           "name": "B1024-3210-DISP004",
@@ -55,7 +55,7 @@
         },
         {
           "name": "B1024-3210-SRC002",
-          "onlineStatus": "Online"
+          "onlineStatus": "Offline"
         },
         {
           "name": "B1024-3210-SRC003",
@@ -1167,8 +1167,8 @@
     {
       "name": "UFIT AV Install Group",
       "counts": {
-        "Offline": 61,
-        "Online": 131
+        "Online": 131,
+        "Offline": 61
       },
       "total": 192,
       "onlinePct": 68.2,
@@ -2325,11 +2325,11 @@
     {
       "name": "UFIT Learning Spaces",
       "counts": {
-        "Online": 430,
-        "Offline": 21
+        "Online": 431,
+        "Offline": 20
       },
       "total": 451,
-      "onlinePct": 95.3,
+      "onlinePct": 95.6,
       "devices": [
         {
           "name": "55UH5J-HP-7C646C395A13",
@@ -2401,6 +2401,10 @@
         },
         {
           "name": "ANT-0213-TS770",
+          "onlineStatus": "Online"
+        },
+        {
+          "name": "ANT-1102-TSW770",
           "onlineStatus": "Online"
         },
         {
@@ -3888,10 +3892,6 @@
           "onlineStatus": "Online"
         },
         {
-          "name": "TSW-770-00107FF5B5EC",
-          "onlineStatus": "Offline"
-        },
-        {
           "name": "TSW-770-C4426833A661",
           "onlineStatus": "Online"
         },
@@ -4139,7 +4139,7 @@
     }
   ],
   "meta": {
-    "generatedAtUtc": "2026-04-14T15:23:27.374862+00:00",
+    "generatedAtUtc": "2026-04-14T15:33:26.811212+00:00",
     "groupCount": 6
   }
 }
