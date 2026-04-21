@@ -3,11 +3,11 @@
     {
       "name": "Malachowsky Hall",
       "counts": {
-        "Online": 204,
-        "Offline": 54
+        "Online": 205,
+        "Offline": 53
       },
       "total": 258,
-      "onlinePct": 79.1,
+      "onlinePct": 79.5,
       "devices": [
         {
           "name": "B1024-1010-HDPS001",
@@ -31,7 +31,7 @@
         },
         {
           "name": "B1024-3210-DISP002",
-          "onlineStatus": "Offline"
+          "onlineStatus": "Online"
         },
         {
           "name": "B1024-3210-DISP003",
@@ -1046,19 +1046,19 @@
     {
       "name": "Scheduling Panels",
       "counts": {
-        "Online": 1,
-        "Offline": 1
+        "Offline": 1,
+        "Online": 1
       },
       "total": 2,
       "onlinePct": 50.0,
       "devices": [
         {
-          "name": "TS-1070-00107FF55FFB",
-          "onlineStatus": "Offline"
-        },
-        {
           "name": "TSS-1070-00107FEFC33B",
           "onlineStatus": "Online"
+        },
+        {
+          "name": "TSW-1060-00107FB461A3",
+          "onlineStatus": "Offline"
         }
       ]
     },
@@ -1172,11 +1172,11 @@
     {
       "name": "UFIT AV Install Group",
       "counts": {
-        "Online": 130,
-        "Offline": 62
+        "Online": 129,
+        "Offline": 63
       },
       "total": 192,
-      "onlinePct": 67.7,
+      "onlinePct": 67.2,
       "devices": [
         {
           "name": "AM-3200-1329-1234",
@@ -1636,7 +1636,7 @@
         },
         {
           "name": "Blueberry-116-HDRXU",
-          "onlineStatus": "Online"
+          "onlineStatus": "Offline"
         },
         {
           "name": "CP4N-C442685AFC4B",
@@ -1952,10 +1952,10 @@
       "name": "UFIT Conference Rooms",
       "counts": {
         "Online": 84,
-        "Offline": 8
+        "Offline": 9
       },
-      "total": 92,
-      "onlinePct": 91.3,
+      "total": 93,
+      "onlinePct": 90.3,
       "devices": [
         {
           "name": "720-0241-RMC3",
@@ -2238,6 +2238,10 @@
           "onlineStatus": "Online"
         },
         {
+          "name": "TS-1070-00107FF55FFB",
+          "onlineStatus": "Offline"
+        },
+        {
           "name": "TS-770-C4426826673D",
           "onlineStatus": "Online"
         },
@@ -2498,11 +2502,11 @@
         },
         {
           "name": "AT-FAB-0105-TS1060",
-          "onlineStatus": "Offline"
+          "onlineStatus": "Online"
         },
         {
           "name": "AT-FAB-0105-TS1060",
-          "onlineStatus": "Online"
+          "onlineStatus": "Offline"
         },
         {
           "name": "AT-FAC-0120-TS760",
@@ -4144,7 +4148,7 @@
     }
   ],
   "meta": {
-    "generatedAtUtc": "2026-04-21T14:23:27.232859+00:00",
+    "generatedAtUtc": "2026-04-21T14:33:26.714832+00:00",
     "groupCount": 6
   }
 }
