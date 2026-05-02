@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T06:34:21.968608+00:00",
+  "generated_at": "2026-05-02T06:44:21.851334+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 241
+      "count": 240
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1540
+      "count": 1539
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 2
+      "count": 4
     }
   ],
   "divisions": [
@@ -89,12 +89,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 29
+          "count": 27
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 95
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 2
         }
       ]
     },
@@ -534,12 +539,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 6
+          "count": 7
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 57
+          "count": 56
         }
       ]
     },
@@ -688,12 +693,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 36
+          "count": 34
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 117
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 2
         }
       ],
       "divisions": [
@@ -983,12 +993,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 6
+          "count": 7
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 57
+          "count": 56
         }
       ],
       "divisions": [
@@ -1071,17 +1081,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 215
+          "count": 214
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1450
+          "count": 1449
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 4
         }
       ]
     },
@@ -1222,12 +1232,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 36
+          "count": 34
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 117
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 2
         }
       ],
       "divisions": [
@@ -1657,12 +1672,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 6
+          "count": 7
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 57
+          "count": 56
         }
       ],
       "divisions": [
@@ -12676,8 +12691,8 @@
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -13090,8 +13105,8 @@
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -17473,8 +17488,8 @@
       "division": "Turlington",
       "building": "Turlington Hall",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
