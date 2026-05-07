@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T07:14:51.614999+00:00",
+  "generated_at": "2026-05-07T07:24:57.471563+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,12 +9,12 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 104
+      "count": 105
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1700
+      "count": 1699
     },
     {
       "status_code": 4,
@@ -556,9 +556,14 @@
       "total": 12,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 12
+          "count": 11
         }
       ]
     },
@@ -971,9 +976,14 @@
       "total": 12,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 12
+          "count": 11
         }
       ],
       "divisions": [
@@ -1039,12 +1049,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 25
+          "count": 26
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 90
+          "count": 89
         }
       ]
     }
@@ -1628,9 +1638,14 @@
       "total": 3,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 3
+          "count": 2
         }
       ],
       "divisions": [
@@ -5281,8 +5296,8 @@
       "division": "WDS",
       "building": "WDS",
       "platform": "macOS",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
