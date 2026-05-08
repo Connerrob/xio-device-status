@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T20:34:03.148352+00:00",
+  "generated_at": "2026-05-08T20:44:03.966541+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,12 +9,12 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 72
+      "count": 70
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1698
+      "count": 1700
     },
     {
       "status_code": 4,
@@ -101,12 +101,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 26
+          "count": 25
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 271
+          "count": 272
         },
         {
           "status_code": 4,
@@ -181,7 +181,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 4
+          "count": 3
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -213,12 +218,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 65
+          "count": 66
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -275,14 +280,9 @@
       "total": 57,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 56
+          "count": 57
         }
       ]
     },
@@ -644,12 +644,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 27
+          "count": 26
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 273
+          "count": 274
         },
         {
           "status_code": 4,
@@ -812,12 +812,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 3
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 234
+          "count": 235
         },
         {
           "status_code": 4,
@@ -1043,12 +1043,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 69
+          "count": 67
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1609
+          "count": 1611
         },
         {
           "status_code": 4,
@@ -1158,12 +1158,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 27
+          "count": 26
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 273
+          "count": 274
         },
         {
           "status_code": 4,
@@ -1400,12 +1400,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 3
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 228
+          "count": 229
         },
         {
           "status_code": 4,
@@ -6810,8 +6810,8 @@
       "division": "HSCL Floor 2",
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -8394,8 +8394,8 @@
       "division": "HSCL C2",
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -10932,8 +10932,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -16629,8 +16629,8 @@
       "division": "LBW 2nd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
