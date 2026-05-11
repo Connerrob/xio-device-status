@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T10:34:08.778380+00:00",
+  "generated_at": "2026-05-11T10:44:09.368777+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -52,7 +52,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 83
+          "count": 82
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -262,12 +267,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 56
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 57
         }
       ]
     },
@@ -591,7 +591,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 83
+          "count": 82
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -792,12 +797,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 238
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 239
         }
       ],
       "divisions": [
@@ -1068,7 +1068,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 79
+          "count": 78
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1375,12 +1380,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 232
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 233
         }
       ],
       "divisions": [
@@ -2527,8 +2527,8 @@
       "division": "Arch",
       "building": "Antevy Hall",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -15892,8 +15892,8 @@
       "division": "LBW 2nd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
