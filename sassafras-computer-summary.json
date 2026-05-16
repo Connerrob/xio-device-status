@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T13:34:18.103844+00:00",
+  "generated_at": "2026-05-16T13:44:18.793642+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,7 +9,7 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 67
+      "count": 66
     },
     {
       "status_code": 2,
@@ -19,7 +19,7 @@
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 2
+      "count": 3
     }
   ],
   "divisions": [
@@ -52,7 +52,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 83
+          "count": 82
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -106,12 +111,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 32
+          "count": 31
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 268
+          "count": 269
         }
       ]
     },
@@ -571,7 +576,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 83
+          "count": 82
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -599,12 +609,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 33
+          "count": 32
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 270
+          "count": 271
         }
       ],
       "divisions": [
@@ -973,7 +983,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 66
+          "count": 65
         },
         {
           "status_code": 2,
@@ -983,7 +993,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -1028,7 +1038,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 79
+          "count": 78
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1088,12 +1103,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 33
+          "count": 32
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 270
+          "count": 271
         }
       ],
       "divisions": [
@@ -7645,8 +7660,8 @@
       "division": "Arch",
       "building": "Antevy Hall",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -10804,8 +10819,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
