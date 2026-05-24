@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T08:34:04.126784+00:00",
+  "generated_at": "2026-05-24T08:44:03.758618+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -498,9 +498,14 @@
       "total": 63,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 63
+          "count": 62
         }
       ]
     },
@@ -557,14 +562,9 @@
       "total": 110,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 109
+          "count": 110
         }
       ]
     }
@@ -923,9 +923,14 @@
       "total": 63,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 63
+          "count": 62
         }
       ],
       "divisions": [
@@ -975,14 +980,9 @@
       "total": 110,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 109
+          "count": 110
         }
       ],
       "divisions": [
@@ -1548,9 +1548,14 @@
       "total": 63,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 63
+          "count": 62
         }
       ],
       "divisions": [
@@ -1618,14 +1623,9 @@
       "total": 80,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 79
+          "count": 80
         }
       ],
       "divisions": [
@@ -8712,8 +8712,8 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -15777,8 +15777,8 @@
       "division": "Turlington",
       "building": "Turlington Hall",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
