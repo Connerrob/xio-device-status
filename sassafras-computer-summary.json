@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T11:13:55.925383+00:00",
+  "generated_at": "2026-06-02T11:24:09.185841+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -14,12 +14,12 @@
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1706
+      "count": 1705
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 2
+      "count": 3
     }
   ],
   "divisions": [
@@ -558,7 +558,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 12
+          "count": 11
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -968,7 +973,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 12
+          "count": 11
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1034,12 +1044,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 88
+          "count": 87
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ]
     }
@@ -1615,7 +1625,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 3
+          "count": 2
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -5576,8 +5591,8 @@
       "division": "WDS",
       "building": "WDS",
       "platform": "macOS",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
