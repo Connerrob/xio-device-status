@@ -3,11 +3,11 @@
     {
       "name": "Malachowsky Hall",
       "counts": {
-        "Online": 211,
-        "Offline": 47
+        "Online": 216,
+        "Offline": 42
       },
       "total": 258,
-      "onlinePct": 81.8,
+      "onlinePct": 83.7,
       "devices": [
         {
           "name": "B1024-1010-HDPS001",
@@ -115,23 +115,23 @@
         },
         {
           "name": "B1024-7200-TS001",
-          "onlineStatus": "Offline"
+          "onlineStatus": "Online"
         },
         {
           "name": "DM-NVX-360-C442684514B6",
-          "onlineStatus": "Offline"
+          "onlineStatus": "Online"
         },
         {
           "name": "DM-NVX-360-C4426845919F",
-          "onlineStatus": "Offline"
+          "onlineStatus": "Online"
         },
         {
           "name": "DM-NVX-360-C44268459231",
-          "onlineStatus": "Offline"
+          "onlineStatus": "Online"
         },
         {
           "name": "DM-NVX-360-C4426845925C",
-          "onlineStatus": "Offline"
+          "onlineStatus": "Online"
         },
         {
           "name": "DM-NVX-360-C442684598E5",
@@ -1949,8 +1949,8 @@
     {
       "name": "UFIT Conference Rooms",
       "counts": {
-        "Offline": 5,
-        "Online": 54
+        "Online": 54,
+        "Offline": 5
       },
       "total": 59,
       "onlinePct": 91.5,
@@ -2197,10 +2197,11 @@
       "name": "UFIT Learning Spaces",
       "counts": {
         "Online": 448,
-        "Offline": 34
+        "Offline": 40,
+        "null": 1
       },
-      "total": 482,
-      "onlinePct": 92.9,
+      "total": 489,
+      "onlinePct": 91.6,
       "devices": [
         {
           "name": "55UH5J-HP-7C646C395A13",
@@ -2663,6 +2664,30 @@
           "onlineStatus": "Online"
         },
         {
+          "name": "AT-NRNA-0504-LAPTOP",
+          "onlineStatus": "Offline"
+        },
+        {
+          "name": "AT-NRNA-0504-NVXD30-1P",
+          "onlineStatus": "Offline"
+        },
+        {
+          "name": "AT-NRNA-0504-NVXD30-2",
+          "onlineStatus": "Offline"
+        },
+        {
+          "name": "AT-NRNA-0504-NVXD30-3",
+          "onlineStatus": "Offline"
+        },
+        {
+          "name": "AT-NRNA-0504-PRIMARY",
+          "onlineStatus": "Offline"
+        },
+        {
+          "name": "AT-NRNA-0504-SECONDARY",
+          "onlineStatus": "Offline"
+        },
+        {
           "name": "AT-NRNA-0504-TSW1070",
           "onlineStatus": "Online"
         },
@@ -2881,6 +2906,10 @@
         {
           "name": "DAU-0342-DMPS3",
           "onlineStatus": "Online"
+        },
+        {
+          "name": "DM-NVX-D30-00107FF398D8",
+          "onlineStatus": null
         },
         {
           "name": "DMPS3-680A95CD",
@@ -4134,7 +4163,7 @@
     }
   ],
   "meta": {
-    "generatedAtUtc": "2026-06-04T16:43:21.238989+00:00",
+    "generatedAtUtc": "2026-06-04T16:53:22.923144+00:00",
     "groupCount": 6
   }
 }
