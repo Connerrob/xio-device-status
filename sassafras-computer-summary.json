@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T11:24:13.675150+00:00",
+  "generated_at": "2026-06-05T11:34:13.107621+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -429,7 +429,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 82
+          "count": 81
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -521,12 +526,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 231
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 232
         }
       ]
     },
@@ -722,12 +722,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 231
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 232
         }
       ],
       "divisions": [
@@ -844,7 +839,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 163
+          "count": 162
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1241,12 +1241,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 202
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 203
         }
       ],
       "divisions": [
@@ -1434,7 +1429,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 157
+          "count": 156
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -2646,8 +2646,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -14409,8 +14409,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
