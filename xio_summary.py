@@ -29,11 +29,7 @@ GROUP_IDS_OF_INTEREST = set(GROUPS_OF_INTEREST.keys())
 
 
 def _extract_device_list(data):
-    """
-    Account Devices sometimes returns a list directly, sometimes wrapped.
 
-    Tries common wrappers like Devices/devices/items/DeviceList.
-    """
     if isinstance(data, list):
         return data
 
