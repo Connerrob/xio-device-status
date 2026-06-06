@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T16:34:02.293563+00:00",
+  "generated_at": "2026-06-06T16:44:00.988119+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 79
+      "count": 80
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1685
+      "count": 1683
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 17
+      "count": 18
     }
   ],
   "divisions": [
@@ -271,7 +271,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 16
+          "count": 15
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -394,12 +399,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 31
+          "count": 30
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -419,14 +424,14 @@
       "total": 8,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
           "count": 7
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
         }
       ]
     },
@@ -837,12 +842,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 234
+          "count": 233
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 3
         }
       ],
       "divisions": [
@@ -874,12 +879,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 155
+          "count": 154
         },
         {
           "status_code": 4,
@@ -1043,17 +1048,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 78
+          "count": 79
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1595
+          "count": 1593
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 17
+          "count": 18
         }
       ]
     },
@@ -1410,12 +1415,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 228
+          "count": 227
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 3
         }
       ],
       "divisions": [
@@ -1464,12 +1469,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 149
+          "count": 148
         },
         {
           "status_code": 4,
@@ -2897,8 +2902,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -3572,8 +3577,8 @@
       "division": "Marston 3rd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -16802,8 +16807,8 @@
       "division": "LBW 1st floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
