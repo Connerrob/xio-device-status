@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T01:44:31.836236+00:00",
+  "generated_at": "2026-06-15T01:54:30.692914+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 88
+      "count": 89
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1680
+      "count": 1678
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 13
+      "count": 15
     }
   ],
   "divisions": [
@@ -313,12 +313,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 141
+          "count": 140
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -459,12 +459,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 77
+          "count": 76
         },
         {
           "status_code": 4,
@@ -572,7 +572,7 @@
     },
     {
       "division": "Unassigned",
-      "total": 15,
+      "total": 16,
       "statuses": [
         {
           "status_code": 0,
@@ -587,7 +587,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -857,12 +857,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 232
+          "count": 231
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 4
+          "count": 5
         }
       ],
       "divisions": [
@@ -894,12 +894,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 5
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 156
+          "count": 155
         },
         {
           "status_code": 4,
@@ -999,7 +999,7 @@
     },
     {
       "building": "Unassigned",
-      "total": 15,
+      "total": 16,
       "statuses": [
         {
           "status_code": 0,
@@ -1014,7 +1014,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ],
       "divisions": [
@@ -1053,7 +1053,7 @@
   "platforms": [
     {
       "platform": "Windows",
-      "count": 1690
+      "count": 1691
     },
     {
       "platform": "macOS",
@@ -1063,22 +1063,22 @@
   "platform_status": [
     {
       "platform": "Windows",
-      "total": 1690,
+      "total": 1691,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 86
+          "count": 87
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1592
+          "count": 1590
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 12
+          "count": 14
         }
       ]
     },
@@ -1455,12 +1455,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 226
+          "count": 225
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 4
+          "count": 5
         }
       ],
       "divisions": [
@@ -1509,12 +1509,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 5
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 150
+          "count": 149
         },
         {
           "status_code": 4,
@@ -1650,7 +1650,7 @@
     {
       "building": "Unassigned",
       "platform": "Windows",
-      "total": 15,
+      "total": 16,
       "statuses": [
         {
           "status_code": 0,
@@ -1665,7 +1665,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ],
       "divisions": [
@@ -1733,7 +1733,7 @@
       ]
     }
   ],
-  "total_computers": 1781,
+  "total_computers": 1782,
   "computers": [
     {
       "ident": null,
@@ -2983,8 +2983,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -6450,6 +6450,15 @@
       "platform": "Windows",
       "status_code": 2,
       "status_label": "Available"
+    },
+    {
+      "ident": null,
+      "name": "AT-L-LW-241-10",
+      "division": "Unassigned",
+      "building": "Unassigned",
+      "platform": "Windows",
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -16024,8 +16033,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
