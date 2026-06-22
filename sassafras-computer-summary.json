@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T17:54:16.456443+00:00",
+  "generated_at": "2026-06-22T18:04:20.438210+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -14,12 +14,12 @@
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1655
+      "count": 1653
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 48
+      "count": 51
     }
   ],
   "divisions": [
@@ -106,12 +106,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 30
+          "count": 28
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 265
+          "count": 267
         },
         {
           "status_code": 4,
@@ -168,9 +168,14 @@
       "total": 51,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 2
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 35
+          "count": 33
         },
         {
           "status_code": 4,
@@ -433,7 +438,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 8
+          "count": 7
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -444,12 +454,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 82
+          "count": 81
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -525,7 +535,7 @@
     },
     {
       "division": "Turlington",
-      "total": 62,
+      "total": 63,
       "statuses": [
         {
           "status_code": 0,
@@ -536,6 +546,11 @@
           "status_code": 2,
           "status_label": "Available",
           "count": 53
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -649,12 +664,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 31
+          "count": 29
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 267
+          "count": 269
         },
         {
           "status_code": 4,
@@ -771,12 +786,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 7
+          "count": 9
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 147
+          "count": 145
         },
         {
           "status_code": 4,
@@ -869,12 +884,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 162
+          "count": 160
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 5
         }
       ],
       "divisions": [
@@ -950,7 +965,7 @@
     },
     {
       "building": "Turlington Hall",
-      "total": 62,
+      "total": 63,
       "statuses": [
         {
           "status_code": 0,
@@ -961,6 +976,11 @@
           "status_code": 2,
           "status_label": "Available",
           "count": 53
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1023,7 +1043,7 @@
   "platforms": [
     {
       "platform": "Windows",
-      "count": 1689
+      "count": 1690
     },
     {
       "platform": "macOS",
@@ -1033,7 +1053,7 @@
   "platform_status": [
     {
       "platform": "Windows",
-      "total": 1689,
+      "total": 1690,
       "statuses": [
         {
           "status_code": 0,
@@ -1043,12 +1063,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1566
+          "count": 1564
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 46
+          "count": 49
         }
       ]
     },
@@ -1158,12 +1178,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 31
+          "count": 29
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 267
+          "count": 269
         },
         {
           "status_code": 4,
@@ -1321,12 +1341,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 7
+          "count": 9
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 146
+          "count": 144
         },
         {
           "status_code": 4,
@@ -1469,12 +1489,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 156
+          "count": 154
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 5
         }
       ],
       "divisions": [
@@ -1585,7 +1605,7 @@
     {
       "building": "Turlington Hall",
       "platform": "Windows",
-      "total": 62,
+      "total": 63,
       "statuses": [
         {
           "status_code": 0,
@@ -1596,6 +1616,11 @@
           "status_code": 2,
           "status_label": "Available",
           "count": 53
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1703,7 +1728,7 @@
       ]
     }
   ],
-  "total_computers": 1781,
+  "total_computers": 1782,
   "computers": [
     {
       "ident": null,
@@ -3277,8 +3302,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -3475,8 +3500,8 @@
       "division": "Marston 5th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -6742,8 +6767,8 @@
       "division": "HSCL C-121 Classroom",
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -7633,8 +7658,8 @@
       "division": "HSCL C-121 Classroom",
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 0,
+      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -9825,6 +9850,15 @@
     },
     {
       "ident": null,
+      "name": "AT-L-T-3K6-T01",
+      "division": "Turlington",
+      "building": "Turlington Hall",
+      "platform": "Windows",
+      "status_code": 4,
+      "status_label": "In Use"
+    },
+    {
+      "ident": null,
       "name": "AT-WEIM-3215",
       "division": "Classroom Support",
       "building": "Classrooms",
@@ -11233,8 +11267,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
@@ -11566,8 +11600,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
+      "status_code": 2,
+      "status_label": "Available"
     },
     {
       "ident": null,
