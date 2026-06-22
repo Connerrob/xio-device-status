@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T15:14:18.273765+00:00",
+  "generated_at": "2026-06-22T15:24:16.700574+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -14,12 +14,12 @@
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1670
+      "count": 1666
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 28
+      "count": 34
     }
   ],
   "divisions": [
@@ -116,12 +116,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 263
+          "count": 261
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 9
+          "count": 11
         }
       ]
     },
@@ -303,12 +303,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 141
+          "count": 139
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 5
         }
       ]
     },
@@ -510,7 +510,7 @@
     },
     {
       "division": "Turlington",
-      "total": 66,
+      "total": 68,
       "statuses": [
         {
           "status_code": 0,
@@ -525,7 +525,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 4
         }
       ]
     },
@@ -649,12 +649,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 265
+          "count": 263
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 9
+          "count": 11
         }
       ],
       "divisions": [
@@ -827,12 +827,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 235
+          "count": 233
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 5
         }
       ],
       "divisions": [
@@ -945,7 +945,7 @@
     },
     {
       "building": "Turlington Hall",
-      "total": 66,
+      "total": 68,
       "statuses": [
         {
           "status_code": 0,
@@ -960,7 +960,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 4
         }
       ],
       "divisions": [
@@ -1023,7 +1023,7 @@
   "platforms": [
     {
       "platform": "Windows",
-      "count": 1693
+      "count": 1695
     },
     {
       "platform": "macOS",
@@ -1033,7 +1033,7 @@
   "platform_status": [
     {
       "platform": "Windows",
-      "total": 1693,
+      "total": 1695,
       "statuses": [
         {
           "status_code": 0,
@@ -1043,12 +1043,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1579
+          "count": 1575
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 28
+          "count": 34
         }
       ]
     },
@@ -1163,12 +1163,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 265
+          "count": 263
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 9
+          "count": 11
         }
       ],
       "divisions": [
@@ -1415,12 +1415,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 229
+          "count": 227
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 5
         }
       ],
       "divisions": [
@@ -1585,7 +1585,7 @@
     {
       "building": "Turlington Hall",
       "platform": "Windows",
-      "total": 66,
+      "total": 68,
       "statuses": [
         {
           "status_code": 0,
@@ -1600,7 +1600,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 4
         }
       ],
       "divisions": [
@@ -1708,7 +1708,7 @@
       ]
     }
   ],
-  "total_computers": 1785,
+  "total_computers": 1787,
   "computers": [
     {
       "ident": null,
@@ -2175,8 +2175,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -9758,6 +9758,15 @@
     },
     {
       "ident": null,
+      "name": "AT-L-T-3K6-05",
+      "division": "Turlington",
+      "building": "Turlington Hall",
+      "platform": "Windows",
+      "status_code": 4,
+      "status_label": "In Use"
+    },
+    {
+      "ident": null,
       "name": "AT-NRN-2029",
       "division": "Classroom Support",
       "building": "Classrooms",
@@ -9809,6 +9818,15 @@
       "platform": "Windows",
       "status_code": 2,
       "status_label": "Available"
+    },
+    {
+      "ident": null,
+      "name": "AT-L-T-3K6-04",
+      "division": "Turlington",
+      "building": "Turlington Hall",
+      "platform": "Windows",
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -11166,8 +11184,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -11589,8 +11607,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -15702,8 +15720,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
