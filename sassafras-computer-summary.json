@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T11:14:18.532898+00:00",
+  "generated_at": "2026-06-23T11:24:19.002401+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 78
+      "count": 75
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1705
+      "count": 1703
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 2
+      "count": 4
     }
   ],
   "divisions": [
@@ -175,7 +175,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 45
+          "count": 44
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -480,13 +485,8 @@
     },
     {
       "division": "Turlington",
-      "total": 66,
+      "total": 63,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 3
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -506,7 +506,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 232
+          "count": 231
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -707,7 +712,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 232
+          "count": 231
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -726,7 +736,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 164
+          "count": 163
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -885,13 +900,8 @@
     },
     {
       "building": "Turlington Hall",
-      "total": 66,
+      "total": 63,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 3
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -958,7 +968,7 @@
   "platforms": [
     {
       "platform": "Windows",
-      "count": 1693
+      "count": 1690
     },
     {
       "platform": "macOS",
@@ -968,22 +978,22 @@
   "platform_status": [
     {
       "platform": "Windows",
-      "total": 1693,
+      "total": 1690,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 77
+          "count": 74
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1614
+          "count": 1612
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 4
         }
       ]
     },
@@ -1216,7 +1226,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 202
+          "count": 201
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1251,7 +1266,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 163
+          "count": 162
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1495,13 +1515,8 @@
     {
       "building": "Turlington Hall",
       "platform": "Windows",
-      "total": 66,
+      "total": 63,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 3
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -1613,7 +1628,7 @@
       ]
     }
   ],
-  "total_computers": 1785,
+  "total_computers": 1782,
   "computers": [
     {
       "ident": null,
@@ -6103,8 +6118,8 @@
       "division": "HSCL C-121 Classroom",
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -13389,30 +13404,12 @@
     },
     {
       "ident": null,
-      "name": "AT-L-T-3K6-13",
-      "division": "Turlington",
-      "building": "Turlington Hall",
-      "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
-    },
-    {
-      "ident": null,
       "name": "AT-L-S-230-03L",
       "division": "WDS",
       "building": "WDS",
       "platform": "Windows",
       "status_code": 2,
       "status_label": "Available"
-    },
-    {
-      "ident": null,
-      "name": "AT-L-T-3K6-21",
-      "division": "Turlington",
-      "building": "Turlington Hall",
-      "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
     },
     {
       "ident": null,
@@ -14473,8 +14470,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available"
+      "status_code": 4,
+      "status_label": "In Use"
     },
     {
       "ident": null,
@@ -15777,15 +15774,6 @@
       "name": "at-l-m-100-08VG",
       "division": "MADE@UF",
       "building": "MADE@UF",
-      "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline"
-    },
-    {
-      "ident": null,
-      "name": "AT-L-T-3K6-11",
-      "division": "Turlington",
-      "building": "Turlington Hall",
       "platform": "Windows",
       "status_code": 0,
       "status_label": "Offline"
