@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T22:04:29.759976+00:00",
+  "generated_at": "2026-07-05T22:14:13.626077+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 53
+      "count": 52
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1712
+      "count": 1711
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 20
+      "count": 22
     }
   ],
   "divisions": [
@@ -111,12 +111,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 20
+          "count": 19
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 279
+          "count": 280
         },
         {
           "status_code": 4,
@@ -288,12 +288,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 141
+          "count": 140
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 4
+          "count": 5
         }
       ]
     },
@@ -455,7 +455,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 7
+          "count": 6
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -634,12 +639,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 21
+          "count": 20
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 281
+          "count": 282
         },
         {
           "status_code": 4,
@@ -812,12 +817,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 233
+          "count": 232
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 5
+          "count": 6
         }
       ],
       "divisions": [
@@ -887,7 +892,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 7
+          "count": 6
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1008,17 +1018,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 50
+          "count": 49
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1624
+          "count": 1623
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 19
+          "count": 21
         }
       ]
     },
@@ -1133,12 +1143,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 21
+          "count": 20
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 281
+          "count": 282
         },
         {
           "status_code": 4,
@@ -1380,12 +1390,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 228
+          "count": 227
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 5
+          "count": 6
         }
       ],
       "divisions": [
@@ -1494,7 +1504,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 6
+          "count": 5
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -9107,8 +9122,8 @@
       "division": "NEWELL",
       "building": "Newell Hall",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 4,
+      "status_label": "In Use",
       "last_login": "2026-07-05T14:01:54-0400",
       "last_startup": "2026-07-05T05:42:09-0400"
     },
@@ -10911,8 +10926,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 4,
+      "status_label": "In Use",
       "last_login": "2026-07-05T14:18:52-0400",
       "last_startup": "2026-07-05T06:03:52-0400"
     },
@@ -13210,8 +13225,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-06-30T16:19:46-0400",
       "last_startup": "2026-07-05T18:02:38-0400"
     },
@@ -13386,8 +13401,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-07-05T18:03:44-0400",
       "last_startup": "2026-07-05T18:03:43-0400"
     },
@@ -13686,7 +13701,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-06-26T14:25:28-0400",
-      "last_startup": "2026-07-03T21:53:56-0400"
+      "last_startup": "2026-07-05T18:07:24-0400"
     },
     {
       "ident": null,
@@ -14225,7 +14240,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-06-29T10:36:21-0400",
-      "last_startup": "2026-07-03T20:34:58-0400"
+      "last_startup": "2026-07-05T18:03:26-0400"
     },
     {
       "ident": null,
@@ -18743,10 +18758,10 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 4,
+      "status_label": "In Use",
       "last_login": "2026-07-05T13:36:36-0400",
-      "last_startup": "2026-07-05T05:43:43-0400"
+      "last_startup": "2026-07-05T18:07:04-0400"
     },
     {
       "ident": null,
