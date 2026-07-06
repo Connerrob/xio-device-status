@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T01:44:28.666162+00:00",
+  "generated_at": "2026-07-06T01:54:29.290832+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,12 +9,12 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 49
+      "count": 50
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1720
+      "count": 1719
     },
     {
       "status_code": 4,
@@ -278,12 +278,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 142
+          "count": 141
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 4
         }
       ]
     },
@@ -395,14 +395,14 @@
       "total": 8,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
           "count": 7
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
         }
       ]
     },
@@ -792,12 +792,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 234
+          "count": 233
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 5
+          "count": 6
         }
       ],
       "divisions": [
@@ -827,6 +827,11 @@
       "total": 165,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
           "count": 160
@@ -834,7 +839,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 5
+          "count": 4
         }
       ],
       "divisions": [
@@ -988,12 +993,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 47
+          "count": 48
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1631
+          "count": 1630
         },
         {
           "status_code": 4,
@@ -1355,12 +1360,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 229
+          "count": 228
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 4
+          "count": 5
         }
       ],
       "divisions": [
@@ -1412,6 +1417,11 @@
       "total": 159,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
           "count": 154
@@ -1419,7 +1429,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 5
+          "count": 4
         }
       ],
       "divisions": [
@@ -3857,9 +3867,9 @@
       "division": "Marston 4th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
-      "last_login": "2026-07-05T17:46:46-0400",
+      "status_code": 0,
+      "status_label": "Offline",
+      "last_login": "2026-07-05T21:53:15-0400",
       "last_startup": "2026-07-05T05:39:26-0400"
     },
     {
@@ -12627,7 +12637,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-07-01T11:08:07-0400",
-      "last_startup": "2026-07-03T20:51:44-0400"
+      "last_startup": "2026-07-05T21:43:26-0400"
     },
     {
       "ident": null,
@@ -19653,8 +19663,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 4,
+      "status_label": "In Use",
       "last_login": "2026-07-05T17:10:25-0400",
       "last_startup": "2026-07-05T05:40:26-0400"
     },
