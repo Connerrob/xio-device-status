@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T11:44:30.313931+00:00",
+  "generated_at": "2026-07-06T11:54:13.266929+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 53
+      "count": 52
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1725
+      "count": 1722
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 7
+      "count": 11
     }
   ],
   "divisions": [
@@ -111,12 +111,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 281
+          "count": 279
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 5
+          "count": 7
         }
       ]
     },
@@ -208,7 +208,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 69
+          "count": 68
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -491,12 +496,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 7
+          "count": 6
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 231
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -599,12 +609,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 283
+          "count": 281
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 5
+          "count": 7
         }
       ],
       "divisions": [
@@ -692,12 +702,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 7
+          "count": 6
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 231
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -716,7 +731,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 174
+          "count": 173
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -963,17 +983,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 50
+          "count": 49
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1636
+          "count": 1633
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 7
+          "count": 11
         }
       ]
     },
@@ -1083,12 +1103,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 283
+          "count": 281
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 5
+          "count": 7
         }
       ],
       "divisions": [
@@ -1196,12 +1216,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 6
+          "count": 5
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 202
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1241,7 +1266,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 173
+          "count": 172
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -8486,9 +8516,9 @@
       "division": "HSCL Floor 2",
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-07-05T15:44:07-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-07-06T07:51:53-0400",
       "last_startup": "2026-07-06T05:35:04-0400"
     },
     {
@@ -12721,9 +12751,9 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-07-01T12:15:26-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-07-06T07:48:40-0400",
       "last_startup": "2026-07-05T02:51:36-0400"
     },
     {
@@ -13436,9 +13466,9 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-07-02T17:32:26-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-07-06T07:47:33-0400",
       "last_startup": "2026-07-05T06:26:52-0400"
     },
     {
@@ -17121,10 +17151,10 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-05-19T12:08:40-0400",
-      "last_startup": "2026-07-06T07:42:34-0400"
+      "last_startup": "2026-07-06T07:51:18-0400"
     },
     {
       "ident": null,
@@ -17165,9 +17195,9 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-07-02T16:12:57-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-07-06T07:47:05-0400",
       "last_startup": "2026-07-06T05:35:13-0400"
     },
     {
