@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T07:24:03.453854+00:00",
+  "generated_at": "2026-07-07T07:34:31.956964+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -79,12 +79,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 3
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 122
+          "count": 121
         }
       ]
     },
@@ -380,14 +380,9 @@
       "total": 8,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 7
+          "count": 8
         }
       ]
     },
@@ -407,9 +402,14 @@
       "total": 84,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 84
+          "count": 83
         }
       ]
     },
@@ -496,12 +496,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 236
+          "count": 237
         }
       ]
     },
@@ -629,12 +629,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 150
+          "count": 149
         }
       ],
       "divisions": [
@@ -702,12 +702,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 236
+          "count": 237
         }
       ],
       "divisions": [
@@ -1119,12 +1119,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 150
+          "count": 149
         }
       ],
       "divisions": [
@@ -1211,12 +1211,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 206
+          "count": 207
         }
       ],
       "divisions": [
@@ -3832,8 +3832,8 @@
       "division": "Marston 4th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-07-05T21:53:15-0400",
       "last_startup": "2026-07-07T03:22:12-0400"
     },
@@ -3868,7 +3868,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-07-02T13:57:05-0400",
-      "last_startup": "2026-07-07T02:01:03-0400"
+      "last_startup": "2026-07-07T03:29:23-0400"
     },
     {
       "ident": null,
@@ -4250,10 +4250,10 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-06-17T16:35:53-0400",
-      "last_startup": "2026-07-07T02:01:27-0400"
+      "last_startup": "2026-07-07T03:32:11-0400"
     },
     {
       "ident": null,
@@ -6794,7 +6794,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-04-25T02:00:06-0400",
-      "last_startup": "2026-07-07T02:01:32-0400"
+      "last_startup": "2026-07-07T03:30:21-0400"
     },
     {
       "ident": null,
@@ -10520,8 +10520,8 @@
       "division": "NRN 1st Floor",
       "building": "Norman Hall",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-05-01T17:18:28-0400",
       "last_startup": "2026-07-07T03:21:48-0400"
     },
@@ -12195,7 +12195,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-07-06T13:44:51-0400",
-      "last_startup": "2026-07-06T23:01:19-0400"
+      "last_startup": "2026-07-07T03:24:11-0400"
     },
     {
       "ident": null,
@@ -14527,7 +14527,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-05-01T13:59:53-0400",
-      "last_startup": "2026-07-07T02:01:26-0400"
+      "last_startup": "2026-07-07T03:26:06-0400"
     },
     {
       "ident": null,
@@ -15261,8 +15261,8 @@
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-05-07T14:25:27-0400",
       "last_startup": "2026-07-07T02:01:36-0400"
     },
@@ -16045,7 +16045,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-05-22T15:20:13-0400",
-      "last_startup": "2026-07-07T02:01:31-0400"
+      "last_startup": "2026-07-07T03:26:33-0400"
     },
     {
       "ident": null,
@@ -16768,8 +16768,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-06-12T10:31:28-0400",
       "last_startup": "2026-07-07T03:21:13-0400"
     },
@@ -16991,7 +16991,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-07-02T15:43:56-0400",
-      "last_startup": "2026-07-07T02:01:25-0400"
+      "last_startup": "2026-07-07T03:29:12-0400"
     },
     {
       "ident": null,
@@ -17860,7 +17860,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-05-13T16:43:41-0400",
-      "last_startup": "2026-07-07T02:01:07-0400"
+      "last_startup": "2026-07-07T03:27:07-0400"
     },
     {
       "ident": null,
@@ -18946,10 +18946,10 @@
       "division": "NRN 1st Floor",
       "building": "Norman Hall",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-06-03T18:50:31-0400",
-      "last_startup": "2026-07-07T02:01:28-0400"
+      "last_startup": "2026-07-07T03:31:22-0400"
     },
     {
       "ident": null,
