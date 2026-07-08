@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T07:14:25.588114+00:00",
+  "generated_at": "2026-07-08T07:24:15.430980+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,12 +9,12 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 81
+      "count": 86
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1699
+      "count": 1694
     },
     {
       "status_code": 4,
@@ -542,9 +542,14 @@
       "total": 110,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 5
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 110
+          "count": 105
         }
       ]
     }
@@ -940,9 +945,14 @@
       "total": 110,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 5
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 110
+          "count": 105
         }
       ],
       "divisions": [
@@ -968,12 +978,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 80
+          "count": 79
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1608
+          "count": 1609
         },
         {
           "status_code": 4,
@@ -989,12 +999,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 7
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 91
+          "count": 85
         }
       ]
     }
@@ -1206,12 +1216,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 205
+          "count": 206
         }
       ],
       "divisions": [
@@ -1224,9 +1234,14 @@
       "total": 30,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 30
+          "count": 29
         }
       ],
       "divisions": [
@@ -1593,9 +1608,14 @@
       "total": 30,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 5
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 30
+          "count": 25
         }
       ],
       "divisions": [
@@ -6154,8 +6174,8 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "macOS",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-03-09T13:24:45-0400",
       "last_startup": "2026-07-08T03:00:52-0400"
     },
@@ -6209,8 +6229,8 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "macOS",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-04-20T17:32:08-0400",
       "last_startup": "2026-07-08T03:00:53-0400"
     },
@@ -6264,8 +6284,8 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "macOS",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-03-03T10:08:42-0500",
       "last_startup": "2026-07-08T03:00:52-0400"
     },
@@ -6429,8 +6449,8 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "macOS",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-04-03T12:26:24-0400",
       "last_startup": "2026-07-08T03:00:53-0400"
     },
@@ -6484,8 +6504,8 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "macOS",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-05-06T15:31:35-0400",
       "last_startup": "2026-07-08T03:01:24-0400"
     },
@@ -6660,8 +6680,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "macOS",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-05-19T18:31:46-0400",
       "last_startup": "2026-07-08T03:00:51-0400"
     },
@@ -17121,10 +17141,10 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-05-19T12:08:40-0400",
-      "last_startup": "2026-07-08T03:12:20-0400"
+      "last_startup": "2026-07-08T03:21:18-0400"
     },
     {
       "ident": null,
