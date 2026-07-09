@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T02:14:05.692400+00:00",
+  "generated_at": "2026-07-09T02:24:06.785281+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,12 +9,12 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 65
+      "count": 66
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1707
+      "count": 1706
     },
     {
       "status_code": 4,
@@ -218,12 +218,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 67
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 68
         }
       ]
     },
@@ -293,12 +288,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 143
+          "count": 142
         },
         {
           "status_code": 4,
@@ -444,7 +439,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 83
+          "count": 82
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -761,12 +761,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 172
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 173
         }
       ],
       "divisions": [
@@ -812,12 +807,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 233
+          "count": 232
         },
         {
           "status_code": 4,
@@ -859,12 +854,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 160
+          "count": 159
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 4
         }
       ],
       "divisions": [
@@ -1023,12 +1018,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 64
+          "count": 65
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1617
+          "count": 1616
         },
         {
           "status_code": 4,
@@ -1306,12 +1301,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 171
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 172
         }
       ],
       "divisions": [
@@ -1390,12 +1380,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 228
+          "count": 227
         },
         {
           "status_code": 4,
@@ -1459,12 +1449,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 154
+          "count": 153
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 4
         }
       ],
       "divisions": [
@@ -2906,8 +2896,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 4,
+      "status_label": "In Use",
       "last_login": "2026-07-08T17:34:17-0400",
       "last_startup": "2026-07-08T17:33:55-0400"
     },
@@ -7955,8 +7945,8 @@
       "division": "HSCL Floor 2",
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-07-08T19:49:16-0400",
       "last_startup": "2026-07-08T12:21:57-0400"
     },
@@ -17209,7 +17199,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-05-19T12:08:40-0400",
-      "last_startup": "2026-07-08T22:10:39-0400"
+      "last_startup": "2026-07-08T22:21:14-0400"
     },
     {
       "ident": null,
@@ -19582,8 +19572,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 4,
+      "status_label": "In Use",
       "last_login": "2026-07-08T16:04:01-0400",
       "last_startup": "2026-07-08T05:35:13-0400"
     },
@@ -20627,10 +20617,10 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
-      "last_login": "2026-07-08T20:06:01-0400",
-      "last_startup": "2026-07-08T05:35:00-0400"
+      "status_code": 0,
+      "status_label": "Offline",
+      "last_login": "2026-07-08T22:22:01-0400",
+      "last_startup": "2026-07-08T22:12:50-0400"
     },
     {
       "ident": null,
