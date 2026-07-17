@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T21:34:11.072881+00:00",
+  "generated_at": "2026-07-17T21:44:09.689159+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 54
+      "count": 53
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1703
+      "count": 1705
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 30
+      "count": 29
     }
   ],
   "divisions": [
@@ -298,12 +298,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 134
+          "count": 135
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 7
+          "count": 6
         }
       ]
     },
@@ -372,6 +372,11 @@
       "total": 33,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
           "count": 30
@@ -379,7 +384,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 2
         }
       ]
     },
@@ -452,11 +457,6 @@
       "total": 84,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
           "count": 81
@@ -464,7 +464,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -541,12 +541,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 5
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 233
+          "count": 234
         }
       ]
     },
@@ -742,12 +742,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 5
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 233
+          "count": 234
         }
       ],
       "divisions": [
@@ -822,12 +822,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 219
+          "count": 220
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 15
+          "count": 14
         }
       ],
       "divisions": [
@@ -1023,17 +1023,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 53
+          "count": 52
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1615
+          "count": 1617
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 27
+          "count": 26
         }
       ]
     },
@@ -1261,12 +1261,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 5
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 203
+          "count": 204
         }
       ],
       "divisions": [
@@ -1390,12 +1390,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 216
+          "count": 217
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 12
+          "count": 11
         }
       ],
       "divisions": [
@@ -2910,7 +2910,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-07-17T17:30:26-0400",
-      "last_startup": "2026-07-17T17:31:43-0400"
+      "last_startup": "2026-07-17T17:36:01-0400"
     },
     {
       "ident": null,
@@ -3171,10 +3171,10 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
-      "last_login": "2026-07-17T17:01:09-0400",
-      "last_startup": "2026-07-17T05:42:57-0400"
+      "status_code": 0,
+      "status_label": "Offline",
+      "last_login": "2026-07-17T17:33:58-0400",
+      "last_startup": "2026-07-17T17:42:19-0400"
     },
     {
       "ident": null,
@@ -3259,8 +3259,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-07-17T17:09:31-0400",
       "last_startup": "2026-07-17T17:03:01-0400"
     },
@@ -3369,8 +3369,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 4,
+      "status_label": "In Use",
       "last_login": "2026-07-17T16:48:41-0400",
       "last_startup": "2026-07-17T11:30:35-0400"
     },
@@ -3611,9 +3611,9 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-07-17T12:25:46-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-07-17T17:41:46-0400",
       "last_startup": "2026-07-17T12:23:37-0400"
     },
     {
@@ -5792,7 +5792,7 @@
       "status_code": 4,
       "status_label": "In Use",
       "last_login": "2026-07-17T17:03:08-0400",
-      "last_startup": "2026-07-17T03:00:19-0400"
+      "last_startup": "2026-07-17T17:33:24-0400"
     },
     {
       "ident": null,
@@ -5836,7 +5836,7 @@
       "status_code": 4,
       "status_label": "In Use",
       "last_login": "2026-07-17T13:56:35-0400",
-      "last_startup": "2026-07-17T03:00:23-0400"
+      "last_startup": "2026-07-17T17:36:55-0400"
     },
     {
       "ident": null,
@@ -8407,8 +8407,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-07-17T14:49:56-0400",
       "last_startup": "2026-07-17T11:39:45-0400"
     },
@@ -17218,10 +17218,10 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-05-19T12:08:40-0400",
-      "last_startup": "2026-07-17T17:32:20-0400"
+      "last_startup": "2026-07-17T17:40:57-0400"
     },
     {
       "ident": null,
@@ -18769,8 +18769,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-07-17T10:11:20-0400",
       "last_startup": "2026-07-17T05:35:31-0400"
     },
