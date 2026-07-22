@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T03:44:18.199339+00:00",
+  "generated_at": "2026-07-22T03:54:45.830194+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,12 +9,12 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 51
+      "count": 52
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1732
+      "count": 1731
     },
     {
       "status_code": 4,
@@ -66,9 +66,14 @@
       "total": 10,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 10
+          "count": 9
         }
       ]
     },
@@ -619,12 +624,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 150
+          "count": 149
         }
       ],
       "divisions": [
@@ -953,12 +958,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 51
+          "count": 52
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1640
+          "count": 1639
         },
         {
           "status_code": 4,
@@ -1094,12 +1099,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 150
+          "count": 149
         }
       ],
       "divisions": [
@@ -15358,8 +15363,8 @@
       "division": "CSE",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-05-07T14:25:17-0400",
       "last_startup": "2026-07-21T05:40:38-0400"
     },
