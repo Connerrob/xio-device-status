@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T00:24:44.173017+00:00",
+  "generated_at": "2026-07-26T00:34:46.073991+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,12 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 52
+      "count": 51
     },
     {
       "status_code": 2,
       "status_label": "Available",
       "count": 1732
+    },
+    {
+      "status_code": 4,
+      "status_label": "In Use",
+      "count": 1
     }
   ],
   "divisions": [
@@ -252,7 +257,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 56
+          "count": 55
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -471,12 +481,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 234
+          "count": 235
         }
       ]
     },
@@ -657,12 +667,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 234
+          "count": 235
         }
       ],
       "divisions": [
@@ -737,7 +747,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 235
+          "count": 234
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -918,12 +933,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 51
+          "count": 50
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 1643
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -1136,12 +1156,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 206
+          "count": 207
         }
       ],
       "divisions": [
@@ -1265,7 +1285,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 229
+          "count": 228
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -3403,7 +3428,7 @@
                 "status_code": 2,
                 "status_label": "Available",
                 "last_login": "2026-07-25T20:15:17-0400",
-                "last_startup": "2026-07-25T20:16:44-0400",
+                "last_startup": "2026-07-25T20:23:26-0400",
                 "building_code": "FLO",
                 "building_name": "Griffin-Floyd Hall",
                 "room": "0100",
@@ -21438,7 +21463,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-07-25T20:15:17-0400",
-      "last_startup": "2026-07-25T20:16:44-0400"
+      "last_startup": "2026-07-25T20:23:26-0400"
     },
     {
       "ident": null,
@@ -26407,10 +26432,10 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-05-19T12:08:40-0400",
-      "last_startup": "2026-07-25T20:22:14-0400"
+      "last_startup": "2026-07-25T20:31:03-0400"
     },
     {
       "ident": null,
@@ -28387,8 +28412,8 @@
       "division": "LBW 2nd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 4,
+      "status_label": "In Use",
       "last_login": "2026-07-25T10:46:51-0400",
       "last_startup": "2026-07-25T05:42:03-0400"
     },
