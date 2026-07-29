@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T11:44:18.648622+00:00",
+  "generated_at": "2026-07-29T11:54:37.082618+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 48
+      "count": 49
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1734
+      "count": 1731
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 2
+      "count": 4
     }
   ],
   "divisions": [
@@ -116,12 +116,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 285
+          "count": 284
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -486,12 +486,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 235
+          "count": 233
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -594,12 +599,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 287
+          "count": 286
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ],
       "divisions": [
@@ -682,12 +687,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 235
+          "count": 233
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -948,17 +958,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 47
+          "count": 48
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1645
+          "count": 1642
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 4
         }
       ]
     },
@@ -1073,12 +1083,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 287
+          "count": 286
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ],
       "divisions": [
@@ -1181,12 +1191,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 207
+          "count": 205
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -2242,8 +2257,8 @@
                 "platform": "Windows",
                 "status_code": 4,
                 "status_label": "In Use",
-                "last_login": "2026-07-29T07:38:09-0400",
-                "last_startup": "2026-07-29T07:36:59-0400",
+                "last_login": "2026-07-29T07:52:51-0400",
+                "last_startup": "2026-07-29T07:52:35-0400",
                 "building_code": "CLB",
                 "building_name": "CLB",
                 "room": "C130",
@@ -8606,7 +8621,12 @@
           {
             "status_code": 2,
             "status_label": "Available",
-            "count": 2
+            "count": 1
+          },
+          {
+            "status_code": 4,
+            "status_label": "In Use",
+            "count": 1
           }
         ],
         "rooms": [
@@ -8643,8 +8663,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 2,
-                "status_label": "Available",
+                "status_code": 4,
+                "status_label": "In Use",
                 "count": 1
               }
             ],
@@ -8655,9 +8675,9 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 2,
-                "status_label": "Available",
-                "last_login": "2026-07-28T23:00:11-0400",
+                "status_code": 4,
+                "status_label": "In Use",
+                "last_login": "2026-07-29T07:52:38-0400",
                 "last_startup": "2026-07-29T06:04:35-0400",
                 "building_code": "PUG",
                 "building_name": "Pugh Hall",
@@ -13673,9 +13693,9 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-07-28T18:56:28-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-07-29T07:52:33-0400",
       "last_startup": "2026-07-29T05:41:13-0400"
     },
     {
@@ -22770,9 +22790,9 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-07-28T23:00:11-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-07-29T07:52:38-0400",
       "last_startup": "2026-07-29T06:04:35-0400"
     },
     {
@@ -23025,8 +23045,8 @@
       "platform": "Windows",
       "status_code": 4,
       "status_label": "In Use",
-      "last_login": "2026-07-29T07:38:09-0400",
-      "last_startup": "2026-07-29T07:36:59-0400"
+      "last_login": "2026-07-29T07:52:51-0400",
+      "last_startup": "2026-07-29T07:52:35-0400"
     },
     {
       "ident": null,
@@ -26455,10 +26475,10 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-07-28T02:18:03-0400",
-      "last_startup": "2026-07-29T07:41:13-0400"
+      "last_startup": "2026-07-29T07:52:14-0400"
     },
     {
       "ident": null,
