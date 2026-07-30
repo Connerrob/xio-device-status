@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T03:14:37.829171+00:00",
+  "generated_at": "2026-07-30T03:24:03.177363+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -71,9 +71,14 @@
       "total": 10,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 10
+          "count": 9
         }
       ]
     },
@@ -491,12 +496,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 234
+          "count": 235
         }
       ]
     },
@@ -619,12 +624,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 3
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 151
+          "count": 150
         }
       ],
       "divisions": [
@@ -687,12 +692,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 234
+          "count": 235
         }
       ],
       "divisions": [
@@ -1094,12 +1099,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 3
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 151
+          "count": 150
         }
       ],
       "divisions": [
@@ -1181,12 +1186,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 206
+          "count": 207
         }
       ],
       "divisions": [
@@ -7402,7 +7407,7 @@
                 "status_code": 2,
                 "status_label": "Available",
                 "last_login": "2026-07-22T11:37:35-0400",
-                "last_startup": "2026-07-29T23:04:29-0400",
+                "last_startup": "2026-07-29T23:13:38-0400",
                 "building_code": "MCCC",
                 "building_name": "McCarty Hall C",
                 "room": "0100",
@@ -7710,7 +7715,7 @@
                 "status_code": 2,
                 "status_label": "Available",
                 "last_login": "2026-07-29T14:34:39-0400",
-                "last_startup": "2026-07-29T23:04:47-0400",
+                "last_startup": "2026-07-29T23:14:29-0400",
                 "building_code": "NEB",
                 "building_name": "New Engineering",
                 "room": "0202",
@@ -15276,7 +15281,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-07-24T18:15:48-0400",
-      "last_startup": "2026-07-29T12:30:13-0400"
+      "last_startup": "2026-07-29T23:15:29-0400"
     },
     {
       "ident": null,
@@ -15309,7 +15314,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-07-14T22:44:09-0400",
-      "last_startup": "2026-07-29T12:30:11-0400"
+      "last_startup": "2026-07-29T23:15:34-0400"
     },
     {
       "ident": null,
@@ -15397,7 +15402,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-07-29T17:18:24-0400",
-      "last_startup": "2026-07-29T17:01:58-0400"
+      "last_startup": "2026-07-29T23:15:52-0400"
     },
     {
       "ident": null,
@@ -15430,7 +15435,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-07-29T21:39:53-0400",
-      "last_startup": "2026-07-29T21:23:29-0400"
+      "last_startup": "2026-07-29T23:15:23-0400"
     },
     {
       "ident": null,
@@ -15452,7 +15457,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-07-29T14:10:20-0400",
-      "last_startup": "2026-07-29T13:59:46-0400"
+      "last_startup": "2026-07-29T23:15:23-0400"
     },
     {
       "ident": null,
@@ -22602,7 +22607,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-07-29T14:34:39-0400",
-      "last_startup": "2026-07-29T23:04:47-0400"
+      "last_startup": "2026-07-29T23:14:29-0400"
     },
     {
       "ident": null,
@@ -22877,7 +22882,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-07-22T11:37:35-0400",
-      "last_startup": "2026-07-29T23:04:29-0400"
+      "last_startup": "2026-07-29T23:13:38-0400"
     },
     {
       "ident": null,
@@ -25052,8 +25057,8 @@
       "division": "CSE",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-05-07T14:25:17-0400",
       "last_startup": "2026-07-29T05:43:02-0400"
     },
@@ -26801,10 +26806,10 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-07-28T02:18:03-0400",
-      "last_startup": "2026-07-29T23:12:29-0400"
+      "last_startup": "2026-07-29T23:21:18-0400"
     },
     {
       "ident": null,
