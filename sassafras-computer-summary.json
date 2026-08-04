@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T11:44:20.611807+00:00",
+  "generated_at": "2026-08-04T11:54:16.946490+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,7 +9,7 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 68
+      "count": 67
     },
     {
       "status_code": 2,
@@ -19,7 +19,7 @@
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 3
+      "count": 4
     }
   ],
   "divisions": [
@@ -111,7 +111,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 28
+          "count": 27
         },
         {
           "status_code": 2,
@@ -121,7 +121,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -604,7 +604,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 29
+          "count": 28
         },
         {
           "status_code": 2,
@@ -614,7 +614,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ],
       "divisions": [
@@ -978,7 +978,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 68
+          "count": 67
         },
         {
           "status_code": 2,
@@ -988,7 +988,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -1098,7 +1098,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 29
+          "count": 28
         },
         {
           "status_code": 2,
@@ -1108,7 +1108,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ],
       "divisions": [
@@ -5314,14 +5314,9 @@
         "total": 18,
         "statuses": [
           {
-            "status_code": 0,
-            "status_label": "Offline",
-            "count": 1
-          },
-          {
             "status_code": 2,
             "status_label": "Available",
-            "count": 17
+            "count": 18
           }
         ],
         "rooms": [
@@ -5442,8 +5437,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 0,
-                "status_label": "Offline",
+                "status_code": 2,
+                "status_label": "Available",
                 "count": 1
               }
             ],
@@ -5454,10 +5449,10 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 0,
-                "status_label": "Offline",
+                "status_code": 2,
+                "status_label": "Available",
                 "last_login": "2026-08-03T14:42:39-0400",
-                "last_startup": "2026-08-03T23:01:15-0400",
+                "last_startup": "2026-08-04T07:47:27-0400",
                 "building_code": "LIT",
                 "building_name": "Little Hall",
                 "room": "0119",
@@ -8929,7 +8924,12 @@
           {
             "status_code": 2,
             "status_label": "Available",
-            "count": 2
+            "count": 1
+          },
+          {
+            "status_code": 4,
+            "status_label": "In Use",
+            "count": 1
           }
         ],
         "rooms": [
@@ -8966,8 +8966,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 2,
-                "status_label": "Available",
+                "status_code": 4,
+                "status_label": "In Use",
                 "count": 1
               }
             ],
@@ -8978,9 +8978,9 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 2,
-                "status_label": "Available",
-                "last_login": "2026-08-03T20:41:07-0400",
+                "status_code": 4,
+                "status_label": "In Use",
+                "last_login": "2026-08-04T07:52:26-0400",
                 "last_startup": "2026-08-04T06:00:34-0400",
                 "building_code": "PUG",
                 "building_name": "Pugh Hall",
@@ -11870,7 +11870,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-01-20T14:00:23-0500",
-      "last_startup": "2026-08-04T02:30:14-0400"
+      "last_startup": "2026-08-04T07:43:30-0400"
     },
     {
       "ident": null,
@@ -16259,7 +16259,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2025-12-16T03:00:29-0500",
-      "last_startup": "2026-08-04T02:30:21-0400"
+      "last_startup": "2026-08-04T07:43:23-0400"
     },
     {
       "ident": null,
@@ -22878,10 +22878,10 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-03T14:42:39-0400",
-      "last_startup": "2026-08-03T23:01:15-0400"
+      "last_startup": "2026-08-04T07:47:27-0400"
     },
     {
       "ident": null,
@@ -23208,9 +23208,9 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-08-03T20:41:07-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-08-04T07:52:26-0400",
       "last_startup": "2026-08-04T06:00:34-0400"
     },
     {
@@ -26896,7 +26896,7 @@
       "status_code": 0,
       "status_label": "Offline",
       "last_login": "2026-07-31T08:06:02-0400",
-      "last_startup": "2026-08-04T07:41:41-0400"
+      "last_startup": "2026-08-04T07:52:28-0400"
     },
     {
       "ident": null,
