@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T11:24:07.178822+00:00",
+  "generated_at": "2026-08-07T11:34:23.140167+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,7 +9,7 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 138
+      "count": 137
     },
     {
       "status_code": 2,
@@ -19,7 +19,7 @@
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 3
+      "count": 4
     }
   ],
   "divisions": [
@@ -111,7 +111,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 26
+          "count": 25
         },
         {
           "status_code": 2,
@@ -121,7 +121,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -609,7 +609,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 27
+          "count": 26
         },
         {
           "status_code": 2,
@@ -619,7 +619,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ],
       "divisions": [
@@ -983,7 +983,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 137
+          "count": 136
         },
         {
           "status_code": 2,
@@ -993,7 +993,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -1108,7 +1108,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 27
+          "count": 26
         },
         {
           "status_code": 2,
@@ -1118,7 +1118,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ],
       "divisions": [
@@ -3032,14 +3032,9 @@
         "total": 4,
         "statuses": [
           {
-            "status_code": 0,
-            "status_label": "Offline",
-            "count": 1
-          },
-          {
             "status_code": 2,
             "status_label": "Available",
-            "count": 3
+            "count": 4
           }
         ],
         "rooms": [
@@ -3048,8 +3043,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 0,
-                "status_label": "Offline",
+                "status_code": 2,
+                "status_label": "Available",
                 "count": 1
               }
             ],
@@ -3060,10 +3055,10 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 0,
-                "status_label": "Offline",
+                "status_code": 2,
+                "status_label": "Available",
                 "last_login": "2026-08-06T13:45:29-0400",
-                "last_startup": "2026-08-06T23:08:20-0400",
+                "last_startup": "2026-08-07T07:27:40-0400",
                 "building_code": "FAC",
                 "building_name": "Fine Arts C",
                 "room": "0120",
@@ -4749,7 +4744,12 @@
           {
             "status_code": 2,
             "status_label": "Available",
-            "count": 11
+            "count": 10
+          },
+          {
+            "status_code": 4,
+            "status_label": "In Use",
+            "count": 1
           }
         ],
         "rooms": [
@@ -4982,8 +4982,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 2,
-                "status_label": "Available",
+                "status_code": 4,
+                "status_label": "In Use",
                 "count": 1
               }
             ],
@@ -4994,10 +4994,10 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 2,
-                "status_label": "Available",
-                "last_login": "2026-08-05T12:07:47-0400",
-                "last_startup": "2026-08-06T23:06:37-0400",
+                "status_code": 4,
+                "status_label": "In Use",
+                "last_login": "2026-08-07T07:33:27-0400",
+                "last_startup": "2026-08-07T07:23:14-0400",
                 "building_code": "FLI",
                 "building_name": "Keene-Flint Hall",
                 "room": "0119",
@@ -21990,10 +21990,10 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-08-05T12:07:47-0400",
-      "last_startup": "2026-08-06T23:06:37-0400"
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-08-07T07:33:27-0400",
+      "last_startup": "2026-08-07T07:23:14-0400"
     },
     {
       "ident": null,
@@ -23068,10 +23068,10 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-06T13:45:29-0400",
-      "last_startup": "2026-08-06T23:08:20-0400"
+      "last_startup": "2026-08-07T07:27:40-0400"
     },
     {
       "ident": null,
