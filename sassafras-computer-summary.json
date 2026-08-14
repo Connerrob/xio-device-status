@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T12:24:05.867920+00:00",
+  "generated_at": "2026-08-14T12:34:24.060162+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 68
+      "count": 64
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1672
+      "count": 1677
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 61
+      "count": 56
     }
   ],
   "divisions": [
@@ -36,13 +36,8 @@
     },
     {
       "division": "AFA Library",
-      "total": 21,
+      "total": 17,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 4
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -500,7 +495,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 63
+          "count": 62
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -516,12 +516,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 208
+          "count": 214
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 25
+          "count": 19
         }
       ]
     },
@@ -605,13 +605,8 @@
     },
     {
       "building": "Architecture & Fine Arts Library",
-      "total": 21,
+      "total": 17,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 4
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -732,12 +727,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 208
+          "count": 214
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 25
+          "count": 19
         }
       ],
       "divisions": [
@@ -935,7 +930,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 63
+          "count": 62
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1007,7 +1007,7 @@
     },
     {
       "platform": "macOS",
-      "count": 98
+      "count": 94
     }
   ],
   "platform_status": [
@@ -1023,23 +1023,23 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1583
+          "count": 1588
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 61
+          "count": 56
         }
       ]
     },
     {
       "platform": "macOS",
-      "total": 98,
+      "total": 94,
       "statuses": [
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 9
+          "count": 5
         },
         {
           "status_code": 2,
@@ -1113,13 +1113,8 @@
     {
       "building": "Architecture & Fine Arts Library",
       "platform": "macOS",
-      "total": 8,
+      "total": 4,
       "statuses": [
-        {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 4
-        },
         {
           "status_code": 2,
           "status_label": "Available",
@@ -1256,12 +1251,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 180
+          "count": 186
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 25
+          "count": 19
         }
       ],
       "divisions": [
@@ -1575,7 +1570,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 63
+          "count": 62
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -11348,7 +11348,7 @@
       }
     ]
   },
-  "total_computers": 1801,
+  "total_computers": 1797,
   "computers": [
     {
       "ident": null,
@@ -15400,28 +15400,6 @@
     },
     {
       "ident": null,
-      "name": "AT-L-F-201-02M",
-      "division": "AFA Library",
-      "building": "Architecture & Fine Arts Library",
-      "platform": "macOS",
-      "status_code": 0,
-      "status_label": "Offline",
-      "last_login": "2026-07-28T17:05:38-0400",
-      "last_startup": "2026-08-12T12:30:16-0400"
-    },
-    {
-      "ident": null,
-      "name": "AT-L-F-201-04M",
-      "division": "AFA Library",
-      "building": "Architecture & Fine Arts Library",
-      "platform": "macOS",
-      "status_code": 0,
-      "status_label": "Offline",
-      "last_login": "2026-07-30T16:56:10-0400",
-      "last_startup": "2026-08-10T02:30:13-0400"
-    },
-    {
-      "ident": null,
       "name": "AT-L-B-230-01M",
       "division": "WDS",
       "building": "WDS",
@@ -15430,17 +15408,6 @@
       "status_label": "Available",
       "last_login": "2026-08-05T13:17:18-0400",
       "last_startup": "2026-08-14T03:00:20-0400"
-    },
-    {
-      "ident": null,
-      "name": "AT-L-F-201-03M",
-      "division": "AFA Library",
-      "building": "Architecture & Fine Arts Library",
-      "platform": "macOS",
-      "status_code": 0,
-      "status_label": "Offline",
-      "last_login": "2026-07-31T09:01:57-0400",
-      "last_startup": "2026-08-12T12:30:21-0400"
     },
     {
       "ident": null,
@@ -15463,17 +15430,6 @@
       "status_label": "Offline",
       "last_login": "2026-07-16T12:43:54-0400",
       "last_startup": "2026-08-12T03:00:20-0400"
-    },
-    {
-      "ident": null,
-      "name": "AT-L-F-201-01M",
-      "division": "AFA Library",
-      "building": "Architecture & Fine Arts Library",
-      "platform": "macOS",
-      "status_code": 0,
-      "status_label": "Offline",
-      "last_login": "2026-08-04T16:32:36-0400",
-      "last_startup": "2026-08-12T12:30:10-0400"
     },
     {
       "ident": null,
@@ -23962,10 +23918,10 @@
       "division": "Turlington",
       "building": "Turlington Hall",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-08-14T08:21:49-0400",
-      "last_startup": "2026-08-14T08:08:03-0400"
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-08-14T08:28:44-0400",
+      "last_startup": "2026-08-14T08:28:31-0400"
     },
     {
       "ident": null,
@@ -26195,8 +26151,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-14T08:17:25-0400",
       "last_startup": "2026-08-14T05:41:47-0400"
     },
@@ -26448,9 +26404,9 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-07-15T16:15:11-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-08-14T08:32:53-0400",
       "last_startup": "2026-08-14T05:38:47-0400"
     },
     {
@@ -26734,8 +26690,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-14T08:01:54-0400",
       "last_startup": "2026-08-14T05:38:42-0400"
     },
@@ -26811,9 +26767,9 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-07-23T15:41:32-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-08-14T08:23:48-0400",
       "last_startup": "2026-08-14T05:40:27-0400"
     },
     {
@@ -26833,8 +26789,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-14T08:15:15-0400",
       "last_startup": "2026-08-14T05:38:44-0400"
     },
@@ -26857,8 +26813,8 @@
       "platform": "Windows",
       "status_code": 4,
       "status_label": "In Use",
-      "last_login": "2026-08-14T08:21:47-0400",
-      "last_startup": "2026-08-14T08:21:10-0400"
+      "last_login": "2026-08-14T08:28:37-0400",
+      "last_startup": "2026-08-14T08:28:36-0400"
     },
     {
       "ident": null,
@@ -26877,9 +26833,9 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-07-23T15:57:32-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-08-14T08:23:40-0400",
       "last_startup": "2026-08-14T05:34:59-0400"
     },
     {
@@ -26899,8 +26855,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-14T08:13:56-0400",
       "last_startup": "2026-08-14T05:40:49-0400"
     },
@@ -26954,8 +26910,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-14T07:59:33-0400",
       "last_startup": "2026-08-14T05:39:55-0400"
     },
@@ -26965,8 +26921,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-14T08:16:05-0400",
       "last_startup": "2026-08-14T05:38:49-0400"
     },
@@ -27009,8 +26965,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-14T08:12:14-0400",
       "last_startup": "2026-08-14T05:41:36-0400"
     },
@@ -27042,8 +26998,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-14T08:13:09-0400",
       "last_startup": "2026-08-14T05:43:34-0400"
     },
@@ -27053,8 +27009,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-14T08:06:49-0400",
       "last_startup": "2026-08-14T05:39:24-0400"
     },
