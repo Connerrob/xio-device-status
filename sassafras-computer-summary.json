@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T18:24:08.663269+00:00",
+  "generated_at": "2026-08-15T18:34:09.774255+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,7 +9,7 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 67
+      "count": 68
     },
     {
       "status_code": 2,
@@ -19,7 +19,7 @@
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 5
+      "count": 4
     }
   ],
   "divisions": [
@@ -243,14 +243,14 @@
       "total": 6,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
           "count": 5
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
         }
       ]
     },
@@ -766,14 +766,14 @@
       "total": 6,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
           "count": 5
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
         }
       ],
       "divisions": [
@@ -1014,17 +1014,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 88
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
         }
       ]
     }
@@ -1323,13 +1318,13 @@
       "total": 2,
       "statuses": [
         {
-          "status_code": 2,
-          "status_label": "Available",
+          "status_code": 0,
+          "status_label": "Offline",
           "count": 1
         },
         {
-          "status_code": 4,
-          "status_label": "In Use",
+          "status_code": 2,
+          "status_label": "Available",
           "count": 1
         }
       ],
@@ -15304,9 +15299,9 @@
       "division": "Hub 120",
       "building": "Hub",
       "platform": "macOS",
-      "status_code": 4,
-      "status_label": "In Use",
-      "last_login": "2026-08-15T14:06:07-0400",
+      "status_code": 0,
+      "status_label": "Offline",
+      "last_login": "2026-08-15T14:28:47-0400",
       "last_startup": "2026-08-15T14:13:13-0400"
     },
     {
