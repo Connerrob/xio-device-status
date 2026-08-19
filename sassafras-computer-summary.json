@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T10:44:18.437404+00:00",
+  "generated_at": "2026-08-19T10:54:02.559417+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,7 +9,7 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 63
+      "count": 64
     },
     {
       "status_code": 2,
@@ -19,7 +19,7 @@
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 3
+      "count": 2
     }
   ],
   "divisions": [
@@ -52,12 +52,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 82
+          "count": 81
         }
       ]
     },
@@ -243,14 +243,14 @@
       "total": 6,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
           "count": 5
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
         }
       ]
     },
@@ -506,12 +506,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 6
+          "count": 5
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 229
+          "count": 230
         }
       ]
     },
@@ -581,12 +581,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 82
+          "count": 81
         }
       ],
       "divisions": [
@@ -707,12 +707,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 6
+          "count": 5
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 229
+          "count": 230
         }
       ],
       "divisions": [
@@ -766,14 +766,14 @@
       "total": 6,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
           "count": 5
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
         }
       ],
       "divisions": [
@@ -1009,17 +1009,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 87
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
         }
       ]
     }
@@ -1048,12 +1043,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 78
+          "count": 77
         }
       ],
       "divisions": [
@@ -1211,12 +1206,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 5
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 202
+          "count": 203
         }
       ],
       "divisions": [
@@ -1323,13 +1318,13 @@
       "total": 2,
       "statuses": [
         {
-          "status_code": 2,
-          "status_label": "Available",
+          "status_code": 0,
+          "status_label": "Offline",
           "count": 1
         },
         {
-          "status_code": 4,
-          "status_label": "In Use",
+          "status_code": 2,
+          "status_label": "Available",
           "count": 1
         }
       ],
@@ -25728,8 +25723,8 @@
       "division": "Arch",
       "building": "Antevy Hall",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-08-17T15:35:06-0400",
       "last_startup": "2026-08-19T02:07:33-0400"
     },
@@ -26685,10 +26680,10 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-14T02:17:30-0400",
-      "last_startup": "2026-08-19T06:41:41-0400"
+      "last_startup": "2026-08-19T06:50:58-0400"
     },
     {
       "ident": null,
@@ -27037,9 +27032,9 @@
       "division": "Hub 120",
       "building": "Hub",
       "platform": "macOS",
-      "status_code": 4,
-      "status_label": "In Use",
-      "last_login": "2026-08-19T06:05:44-0400",
+      "status_code": 0,
+      "status_label": "Offline",
+      "last_login": "2026-08-19T06:51:04-0400",
       "last_startup": "2026-08-19T06:39:14-0400"
     },
     {
