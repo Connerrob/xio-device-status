@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T03:43:58.798373+00:00",
+  "generated_at": "2026-08-19T03:54:18.528341+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -72,9 +72,14 @@
       "total": 124,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 124
+          "count": 123
         }
       ]
     },
@@ -543,12 +548,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 9
+          "count": 10
         }
       ]
     },
@@ -634,12 +639,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 152
+          "count": 151
         }
       ],
       "divisions": [
@@ -953,12 +958,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 9
+          "count": 10
         }
       ],
       "divisions": [
@@ -1134,12 +1139,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 152
+          "count": 151
         }
       ],
       "divisions": [
@@ -1600,12 +1605,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 6
+          "count": 7
         }
       ],
       "divisions": [
@@ -16237,7 +16242,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-08-17T15:57:29-0400",
-      "last_startup": "2026-08-18T23:35:16-0400"
+      "last_startup": "2026-08-18T23:47:41-0400"
     },
     {
       "ident": null,
@@ -18481,7 +18486,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-07-31T12:18:41-0400",
-      "last_startup": "2026-08-18T23:30:22-0400"
+      "last_startup": "2026-08-18T23:47:03-0400"
     },
     {
       "ident": null,
@@ -20403,10 +20408,10 @@
       "division": "WDS",
       "building": "WDS",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-07-31T12:13:52-0400",
-      "last_startup": "2026-08-18T23:41:41-0400"
+      "last_startup": "2026-08-18T23:47:42-0400"
     },
     {
       "ident": null,
@@ -20480,8 +20485,8 @@
       "division": "WDS",
       "building": "WDS",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-07T23:00:14-0400",
       "last_startup": "2026-08-18T23:42:07-0400"
     },
@@ -24473,8 +24478,8 @@
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-08-17T09:20:24-0400",
       "last_startup": "2026-08-18T05:39:14-0400"
     },
@@ -25617,8 +25622,8 @@
       "division": "WDS",
       "building": "WDS",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-08-17T14:22:59-0400",
       "last_startup": "2026-08-18T23:41:22-0400"
     },
