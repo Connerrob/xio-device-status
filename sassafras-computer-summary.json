@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T03:44:27.077575+00:00",
+  "generated_at": "2026-08-21T03:54:30.499105+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,7 +9,7 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 69
+      "count": 68
     },
     {
       "status_code": 2,
@@ -19,7 +19,7 @@
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 3
+      "count": 4
     }
   ],
   "divisions": [
@@ -562,14 +562,14 @@
       "total": 110,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
           "count": 109
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     }
@@ -970,14 +970,14 @@
       "total": 110,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
           "count": 109
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1024,12 +1024,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 88
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     }
@@ -1633,14 +1638,14 @@
       "total": 30,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
           "count": 29
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -15736,9 +15741,9 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "macOS",
-      "status_code": 0,
-      "status_label": "Offline",
-      "last_login": "2026-08-20T23:39:27-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-08-20T23:45:21-0400",
       "last_startup": "2026-08-20T03:00:48-0400"
     },
     {
