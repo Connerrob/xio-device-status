@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T01:04:28.654649+00:00",
+  "generated_at": "2026-08-21T01:14:31.072211+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,7 +9,7 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 67
+      "count": 68
     },
     {
       "status_code": 2,
@@ -19,7 +19,7 @@
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 13
+      "count": 12
     }
   ],
   "divisions": [
@@ -197,12 +197,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 30
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 31
         }
       ]
     },
@@ -272,7 +267,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 53
+          "count": 51
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 2
         }
       ]
     },
@@ -288,12 +288,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 135
+          "count": 136
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 5
+          "count": 4
         }
       ]
     },
@@ -577,14 +577,14 @@
       "total": 110,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
           "count": 109
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
         }
       ]
     }
@@ -766,12 +766,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 167
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 168
         }
       ],
       "divisions": [
@@ -822,12 +817,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 225
+          "count": 224
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 5
+          "count": 6
         }
       ],
       "divisions": [
@@ -1010,14 +1005,14 @@
       "total": 110,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
           "count": 109
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
         }
       ],
       "divisions": [
@@ -1064,17 +1059,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 3
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 87
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
         }
       ]
     }
@@ -1311,12 +1301,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 166
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 167
         }
       ],
       "divisions": [
@@ -1400,12 +1385,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 219
+          "count": 218
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 5
+          "count": 6
         }
       ],
       "divisions": [
@@ -1708,14 +1693,14 @@
       "total": 30,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
           "count": 29
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
         }
       ],
       "divisions": [
@@ -15816,9 +15801,9 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "macOS",
-      "status_code": 4,
-      "status_label": "In Use",
-      "last_login": "2026-08-20T21:00:30-0400",
+      "status_code": 0,
+      "status_label": "Offline",
+      "last_login": "2026-08-20T21:11:55-0400",
       "last_startup": "2026-08-20T03:00:48-0400"
     },
     {
@@ -18907,8 +18892,8 @@
       "division": "HSCL Floor 1",
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-20T10:37:04-0400",
       "last_startup": "2026-08-20T10:37:02-0400"
     },
@@ -29764,8 +29749,8 @@
       "division": "LBW 2nd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 4,
+      "status_label": "In Use",
       "last_login": "2026-08-20T18:06:05-0400",
       "last_startup": "2026-08-20T15:44:00-0400"
     },
@@ -29863,8 +29848,8 @@
       "division": "LBW 3rd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-20T10:52:40-0400",
       "last_startup": "2026-08-20T05:39:07-0400"
     },
@@ -29984,8 +29969,8 @@
       "division": "LBW 2nd floor",
       "building": "Library West",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 4,
+      "status_label": "In Use",
       "last_login": "2026-08-20T13:10:34-0400",
       "last_startup": "2026-08-20T11:38:02-0400"
     },
