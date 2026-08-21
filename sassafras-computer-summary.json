@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T03:24:40.020953+00:00",
+  "generated_at": "2026-08-21T03:34:36.926230+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 67
+      "count": 68
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1725
+      "count": 1723
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 3
+      "count": 4
     }
   ],
   "divisions": [
@@ -61,9 +61,14 @@
       "total": 10,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 10
+          "count": 9
         }
       ]
     },
@@ -72,9 +77,14 @@
       "total": 124,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 124
+          "count": 123
         }
       ]
     },
@@ -552,14 +562,14 @@
       "total": 110,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
           "count": 109
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     }
@@ -634,12 +644,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 3
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 152
+          "count": 150
         }
       ],
       "divisions": [
@@ -960,14 +970,14 @@
       "total": 110,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
           "count": 109
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -993,12 +1003,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 65
+          "count": 67
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1637
+          "count": 1635
         },
         {
           "status_code": 4,
@@ -1014,12 +1024,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 88
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     }
@@ -1129,12 +1144,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 3
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 152
+          "count": 150
         }
       ],
       "divisions": [
@@ -1623,14 +1638,14 @@
       "total": 30,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
           "count": 29
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -15726,9 +15741,9 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "macOS",
-      "status_code": 0,
-      "status_label": "Offline",
-      "last_login": "2026-08-20T23:17:00-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-08-20T23:28:02-0400",
       "last_startup": "2026-08-20T03:00:48-0400"
     },
     {
@@ -24438,8 +24453,8 @@
       "division": "CSE.CSE 231",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-08-17T09:20:24-0400",
       "last_startup": "2026-08-20T05:35:48-0400"
     },
@@ -24911,8 +24926,8 @@
       "division": "CSE",
       "building": "Computer Science & Engineering",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-05-07T14:25:17-0400",
       "last_startup": "2026-08-20T05:34:51-0400"
     },
