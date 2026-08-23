@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T12:04:34.594367+00:00",
+  "generated_at": "2026-08-23T12:14:33.628648+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -3609,7 +3609,12 @@
           {
             "status_code": 2,
             "status_label": "Available",
-            "count": 19
+            "count": 18
+          },
+          {
+            "status_code": 4,
+            "status_label": "In Use",
+            "count": 1
           }
         ],
         "rooms": [
@@ -3926,8 +3931,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 2,
-                "status_label": "Available",
+                "status_code": 4,
+                "status_label": "In Use",
                 "count": 1
               }
             ],
@@ -3938,9 +3943,9 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 2,
-                "status_label": "Available",
-                "last_login": "2026-08-22T16:25:50-0400",
+                "status_code": 4,
+                "status_label": "In Use",
+                "last_login": "2026-08-23T08:08:48-0400",
                 "last_startup": "2026-08-23T06:05:47-0400",
                 "building_code": "HOL",
                 "building_name": "Holland",
@@ -4295,12 +4300,7 @@
           {
             "status_code": 2,
             "status_label": "Available",
-            "count": 3
-          },
-          {
-            "status_code": 4,
-            "status_label": "In Use",
-            "count": 1
+            "count": 4
           }
         ],
         "rooms": [
@@ -4309,8 +4309,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 4,
-                "status_label": "In Use",
+                "status_code": 2,
+                "status_label": "Available",
                 "count": 1
               }
             ],
@@ -4321,8 +4321,8 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 4,
-                "status_label": "In Use",
+                "status_code": 2,
+                "status_label": "Available",
                 "last_login": "2026-08-23T07:58:39-0400",
                 "last_startup": "2026-08-23T06:05:12-0400",
                 "building_code": "JAX1",
@@ -20119,9 +20119,9 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-08-22T16:25:50-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-08-23T08:08:48-0400",
       "last_startup": "2026-08-23T06:05:47-0400"
     },
     {
@@ -23309,8 +23309,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-23T07:58:39-0400",
       "last_startup": "2026-08-23T06:05:12-0400"
     },
