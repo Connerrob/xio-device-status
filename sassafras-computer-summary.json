@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T09:44:26.962179+00:00",
+  "generated_at": "2026-09-05T09:54:29.223519+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -111,12 +111,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 29
+          "count": 30
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 288
+          "count": 287
         },
         {
           "status_code": 4,
@@ -511,12 +511,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 3
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 231
+          "count": 232
         }
       ]
     },
@@ -624,12 +624,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 32
+          "count": 33
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 288
+          "count": 287
         },
         {
           "status_code": 4,
@@ -717,12 +717,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 3
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 231
+          "count": 232
         }
       ],
       "divisions": [
@@ -1123,12 +1123,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 32
+          "count": 33
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 288
+          "count": 287
         },
         {
           "status_code": 4,
@@ -1221,12 +1221,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 3
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 203
+          "count": 204
         }
       ],
       "divisions": [
@@ -7293,9 +7293,14 @@
         "total": 7,
         "statuses": [
           {
+            "status_code": 0,
+            "status_label": "Offline",
+            "count": 1
+          },
+          {
             "status_code": 2,
             "status_label": "Available",
-            "count": 7
+            "count": 6
           }
         ],
         "rooms": [
@@ -7360,8 +7365,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 2,
-                "status_label": "Available",
+                "status_code": 0,
+                "status_label": "Offline",
                 "count": 1
               }
             ],
@@ -7372,10 +7377,10 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 2,
-                "status_label": "Available",
+                "status_code": 0,
+                "status_label": "Offline",
                 "last_login": "2026-09-04T14:51:50-0400",
-                "last_startup": "2026-09-04T23:01:14-0400",
+                "last_startup": "2026-09-05T05:51:58-0400",
                 "building_code": "MCCB",
                 "building_name": "McCarty Hall B",
                 "room": "3096",
@@ -9505,7 +9510,7 @@
                 "status_code": 2,
                 "status_label": "Available",
                 "last_login": "2026-09-04T16:03:52-0400",
-                "last_startup": "2026-09-04T23:01:17-0400",
+                "last_startup": "2026-09-05T05:48:18-0400",
                 "building_code": "ROG",
                 "building_name": "Rogers, Frazier Hall",
                 "room": "0110",
@@ -10566,7 +10571,7 @@
                 "status_code": 2,
                 "status_label": "Available",
                 "last_login": "2026-09-03T16:39:13-0400",
-                "last_startup": "2026-09-04T23:01:09-0400",
+                "last_startup": "2026-09-05T05:45:57-0400",
                 "building_code": "UST",
                 "building_name": "Ustler Hall",
                 "room": "0108",
@@ -18591,10 +18596,10 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-04T14:51:50-0400",
-      "last_startup": "2026-09-04T23:01:14-0400"
+      "last_startup": "2026-09-05T05:51:58-0400"
     },
     {
       "ident": null,
@@ -21971,7 +21976,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-09-03T16:39:13-0400",
-      "last_startup": "2026-09-04T23:01:09-0400"
+      "last_startup": "2026-09-05T05:45:57-0400"
     },
     {
       "ident": null,
@@ -22884,7 +22889,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-09-04T16:03:52-0400",
-      "last_startup": "2026-09-04T23:01:17-0400"
+      "last_startup": "2026-09-05T05:48:18-0400"
     },
     {
       "ident": null,
@@ -26731,8 +26736,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-09-03T18:37:16-0400",
       "last_startup": "2026-09-05T05:20:51-0400"
     },
