@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T10:54:28.021567+00:00",
+  "generated_at": "2026-09-05T11:04:28.417471+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -132,7 +132,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 2
+        },
+        {
+          "status_code": 2,
+          "status_label": "Available",
+          "count": 1
         }
       ]
     },
@@ -511,12 +516,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 232
+          "count": 231
         }
       ]
     },
@@ -624,12 +629,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 25
+          "count": 24
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 295
+          "count": 296
         },
         {
           "status_code": 4,
@@ -717,12 +722,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 232
+          "count": 231
         }
       ],
       "divisions": [
@@ -1123,12 +1128,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 25
+          "count": 24
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 295
+          "count": 296
         },
         {
           "status_code": 4,
@@ -1221,12 +1226,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 204
+          "count": 203
         }
       ],
       "divisions": [
@@ -5885,12 +5890,12 @@
           {
             "status_code": 0,
             "status_label": "Offline",
-            "count": 2
+            "count": 1
           },
           {
             "status_code": 2,
             "status_label": "Available",
-            "count": 5
+            "count": 6
           }
         ],
         "rooms": [
@@ -6039,8 +6044,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 0,
-                "status_label": "Offline",
+                "status_code": 2,
+                "status_label": "Available",
                 "count": 1
               }
             ],
@@ -6051,10 +6056,10 @@
                 "division": "Classroom Support.Law",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 0,
-                "status_label": "Offline",
+                "status_code": 2,
+                "status_label": "Available",
                 "last_login": "2026-08-30T16:37:11-0400",
-                "last_startup": "2026-09-04T23:01:33-0400",
+                "last_startup": "2026-09-05T07:00:37-0400",
                 "building_code": "MLAC",
                 "building_name": "MLAC",
                 "room": "0218",
@@ -16512,10 +16517,10 @@
       "division": "Classroom Support.Law",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-30T16:37:11-0400",
-      "last_startup": "2026-09-04T23:01:33-0400"
+      "last_startup": "2026-09-05T07:00:37-0400"
     },
     {
       "ident": null,
@@ -26731,8 +26736,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-03T18:37:16-0400",
       "last_startup": "2026-09-05T05:20:51-0400"
     },
