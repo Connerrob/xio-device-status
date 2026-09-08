@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T05:55:04.517298+00:00",
+  "updated_at": "2026-09-08T06:14:59.378841+00:00",
   "groups": [
     {
       "group": "UF-DSIT-RC",
@@ -9,7 +9,7 @@
       "devices": [
         {
           "status": "offline",
-          "status_color": "yellow",
+          "status_color": "red",
           "account_key": "48dfbb45-68e3-4e2a-859a-fd70b2ae753c",
           "account_name": "UF-DSIT-RC",
           "user": "joekays@ufl.edu",
@@ -27,7 +27,7 @@
         },
         {
           "status": "offline",
-          "status_color": "yellow",
+          "status_color": "red",
           "account_key": "48dfbb45-68e3-4e2a-859a-fd70b2ae753c",
           "account_name": "UF-DSIT-RC",
           "user": "joekays@ufl.edu",
@@ -45,7 +45,7 @@
         },
         {
           "status": "offline",
-          "status_color": "yellow",
+          "status_color": "red",
           "account_key": "48dfbb45-68e3-4e2a-859a-fd70b2ae753c",
           "account_name": "UF-DSIT-RC",
           "user": "joekays@ufl.edu",
@@ -973,10 +973,28 @@
     },
     {
       "group": "UF-SL-RU/NLC",
-      "online": 21,
-      "offline": 0,
+      "online": 20,
+      "offline": 1,
       "total": 21,
       "devices": [
+        {
+          "status": "offline",
+          "status_color": "yellow",
+          "account_key": "6e140d7e-5e35-41a2-b916-54b885ce07e3",
+          "account_name": "UF-SL-RU/NLC",
+          "user": "dominicbuckner@ufl.edu",
+          "player_name": "SL-RU-RU-Ground Level-Gator Esports Center",
+          "player_key": "b961ede4-431d-4a24-82ea-64b4ca65b654",
+          "playlist_names": "RU - Gator Esports Center - No Expire  RU - Gator Esports Center - No Expire",
+          "external_address": "128.227.1.126",
+          "player_version": "6.9.27-1-20260513",
+          "device_name": "AFKLNK",
+          "os_name": "Android",
+          "os_version": "11",
+          "last_activity_date": "2026-09-08T02:54:22",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1786992378457 \"downloadedFiles\":26 \"loadingEnd\":1788796851531 \"totalFiles\":26 \"retryStart\":-1}}",
+          "display_status": "N/A"
+        },
         {
           "status": "online",
           "status_color": "green",
@@ -1137,24 +1155,6 @@
           "os_version": "11",
           "last_activity_date": "2026-09-08T04:39:17",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1788549313871 \"downloadedFiles\":42 \"loadingEnd\":1788841831268 \"totalFiles\":42 \"retryStart\":-1}}",
-          "display_status": "N/A"
-        },
-        {
-          "status": "online",
-          "status_color": "green",
-          "account_key": "6e140d7e-5e35-41a2-b916-54b885ce07e3",
-          "account_name": "UF-SL-RU/NLC",
-          "user": "dominicbuckner@ufl.edu",
-          "player_name": "SL-RU-RU-Ground Level-Gator Esports Center",
-          "player_key": "b961ede4-431d-4a24-82ea-64b4ca65b654",
-          "playlist_names": "RU - Gator Esports Center - No Expire  RU - Gator Esports Center - No Expire",
-          "external_address": "128.227.1.126",
-          "player_version": "6.9.27-1-20260513",
-          "device_name": "AFKLNK",
-          "os_name": "Android",
-          "os_version": "11",
-          "last_activity_date": "2026-09-08T02:54:22",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1786992378457 \"downloadedFiles\":26 \"loadingEnd\":1788796851531 \"totalFiles\":26 \"retryStart\":-1}}",
           "display_status": "N/A"
         },
         {
@@ -1359,8 +1359,8 @@
     },
     {
       "group": "UF-SL-HRL",
-      "online": 9,
-      "offline": 9,
+      "online": 10,
+      "offline": 8,
       "total": 18,
       "devices": [
         {
@@ -1477,24 +1477,6 @@
           "account_key": "36cc63cf-43e4-4cc5-8b47-392478f17fde",
           "account_name": "UF-SL-HRL",
           "user": "miller.mary@ufl.edu",
-          "player_name": "SL-HRL-Housing Office-Lobby",
-          "player_key": "e8494215-307b-4664-a609-9b9fcb37b1a2",
-          "playlist_names": "HRL - Building Names - Playlist  HRL - All Areas - Playlist",
-          "external_address": "128.227.107.80",
-          "player_version": "6.9.42-1-20260615",
-          "device_name": "AFKLNK",
-          "os_name": "Android",
-          "os_version": "11",
-          "last_activity_date": "2026-09-06T10:58:57",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1788448397615 \"downloadedFiles\":43 \"loadingEnd\":1788842150885 \"totalFiles\":43 \"retryStart\":-1}}",
-          "display_status": "N/A"
-        },
-        {
-          "status": "offline",
-          "status_color": "black",
-          "account_key": "36cc63cf-43e4-4cc5-8b47-392478f17fde",
-          "account_name": "UF-SL-HRL",
-          "user": "miller.mary@ufl.edu",
           "player_name": "SL-HRL-Infinity-Area Office",
           "player_key": "fe859942-f06d-4575-bee5-7f4d7c1d0281",
           "playlist_names": "HRL - All Areas - Playlist",
@@ -1577,6 +1559,24 @@
           "os_version": "10",
           "last_activity_date": "2026-09-08T04:45:49",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1788448386837 \"downloadedFiles\":14 \"loadingEnd\":1788448391850 \"totalFiles\":14 \"retryStart\":-1}}",
+          "display_status": "N/A"
+        },
+        {
+          "status": "online",
+          "status_color": "green",
+          "account_key": "36cc63cf-43e4-4cc5-8b47-392478f17fde",
+          "account_name": "UF-SL-HRL",
+          "user": "miller.mary@ufl.edu",
+          "player_name": "SL-HRL-Housing Office-Lobby",
+          "player_key": "e8494215-307b-4664-a609-9b9fcb37b1a2",
+          "playlist_names": "HRL - Building Names - Playlist  HRL - All Areas - Playlist",
+          "external_address": "128.227.107.80",
+          "player_version": "6.9.42-1-20260615",
+          "device_name": "AFKLNK",
+          "os_name": "Android",
+          "os_version": "11",
+          "last_activity_date": "2026-09-08T03:59:52",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1788448397615 \"downloadedFiles\":43 \"loadingEnd\":1788842150885 \"totalFiles\":43 \"retryStart\":-1}}",
           "display_status": "N/A"
         },
         {
@@ -1691,28 +1691,10 @@
     },
     {
       "group": "UF-LIBRARIES",
-      "online": 12,
-      "offline": 5,
+      "online": 14,
+      "offline": 3,
       "total": 17,
       "devices": [
-        {
-          "status": "offline",
-          "status_color": "black",
-          "account_key": "b8e32635-e696-462e-87c8-a03d3ba90b9d",
-          "account_name": "UF-LIBRARIES",
-          "user": "m.tyler82@ufl.edu",
-          "player_name": "East 1 (2nd Floor Exhibits space)",
-          "player_key": "0828f4bd-9a14-41e8-8a0c-1bd8afa67a1f",
-          "playlist_names": "East 1 (2nd Floor Exhibits space)  East 1 (2nd Floor Exhibits space)  East 1 (2nd Floor Exhibits space)  East 1 (2nd Floor Exhibits space)  East 1 (2nd Floor Exhibits space)  East 1 (2nd Floor Exhibits space)",
-          "external_address": "128.227.108.78",
-          "player_version": "",
-          "device_name": "",
-          "os_name": "",
-          "os_version": "",
-          "last_activity_date": "2026-09-06T10:58:51",
-          "download_status": "",
-          "display_status": "N/A"
-        },
         {
           "status": "offline",
           "status_color": "black",
@@ -1728,24 +1710,6 @@
           "os_name": "",
           "os_version": "",
           "last_activity_date": "2025-12-09T20:30:46",
-          "download_status": "",
-          "display_status": "N/A"
-        },
-        {
-          "status": "offline",
-          "status_color": "black",
-          "account_key": "b8e32635-e696-462e-87c8-a03d3ba90b9d",
-          "account_name": "UF-LIBRARIES",
-          "user": "m.tyler82@ufl.edu",
-          "player_name": "Library Airmeida Background Images",
-          "player_key": "f2f3d7be-72ba-4a3c-b03d-81bd8c6e2b31",
-          "playlist_names": "Airmedia Background  Airmedia Background  Airmedia Background  Airmedia Background  Airmedia Background  Airmedia Background",
-          "external_address": "128.227.110.245",
-          "player_version": "",
-          "device_name": "",
-          "os_name": "",
-          "os_version": "",
-          "last_activity_date": "2026-09-06T10:59:59",
           "download_status": "",
           "display_status": "N/A"
         },
@@ -1782,6 +1746,24 @@
           "os_name": "",
           "os_version": "",
           "last_activity_date": "2025-09-04T15:32:18",
+          "download_status": "",
+          "display_status": "N/A"
+        },
+        {
+          "status": "online",
+          "status_color": "green",
+          "account_key": "b8e32635-e696-462e-87c8-a03d3ba90b9d",
+          "account_name": "UF-LIBRARIES",
+          "user": "m.tyler82@ufl.edu",
+          "player_name": "East 1 (2nd Floor Exhibits space)",
+          "player_key": "0828f4bd-9a14-41e8-8a0c-1bd8afa67a1f",
+          "playlist_names": "East 1 (2nd Floor Exhibits space)  East 1 (2nd Floor Exhibits space)  East 1 (2nd Floor Exhibits space)  East 1 (2nd Floor Exhibits space)  East 1 (2nd Floor Exhibits space)  East 1 (2nd Floor Exhibits space)",
+          "external_address": "128.227.108.78",
+          "player_version": "",
+          "device_name": "",
+          "os_name": "",
+          "os_version": "",
+          "last_activity_date": "2026-09-08T03:58:29",
           "download_status": "",
           "display_status": "N/A"
         },
@@ -1873,6 +1855,24 @@
           "os_version": "10.0 amd64",
           "last_activity_date": "2026-09-08T04:55:30",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"undefined\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1788549690734 \"downloadedFiles\":48 \"loadingEnd\":1788759073525 \"totalFiles\":48 \"retryStart\":-1}}",
+          "display_status": "N/A"
+        },
+        {
+          "status": "online",
+          "status_color": "green",
+          "account_key": "b8e32635-e696-462e-87c8-a03d3ba90b9d",
+          "account_name": "UF-LIBRARIES",
+          "user": "m.tyler82@ufl.edu",
+          "player_name": "Library Airmeida Background Images",
+          "player_key": "f2f3d7be-72ba-4a3c-b03d-81bd8c6e2b31",
+          "playlist_names": "Airmedia Background  Airmedia Background  Airmedia Background  Airmedia Background  Airmedia Background  Airmedia Background",
+          "external_address": "128.227.107.173",
+          "player_version": "",
+          "device_name": "",
+          "os_name": "",
+          "os_version": "",
+          "last_activity_date": "2026-09-08T03:59:54",
+          "download_status": "",
           "display_status": "N/A"
         },
         {
@@ -2597,8 +2597,8 @@
     },
     {
       "group": "UFIT-COMMUNICATIONS",
-      "online": 9,
-      "offline": 4,
+      "online": 10,
+      "offline": 3,
       "total": 13,
       "devices": [
         {
@@ -2653,24 +2653,6 @@
           "os_version": "",
           "last_activity_date": "2025-10-20T16:41:49",
           "download_status": "",
-          "display_status": "N/A"
-        },
-        {
-          "status": "offline",
-          "status_color": "black",
-          "account_key": "00985c9b-d938-4e34-976f-c06846479909",
-          "account_name": "UFIT-COMMUNICATIONS",
-          "user": "daniellaalfonso@ufl.edu",
-          "player_name": "IT-HUB-DS-120D",
-          "player_key": "11c77e1e-9c45-4bb3-b99c-15bf5bc81c2f",
-          "playlist_names": "UFIT Student Playlist  UFIT Student Playlist  UFIT Student Playlist  UFIT Student Playlist  UFIT Student Playlist  UFIT Student Playlist",
-          "external_address": "128.227.109.171",
-          "player_version": "6.9.42-1-20260615",
-          "device_name": "AFKLNK",
-          "os_name": "Android",
-          "os_version": "11",
-          "last_activity_date": "2026-09-06T10:58:26",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"downloading\" \"loadingStart\":1785239426909 \"downloadedFiles\":20 \"loadingEnd\":-1 \"totalFiles\":24 \"retryStart\":-1}}",
           "display_status": "N/A"
         },
         {
@@ -2834,18 +2816,36 @@
           "last_activity_date": "2026-09-08T04:57:09",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"undefined\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1787090087943 \"downloadedFiles\":340 \"loadingEnd\":1788841987801 \"totalFiles\":340 \"retryStart\":-1}}",
           "display_status": "N/A"
+        },
+        {
+          "status": "online",
+          "status_color": "green",
+          "account_key": "00985c9b-d938-4e34-976f-c06846479909",
+          "account_name": "UFIT-COMMUNICATIONS",
+          "user": "daniellaalfonso@ufl.edu",
+          "player_name": "IT-HUB-DS-120D",
+          "player_key": "11c77e1e-9c45-4bb3-b99c-15bf5bc81c2f",
+          "playlist_names": "UFIT Student Playlist  UFIT Student Playlist  UFIT Student Playlist  UFIT Student Playlist  UFIT Student Playlist  UFIT Student Playlist",
+          "external_address": "128.227.109.171",
+          "player_version": "6.9.42-1-20260615",
+          "device_name": "AFKLNK",
+          "os_name": "Android",
+          "os_version": "11",
+          "last_activity_date": "2026-09-08T03:59:12",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"downloading\" \"loadingStart\":1785239426909 \"downloadedFiles\":20 \"loadingEnd\":-1 \"totalFiles\":24 \"retryStart\":-1}}",
+          "display_status": "N/A"
         }
       ]
     },
     {
       "group": "UF-SHCC",
-      "online": 6,
-      "offline": 6,
+      "online": 5,
+      "offline": 7,
       "total": 12,
       "devices": [
         {
           "status": "offline",
-          "status_color": "black",
+          "status_color": "yellow",
           "account_key": "c11c9366-a330-4e8a-956b-c0a6bd933b5c",
           "account_name": "UF-SHCC",
           "user": "jstevens@ufl.edu",
@@ -2857,13 +2857,13 @@
           "device_name": "BRAVIA 4K VH2",
           "os_name": "Android",
           "os_version": "10",
-          "last_activity_date": "2026-09-06T02:59:16",
+          "last_activity_date": "2026-09-07T23:59:04",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1787587531929 \"downloadedFiles\":32 \"loadingEnd\":1787587537030 \"totalFiles\":32 \"retryStart\":-1}}",
           "display_status": "N/A"
         },
         {
           "status": "offline",
-          "status_color": "black",
+          "status_color": "yellow",
           "account_key": "c11c9366-a330-4e8a-956b-c0a6bd933b5c",
           "account_name": "UF-SHCC",
           "user": "jstevens@ufl.edu",
@@ -2875,7 +2875,7 @@
           "device_name": "BRAVIA 4K VH2",
           "os_name": "Android",
           "os_version": "10",
-          "last_activity_date": "2026-09-06T02:59:41",
+          "last_activity_date": "2026-09-07T23:58:57",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1787587569333 \"downloadedFiles\":28 \"loadingEnd\":1787587574436 \"totalFiles\":28 \"retryStart\":-1}}",
           "display_status": "N/A"
         },
@@ -2899,7 +2899,7 @@
         },
         {
           "status": "offline",
-          "status_color": "black",
+          "status_color": "yellow",
           "account_key": "c11c9366-a330-4e8a-956b-c0a6bd933b5c",
           "account_name": "UF-SHCC",
           "user": "jstevens@ufl.edu",
@@ -2911,13 +2911,13 @@
           "device_name": "BRAVIA 4K VH2",
           "os_name": "Android",
           "os_version": "10",
-          "last_activity_date": "2026-09-06T02:58:06",
+          "last_activity_date": "2026-09-08T03:00:03",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1787587471640 \"downloadedFiles\":28 \"loadingEnd\":1787587476740 \"totalFiles\":28 \"retryStart\":-1}}",
           "display_status": "N/A"
         },
         {
           "status": "offline",
-          "status_color": "black",
+          "status_color": "yellow",
           "account_key": "c11c9366-a330-4e8a-956b-c0a6bd933b5c",
           "account_name": "UF-SHCC",
           "user": "jstevens@ufl.edu",
@@ -2929,13 +2929,13 @@
           "device_name": "BRAVIA 4K VH2",
           "os_name": "Android",
           "os_version": "10",
-          "last_activity_date": "2026-09-06T02:59:12",
+          "last_activity_date": "2026-09-07T23:59:36",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1787587520065 \"downloadedFiles\":28 \"loadingEnd\":1787587525166 \"totalFiles\":28 \"retryStart\":-1}}",
           "display_status": "N/A"
         },
         {
           "status": "offline",
-          "status_color": "black",
+          "status_color": "yellow",
           "account_key": "c11c9366-a330-4e8a-956b-c0a6bd933b5c",
           "account_name": "UF-SHCC",
           "user": "jstevens@ufl.edu",
@@ -2947,13 +2947,13 @@
           "device_name": "BRAVIA 4K VH2",
           "os_name": "Android",
           "os_version": "10",
-          "last_activity_date": "2026-09-06T02:59:45",
+          "last_activity_date": "2026-09-07T23:59:58",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1787587557710 \"downloadedFiles\":28 \"loadingEnd\":1787587562816 \"totalFiles\":28 \"retryStart\":-1}}",
           "display_status": "N/A"
         },
         {
-          "status": "online",
-          "status_color": "green",
+          "status": "offline",
+          "status_color": "yellow",
           "account_key": "c11c9366-a330-4e8a-956b-c0a6bd933b5c",
           "account_name": "UF-SHCC",
           "user": "jstevens@ufl.edu",
@@ -2965,7 +2965,7 @@
           "device_name": "WebosScap/HTML",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
-          "last_activity_date": "2026-09-08T02:58:39",
+          "last_activity_date": "2026-09-08T03:03:41",
           "download_status": "{\"downloadStatus\":{\"downloadState\":\"complete\" \"downloadedFiles\":5 \"totalFiles\":5 \"loadingStart\":1788532404348 \"loadingEnd\":1788532404348 \"retryStart\":-1}}",
           "display_status": "N/A"
         },
@@ -3069,7 +3069,7 @@
       "devices": [
         {
           "status": "offline",
-          "status_color": "yellow",
+          "status_color": "red",
           "account_key": "6e752050-f6da-406f-8e18-a97a965c09cf",
           "account_name": "UF-ENG-ADMIN",
           "user": "arayzesbaugh@ufl.edu",
@@ -3491,7 +3491,7 @@
         },
         {
           "status": "offline",
-          "status_color": "black",
+          "status_color": "yellow",
           "account_key": "973e0b9b-b103-4cd1-ae95-ff8c7d5b7f6b",
           "account_name": "UF-DEAN OF STUDENTS",
           "user": "brown917@ufl.edu",
@@ -3503,7 +3503,7 @@
           "device_name": "BRAVIA 4K VH22",
           "os_name": "Android",
           "os_version": "10",
-          "last_activity_date": "2026-09-04T23:59:25",
+          "last_activity_date": "2026-09-08T00:00",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1788366417846 \"downloadedFiles\":9 \"loadingEnd\":1788366422871 \"totalFiles\":9 \"retryStart\":-1}}",
           "display_status": "N/A"
         }
@@ -3669,7 +3669,7 @@
       "devices": [
         {
           "status": "offline",
-          "status_color": "black",
+          "status_color": "yellow",
           "account_key": "e17f08f1-86bd-43f0-a1cd-fe43e25857c0",
           "account_name": "UF-EMERSON",
           "user": "sinatra9@ufl.edu",
@@ -3681,7 +3681,7 @@
           "device_name": "BRAVIA VU31",
           "os_name": "Android",
           "os_version": "14",
-          "last_activity_date": "2026-09-05T00:59:37",
+          "last_activity_date": "2026-09-07T23:58:02",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1787778187754 \"downloadedFiles\":3 \"loadingEnd\":1788814802465 \"totalFiles\":3 \"retryStart\":-1}}",
           "display_status": "N/A"
         },
@@ -3815,13 +3815,13 @@
     },
     {
       "group": "UF-IFAS-HS",
-      "online": 2,
-      "offline": 6,
+      "online": 3,
+      "offline": 5,
       "total": 8,
       "devices": [
         {
           "status": "offline",
-          "status_color": "yellow",
+          "status_color": "red",
           "account_key": "3cb2be0b-71d3-4e52-bdd8-1c9da0577526",
           "account_name": "UF-IFAS-HS",
           "user": "apimienta@ufl.edu",
@@ -3857,25 +3857,7 @@
         },
         {
           "status": "offline",
-          "status_color": "black",
-          "account_key": "3cb2be0b-71d3-4e52-bdd8-1c9da0577526",
-          "account_name": "UF-IFAS-HS",
-          "user": "apimienta@ufl.edu",
-          "player_name": "NoviSign Digital Signage 3 (CTC TV Upstairs)",
-          "player_key": "4e90a1a7-ec63-4f15-a789-046d817f0122",
-          "playlist_names": "NoviSign Digital Signage 3 Playlist (CTC TV Upstairs)  NoviSign Digital Signage 3 Playlist (CTC TV Upstairs)  NoviSign Digital Signage 3 Playlist (CTC TV Upstairs)",
-          "external_address": "128.227.107.47",
-          "player_version": "",
-          "device_name": "",
-          "os_name": "",
-          "os_version": "",
-          "last_activity_date": "2026-09-06T10:59:30",
-          "download_status": "",
-          "display_status": "N/A"
-        },
-        {
-          "status": "offline",
-          "status_color": "yellow",
+          "status_color": "red",
           "account_key": "3cb2be0b-71d3-4e52-bdd8-1c9da0577526",
           "account_name": "UF-IFAS-HS",
           "user": "apimienta@ufl.edu",
@@ -3893,7 +3875,7 @@
         },
         {
           "status": "offline",
-          "status_color": "yellow",
+          "status_color": "red",
           "account_key": "3cb2be0b-71d3-4e52-bdd8-1c9da0577526",
           "account_name": "UF-IFAS-HS",
           "user": "apimienta@ufl.edu",
@@ -3911,7 +3893,7 @@
         },
         {
           "status": "offline",
-          "status_color": "yellow",
+          "status_color": "red",
           "account_key": "3cb2be0b-71d3-4e52-bdd8-1c9da0577526",
           "account_name": "UF-IFAS-HS",
           "user": "apimienta@ufl.edu",
@@ -3925,6 +3907,24 @@
           "os_version": "10.0 amd64",
           "last_activity_date": "2026-09-07T21:13:50",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"undefined\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1788271485615 \"downloadedFiles\":15 \"loadingEnd\":1788780689925 \"totalFiles\":15 \"retryStart\":-1}}",
+          "display_status": "N/A"
+        },
+        {
+          "status": "online",
+          "status_color": "green",
+          "account_key": "3cb2be0b-71d3-4e52-bdd8-1c9da0577526",
+          "account_name": "UF-IFAS-HS",
+          "user": "apimienta@ufl.edu",
+          "player_name": "NoviSign Digital Signage 3 (CTC TV Upstairs)",
+          "player_key": "4e90a1a7-ec63-4f15-a789-046d817f0122",
+          "playlist_names": "NoviSign Digital Signage 3 Playlist (CTC TV Upstairs)  NoviSign Digital Signage 3 Playlist (CTC TV Upstairs)  NoviSign Digital Signage 3 Playlist (CTC TV Upstairs)",
+          "external_address": "128.227.107.47",
+          "player_version": "",
+          "device_name": "",
+          "os_name": "",
+          "os_version": "",
+          "last_activity_date": "2026-09-08T03:59:44",
+          "download_status": "",
           "display_status": "N/A"
         },
         {
@@ -4119,28 +4119,10 @@
     },
     {
       "group": "UF-IFAS-FOOD SCIENCE",
-      "online": 6,
-      "offline": 1,
+      "online": 7,
+      "offline": 0,
       "total": 7,
       "devices": [
-        {
-          "status": "offline",
-          "status_color": "black",
-          "account_key": "594f8784-6332-4175-a187-035d86f4f562",
-          "account_name": "UF-IFAS-FOOD SCIENCE",
-          "user": "rspiral@ufl.edu",
-          "player_name": "Student Services TV Screen",
-          "player_key": "622f0188-1f4b-4931-b217-4b77327a9a5a",
-          "playlist_names": "FSHN Rotating Content Playlist",
-          "external_address": "128.227.109.169",
-          "player_version": "6.9.42-1-20260615",
-          "device_name": "AFKLNK",
-          "os_name": "Android",
-          "os_version": "11",
-          "last_activity_date": "2026-09-06T10:58:04",
-          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1785357993644 \"downloadedFiles\":31 \"loadingEnd\":1788842130156 \"totalFiles\":31 \"retryStart\":-1}}",
-          "display_status": "N/A"
-        },
         {
           "status": "online",
           "status_color": "green",
@@ -4247,6 +4229,24 @@
           "os_version": "11",
           "last_activity_date": "2026-09-08T04:44:26",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1785358031834 \"downloadedFiles\":31 \"loadingEnd\":1788841817141 \"totalFiles\":31 \"retryStart\":-1}}",
+          "display_status": "N/A"
+        },
+        {
+          "status": "online",
+          "status_color": "green",
+          "account_key": "594f8784-6332-4175-a187-035d86f4f562",
+          "account_name": "UF-IFAS-FOOD SCIENCE",
+          "user": "rspiral@ufl.edu",
+          "player_name": "Student Services TV Screen",
+          "player_key": "622f0188-1f4b-4931-b217-4b77327a9a5a",
+          "playlist_names": "FSHN Rotating Content Playlist",
+          "external_address": "128.227.109.169",
+          "player_version": "6.9.42-1-20260615",
+          "device_name": "AFKLNK",
+          "os_name": "Android",
+          "os_version": "11",
+          "last_activity_date": "2026-09-08T03:58:47",
+          "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1785357993644 \"downloadedFiles\":31 \"loadingEnd\":1788842130156 \"totalFiles\":31 \"retryStart\":-1}}",
           "display_status": "N/A"
         }
       ]
@@ -4699,8 +4699,8 @@
     },
     {
       "group": "UF-HOBI",
-      "online": 0,
-      "offline": 5,
+      "online": 1,
+      "offline": 4,
       "total": 5,
       "devices": [
         {
@@ -4763,24 +4763,6 @@
           "account_key": "b6391152-1cd1-40f4-970a-e1e225ab97e6",
           "account_name": "UF-HOBI",
           "user": "afahnlander@ufl.edu",
-          "player_name": "MALA-FLOOR-7-AIRMEDIA",
-          "player_key": "fcb99b6e-ac75-4140-af59-cbdbc22b2c2d",
-          "playlist_names": "Airplay Screens  Airplay Screens",
-          "external_address": "128.227.107.243",
-          "player_version": "",
-          "device_name": "",
-          "os_name": "",
-          "os_version": "",
-          "last_activity_date": "2026-09-06T10:59:11",
-          "download_status": "",
-          "display_status": "N/A"
-        },
-        {
-          "status": "offline",
-          "status_color": "black",
-          "account_key": "b6391152-1cd1-40f4-970a-e1e225ab97e6",
-          "account_name": "UF-HOBI",
-          "user": "afahnlander@ufl.edu",
           "player_name": "testing screens",
           "player_key": "7513e7db-ccb3-44e9-9d88-1f636b4d9344",
           "playlist_names": "BOG Aug 29 V3  BOG Aug 29 V3",
@@ -4790,6 +4772,24 @@
           "os_name": "",
           "os_version": "",
           "last_activity_date": "2024-04-17T17:27:45",
+          "download_status": "",
+          "display_status": "N/A"
+        },
+        {
+          "status": "online",
+          "status_color": "green",
+          "account_key": "b6391152-1cd1-40f4-970a-e1e225ab97e6",
+          "account_name": "UF-HOBI",
+          "user": "afahnlander@ufl.edu",
+          "player_name": "MALA-FLOOR-7-AIRMEDIA",
+          "player_key": "fcb99b6e-ac75-4140-af59-cbdbc22b2c2d",
+          "playlist_names": "Airplay Screens  Airplay Screens",
+          "external_address": "128.227.107.243",
+          "player_version": "",
+          "device_name": "",
+          "os_name": "",
+          "os_version": "",
+          "last_activity_date": "2026-09-08T03:59:28",
           "download_status": "",
           "display_status": "N/A"
         }
@@ -5319,7 +5319,7 @@
         },
         {
           "status": "offline",
-          "status_color": "black",
+          "status_color": "yellow",
           "account_key": "8b884db6-c0da-40a4-a52e-580fb0ca2038",
           "account_name": "UF-ENG-MSE",
           "user": "nekiajones@ufl.edu",
@@ -5331,7 +5331,7 @@
           "device_name": "BRAVIA VU31",
           "os_name": "Android",
           "os_version": "11",
-          "last_activity_date": "2026-09-04T23:00",
+          "last_activity_date": "2026-09-07T22:58:11",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1788460994141 \"downloadedFiles\":43 \"loadingEnd\":1788778809097 \"totalFiles\":43 \"retryStart\":-1}}",
           "display_status": "N/A"
         },
@@ -5375,46 +5375,10 @@
     },
     {
       "group": "UF-PHARMACY",
-      "online": 0,
-      "offline": 4,
+      "online": 2,
+      "offline": 2,
       "total": 4,
       "devices": [
-        {
-          "status": "offline",
-          "status_color": "black",
-          "account_key": "659214d1-bf1d-4abe-a2ef-9d6afd0361e4",
-          "account_name": "UF-PHARMACY",
-          "user": "ssmithm@ufl.edu",
-          "player_name": "MALA-6000-AIRMEDIA-LEFT (Left TV)",
-          "player_key": "c4bb5484-800c-4bf5-a731-26e87aee520f",
-          "playlist_names": "Untitled Playlist  Untitled Playlist  Untitled Playlist  Untitled Playlist",
-          "external_address": "128.227.106.88",
-          "player_version": "",
-          "device_name": "",
-          "os_name": "",
-          "os_version": "",
-          "last_activity_date": "2026-09-06T10:58:43",
-          "download_status": "",
-          "display_status": "N/A"
-        },
-        {
-          "status": "offline",
-          "status_color": "black",
-          "account_key": "659214d1-bf1d-4abe-a2ef-9d6afd0361e4",
-          "account_name": "UF-PHARMACY",
-          "user": "ssmithm@ufl.edu",
-          "player_name": "MALA-6000-AIRMEDIA-RIGHT (Right TV)",
-          "player_key": "62f67b86-0450-4293-9dd7-387cc70690b2",
-          "playlist_names": "Untitled Playlist  Untitled Playlist  Untitled Playlist  Untitled Playlist",
-          "external_address": "128.227.109.214",
-          "player_version": "",
-          "device_name": "",
-          "os_name": "",
-          "os_version": "",
-          "last_activity_date": "2026-09-06T10:58:53",
-          "download_status": "",
-          "display_status": "N/A"
-        },
         {
           "status": "offline",
           "status_color": "yellow",
@@ -5449,6 +5413,42 @@
           "os_version": "4.0.0 WebOS Browser/N/A",
           "last_activity_date": "2026-09-08T01:56:08",
           "download_status": "{\"downloadStatus\":{\"downloadState\":\"complete\" \"downloadedFiles\":1 \"totalFiles\":1 \"loadingStart\":1788468905829 \"loadingEnd\":1788468957571 \"retryStart\":-1}}",
+          "display_status": "N/A"
+        },
+        {
+          "status": "online",
+          "status_color": "green",
+          "account_key": "659214d1-bf1d-4abe-a2ef-9d6afd0361e4",
+          "account_name": "UF-PHARMACY",
+          "user": "ssmithm@ufl.edu",
+          "player_name": "MALA-6000-AIRMEDIA-LEFT (Left TV)",
+          "player_key": "c4bb5484-800c-4bf5-a731-26e87aee520f",
+          "playlist_names": "Untitled Playlist  Untitled Playlist  Untitled Playlist  Untitled Playlist",
+          "external_address": "128.227.106.88",
+          "player_version": "",
+          "device_name": "",
+          "os_name": "",
+          "os_version": "",
+          "last_activity_date": "2026-09-08T03:58:23",
+          "download_status": "",
+          "display_status": "N/A"
+        },
+        {
+          "status": "online",
+          "status_color": "green",
+          "account_key": "659214d1-bf1d-4abe-a2ef-9d6afd0361e4",
+          "account_name": "UF-PHARMACY",
+          "user": "ssmithm@ufl.edu",
+          "player_name": "MALA-6000-AIRMEDIA-RIGHT (Right TV)",
+          "player_key": "62f67b86-0450-4293-9dd7-387cc70690b2",
+          "playlist_names": "Untitled Playlist  Untitled Playlist  Untitled Playlist  Untitled Playlist",
+          "external_address": "128.227.109.214",
+          "player_version": "",
+          "device_name": "",
+          "os_name": "",
+          "os_version": "",
+          "last_activity_date": "2026-09-08T03:58:34",
+          "download_status": "",
           "display_status": "N/A"
         }
       ]
@@ -6163,28 +6163,10 @@
     },
     {
       "group": "UF-IFAS-FYCS",
-      "online": 1,
-      "offline": 1,
+      "online": 2,
+      "offline": 0,
       "total": 2,
       "devices": [
-        {
-          "status": "offline",
-          "status_color": "black",
-          "account_key": "bc423106-5683-42bc-bf30-8b55e23faec7",
-          "account_name": "UF-IFAS-FYCS",
-          "user": "jamiebailey@ufl.edu",
-          "player_name": "MCCD FYCS Lobby TV",
-          "player_key": "141b58a1-69b9-46c3-95d8-dd6e528410cb",
-          "playlist_names": "MCCD FYCS Lobby Playlist  MCCD FYCS Lobby Playlist  MCCD FYCS Lobby Playlist  MCCD FYCS Lobby Playlist",
-          "external_address": "128.227.104.190",
-          "player_version": "",
-          "device_name": "",
-          "os_name": "",
-          "os_version": "",
-          "last_activity_date": "2026-09-06T10:58:35",
-          "download_status": "",
-          "display_status": "N/A"
-        },
         {
           "status": "online",
           "status_color": "green",
@@ -6202,33 +6184,33 @@
           "last_activity_date": "2026-09-08T04:46:46",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1787664552216 \"downloadedFiles\":17 \"loadingEnd\":1788841826726 \"totalFiles\":17 \"retryStart\":-1}}",
           "display_status": "N/A"
+        },
+        {
+          "status": "online",
+          "status_color": "green",
+          "account_key": "bc423106-5683-42bc-bf30-8b55e23faec7",
+          "account_name": "UF-IFAS-FYCS",
+          "user": "jamiebailey@ufl.edu",
+          "player_name": "MCCD FYCS Lobby TV",
+          "player_key": "141b58a1-69b9-46c3-95d8-dd6e528410cb",
+          "playlist_names": "MCCD FYCS Lobby Playlist  MCCD FYCS Lobby Playlist  MCCD FYCS Lobby Playlist  MCCD FYCS Lobby Playlist",
+          "external_address": "128.227.104.190",
+          "player_version": "",
+          "device_name": "",
+          "os_name": "",
+          "os_version": "",
+          "last_activity_date": "2026-09-08T03:58:46",
+          "download_status": "",
+          "display_status": "N/A"
         }
       ]
     },
     {
       "group": "UF-CLAS-B120",
-      "online": 0,
-      "offline": 2,
+      "online": 1,
+      "offline": 1,
       "total": 2,
       "devices": [
-        {
-          "status": "offline",
-          "status_color": "black",
-          "account_key": "62c731ba-0496-43fa-aa5c-625cdaf7b21d",
-          "account_name": "UF-CLAS-B120",
-          "user": "matthewsjada@ufl.edu",
-          "player_name": "FLI-258-HangoutSpace",
-          "player_key": "239b355e-595c-43d9-80de-ade3ca4039a7",
-          "playlist_names": "Beyond120 Playlist  Beyond120 Playlist",
-          "external_address": "128.227.105.174",
-          "player_version": "",
-          "device_name": "",
-          "os_name": "",
-          "os_version": "",
-          "last_activity_date": "2026-09-06T10:58:50",
-          "download_status": "",
-          "display_status": "N/A"
-        },
         {
           "status": "offline",
           "status_color": "black",
@@ -6245,6 +6227,24 @@
           "os_version": "12",
           "last_activity_date": "2026-09-04T23:30:23",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1788439352285 \"downloadedFiles\":10 \"loadingEnd\":1788564623761 \"totalFiles\":10 \"retryStart\":-1}}",
+          "display_status": "N/A"
+        },
+        {
+          "status": "online",
+          "status_color": "green",
+          "account_key": "62c731ba-0496-43fa-aa5c-625cdaf7b21d",
+          "account_name": "UF-CLAS-B120",
+          "user": "matthewsjada@ufl.edu",
+          "player_name": "FLI-258-HangoutSpace",
+          "player_key": "239b355e-595c-43d9-80de-ade3ca4039a7",
+          "playlist_names": "Beyond120 Playlist  Beyond120 Playlist",
+          "external_address": "128.227.109.176",
+          "player_version": "",
+          "device_name": "",
+          "os_name": "",
+          "os_version": "",
+          "last_activity_date": "2026-09-08T03:58:40",
+          "download_status": "",
           "display_status": "N/A"
         }
       ]
@@ -6295,13 +6295,13 @@
     },
     {
       "group": "UF-IFAS-CALS",
-      "online": 0,
-      "offline": 2,
+      "online": 2,
+      "offline": 0,
       "total": 2,
       "devices": [
         {
-          "status": "offline",
-          "status_color": "black",
+          "status": "online",
+          "status_color": "green",
           "account_key": "e8d49f66-7a16-4f6d-a2cc-c931f3c88319",
           "account_name": "UF-IFAS-CALS",
           "user": "jshellhouse@ufl.edu",
@@ -6313,13 +6313,13 @@
           "device_name": "",
           "os_name": "",
           "os_version": "",
-          "last_activity_date": "2026-09-06T10:58:23",
+          "last_activity_date": "2026-09-08T03:58:31",
           "download_status": "",
           "display_status": "N/A"
         },
         {
-          "status": "offline",
-          "status_color": "black",
+          "status": "online",
+          "status_color": "green",
           "account_key": "e8d49f66-7a16-4f6d-a2cc-c931f3c88319",
           "account_name": "UF-IFAS-CALS",
           "user": "jshellhouse@ufl.edu",
@@ -6331,7 +6331,7 @@
           "device_name": "",
           "os_name": "",
           "os_version": "",
-          "last_activity_date": "2026-09-06T10:58:48",
+          "last_activity_date": "2026-09-08T03:58:56",
           "download_status": "",
           "display_status": "N/A"
         }
@@ -6551,7 +6551,7 @@
           "device_name": "WebosScap/HTML",
           "os_name": "WebOS",
           "os_version": "6.0.0 WebOS Browser/N/A",
-          "last_activity_date": "2026-09-07T22:52:36",
+          "last_activity_date": "2026-09-07T22:59:32",
           "download_status": "{\"downloadStatus\":{\"downloadState\":\"complete\" \"downloadedFiles\":31 \"totalFiles\":31 \"loadingStart\":1784035471579 \"loadingEnd\":1784113216800 \"retryStart\":-1}}",
           "display_status": "N/A"
         }
@@ -6785,19 +6785,19 @@
       "devices": [
         {
           "status": "offline",
-          "status_color": "black",
+          "status_color": "yellow",
           "account_key": "983f9a0a-4c70-43ab-80fc-088f628b3f93",
           "account_name": "UF-ENG-ECE",
           "user": "hmonkhorst@ufl.edu",
           "player_name": "MALA-5000-DS-LOBBY (5000 - Lobby) ECE HQ",
           "player_key": "a8e33617-a384-4432-937f-c900fabcb2f8",
           "playlist_names": "MALA 5000 Playlist (UPDATED 8/31/26)",
-          "external_address": "128.227.109.89",
+          "external_address": "128.227.106.238",
           "player_version": "",
           "device_name": "",
           "os_name": "",
           "os_version": "",
-          "last_activity_date": "2026-09-05T01:58:43",
+          "last_activity_date": "2026-09-07T23:58:30",
           "download_status": "",
           "display_status": "N/A"
         },
@@ -6823,8 +6823,8 @@
     },
     {
       "group": "UF-IFAS-VP",
-      "online": 0,
-      "offline": 2,
+      "online": 1,
+      "offline": 1,
       "total": 2,
       "devices": [
         {
@@ -6846,8 +6846,8 @@
           "display_status": "N/A"
         },
         {
-          "status": "offline",
-          "status_color": "black",
+          "status": "online",
+          "status_color": "green",
           "account_key": "8d2a38d1-0cb1-439e-be6e-9bb3fc8dbeda",
           "account_name": "UF-IFAS-VP",
           "user": "rnegrongonzalez@ufl.edu",
@@ -6859,7 +6859,7 @@
           "device_name": "",
           "os_name": "",
           "os_version": "",
-          "last_activity_date": "2026-09-06T10:59:28",
+          "last_activity_date": "2026-09-08T03:59:36",
           "download_status": "",
           "display_status": "N/A"
         }
@@ -7085,13 +7085,13 @@
     },
     {
       "group": "UF-IFAS-COMMUNICATIONS",
-      "online": 0,
-      "offline": 1,
+      "online": 1,
+      "offline": 0,
       "total": 1,
       "devices": [
         {
-          "status": "offline",
-          "status_color": "black",
+          "status": "online",
+          "status_color": "green",
           "account_key": "80e4f041-2945-4f4e-a6b3-52574f22c78b",
           "account_name": "UF-IFAS-COMMUNICATIONS",
           "user": "toryxoxo@ufl.edu",
@@ -7103,7 +7103,7 @@
           "device_name": "BRAVIA 4K VH22",
           "os_name": "Android",
           "os_version": "10",
-          "last_activity_date": "2026-09-06T10:58:17",
+          "last_activity_date": "2026-09-08T03:59:37",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"disconnected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1788550558756 \"downloadedFiles\":27 \"loadingEnd\":1788842216517 \"totalFiles\":27 \"retryStart\":-1}}",
           "display_status": "N/A"
         }
@@ -7111,25 +7111,25 @@
     },
     {
       "group": "UF-MSL-0100",
-      "online": 0,
-      "offline": 1,
+      "online": 1,
+      "offline": 0,
       "total": 1,
       "devices": [
         {
-          "status": "offline",
-          "status_color": "black",
+          "status": "online",
+          "status_color": "green",
           "account_key": "b08989cf-deb0-4c5f-a430-47716786b4c2",
           "account_name": "UF-MSL-0100",
           "user": "prentice@ufl.edu",
           "player_name": "October 2025",
           "player_key": "32778a86-01b6-431f-bc7c-c310c17bac60",
           "playlist_names": "Generic information  September 2026  Monthly Creations  Generic information  September 2026  Monthly Creations",
-          "external_address": "128.227.105.240",
+          "external_address": "128.227.110.226",
           "player_version": "",
           "device_name": "",
           "os_name": "",
           "os_version": "",
-          "last_activity_date": "2026-09-06T10:58:51",
+          "last_activity_date": "2026-09-08T03:58:44",
           "download_status": "",
           "display_status": "N/A"
         }
@@ -7137,13 +7137,13 @@
     },
     {
       "group": "UF-IFAS-AGRONOMY",
-      "online": 0,
-      "offline": 1,
+      "online": 1,
+      "offline": 0,
       "total": 1,
       "devices": [
         {
-          "status": "offline",
-          "status_color": "black",
+          "status": "online",
+          "status_color": "green",
           "account_key": "51e2271f-4932-4ed9-aa52-0eaa06a670e6",
           "account_name": "UF-IFAS-AGRONOMY",
           "user": "nabdou@ufl.edu",
@@ -7155,7 +7155,7 @@
           "device_name": "",
           "os_name": "",
           "os_version": "",
-          "last_activity_date": "2026-09-06T10:59:48",
+          "last_activity_date": "2026-09-08T03:59:58",
           "download_status": "",
           "display_status": "N/A"
         }
@@ -7189,13 +7189,13 @@
     },
     {
       "group": "UF-ENG-GA",
-      "online": 0,
-      "offline": 1,
+      "online": 1,
+      "offline": 0,
       "total": 1,
       "devices": [
         {
-          "status": "offline",
-          "status_color": "black",
+          "status": "online",
+          "status_color": "green",
           "account_key": "7b6ee339-869c-4421-b88e-3960b34f34ac",
           "account_name": "UF-ENG-GA",
           "user": "tayoub@ufl.edu",
@@ -7207,7 +7207,7 @@
           "device_name": "AFKLNK",
           "os_name": "Android",
           "os_version": "11",
-          "last_activity_date": "2026-09-06T10:59:11",
+          "last_activity_date": "2026-09-08T03:58:22",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1788294303432 \"downloadedFiles\":29 \"loadingEnd\":1788842001875 \"totalFiles\":29 \"retryStart\":-1}}",
           "display_status": "N/A"
         }
@@ -7337,7 +7337,7 @@
           "device_name": "WebosScap/HTML",
           "os_name": "WebOS",
           "os_version": "4.0.0 WebOS Browser/N/A",
-          "last_activity_date": "2026-09-07T23:19:53",
+          "last_activity_date": "2026-09-07T23:26:11",
           "download_status": "{\"downloadStatus\":{\"downloadState\":\"complete\" \"downloadedFiles\":40 \"totalFiles\":40 \"loadingStart\":1784019236377 \"loadingEnd\":1784019236377 \"retryStart\":-1}}",
           "display_status": "N/A"
         }
@@ -7397,13 +7397,13 @@
     },
     {
       "group": "UF-IFAS-SWES",
-      "online": 0,
-      "offline": 1,
+      "online": 1,
+      "offline": 0,
       "total": 1,
       "devices": [
         {
-          "status": "offline",
-          "status_color": "black",
+          "status": "online",
+          "status_color": "green",
           "account_key": "1053b4d3-5a58-4900-86af-cfb4bcab6b77",
           "account_name": "UF-IFAS-SWES",
           "user": "robert.daffron@ufl.edu",
@@ -7415,7 +7415,7 @@
           "device_name": "",
           "os_name": "",
           "os_version": "",
-          "last_activity_date": "2026-09-06T10:59:51",
+          "last_activity_date": "2026-09-08T03:59:56",
           "download_status": "",
           "display_status": "N/A"
         }
@@ -7423,13 +7423,13 @@
     },
     {
       "group": "UF-MUSEUM",
-      "online": 0,
-      "offline": 1,
+      "online": 1,
+      "offline": 0,
       "total": 1,
       "devices": [
         {
-          "status": "offline",
-          "status_color": "black",
+          "status": "online",
+          "status_color": "green",
           "account_key": "1ffeefdc-43db-4b95-9886-280d67c7d8a1",
           "account_name": "UF-MUSEUM",
           "user": "javier.vargas@ufl.edu",
@@ -7441,7 +7441,7 @@
           "device_name": "",
           "os_name": "",
           "os_version": "",
-          "last_activity_date": "2026-09-06T10:58:39",
+          "last_activity_date": "2026-09-08T03:58:05",
           "download_status": "",
           "display_status": "N/A"
         }
@@ -7579,13 +7579,13 @@
     },
     {
       "group": "UF-IFAS-BLDG89",
-      "online": 0,
-      "offline": 1,
+      "online": 1,
+      "offline": 0,
       "total": 1,
       "devices": [
         {
-          "status": "offline",
-          "status_color": "black",
+          "status": "online",
+          "status_color": "green",
           "account_key": "45702e4f-8490-450a-a77d-09c30140f8d5",
           "account_name": "UF-IFAS-BLDG89",
           "user": "genesisepstein@ufl.edu",
@@ -7597,7 +7597,7 @@
           "device_name": "",
           "os_name": "",
           "os_version": "",
-          "last_activity_date": "2026-09-06T10:59:22",
+          "last_activity_date": "2026-09-08T03:59:32",
           "download_status": "",
           "display_status": "N/A"
         }
@@ -7735,13 +7735,13 @@
     },
     {
       "group": "UF-EMERGENCY MANAGEMENT",
-      "online": 0,
-      "offline": 1,
+      "online": 1,
+      "offline": 0,
       "total": 1,
       "devices": [
         {
-          "status": "offline",
-          "status_color": "black",
+          "status": "online",
+          "status_color": "green",
           "account_key": "29549623-40d1-4777-829e-81d126f740fd",
           "account_name": "UF-EMERGENCY MANAGEMENT",
           "user": "kfallen@ufl.edu",
@@ -7753,7 +7753,7 @@
           "device_name": "AFKLNK",
           "os_name": "Android",
           "os_version": "11",
-          "last_activity_date": "2026-09-06T10:59:43",
+          "last_activity_date": "2026-09-08T03:58:55",
           "download_status": "{\"hdmiStatus\":{\"hdmiState\":\"connected\"} \"downloadStatus\":{\"downloadState\":\"complete\" \"loadingStart\":1782132197392 \"downloadedFiles\":26 \"loadingEnd\":1788842186491 \"totalFiles\":26 \"retryStart\":-1}}",
           "display_status": "N/A"
         }
@@ -7761,13 +7761,13 @@
     },
     {
       "group": "UF-ENG-EII",
-      "online": 0,
-      "offline": 1,
+      "online": 1,
+      "offline": 0,
       "total": 1,
       "devices": [
         {
-          "status": "offline",
-          "status_color": "black",
+          "status": "online",
+          "status_color": "green",
           "account_key": "88275cce-82c1-497b-9c8f-9c6686c9d111",
           "account_name": "UF-ENG-EII",
           "user": "bvalsecchi@ufl.edu",
@@ -7779,7 +7779,7 @@
           "device_name": "",
           "os_name": "",
           "os_version": "",
-          "last_activity_date": "2026-09-06T10:58:45",
+          "last_activity_date": "2026-09-08T03:58:30",
           "download_status": "",
           "display_status": "N/A"
         }
