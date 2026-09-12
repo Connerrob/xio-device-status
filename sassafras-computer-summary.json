@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T13:24:41.982382+00:00",
+  "generated_at": "2026-09-12T13:34:41.532714+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 73
+      "count": 226
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1717
+      "count": 1562
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 6
+      "count": 8
     }
   ],
   "divisions": [
@@ -62,7 +62,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 82
+          "count": 80
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 2
         }
       ]
     },
@@ -369,12 +374,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 28
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 32
+          "count": 5
         }
       ]
     },
@@ -383,8 +388,8 @@
       "total": 24,
       "statuses": [
         {
-          "status_code": 2,
-          "status_label": "Available",
+          "status_code": 0,
+          "status_label": "Offline",
           "count": 24
         }
       ]
@@ -394,8 +399,8 @@
       "total": 8,
       "statuses": [
         {
-          "status_code": 2,
-          "status_label": "Available",
+          "status_code": 0,
+          "status_label": "Offline",
           "count": 8
         }
       ]
@@ -405,8 +410,8 @@
       "total": 8,
       "statuses": [
         {
-          "status_code": 2,
-          "status_label": "Available",
+          "status_code": 0,
+          "status_label": "Offline",
           "count": 8
         }
       ]
@@ -418,12 +423,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
-        },
-        {
-          "status_code": 2,
-          "status_label": "Available",
-          "count": 7
+          "count": 8
         }
       ]
     },
@@ -434,12 +434,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 81
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 82
+          "count": 3
         }
       ]
     },
@@ -621,7 +621,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 82
+          "count": 80
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 2
         }
       ],
       "divisions": [
@@ -864,12 +869,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 157
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 161
+          "count": 8
         }
       ],
       "divisions": [
@@ -1043,17 +1048,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 71
+          "count": 224
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1629
+          "count": 1475
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 6
+          "count": 7
         }
       ]
     },
@@ -1069,7 +1074,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 88
+          "count": 87
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     }
@@ -1103,7 +1113,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 78
+          "count": 77
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1118,7 +1133,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 4
+          "count": 3
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1449,12 +1469,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 156
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 156
+          "count": 3
         }
       ],
       "divisions": [
@@ -12602,8 +12622,8 @@
       "division": "Marston 4th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T16:01:32-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -12613,8 +12633,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:15-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -12624,8 +12644,8 @@
       "division": "Marston 4th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T20:59:17-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -12635,8 +12655,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T19:40:43-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -12646,8 +12666,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:22-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -12657,8 +12677,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T11:42:02-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -12668,8 +12688,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T21:55:40-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -12679,8 +12699,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T14:02:10-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -12690,8 +12710,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-08-03T13:19:58-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -12701,8 +12721,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-08-18T15:43:52-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -12712,8 +12732,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-08T15:50:06-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -12723,8 +12743,8 @@
       "division": "Marston 3rd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T18:10:05-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -12745,8 +12765,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T16:42:26-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -12778,8 +12798,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:16-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -12789,8 +12809,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-05-03T18:49:23-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -12822,8 +12842,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T20:40:29-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -12833,8 +12853,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T15:41:31-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -12844,8 +12864,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T13:43:19-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -12855,8 +12875,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-08-04T11:55:19-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -12866,8 +12886,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T18:07:25-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -12877,8 +12897,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T11:02:58-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -12888,8 +12908,8 @@
       "division": "Marston 5th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T14:01:44-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -12899,8 +12919,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T21:31:36-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -12910,8 +12930,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:58-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -12921,8 +12941,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-08T23:19:21-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -12932,8 +12952,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-08-13T14:27:02-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -12943,8 +12963,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T19:09:25-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -12954,8 +12974,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T21:21:44-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -12965,8 +12985,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:39:02-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -12976,8 +12996,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-10T13:30:25-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -12987,8 +13007,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T21:51:19-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -12998,8 +13018,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-05-03T19:06:00-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13009,8 +13029,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:12-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -13020,8 +13040,8 @@
       "division": "Marston 3rd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T18:30:32-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13031,8 +13051,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-09T12:29:46-0400",
       "last_startup": "2026-09-12T05:20:51-0400"
     },
@@ -13053,8 +13073,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T02:16:53-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13064,8 +13084,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:36:43-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13075,8 +13095,8 @@
       "division": "Marston 3rd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T11:41:14-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -13086,8 +13106,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T19:16:16-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -13097,8 +13117,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T18:05:26-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -13108,8 +13128,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-10T17:56:53-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13119,8 +13139,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:39:37-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13130,8 +13150,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:08:13-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13141,8 +13161,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T13:11:52-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -13152,8 +13172,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-10T15:36:13-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -13163,8 +13183,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-05-03T19:04:03-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13174,8 +13194,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T21:38:14-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -13185,8 +13205,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:27-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13196,8 +13216,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:07-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -13207,8 +13227,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T17:13:10-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -13218,8 +13238,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-09T23:01:25-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13229,8 +13249,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T19:10:06-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13251,8 +13271,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:38:22-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13262,8 +13282,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-09T11:30:20-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -13273,8 +13293,8 @@
       "division": "Marston 4th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T04:58:29-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13295,8 +13315,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-10T15:49:18-0400",
       "last_startup": "2026-09-12T05:20:51-0400"
     },
@@ -13306,8 +13326,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T19:47:32-0400",
       "last_startup": "2026-09-12T05:20:46-0400"
     },
@@ -13317,8 +13337,8 @@
       "division": "Marston 3rd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:10-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -13328,8 +13348,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T21:59:38-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13339,8 +13359,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T17:36:21-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13350,8 +13370,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T19:11:56-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13361,8 +13381,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-10T17:07:02-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -13372,8 +13392,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-04T22:30:31-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13383,8 +13403,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-04T18:28:25-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -13394,8 +13414,8 @@
       "division": "Marston 3rd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-02T14:05:59-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -13405,8 +13425,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-09T15:56:47-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -13416,8 +13436,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-10T13:28:20-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -13427,8 +13447,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T14:48:37-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13438,8 +13458,8 @@
       "division": "Marston 4th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:19-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13449,8 +13469,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T16:46:07-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13460,8 +13480,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T00:31:42-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -13471,8 +13491,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T16:16:47-0400",
       "last_startup": "2026-09-12T05:20:46-0400"
     },
@@ -13482,8 +13502,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-05-30T02:00:05-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -13493,8 +13513,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-05-31T13:47:33-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13504,8 +13524,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-07-31T02:00:12-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -13515,8 +13535,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T13:34:01-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13526,8 +13546,8 @@
       "division": "Marston 4th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:29-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13537,8 +13557,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:10-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13548,8 +13568,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-04T22:30:32-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13559,8 +13579,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T21:31:36-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13570,8 +13590,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:40:04-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -13581,8 +13601,8 @@
       "division": "Marston 5th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T20:05:13-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13592,8 +13612,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-09T15:58:53-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13603,8 +13623,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T17:34:36-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13614,8 +13634,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T15:02:14-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13625,8 +13645,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:01:13-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -13636,8 +13656,8 @@
       "division": "Marston 4th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:23-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13647,8 +13667,8 @@
       "division": "Marston 5th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T14:20:28-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13658,8 +13678,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T15:15:20-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13669,8 +13689,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:26-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13680,8 +13700,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T14:45:27-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -13691,8 +13711,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:19-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13702,8 +13722,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T16:05:16-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13713,8 +13733,8 @@
       "division": "Marston 3rd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:39:12-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -13724,8 +13744,8 @@
       "division": "Marston 3rd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T19:38:26-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13746,8 +13766,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-09T12:52:06-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13757,8 +13777,8 @@
       "division": "Marston 3rd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T17:59:19-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -13768,8 +13788,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:19-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13779,8 +13799,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-07T16:48:37-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13790,8 +13810,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T18:14:07-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13801,8 +13821,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T13:06:50-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13812,8 +13832,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-10T17:03:25-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13823,8 +13843,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-04T22:30:08-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13845,8 +13865,8 @@
       "division": "Marston 4th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T18:06:02-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -13856,8 +13876,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:41:15-0400",
       "last_startup": "2026-09-12T05:20:46-0400"
     },
@@ -13867,8 +13887,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T17:12:08-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13878,8 +13898,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T18:15:34-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13889,8 +13909,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T15:36:43-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -13900,8 +13920,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-09T17:12:32-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -13911,8 +13931,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-07-09T14:02:25-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -13922,8 +13942,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-05-03T19:03:30-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13933,8 +13953,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T18:28:33-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -13944,8 +13964,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T15:24:00-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13955,8 +13975,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:11-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -13966,8 +13986,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-09T17:39:42-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13977,8 +13997,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T10:46:52-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13988,8 +14008,8 @@
       "division": "Marston 5th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:20-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -13999,8 +14019,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-05-03T18:50:17-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -14010,8 +14030,8 @@
       "division": "Marston 4th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-10T02:21:55-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -14021,8 +14041,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-05-03T18:51:55-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -14032,8 +14052,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:19-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -14043,8 +14063,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-10T13:37:24-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -14054,8 +14074,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T13:04:17-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -14065,8 +14085,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T14:51:14-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -14087,8 +14107,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-09T17:02:07-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -14098,8 +14118,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-04T22:30:26-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -14109,8 +14129,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-10T22:52:50-0400",
       "last_startup": "2026-09-12T05:20:47-0400"
     },
@@ -16056,9 +16076,9 @@
       "division": "Arch",
       "building": "Antevy Hall",
       "platform": "macOS",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-09-10T21:30:29-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-09-12T09:30:28-0400",
       "last_startup": "2026-09-12T03:00:51-0400"
     },
     {
@@ -16639,8 +16659,8 @@
       "division": "Marston 5th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T16:52:02-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -16793,8 +16813,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-05-03T18:49:28-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -16859,8 +16879,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:14-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -16881,8 +16901,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T21:47:25-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -16914,8 +16934,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T19:56:40-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -17046,8 +17066,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:38:49-0400",
       "last_startup": "2026-09-12T05:20:48-0400"
     },
@@ -17167,8 +17187,8 @@
       "division": "Marston 5th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T20:19:19-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -17178,8 +17198,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-04T22:30:17-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -17409,8 +17429,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:10-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -17497,8 +17517,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-08-18T14:01:37-0400",
       "last_startup": "2026-09-12T05:21:03-0400"
     },
@@ -17552,8 +17572,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-02T17:19:51-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -17585,8 +17605,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T21:54:49-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -17739,8 +17759,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-08-18T15:55:07-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -17772,8 +17792,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T17:49:05-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -17849,8 +17869,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T18:50:00-0400",
       "last_startup": "2026-09-12T05:20:51-0400"
     },
@@ -17871,8 +17891,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-07-09T14:02:30-0400",
       "last_startup": "2026-09-12T05:20:49-0400"
     },
@@ -17915,8 +17935,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-05-08T13:52:17-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -18003,8 +18023,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:22-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -18058,8 +18078,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T19:47:56-0400",
       "last_startup": "2026-09-12T05:20:50-0400"
     },
@@ -18069,8 +18089,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T19:02:41-0400",
       "last_startup": "2026-09-12T05:20:51-0400"
     },
@@ -18311,8 +18331,8 @@
       "division": "Marston 5th floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:12-0400",
       "last_startup": "2026-09-12T05:20:51-0400"
     },
@@ -18520,8 +18540,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-11T22:30:13-0400",
       "last_startup": "2026-09-12T05:21:01-0400"
     },
@@ -18531,9 +18551,9 @@
       "division": "Arch",
       "building": "Antevy Hall",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-09-11T23:41:04-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-09-12T09:30:24-0400",
       "last_startup": "2026-09-12T05:35:08-0400"
     },
     {
@@ -18586,8 +18606,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-02T13:46:35-0400",
       "last_startup": "2026-09-12T05:21:03-0400"
     },
@@ -18608,8 +18628,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-10T13:51:06-0400",
       "last_startup": "2026-09-12T05:20:59-0400"
     },
@@ -18663,8 +18683,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-10T19:06:18-0400",
       "last_startup": "2026-09-12T05:20:58-0400"
     },
@@ -18685,8 +18705,8 @@
       "division": "Marston 308",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-09T12:32:55-0400",
       "last_startup": "2026-09-12T05:21:00-0400"
     },
