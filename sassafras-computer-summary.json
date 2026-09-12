@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T23:24:43.015171+00:00",
+  "generated_at": "2026-09-12T23:34:11.976803+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -14,12 +14,12 @@
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1637
+      "count": 1636
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 2
+      "count": 3
     }
   ],
   "divisions": [
@@ -196,7 +196,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 3
+          "count": 2
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -766,7 +771,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 87
+          "count": 86
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1033,12 +1043,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1550
+          "count": 1549
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -1296,7 +1306,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 87
+          "count": 86
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -19281,8 +19296,8 @@
       "division": "HSCL C2",
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 4,
+      "status_label": "In Use",
       "last_login": "2026-09-12T17:23:22-0400",
       "last_startup": "2026-09-12T05:34:50-0400"
     },
