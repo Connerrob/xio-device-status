@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T14:04:41.673968+00:00",
+  "generated_at": "2026-09-12T14:14:41.984343+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -384,7 +384,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 32
+          "count": 31
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -449,12 +454,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 80
+          "count": 81
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -13394,8 +13399,8 @@
       "division": "Marston CC",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-09-12T09:35:37-0400",
       "last_startup": "2026-09-12T09:34:42-0400"
     },
@@ -18058,9 +18063,9 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-09-11T22:30:22-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-09-12T10:09:44-0400",
       "last_startup": "2026-09-12T09:34:46-0400"
     },
     {
