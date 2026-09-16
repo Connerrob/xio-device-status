@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T11:44:21.825115+00:00",
+  "generated_at": "2026-09-16T11:54:50.641978+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -14,12 +14,12 @@
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1709
+      "count": 1707
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 18
+      "count": 20
     }
   ],
   "divisions": [
@@ -57,12 +57,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 81
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -111,12 +116,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 20
+          "count": 21
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 291
+          "count": 290
         },
         {
           "status_code": 4,
@@ -175,12 +180,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 50
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 51
         }
       ]
     },
@@ -536,7 +536,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 235
+          "count": 233
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 2
         }
       ]
     },
@@ -621,12 +626,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 81
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -659,12 +669,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 22
+          "count": 23
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 292
+          "count": 291
         },
         {
           "status_code": 4,
@@ -757,7 +767,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 235
+          "count": 233
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 2
         }
       ],
       "divisions": [
@@ -776,12 +791,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 168
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 169
         }
       ],
       "divisions": [
@@ -1063,12 +1073,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1622
+          "count": 1620
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 17
+          "count": 19
         }
       ]
     },
@@ -1118,12 +1128,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 77
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1188,12 +1203,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 22
+          "count": 23
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 292
+          "count": 291
         },
         {
           "status_code": 4,
@@ -1291,7 +1306,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 207
+          "count": 205
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 2
         }
       ],
       "divisions": [
@@ -1326,12 +1346,7 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 167
-        },
-        {
-          "status_code": 4,
-          "status_label": "In Use",
-          "count": 1
+          "count": 168
         }
       ],
       "divisions": [
@@ -3265,12 +3280,7 @@
           {
             "status_code": 2,
             "status_label": "Available",
-            "count": 9
-          },
-          {
-            "status_code": 4,
-            "status_label": "In Use",
-            "count": 1
+            "count": 10
           }
         ],
         "rooms": [
@@ -3307,8 +3317,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 4,
-                "status_label": "In Use",
+                "status_code": 2,
+                "status_label": "Available",
                 "count": 1
               }
             ],
@@ -3319,10 +3329,10 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 4,
-                "status_label": "In Use",
-                "last_login": "2026-09-16T07:40:31-0400",
-                "last_startup": "2026-09-16T06:05:09-0400",
+                "status_code": 2,
+                "status_label": "Available",
+                "last_login": "2026-09-16T07:44:37-0400",
+                "last_startup": "2026-09-16T07:45:46-0400",
                 "building_code": "FLG",
                 "building_name": "Florida Gym",
                 "room": "0220",
@@ -5188,14 +5198,14 @@
         "total": 3,
         "statuses": [
           {
+            "status_code": 0,
+            "status_label": "Offline",
+            "count": 1
+          },
+          {
             "status_code": 2,
             "status_label": "Available",
             "count": 2
-          },
-          {
-            "status_code": 4,
-            "status_label": "In Use",
-            "count": 1
           }
         ],
         "rooms": [
@@ -5232,8 +5242,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 4,
-                "status_label": "In Use",
+                "status_code": 0,
+                "status_label": "Offline",
                 "count": 1
               }
             ],
@@ -5244,10 +5254,10 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 4,
-                "status_label": "In Use",
-                "last_login": "2026-09-16T07:43:38-0400",
-                "last_startup": "2026-09-16T07:36:12-0400",
+                "status_code": 0,
+                "status_label": "Offline",
+                "last_login": "2026-09-16T07:53:17-0400",
+                "last_startup": "2026-09-16T07:52:10-0400",
                 "building_code": "LAR",
                 "building_name": "Larson Hall",
                 "room": "0310",
@@ -7739,7 +7749,12 @@
           {
             "status_code": 2,
             "status_label": "Available",
-            "count": 5
+            "count": 4
+          },
+          {
+            "status_code": 4,
+            "status_label": "In Use",
+            "count": 1
           }
         ],
         "rooms": [
@@ -7776,8 +7791,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 2,
-                "status_label": "Available",
+                "status_code": 4,
+                "status_label": "In Use",
                 "count": 1
               }
             ],
@@ -7788,9 +7803,9 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 2,
-                "status_label": "Available",
-                "last_login": "2026-09-15T18:51:30-0400",
+                "status_code": 4,
+                "status_label": "In Use",
+                "last_login": "2026-09-16T07:47:43-0400",
                 "last_startup": "2026-09-16T06:05:21-0400",
                 "building_code": "MAEB",
                 "building_name": "Mechanical & Aerospace B",
@@ -8108,7 +8123,12 @@
           {
             "status_code": 2,
             "status_label": "Available",
-            "count": 19
+            "count": 18
+          },
+          {
+            "status_code": 4,
+            "status_label": "In Use",
+            "count": 1
           }
         ],
         "rooms": [
@@ -8257,8 +8277,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 2,
-                "status_label": "Available",
+                "status_code": 4,
+                "status_label": "In Use",
                 "count": 1
               }
             ],
@@ -8269,8 +8289,8 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 2,
-                "status_label": "Available",
+                "status_code": 4,
+                "status_label": "In Use",
                 "last_login": "2026-09-16T07:09:00-0400",
                 "last_startup": "2026-09-16T06:05:09-0400",
                 "building_code": "NRN",
@@ -12353,8 +12373,8 @@
       "platform": "Windows",
       "status_code": 2,
       "status_label": "Available",
-      "last_login": "2026-09-15T12:29:49-0400",
-      "last_startup": "2026-09-16T05:35:04-0400"
+      "last_login": "2026-09-16T07:50:23-0400",
+      "last_startup": "2026-09-16T07:51:19-0400"
     },
     {
       "ident": null,
@@ -12615,10 +12635,10 @@
       "division": "Arch",
       "building": "Antevy Hall",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-09-16T07:43:24-0400",
-      "last_startup": "2026-09-16T05:35:13-0400"
+      "last_startup": "2026-09-16T07:44:39-0400"
     },
     {
       "ident": null,
@@ -14166,9 +14186,9 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-09-15T21:54:22-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-09-16T07:51:28-0400",
       "last_startup": "2026-09-16T05:34:38-0400"
     },
     {
@@ -18566,9 +18586,9 @@
       "division": "Arch",
       "building": "Antevy Hall",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-09-15T21:40:21-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-09-16T07:53:01-0400",
       "last_startup": "2026-09-16T05:35:16-0400"
     },
     {
@@ -19721,8 +19741,8 @@
       "division": "HSCL C-121 Classroom",
       "building": "Health Science Center Library",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-09-16T07:34:07-0400",
       "last_startup": "2026-09-16T05:34:49-0400"
     },
@@ -21129,8 +21149,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 4,
+      "status_label": "In Use",
       "last_login": "2026-09-16T07:09:00-0400",
       "last_startup": "2026-09-16T06:05:09-0400"
     },
@@ -22372,10 +22392,10 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
-      "last_login": "2026-09-16T07:43:38-0400",
-      "last_startup": "2026-09-16T07:36:12-0400"
+      "status_code": 0,
+      "status_label": "Offline",
+      "last_login": "2026-09-16T07:53:17-0400",
+      "last_startup": "2026-09-16T07:52:10-0400"
     },
     {
       "ident": null,
@@ -23417,9 +23437,9 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-09-15T18:51:30-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-09-16T07:47:43-0400",
       "last_startup": "2026-09-16T06:05:21-0400"
     },
     {
@@ -23637,10 +23657,10 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
-      "last_login": "2026-09-16T07:40:31-0400",
-      "last_startup": "2026-09-16T06:05:09-0400"
+      "status_code": 2,
+      "status_label": "Available",
+      "last_login": "2026-09-16T07:44:37-0400",
+      "last_startup": "2026-09-16T07:45:46-0400"
     },
     {
       "ident": null,
@@ -26343,9 +26363,9 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-09-15T13:56:46-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-09-16T07:53:54-0400",
       "last_startup": "2026-09-16T05:34:33-0400"
     },
     {
