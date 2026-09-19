@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T11:34:24.688438+00:00",
+  "generated_at": "2026-09-19T11:44:25.116769+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,17 +9,17 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 83
+      "count": 81
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1705
+      "count": 1706
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 4
+      "count": 5
     }
   ],
   "divisions": [
@@ -39,14 +39,14 @@
       "total": 17,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
           "count": 16
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -277,12 +277,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 5
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 52
+          "count": 53
         }
       ]
     },
@@ -659,14 +659,14 @@
       "total": 17,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
           "count": 16
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -848,12 +848,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 13
+          "count": 12
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 226
+          "count": 227
         }
       ],
       "divisions": [
@@ -1109,17 +1109,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 5
+          "count": 3
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 84
+          "count": 85
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ]
     }
@@ -1201,14 +1201,14 @@
       "total": 4,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
           "count": 3
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1484,12 +1484,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 4
+          "count": 5
         }
       ],
       "divisions": [
@@ -26878,7 +26878,7 @@
       "status_code": 0,
       "status_label": "Offline",
       "last_login": "2026-09-19T05:51:08-0400",
-      "last_startup": "2026-09-19T07:30:28-0400"
+      "last_startup": "2026-09-19T07:41:48-0400"
     },
     {
       "ident": null,
@@ -27238,8 +27238,8 @@
       "division": "LBW 2nd floor",
       "building": "Library West",
       "platform": "macOS",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-25T10:46:48-0400",
       "last_startup": "2026-09-19T07:31:56-0400"
     },
@@ -27392,10 +27392,10 @@
       "division": "AFA Library",
       "building": "Architecture & Fine Arts Library",
       "platform": "macOS",
-      "status_code": 0,
-      "status_label": "Offline",
-      "last_login": "2026-09-16T18:19:18-0400",
-      "last_startup": "2026-09-19T07:31:52-0400"
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-09-19T07:38:07-0400",
+      "last_startup": "2026-09-19T07:40:49-0400"
     },
     {
       "ident": null,
