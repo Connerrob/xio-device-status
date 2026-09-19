@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T13:14:26.022229+00:00",
+  "generated_at": "2026-09-19T13:24:27.216099+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,7 +9,7 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 83
+      "count": 82
     },
     {
       "status_code": 2,
@@ -19,7 +19,7 @@
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 7
+      "count": 8
     }
   ],
   "divisions": [
@@ -39,14 +39,9 @@
       "total": 17,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 16
+          "count": 17
         }
       ]
     },
@@ -62,7 +57,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 81
+          "count": 80
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -642,7 +642,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 81
+          "count": 80
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -654,14 +659,9 @@
       "total": 17,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 16
+          "count": 17
         }
       ],
       "divisions": [
@@ -1109,12 +1109,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 5
+          "count": 4
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 85
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     }
@@ -1168,7 +1173,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 3
+          "count": 2
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1196,14 +1206,9 @@
       "total": 4,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 3
+          "count": 4
         }
       ],
       "divisions": [
@@ -16155,9 +16160,9 @@
       "division": "Arch",
       "building": "Antevy Hall",
       "platform": "macOS",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-09-18T16:12:30-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-09-19T09:15:48-0400",
       "last_startup": "2026-09-19T06:49:01-0400"
     },
     {
@@ -26883,7 +26888,7 @@
       "status_code": 0,
       "status_label": "Offline",
       "last_login": "2026-09-19T05:51:08-0400",
-      "last_startup": "2026-09-19T09:10:24-0400"
+      "last_startup": "2026-09-19T09:22:16-0400"
     },
     {
       "ident": null,
@@ -27397,8 +27402,8 @@
       "division": "AFA Library",
       "building": "Architecture & Fine Arts Library",
       "platform": "macOS",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-09-19T08:26:26-0400",
       "last_startup": "2026-09-19T08:11:32-0400"
     },
