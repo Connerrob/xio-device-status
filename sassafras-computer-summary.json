@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T08:24:26.952818+00:00",
+  "generated_at": "2026-09-21T08:34:25.866639+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -336,9 +336,14 @@
       "total": 39,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 39
+          "count": 38
         }
       ]
     },
@@ -593,14 +598,9 @@
       "total": 110,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 109
+          "count": 110
         }
       ]
     }
@@ -892,9 +892,14 @@
       "total": 39,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 39
+          "count": 38
         }
       ],
       "divisions": [
@@ -1035,14 +1040,9 @@
       "total": 110,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 109
+          "count": 110
         }
       ],
       "divisions": [
@@ -1522,9 +1522,14 @@
       "total": 39,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 39
+          "count": 38
         }
       ],
       "divisions": [
@@ -1718,14 +1723,9 @@
       "total": 80,
       "statuses": [
         {
-          "status_code": 0,
-          "status_label": "Offline",
-          "count": 1
-        },
-        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 79
+          "count": 80
         }
       ],
       "divisions": [
@@ -2567,7 +2567,7 @@
                 "status_code": 2,
                 "status_label": "Available",
                 "last_login": "2026-09-18T22:36:08-0400",
-                "last_startup": "2026-09-20T23:01:29-0400",
+                "last_startup": "2026-09-21T04:23:17-0400",
                 "building_code": "CAR",
                 "building_name": "Carleton",
                 "room": "0100",
@@ -9157,7 +9157,7 @@
                 "status_code": 2,
                 "status_label": "Available",
                 "last_login": "2026-09-18T14:58:15-0400",
-                "last_startup": "2026-09-20T23:01:06-0400",
+                "last_startup": "2026-09-21T04:28:15-0400",
                 "building_code": "PUG",
                 "building_name": "Pugh Hall",
                 "room": "0170",
@@ -11675,7 +11675,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-05-06T15:30:00-0400",
-      "last_startup": "2026-09-21T02:01:23-0400"
+      "last_startup": "2026-09-21T04:31:05-0400"
     },
     {
       "ident": null,
@@ -11947,10 +11947,10 @@
       "division": "MCCB",
       "building": "McCarty Hall B",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-09-16T14:06:07-0400",
-      "last_startup": "2026-09-21T02:01:01-0400"
+      "last_startup": "2026-09-21T04:31:29-0400"
     },
     {
       "ident": null,
@@ -13787,7 +13787,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-09-21T00:56:36-0400",
-      "last_startup": "2026-09-21T02:01:08-0400"
+      "last_startup": "2026-09-21T04:28:31-0400"
     },
     {
       "ident": null,
@@ -18836,7 +18836,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-09-18T09:15:16-0400",
-      "last_startup": "2026-09-21T02:01:00-0400"
+      "last_startup": "2026-09-21T04:26:59-0400"
     },
     {
       "ident": null,
@@ -18979,7 +18979,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-09-16T11:31:35-0400",
-      "last_startup": "2026-09-21T02:01:16-0400"
+      "last_startup": "2026-09-21T04:25:26-0400"
     },
     {
       "ident": null,
@@ -19031,8 +19031,8 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-09-16T11:37:34-0400",
       "last_startup": "2026-09-21T04:22:26-0400"
     },
@@ -19430,7 +19430,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-09-16T14:47:59-0400",
-      "last_startup": "2026-09-21T02:01:00-0400"
+      "last_startup": "2026-09-21T04:30:33-0400"
     },
     {
       "ident": null,
@@ -19782,7 +19782,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-08-25T03:10:58-0400",
-      "last_startup": "2026-09-21T02:01:20-0400"
+      "last_startup": "2026-09-21T04:31:05-0400"
     },
     {
       "ident": null,
@@ -22444,7 +22444,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-09-18T22:36:08-0400",
-      "last_startup": "2026-09-20T23:01:29-0400"
+      "last_startup": "2026-09-21T04:23:17-0400"
     },
     {
       "ident": null,
@@ -23126,7 +23126,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-09-18T14:58:15-0400",
-      "last_startup": "2026-09-20T23:01:06-0400"
+      "last_startup": "2026-09-21T04:28:15-0400"
     },
     {
       "ident": null,
@@ -26833,7 +26833,7 @@
       "status_code": 0,
       "status_label": "Offline",
       "last_login": "2026-09-19T05:51:08-0400",
-      "last_startup": "2026-09-21T04:22:17-0400"
+      "last_startup": "2026-09-21T04:31:39-0400"
     },
     {
       "ident": null,
@@ -28736,7 +28736,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-09-20T14:28:20-0400",
-      "last_startup": "2026-09-21T02:01:11-0400"
+      "last_startup": "2026-09-21T04:30:22-0400"
     },
     {
       "ident": null,
