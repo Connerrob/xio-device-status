@@ -3,11 +3,11 @@
     {
       "name": "Malachowsky Hall",
       "counts": {
-        "Online": 215,
-        "Offline": 43
+        "Online": 216,
+        "Offline": 42
       },
       "total": 258,
-      "onlinePct": 83.3,
+      "onlinePct": 83.7,
       "devices": [
         {
           "name": "MALA-0000-AM3200-1",
@@ -55,7 +55,7 @@
         },
         {
           "name": "MALA-1010A-RMC4",
-          "onlineStatus": "Offline"
+          "onlineStatus": "Online"
         },
         {
           "name": "MALA-1010A-TS1",
@@ -2188,8 +2188,8 @@
     {
       "name": "UFIT Learning Spaces",
       "counts": {
-        "Online": 440,
         "Offline": 79,
+        "Online": 440,
         "Unknown": 1
       },
       "total": 520,
@@ -4104,10 +4104,6 @@
           "onlineStatus": "Online"
         },
         {
-          "name": "FAB-0105-DMPS3",
-          "onlineStatus": "Offline"
-        },
-        {
           "name": "HUB-0124-FIRESTICK",
           "onlineStatus": "Offline"
         },
@@ -4137,6 +4133,10 @@
         },
         {
           "name": "LSS-FAB-0103-DMPS3350",
+          "onlineStatus": "Offline"
+        },
+        {
+          "name": "LSS-FAB-0105-DMPS3350",
           "onlineStatus": "Offline"
         },
         {
@@ -4279,7 +4279,7 @@
     }
   ],
   "meta": {
-    "generatedAtUtc": "2026-10-07T13:13:18.780588+00:00",
+    "generatedAtUtc": "2026-10-07T13:23:18.983176+00:00",
     "groupCount": 6
   }
 }
