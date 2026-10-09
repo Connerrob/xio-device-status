@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T07:44:16.650821+00:00",
+  "generated_at": "2026-10-09T07:54:16.883229+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -39,9 +39,14 @@
       "total": 17,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 17
+          "count": 16
         }
       ]
     },
@@ -589,12 +594,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 10
+          "count": 12
         }
       ]
     },
@@ -605,12 +610,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 3
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 108
+          "count": 107
         }
       ]
     }
@@ -654,9 +659,14 @@
       "total": 17,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 17
+          "count": 16
         }
       ],
       "divisions": [
@@ -1023,12 +1033,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 10
+          "count": 12
         }
       ],
       "divisions": [
@@ -1042,12 +1052,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 2
+          "count": 3
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 108
+          "count": 107
         }
       ],
       "divisions": [
@@ -1161,9 +1171,14 @@
       "total": 13,
       "statuses": [
         {
+          "status_code": 0,
+          "status_label": "Offline",
+          "count": 1
+        },
+        {
           "status_code": 2,
           "status_label": "Available",
-          "count": 13
+          "count": 12
         }
       ],
       "divisions": [
@@ -1690,12 +1705,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 1
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 7
+          "count": 9
         }
       ],
       "divisions": [
@@ -1725,12 +1740,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 1
+          "count": 2
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 79
+          "count": 78
         }
       ],
       "divisions": [
@@ -10852,7 +10867,7 @@
                 "status_code": 2,
                 "status_label": "Available",
                 "last_login": "2026-10-08T19:40:53-0400",
-                "last_startup": "2026-10-08T23:01:07-0400",
+                "last_startup": "2026-10-09T03:47:04-0400",
                 "building_code": "WEIL",
                 "building_name": "Weil Hall",
                 "room": "0273",
@@ -12221,7 +12236,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-10-08T17:56:03-0400",
-      "last_startup": "2026-10-09T02:01:23-0400"
+      "last_startup": "2026-10-09T03:43:18-0400"
     },
     {
       "ident": null,
@@ -16500,7 +16515,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-09-10T10:29:48-0400",
-      "last_startup": "2026-10-09T02:01:02-0400"
+      "last_startup": "2026-10-09T03:51:57-0400"
     },
     {
       "ident": null,
@@ -18565,8 +18580,8 @@
       "division": "WDS",
       "building": "WDS",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-08-24T23:19:14-0400",
       "last_startup": "2026-10-09T03:42:26-0400"
     },
@@ -19544,10 +19559,10 @@
       "division": "Weil",
       "building": "Weil Hall",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-10-08T14:22:08-0400",
-      "last_startup": "2026-10-09T02:01:21-0400"
+      "last_startup": "2026-10-09T03:51:54-0400"
     },
     {
       "ident": null,
@@ -20490,8 +20505,8 @@
       "division": "WDS",
       "building": "WDS",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-10-08T02:00:32-0400",
       "last_startup": "2026-10-09T03:41:59-0400"
     },
@@ -20567,10 +20582,10 @@
       "division": "WDS",
       "building": "WDS",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-10-08T02:00:31-0400",
-      "last_startup": "2026-10-09T03:34:30-0400"
+      "last_startup": "2026-10-09T03:44:18-0400"
     },
     {
       "ident": null,
@@ -21483,7 +21498,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-10-08T19:40:53-0400",
-      "last_startup": "2026-10-08T23:01:07-0400"
+      "last_startup": "2026-10-09T03:47:04-0400"
     },
     {
       "ident": null,
@@ -25715,10 +25730,10 @@
       "division": "WDS",
       "building": "WDS",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-10-05T23:00:04-0400",
-      "last_startup": "2026-10-09T03:39:39-0400"
+      "last_startup": "2026-10-09T03:52:28-0400"
     },
     {
       "ident": null,
@@ -29939,10 +29954,10 @@
       "division": "AFA Library",
       "building": "Architecture & Fine Arts Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-10-08T15:33:13-0400",
-      "last_startup": "2026-10-09T02:01:14-0400"
+      "last_startup": "2026-10-09T03:51:14-0400"
     },
     {
       "ident": null,
