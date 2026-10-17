@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T09:44:09.572958+00:00",
+  "generated_at": "2026-10-17T09:54:09.096718+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,12 +9,12 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 116
+      "count": 117
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1676
+      "count": 1675
     }
   ],
   "divisions": [
@@ -111,12 +111,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 35
+          "count": 36
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 283
+          "count": 282
         }
       ]
     },
@@ -655,12 +655,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 38
+          "count": 39
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 283
+          "count": 282
         }
       ],
       "divisions": [
@@ -1058,12 +1058,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 114
+          "count": 115
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1588
+          "count": 1587
         }
       ]
     },
@@ -1178,12 +1178,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 38
+          "count": 39
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 283
+          "count": 282
         }
       ],
       "divisions": [
@@ -9521,9 +9521,14 @@
         "total": 3,
         "statuses": [
           {
+            "status_code": 0,
+            "status_label": "Offline",
+            "count": 1
+          },
+          {
             "status_code": 2,
             "status_label": "Available",
-            "count": 3
+            "count": 2
           }
         ],
         "rooms": [
@@ -9588,8 +9593,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 2,
-                "status_label": "Available",
+                "status_code": 0,
+                "status_label": "Offline",
                 "count": 1
               }
             ],
@@ -9600,8 +9605,8 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 2,
-                "status_label": "Available",
+                "status_code": 0,
+                "status_label": "Offline",
                 "last_login": "2026-10-16T12:27:42-0400",
                 "last_startup": "2026-10-16T23:01:08-0400",
                 "building_code": "ROG",
@@ -11225,7 +11230,7 @@
                 "status_code": 2,
                 "status_label": "Available",
                 "last_login": "2026-10-16T11:46:47-0400",
-                "last_startup": "2026-10-16T23:01:44-0400",
+                "last_startup": "2026-10-17T05:44:55-0400",
                 "building_code": "WEIM",
                 "building_name": "Weimer Hall",
                 "room": "2056",
@@ -12107,7 +12112,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-10-15T18:55:28-0400",
-      "last_startup": "2026-10-17T05:36:52-0400"
+      "last_startup": "2026-10-17T05:45:48-0400"
     },
     {
       "ident": null,
@@ -21798,7 +21803,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-10-16T11:46:47-0400",
-      "last_startup": "2026-10-16T23:01:44-0400"
+      "last_startup": "2026-10-17T05:44:55-0400"
     },
     {
       "ident": null,
@@ -23247,8 +23252,8 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-10-16T12:27:42-0400",
       "last_startup": "2026-10-16T23:01:08-0400"
     },
