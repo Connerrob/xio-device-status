@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T06:14:11.436249+00:00",
+  "generated_at": "2026-10-18T06:24:11.639789+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -14,7 +14,12 @@
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1683
+      "count": 1682
+    },
+    {
+      "status_code": 4,
+      "status_label": "In Use",
+      "count": 1
     }
   ],
   "divisions": [
@@ -111,7 +116,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 294
+          "count": 293
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -650,7 +660,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 295
+          "count": 294
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1048,7 +1063,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1595
+          "count": 1594
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -1163,7 +1183,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 295
+          "count": 294
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -4519,8 +4544,8 @@
             "count": 10
           },
           {
-            "status_code": 2,
-            "status_label": "Available",
+            "status_code": 4,
+            "status_label": "In Use",
             "count": 1
           }
         ],
@@ -4698,8 +4723,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 2,
-                "status_label": "Available",
+                "status_code": 4,
+                "status_label": "In Use",
                 "count": 1
               }
             ],
@@ -4710,10 +4735,10 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 2,
-                "status_label": "Available",
-                "last_login": "2026-10-15T15:01:48-0400",
-                "last_startup": "2026-10-15T15:01:47-0400",
+                "status_code": 4,
+                "status_label": "In Use",
+                "last_login": "2026-10-18T02:20:02-0400",
+                "last_startup": "2026-10-18T02:20:00-0400",
                 "building_code": "X",
                 "building_name": "Junk Name",
                 "room": "6BB1Z84",
@@ -21368,10 +21393,10 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-10-15T15:01:48-0400",
-      "last_startup": "2026-10-15T15:01:47-0400"
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-10-18T02:20:02-0400",
+      "last_startup": "2026-10-18T02:20:00-0400"
     },
     {
       "ident": null,
