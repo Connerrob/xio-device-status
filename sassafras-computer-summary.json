@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T11:24:47.048895+00:00",
+  "generated_at": "2026-10-28T11:34:48.067169+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -14,12 +14,12 @@
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1700
+      "count": 1698
     },
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 13
+      "count": 15
     }
   ],
   "divisions": [
@@ -111,12 +111,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 293
+          "count": 291
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 4
+          "count": 6
         }
       ]
     },
@@ -685,12 +685,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 294
+          "count": 292
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 4
+          "count": 6
         }
       ],
       "divisions": [
@@ -1103,12 +1103,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1613
+          "count": 1611
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 13
+          "count": 15
         }
       ]
     },
@@ -1223,12 +1223,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 294
+          "count": 292
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 4
+          "count": 6
         }
       ],
       "divisions": [
@@ -2157,8 +2157,8 @@
         "total": 1,
         "statuses": [
           {
-            "status_code": 2,
-            "status_label": "Available",
+            "status_code": 4,
+            "status_label": "In Use",
             "count": 1
           }
         ],
@@ -2168,8 +2168,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 2,
-                "status_label": "Available",
+                "status_code": 4,
+                "status_label": "In Use",
                 "count": 1
               }
             ],
@@ -2180,10 +2180,10 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 2,
-                "status_label": "Available",
-                "last_login": "2026-10-28T07:01:40-0400",
-                "last_startup": "2026-10-28T07:07:47-0400",
+                "status_code": 4,
+                "status_label": "In Use",
+                "last_login": "2026-10-28T07:33:59-0400",
+                "last_startup": "2026-10-28T07:33:15-0400",
                 "building_code": "BAR",
                 "building_name": "Bartram Hall",
                 "room": "0211",
@@ -4596,7 +4596,7 @@
       {
         "code": "X",
         "name": "Junk Name",
-        "total": 13,
+        "total": 12,
         "statuses": [
           {
             "status_code": 0,
@@ -4606,7 +4606,7 @@
           {
             "status_code": 2,
             "status_label": "Available",
-            "count": 2
+            "count": 1
           }
         ],
         "rooms": [
@@ -4858,34 +4858,6 @@
                 "building_code": "X",
                 "building_name": "Junk Name",
                 "room": "B071Z84",
-                "computer_suffix": ""
-              }
-            ]
-          },
-          {
-            "room": "BY31Z84",
-            "total": 1,
-            "statuses": [
-              {
-                "status_code": 2,
-                "status_label": "Available",
-                "count": 1
-              }
-            ],
-            "computers": [
-              {
-                "ident": null,
-                "name": "AT-X-BY31Z84",
-                "division": "Classroom Support",
-                "building": "Classrooms",
-                "platform": "Windows",
-                "status_code": 2,
-                "status_label": "Available",
-                "last_login": "2026-10-28T07:15:01-0400",
-                "last_startup": "2026-10-28T07:15:55-0400",
-                "building_code": "X",
-                "building_name": "Junk Name",
-                "room": "BY31Z84",
                 "computer_suffix": ""
               }
             ]
@@ -8002,8 +7974,8 @@
         "total": 1,
         "statuses": [
           {
-            "status_code": 2,
-            "status_label": "Available",
+            "status_code": 4,
+            "status_label": "In Use",
             "count": 1
           }
         ],
@@ -8013,8 +7985,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 2,
-                "status_label": "Available",
+                "status_code": 4,
+                "status_label": "In Use",
                 "count": 1
               }
             ],
@@ -8025,9 +7997,9 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 2,
-                "status_label": "Available",
-                "last_login": "2026-10-27T15:22:31-0400",
+                "status_code": 4,
+                "status_label": "In Use",
+                "last_login": "2026-10-28T07:33:37-0400",
                 "last_startup": "2026-10-28T06:05:24-0400",
                 "building_code": "NEB",
                 "building_name": "New Engineering",
@@ -8209,7 +8181,7 @@
       {
         "code": "NRN",
         "name": "Norman Hall",
-        "total": 19,
+        "total": 20,
         "statuses": [
           {
             "status_code": 0,
@@ -8219,10 +8191,38 @@
           {
             "status_code": 2,
             "status_label": "Available",
-            "count": 18
+            "count": 19
           }
         ],
         "rooms": [
+          {
+            "room": "1001",
+            "total": 1,
+            "statuses": [
+              {
+                "status_code": 2,
+                "status_label": "Available",
+                "count": 1
+              }
+            ],
+            "computers": [
+              {
+                "ident": null,
+                "name": "AT-NRN-1001",
+                "division": "Classroom Support",
+                "building": "Classrooms",
+                "platform": "Windows",
+                "status_code": 2,
+                "status_label": "Available",
+                "last_login": "2026-10-28T07:30:05-0400",
+                "last_startup": "2026-10-28T07:30:59-0400",
+                "building_code": "NRN",
+                "building_name": "Norman Hall",
+                "room": "1001",
+                "computer_suffix": ""
+              }
+            ]
+          },
           {
             "room": "1013",
             "total": 1,
@@ -22583,14 +22583,14 @@
     },
     {
       "ident": null,
-      "name": "AT-X-BY31Z84",
+      "name": "AT-NRN-1001",
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
       "status_code": 2,
       "status_label": "Available",
-      "last_login": "2026-10-28T07:15:01-0400",
-      "last_startup": "2026-10-28T07:15:55-0400"
+      "last_login": "2026-10-28T07:30:05-0400",
+      "last_startup": "2026-10-28T07:30:59-0400"
     },
     {
       "ident": null,
@@ -22686,9 +22686,9 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-10-27T15:22:31-0400",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-10-28T07:33:37-0400",
       "last_startup": "2026-10-28T06:05:24-0400"
     },
     {
@@ -23049,10 +23049,10 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-10-28T07:01:40-0400",
-      "last_startup": "2026-10-28T07:07:47-0400"
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-10-28T07:33:59-0400",
+      "last_startup": "2026-10-28T07:33:15-0400"
     },
     {
       "ident": null,
