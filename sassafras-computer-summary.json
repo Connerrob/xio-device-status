@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T11:54:33.552896+00:00",
+  "generated_at": "2026-11-04T12:04:38.758187+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,7 +9,7 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 94
+      "count": 93
     },
     {
       "status_code": 2,
@@ -19,7 +19,7 @@
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 3
+      "count": 4
     }
   ],
   "divisions": [
@@ -116,7 +116,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 296
+          "count": 295
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ]
     },
@@ -127,7 +132,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 2
+        },
+        {
+          "status_code": 2,
+          "status_label": "Available",
+          "count": 1
         }
       ]
     },
@@ -670,12 +680,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 26
+          "count": 25
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 296
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -1078,7 +1093,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 89
+          "count": 88
         },
         {
           "status_code": 2,
@@ -1088,7 +1103,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 3
+          "count": 4
         }
       ]
     },
@@ -1208,12 +1223,17 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 26
+          "count": 25
         },
         {
           "status_code": 2,
           "status_label": "Available",
           "count": 296
+        },
+        {
+          "status_code": 4,
+          "status_label": "In Use",
+          "count": 1
         }
       ],
       "divisions": [
@@ -5995,12 +6015,12 @@
           {
             "status_code": 0,
             "status_label": "Offline",
-            "count": 2
+            "count": 1
           },
           {
             "status_code": 2,
             "status_label": "Available",
-            "count": 5
+            "count": 6
           }
         ],
         "rooms": [
@@ -6149,8 +6169,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 0,
-                "status_label": "Offline",
+                "status_code": 2,
+                "status_label": "Available",
                 "count": 1
               }
             ],
@@ -6161,10 +6181,10 @@
                 "division": "Classroom Support.Law",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 0,
-                "status_label": "Offline",
+                "status_code": 2,
+                "status_label": "Available",
                 "last_login": "2026-10-21T13:08:48-0400",
-                "last_startup": "2026-11-03T23:01:31-0500",
+                "last_startup": "2026-11-04T07:00:36-0500",
                 "building_code": "MLAC",
                 "building_name": "MLAC",
                 "room": "0218",
@@ -7613,8 +7633,8 @@
         "total": 1,
         "statuses": [
           {
-            "status_code": 2,
-            "status_label": "Available",
+            "status_code": 4,
+            "status_label": "In Use",
             "count": 1
           }
         ],
@@ -7624,8 +7644,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 2,
-                "status_label": "Available",
+                "status_code": 4,
+                "status_label": "In Use",
                 "count": 1
               }
             ],
@@ -7636,9 +7656,9 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 2,
-                "status_label": "Available",
-                "last_login": "2026-11-03T22:17:19-0500",
+                "status_code": 4,
+                "status_label": "In Use",
+                "last_login": "2026-11-04T07:03:33-0500",
                 "last_startup": "2026-11-04T06:13:56-0500",
                 "building_code": "MCCC",
                 "building_name": "McCarty Hall C",
@@ -14406,7 +14426,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-11-03T14:46:52-0500",
-      "last_startup": "2026-11-04T06:49:38-0500"
+      "last_startup": "2026-11-04T07:00:15-0500"
     },
     {
       "ident": null,
@@ -16636,10 +16656,10 @@
       "division": "Classroom Support.Law",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-10-21T13:08:48-0400",
-      "last_startup": "2026-11-03T23:01:31-0500"
+      "last_startup": "2026-11-04T07:00:36-0500"
     },
     {
       "ident": null,
@@ -18751,7 +18771,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-11-03T20:00:58-0500",
-      "last_startup": "2026-11-03T20:11:49-0500"
+      "last_startup": "2026-11-04T06:57:31-0500"
     },
     {
       "ident": null,
@@ -22928,9 +22948,9 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-11-03T22:17:19-0500",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-11-04T07:03:33-0500",
       "last_startup": "2026-11-04T06:13:56-0500"
     },
     {
