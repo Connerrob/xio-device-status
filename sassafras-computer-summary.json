@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T19:44:17.545394+00:00",
+  "generated_at": "2026-11-11T19:54:47.083292+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,12 +9,12 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 90
+      "count": 91
     },
     {
       "status_code": 2,
       "status_label": "Available",
-      "count": 1684
+      "count": 1683
     },
     {
       "status_code": 4,
@@ -546,12 +546,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 5
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 219
+          "count": 218
         },
         {
           "status_code": 4,
@@ -783,12 +783,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 5
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 219
+          "count": 218
         },
         {
           "status_code": 4,
@@ -1113,12 +1113,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 85
+          "count": 86
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 1599
+          "count": 1598
         },
         {
           "status_code": 4,
@@ -1361,12 +1361,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 4
+          "count": 5
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 191
+          "count": 190
         },
         {
           "status_code": 4,
@@ -2632,7 +2632,7 @@
                 "status_code": 2,
                 "status_label": "Available",
                 "last_login": "2026-11-11T14:42:35-0500",
-                "last_startup": "2026-11-11T06:00:26-0500",
+                "last_startup": "2026-11-11T14:43:32-0500",
                 "building_code": "CAR",
                 "building_name": "Carleton",
                 "room": "0100",
@@ -3360,12 +3360,7 @@
           {
             "status_code": 2,
             "status_label": "Available",
-            "count": 9
-          },
-          {
-            "status_code": 4,
-            "status_label": "In Use",
-            "count": 1
+            "count": 10
           }
         ],
         "rooms": [
@@ -3646,8 +3641,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 4,
-                "status_label": "In Use",
+                "status_code": 2,
+                "status_label": "Available",
                 "count": 1
               }
             ],
@@ -3658,10 +3653,10 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 4,
-                "status_label": "In Use",
-                "last_login": "2026-11-11T10:56:56-0500",
-                "last_startup": "2026-11-11T06:00:31-0500",
+                "status_code": 2,
+                "status_label": "Available",
+                "last_login": "2026-11-11T14:50:38-0500",
+                "last_startup": "2026-11-11T14:51:55-0500",
                 "building_code": "FLG",
                 "building_name": "Florida Gym",
                 "room": "0285",
@@ -5393,7 +5388,12 @@
           {
             "status_code": 2,
             "status_label": "Available",
-            "count": 5
+            "count": 4
+          },
+          {
+            "status_code": 4,
+            "status_label": "In Use",
+            "count": 1
           }
         ],
         "rooms": [
@@ -5458,8 +5458,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 2,
-                "status_label": "Available",
+                "status_code": 4,
+                "status_label": "In Use",
                 "count": 1
               }
             ],
@@ -5470,9 +5470,9 @@
                 "division": "Classroom Support",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 2,
-                "status_label": "Available",
-                "last_login": "2026-11-10T20:45:38-0500",
+                "status_code": 4,
+                "status_label": "In Use",
+                "last_login": "2026-11-11T14:53:07-0500",
                 "last_startup": "2026-11-11T06:00:26-0500",
                 "building_code": "LEI",
                 "building_name": "Leigh Hall",
@@ -14651,7 +14651,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-11-11T14:42:39-0500",
-      "last_startup": "2026-11-11T05:34:38-0500"
+      "last_startup": "2026-11-11T14:43:37-0500"
     },
     {
       "ident": null,
@@ -15121,8 +15121,8 @@
       "division": "UAA",
       "building": "Hawkins Center",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 0,
+      "status_label": "Offline",
       "last_login": "2026-11-11T14:43:33-0500",
       "last_startup": "2026-11-11T14:38:54-0500"
     },
@@ -21897,9 +21897,9 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
-      "last_login": "2026-11-10T20:45:38-0500",
+      "status_code": 4,
+      "status_label": "In Use",
+      "last_login": "2026-11-11T14:53:07-0500",
       "last_startup": "2026-11-11T06:00:26-0500"
     },
     {
@@ -22029,10 +22029,10 @@
       "division": "Classroom Support",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 4,
-      "status_label": "In Use",
-      "last_login": "2026-11-11T10:56:56-0500",
-      "last_startup": "2026-11-11T06:00:31-0500"
+      "status_code": 2,
+      "status_label": "Available",
+      "last_login": "2026-11-11T14:50:38-0500",
+      "last_startup": "2026-11-11T14:51:55-0500"
     },
     {
       "ident": null,
@@ -22571,7 +22571,7 @@
       "status_code": 2,
       "status_label": "Available",
       "last_login": "2026-11-11T14:42:35-0500",
-      "last_startup": "2026-11-11T06:00:26-0500"
+      "last_startup": "2026-11-11T14:43:32-0500"
     },
     {
       "ident": null,
