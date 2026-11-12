@@ -1170,8 +1170,8 @@
     {
       "name": "UFIT AV Install Group",
       "counts": {
-        "Offline": 70,
-        "Online": 119
+        "Online": 119,
+        "Offline": 70
       },
       "total": 189,
       "onlinePct": 63.0,
@@ -2191,6 +2191,10 @@
           "onlineStatus": "Online"
         },
         {
+          "name": "ANT-2109-DMPS3",
+          "onlineStatus": "Offline"
+        },
+        {
           "name": "AT-AND-0013-AVER-TR3",
           "onlineStatus": "Offline"
         },
@@ -2269,10 +2273,6 @@
         {
           "name": "AT-ANT-0213-DMPS300",
           "onlineStatus": "Online"
-        },
-        {
-          "name": "AT-ANT-0215-DMPS3300",
-          "onlineStatus": "Offline"
         },
         {
           "name": "AT-ANT-0215-TSW770",
@@ -2373,10 +2373,6 @@
         {
           "name": "AT-CSE-E221-TSW760",
           "onlineStatus": "Online"
-        },
-        {
-          "name": "AT-CSE-E222-DMPS3300",
-          "onlineStatus": "Offline"
         },
         {
           "name": "AT-CSE-E222-TSW760",
@@ -4075,6 +4071,10 @@
           "onlineStatus": "Online"
         },
         {
+          "name": "DMPS3-685152B6",
+          "onlineStatus": "Offline"
+        },
+        {
           "name": "DMPS3-6851546A",
           "onlineStatus": "Online"
         },
@@ -4266,7 +4266,7 @@
     }
   ],
   "meta": {
-    "generatedAtUtc": "2026-11-12T20:13:21.463936+00:00",
+    "generatedAtUtc": "2026-11-12T20:23:23.176870+00:00",
     "groupCount": 6
   }
 }
