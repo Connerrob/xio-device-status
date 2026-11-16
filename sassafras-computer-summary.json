@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T11:54:26.863403+00:00",
+  "generated_at": "2026-11-16T12:04:25.317801+00:00",
   "status_labels": {
     "0": "Offline",
     "2": "Available",
@@ -9,7 +9,7 @@
     {
       "status_code": 0,
       "status_label": "Offline",
-      "count": 100
+      "count": 99
     },
     {
       "status_code": 2,
@@ -19,7 +19,7 @@
     {
       "status_code": 4,
       "status_label": "In Use",
-      "count": 1
+      "count": 2
     }
   ],
   "divisions": [
@@ -127,7 +127,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 3
+          "count": 2
+        },
+        {
+          "status_code": 2,
+          "status_label": "Available",
+          "count": 1
         }
       ]
     },
@@ -364,12 +369,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 31
+          "count": 30
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -670,12 +675,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 28
+          "count": 27
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 294
+          "count": 295
         }
       ],
       "divisions": [
@@ -875,12 +880,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 159
+          "count": 158
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ],
       "divisions": [
@@ -1078,7 +1083,7 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 94
+          "count": 93
         },
         {
           "status_code": 2,
@@ -1088,7 +1093,7 @@
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -1208,12 +1213,12 @@
         {
           "status_code": 0,
           "status_label": "Offline",
-          "count": 28
+          "count": 27
         },
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 294
+          "count": 295
         }
       ],
       "divisions": [
@@ -1504,12 +1509,12 @@
         {
           "status_code": 2,
           "status_label": "Available",
-          "count": 153
+          "count": 152
         },
         {
           "status_code": 4,
           "status_label": "In Use",
-          "count": 1
+          "count": 2
         }
       ],
       "divisions": [
@@ -2442,8 +2447,8 @@
                 "platform": "Windows",
                 "status_code": 2,
                 "status_label": "Available",
-                "last_login": "2026-11-13T22:40:10-0500",
-                "last_startup": "2026-11-16T05:46:56-0500",
+                "last_login": "2026-11-16T07:00:14-0500",
+                "last_startup": "2026-11-16T07:01:21-0500",
                 "building_code": "CLB",
                 "building_name": "CLB",
                 "room": "C130",
@@ -6000,12 +6005,12 @@
           {
             "status_code": 0,
             "status_label": "Offline",
-            "count": 2
+            "count": 1
           },
           {
             "status_code": 2,
             "status_label": "Available",
-            "count": 5
+            "count": 6
           }
         ],
         "rooms": [
@@ -6154,8 +6159,8 @@
             "total": 1,
             "statuses": [
               {
-                "status_code": 0,
-                "status_label": "Offline",
+                "status_code": 2,
+                "status_label": "Available",
                 "count": 1
               }
             ],
@@ -6166,10 +6171,10 @@
                 "division": "Classroom Support.Law",
                 "building": "Classrooms",
                 "platform": "Windows",
-                "status_code": 0,
-                "status_label": "Offline",
+                "status_code": 2,
+                "status_label": "Available",
                 "last_login": "2026-11-11T10:31:09-0500",
-                "last_startup": "2026-11-15T22:02:54-0500",
+                "last_startup": "2026-11-16T07:00:36-0500",
                 "building_code": "MLAC",
                 "building_name": "MLAC",
                 "room": "0218",
@@ -16646,10 +16651,10 @@
       "division": "Classroom Support.Law",
       "building": "Classrooms",
       "platform": "Windows",
-      "status_code": 0,
-      "status_label": "Offline",
+      "status_code": 2,
+      "status_label": "Available",
       "last_login": "2026-11-11T10:31:09-0500",
-      "last_startup": "2026-11-15T22:02:54-0500"
+      "last_startup": "2026-11-16T07:00:36-0500"
     },
     {
       "ident": null,
@@ -18615,8 +18620,8 @@
       "division": "Marston 2nd floor",
       "building": "Marston Science Library",
       "platform": "Windows",
-      "status_code": 2,
-      "status_label": "Available",
+      "status_code": 4,
+      "status_label": "In Use",
       "last_login": "2026-11-16T05:50:57-0500",
       "last_startup": "2026-11-16T05:28:58-0500"
     },
@@ -22456,8 +22461,8 @@
       "platform": "Windows",
       "status_code": 2,
       "status_label": "Available",
-      "last_login": "2026-11-13T22:40:10-0500",
-      "last_startup": "2026-11-16T05:46:56-0500"
+      "last_login": "2026-11-16T07:00:14-0500",
+      "last_startup": "2026-11-16T07:01:21-0500"
     },
     {
       "ident": null,
